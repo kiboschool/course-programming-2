@@ -1,0 +1,11 @@
+[book]
+authors = ["Ben Fisher", "Rob Cobb"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Programming 2"
+
+[build]
+build-dir = "output"
+create-missing = false
+use-default-preprocessors = false
