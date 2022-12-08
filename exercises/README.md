@@ -73,7 +73,8 @@ while read -r project; do
         echo $project
         git checkout main
         name=$(echo $project | cut -d '/' -f 3)
-        gh repo create "kibo-programming-1-oct-22/$name" --source=. --private --remote=oct-22 --push
+        gh repo create "kibo-programming-2-jan-23/$name" --source=. --private --remote=jan-23 --push
+        gh repo edit "kibo-programming-2-jan-23/$name" --template
         popd
 done
 ```
