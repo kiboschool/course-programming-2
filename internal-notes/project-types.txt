@@ -1,0 +1,27 @@
+Project Types
+=====================
+
+Draw from these project types for the mini-exercises,
+Debugging / fix this to pass the tests
+Fill in the missing parts
+Predict what will happen
+Order the statements
+Explore some code / answer questions about it
+Code explanation
+Documentation
+	write the docstring
+	implement the function to match a docstring
+Renaming the variables to fix readability
+Refactor
+Test a function
+	Find the bugs
+Design question - how would you decompose this into functions?
+	Write the function signatures
+	Pseudocode
+	Diagram the answer
+Mystery Code: Reverse Engineering project
+	Given some code, find an input that suits the purpose
+Write a mini test-runner
+Fix a bug, write a regression test to prevent it from happening again
+
+
