@@ -7,5 +7,5 @@ title = "Programming 2"
 
 [build]
 build-dir = "output"
-create-missing = false
+create-missing = true
 use-default-preprocessors = false
