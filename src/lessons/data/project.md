@@ -24,3 +24,4 @@ Remember...
 - **Debug** if you aren't getting the desired output
 - **Attend** office hours if you need additional support
 - **Ask** for help in Discord
+

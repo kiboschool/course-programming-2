@@ -6,6 +6,7 @@
 [Midterm Project](lessons/midterm-project.md)
 [Final Project](lessons/final-project.md)
 [Live Classes](lessons/live-classes.md)
+[Additional Practice](lessons/additional-practice.md)
 
 ## Lessons
 
