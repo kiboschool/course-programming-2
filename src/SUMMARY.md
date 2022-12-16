@@ -48,7 +48,7 @@
 
   - [Querying Data](lessons/sql-and-vis/querying-data.md)
   - [Introduction to SQL](lessons/sql-and-vis/introduction-to-sql.md)
-  - [Inserting Updating Deleting](lessons/sql-and-vis/inserting-updating-deleting.md)
+  - [Inserting, Updating, and Deleting](lessons/sql-and-vis/inserting-updating-deleting.md)
   - [Limits And Ordering](lessons/sql-and-vis/limits-and-ordering.md)
   - [Installing Matplot Lib](lessons/sql-and-vis/installing-matplot-lib.md)
   - [Data Visualization](lessons/sql-and-vis/data-visualization.md)

@@ -16,8 +16,7 @@ Here is what we will be exploring this week,
 * We will talk about "methods", which is the name of the functions attached to an object. You will be able to write your own methods.
 * Classes can sometimes be complicated, and it's hard to get all of the code working on the first try. You will learn a way to sketch your program, to type down your ideas and not worry that the code does not work yet, which we call "pseudocode".
 * After writing pseudocode you can gradually revise the code to make it closer to a working program. It can be useful in these revisions to write "stubs", like an empty method that intentionally doesn't have code there yet, but will in the future as the program becomes more complete.
-* We can write `pass` in our empty method. It literally does not do anything, but is a placeholder to help us create a stub.
-
+* We can write `pass` in our empty method. It  is a placeholder to help us create a stub.
 
 
 
