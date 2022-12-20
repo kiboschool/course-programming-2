@@ -1,4 +1,10 @@
-# Project
+# Project: OOP Course Manager
+
+In this project, you'll build on the course manager project you saw in
+Programming 1. You'll write an Object-oriented version of the application,
+filling in the method stubs. You'll also add new functionality to the project,
+and see how the class-based approach makes it easier to separate concerns
+and handle tasks in isolation.
 
 ## Submission
 
