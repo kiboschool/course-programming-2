@@ -7,6 +7,8 @@ Below are the different ways to get help in this class.
 
 ## Discord channel 
 
+The first place to go is always the #help-prog2 channel. Share your question
+there so that your Instructor and your peers can help as soon as we can.
 
 ## Message your instructor on Discord
 
@@ -15,6 +17,7 @@ reach out to your instructor directly via Discord DM.
 
 ## Office Hours
 
+There will be weekly office hours with Mohammed.
 
 ## Tips on Asking For Help
 

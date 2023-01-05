@@ -4,13 +4,13 @@
 
 _6 ECTS Credits_
 
-## Welcome to Programming 2
+## What We'll Learn
 
-<!-- welcome video -->
+Welcome to Programming 2!
 
-## What you'll learn
+In this course we'll build off of what we learned in Programming 1. We will use the tools we've learned to build more advanced programs: programs that read from the internet, display information visually, and interact with databases. We'll  deepen our knowledge of software fundamentals - learning about object-oriented software, how to recover from errors, and how data is structured. Finally, we will explore the more philosophical aspects of writing software. This means going beyond "does my program compute the right thing", but to ask questions like if is the program well-organized, if it will be readable by other programmers, and if it will it be re-usable in other projects.
 
-## Meeting Times
+At the end of the course we will be able to be comfortable writing Python programs to accomplish basic tasks, and to write tests to check that the code is working correctly. We will understand what objects and classes are. Along the way we'll pick up tips on how to investigate programs that aren't working correctly, and we'll gain experience reading+understanding code that other people have written. Everything in the course will be truly valuable for doing real-world work in the field.
 
 ## Instructor
 
@@ -20,15 +20,43 @@ Mohammed Saudi
 
 Please contact on Discord first with questions about the course.
 
-## Learning Outcomes
-
-By the end of the course, you will be able to:
-
 ## Weekly Topics
+
+* Week 1 - Reading and Writing Data
+* Week 2 - Classes and Objects
+* Week 3 - Subclasses and Error-handling
+* Week 4 - SQL and Data Visualization
+* Week 5 - Midterm Project
+* Week 6 - Debugging
+* Week 7 - Tests and Refactoring
+* Week 8 - Abstraction
+* Week 9 - Advanced Topics
+* Week 10 - Final Project
 
 ## How the course works
 
+There are multiple ways you'll learn in this course:
+
+* Read and engage with the materials on this site
+* Attend live class and complete the activities in class
+* Practice with exercises to try out the concepts
+* Complete projects to demonstrate what you have learned
+
+Active engagement is necessary for success in the course! You should try to
+write lots of programs, so that you can explore the concepts in a variety of
+ways.
+
+You are encouraged to seek out additional practice problems outside of the
+practice problems included in the course.
+
 ## Assessments
+
+* 10%	Exercises
+* 13% 	Course Project 1
+* 13%	Course Project 2
+* 13%	Course Project 3
+* 25% 	Midterm Project
+* 25%	Final Project
 
 ## Tools
 
@@ -45,3 +73,9 @@ your laptop and installed the software yet, follow the guide in
     submissions and give you feedback on your work.
 * **Woolf** is our accreditation partner. We'll track work there too, so that
     you get credit towards your degree.
+
+## References
+
+Think Python, by Allen Downey (Creative Commons Attribution-NonCommercial 3.0 Unported License)
+
+
