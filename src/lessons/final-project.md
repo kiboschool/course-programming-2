@@ -20,4 +20,21 @@ This builds off one of the final-projects from programming-1
 * Fun Challenge
     * Make another separate TicTacToeDraw implementation that does something creative.
 
+<!--
+        ◦ Fun Challenge
+            ▪ make your own ticTacToeDraw that does something creative. Ideas: Makes an html file and open it / An html file with GIFs / Draws the board in a weird way / Shows your opponents board upside down to make it harder for them to enter their move / Plays sound effects / Makes it colored in the console /  Warns you if you are about to win or lose / Vpython
 
+
+
+• FINAL PROJECT option 2: OBJECT-ORIENTED COURSE MANAGER
+        ◦ (do if there is time)
+        ◦ Build off of the final project from programming-1
+        ◦ Students can start with a full solution to that project
+            ▪ Take the “Course Manager” project from programming-1 and
+                • Refactor it to use classes
+                • Write tests for it
+                • Persist to a SQL database instead of to a standard file
+
+
+
+-->

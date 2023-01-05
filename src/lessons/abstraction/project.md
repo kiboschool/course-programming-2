@@ -1,5 +1,10 @@
 # Project: OOP Clothing Store
 
+<!--
+
+------------------------------- in progress -------------------------------
+
+
 In this project, you'll build a terminal interface for a database-backed
 clothing store. Like the course manager project, you'll focus on separating
 concerns and using classes and objects to design appropriate abstractions.
@@ -32,4 +37,4 @@ Remember...
 - **Ask** for help in Discord
 
 
-
+-->

@@ -12,11 +12,12 @@ Next we will talk about ways to organize data in memory. For example, we can use
 
 Here's a list of what we will cover this week,
 
-* A course preview, showing what we'll be able to build at the end of the course
+* A course preview, showing what we'll be able to build at the end of the course.
 * Reviewing lists and dicts.
 * Discussing ways to organize data in memory.
 * We will introduce a format called "JSON" that will let us store lists and dicts into a file.
 * Finally, we'll learn how to read data from the internet! There is a type of internet website called an "API", and we can write a program to ask an API to send us data. For example, we'll write a program that connects to a weather API to retrieve data about the weather forecast.
+
 
 
 

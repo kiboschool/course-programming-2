@@ -1,5 +1,9 @@
 # Project: Phonebook refactoring
 
+<!--
+
+------------------------------- in progress -------------------------------
+
 As you've seen, automated tests can make it easier to change your code with
 confidence. In this project, you'll use the automated tests to refactor a
 phonebook application. Once you've refactored it, you'll add a new feature, and
@@ -32,3 +36,5 @@ Remember...
 
 
 
+
+-->
