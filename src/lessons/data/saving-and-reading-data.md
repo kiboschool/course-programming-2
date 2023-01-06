@@ -76,11 +76,12 @@ Tutorial 1: Writing a program that shows the weather forecast
 
 (Shows how to retrieve information from dictionaries)
 
-
+<iframe width="560" height="315"  src="https://tempclip.com/embed/b5bqNF8jR1eCnzV" title="weather 1" frameborder="0" allowfullscreen></iframe>
 
 Tutorial 2: Saving the current city
 
 (Shows how to read and write json files)
+
 
 
 
