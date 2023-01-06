@@ -1,12 +1,15 @@
 # Programming 2
 
-**CSF003**
+**CSF003** | _6 ECTS Credits_
 
-_6 ECTS Credits_
+## Welcome to Programming 2!
+
+<aside>
+Kibo CS Faculty member Mohammed Saudi motivates the course.
+</aside>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/TODO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## What We'll Learn
-
-Welcome to Programming 2!
 
 In this course we'll build off of what we learned in Programming 1. We will use the tools we've learned to build more advanced programs: programs that read from the internet, display information visually, and interact with databases. We'll deepen our knowledge of software fundamentals - learning about object-oriented software, how to recover from errors, and how data is structured. Finally, we will begin to explore the philosophy of writing software. This means going beyond "does my program compute the right thing", but to ask questions like if is the program well-organized, if it will be readable by other programmers, and if it will it be re-usable in other projects.
 
@@ -84,4 +87,5 @@ your laptop and installed the software yet, follow the guide in
 
 ## References
 
-Think Python, by Allen Downey (Creative Commons Attribution-NonCommercial 3.0 Unported License)
+<a href="https://greenteapress.com/thinkpython/thinkpython.pdf" target="_blank">Think Python</a>
+by Allen Downey (Creative Commons Attribution-NonCommercial 3.0 Unported License)
