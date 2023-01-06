@@ -87,5 +87,5 @@ your laptop and installed the software yet, follow the guide in
 
 ## References
 
-<a href="https://greenteapress.com/thinkpython/thinkpython.pdf" target="_blank">Think Python</a>
+<a href="https://greenteapress.com/wp/think-python/" target="_blank">Think Python</a>
 by Allen Downey (Creative Commons Attribution-NonCommercial 3.0 Unported License)
