@@ -13,17 +13,17 @@ forecast = [
     { 
         "day" : 1,
         "temperature": 23,
-        "wind_speed": 1.3
+        "wind_speed": 1.37
     },
     {
         "day" : 2,
         "temperature": 20,
-        "wind_speed": 0.2
+        "wind_speed": 0.25
     },
     {
         "day" : 3,
         "temperature": 21,
-        "wind_speed": 0.8
+        "wind_speed": 0.83
     },
 ]
 ```
@@ -34,59 +34,55 @@ The full data structure looks like this,
 
 ```
 all_forecasts = {
-"9.02°N,7.31°E" : [
-    { "day" : 1,
-    "temperature": 23,
-    "wind_speed": 1.3 },
-    { "day" : 2,
-    "temperature": 20,
-    "wind_speed": 0.2 },
-    { "day" : 3,
-    "temperature": 21,
-    "wind_speed": 0.8 },
-], 
-"1.3°S,36.85°E":
-[
-    { "day" : 1,
-    "temperature": 20,
-    "wind_speed": 0.7 },
-    { "day" : 2,
-    "temperature": 18,
-    "wind_speed": 0.9 },
-    { "day" : 3,
-    "temperature": 19,
-    "wind_speed": 1.2 },
-],
-"5.63°N,0.39°W":
-[
-    { "day" : 1,
-    "temperature": 15,
-    "wind_speed": 1.3 },
-    { "day" : 2,
-    "temperature": 13,
-    "wind_speed": 0.2 },
-    { "day" : 3,
-    "temperature": 16,
-    "wind_speed": 0.8 },
-]
+    "9.02N,7.31E" : [
+        { "day" : 1,
+        "temperature": 23,
+        "wind_speed": 1.37 },
+        { "day" : 2,
+        "temperature": 20,
+        "wind_speed": 0.25 },
+        { "day" : 3,
+        "temperature": 21,
+        "wind_speed": 0.83 }
+    ], 
+    "1.3S,36.85E":
+    [
+        { "day" : 1,
+        "temperature": 20,
+        "wind_speed": 0.73 },
+        { "day" : 2,
+        "temperature": 18,
+        "wind_speed": 0.96 },
+        { "day" : 3,
+        "temperature": 19,
+        "wind_speed": 1.29 }
+    ],
+    "5.63N,0.39W":
+    [
+        { "day" : 1,
+        "temperature": 15,
+        "wind_speed": 1.31 },
+        { "day" : 2,
+        "temperature": 13,
+        "wind_speed": 0.24 },
+        { "day" : 3,
+        "temperature": 16,
+        "wind_speed": 0.83 }
+    ]
 }
-
+```
 
 Tutorial 1: Writing a program that shows the weather forecast
 
 (Shows how to retrieve information from dictionaries)
 
-<iframe width="560" height="315"  src="https://tempclip.com/embed/b5bqNF8jR1eCnzV" title="weather 1" frameborder="0" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315"  src="https://tempclip.com/embed/U39GzGgC2otu2HR"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Tutorial 2: Saving the current city
 
 (Shows how to read and write json files)
 
 
-
-
-
-```
 
 
 <!--
@@ -108,25 +104,66 @@ def show_weather(weather_data_list):
 
 video part 2
 
+# We now have a working program that shows the weather.
+# In a real-world version of the program,
+# we would be reading the data from another place.
+
+
+# Let's load the data from a file.
+# We'll use the "json" format mentioned in Programming 1.
+# json is a format to store dictionaries and lists into a file, 
+# and when we read from the file,
+# we'll get the dictionaries and lists back.
+
+
+# First we'll change the program to read from a json file.
+
 copy to all_forecasts.json
+make all_forecasts have quotes
+
 import json
 with open('all_weather_data.json', 'r') as f:
     all_weather_data = json.load(f)
     all_forecasts = all_weather_data['all_forecasts']
 
-ensure it still works
+# Check that the program still works
 
-add "saved_city": "Nairobi" to the top
-add a print statement saying 
-    # temporary, just for testing, we will delete later
-    saved_city = all_weather_data['all_weather_data']
-    print(f'the saved city is {saved_city}')
+# We've now learned how to read the data from a json file.
+# Now we'll learn how to write data to a json file.
+# We'll add a feature to the program.
+# We will store the current city so that the user doesn't have to type it in each time.
 
+if 'current_city' not in all_weather_data:
+    current_city = input('What is the current city where you want to see the weather?')
+    all_weather_data['current_city'] = current_city
+    with open('all_weather_data.json', 'w') as f:
+        json.dump(all_weather_data, f)
+else:
+    current_city = all_weather_data['current_city']
+
+# now, the next time we run the program, it will remember the city.
+
+open json to see it there
+
+# An exercise for you:
+# At the end of the program, ask the user if they would like to change the current city.
+# if they type yes, let them type in a city, and store that as the current city.
 
 
 * 
 
 * add saved
+
+# add it to the xml
+    # temporary, just for testing, we will delete later
+add "saved_city": "Nairobi" to the top
+add a print statement saying 
+    saved_city = all_weather_data['all_weather_data']
+    print(f'the saved city is {saved_city}')
+    all_weather_data['saved_city'] = city_name
+    with open('all_weather_data.json', 'w') as f:
+        json.dump(all_weather_data, f)
+
 
 def show_weather():
     with open('all_weather_data.json', 'r') as f:
