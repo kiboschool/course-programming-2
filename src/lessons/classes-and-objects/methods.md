@@ -2,6 +2,8 @@
 
 
 
+Object-oriented means using objects to solve it.
+
 <!--
 
 ------------------------------- in progress -------------------------------
@@ -26,17 +28,6 @@ method deleteFile()
 shows how to hide details
 
 
-Could be a list helper that always writes things to disk.
-that way if the program crashes half way through it will always have a copy on disk
-SavedList()
-    method insert()
-    method append()
-        lst.append()
-        self.save()
-    method removeLastItem()
-    method remove(which)
-        lst
-    method modify(which, newcontents)
     
 
 

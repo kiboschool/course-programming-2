@@ -15,6 +15,7 @@
 - [Reading and Writing Data](lessons/data.md)
 
   - [Course Preview](lessons/data/course-preview.md)
+  - [Data Types and Dictionaries](lessons/data/data-types-and-dictionaries.md)
   - [Ways to Structure Data](lessons/data/ways-to-structure-data.md)
   - [Saving and Reading Data In Files](lessons/data/saving-and-reading-data.md)
   - [Read Data From An Internet API](lessons/data/read-data-from-an-internet-api.md)
