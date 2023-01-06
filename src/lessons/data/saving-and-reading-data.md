@@ -72,49 +72,80 @@ all_forecasts = {
 }
 
 
+Tutorial 1: Writing a program that shows the weather forecast
+
+(Shows how to retrieve information from dictionaries)
+
+
+
+Tutorial 2: Saving the current city
+
+(Shows how to read and write json files)
+
+
+
+
 ```
 
 
 <!--
+Tutorial video:
+* run and try it. with city that matches. with city that does not match
+* write a show_weather function that shows it better
+def show_weather(weather_data_list):
+    for weather_data in weather_data_list:
+        day_number = weather_data['day']
+        temperature = weather_data['temperature']
+        wind_speed = weather_data['wind_speed']
+        print(f'On day {day}:')
+        print(f'temperature = {temperature}:')
+        print(f'wind speed = {wind_speed}:')
+        
+        
+* add accra to the list
+5.63°N,0.39°W
 
-Get the repo going and open `part1/program.py`.
+video part 2
 
-First try running the program (showcurrentweather) and confirm that it works.
+copy to all_forecasts.json
+import json
+with open('all_weather_data.json', 'r') as f:
+    all_weather_data = json.load(f)
+    all_forecasts = all_weather_data['all_forecasts']
 
-Then add support for the city Accra, which has the coordinates "5.63°N,0.39°W". 
+ensure it still works
 
-Now open `part2/program.py`. (showcurrentweather) Notice how now we are reading from a json file on disk.
-
-walk them through it:
-making a json
-reading the json
-
-adding current location to the json
-adding current location to the code
-adding set current location--no, set metric or ferenhieght--no, set 
-saving the json
+add "saved_city": "Nairobi" to the top
+add a print statement saying 
+    # temporary, just for testing, we will delete later
+    saved_city = all_weather_data['all_weather_data']
+    print(f'the saved city is {saved_city}')
 
 
-Initial:
-Please enter a city name to see the current weather:
 
-New:
-The current weather for your saved location is abc.
-Please enter a city name to change your saved location.
+* 
 
---------------
+* add saved
 
-add ghana which has the coordinates  
-add current city load
-add current city save
-
-weather example
-
-------------------------------- in progress -------------------------------
-
-Warm up Read data from a provided simple json with weather data (just a list of numbers)
-Read data from a provided realistic json with weather data (complex structure)
-
-save as favorite
+def show_weather():
+    with open('all_weather_data.json', 'r') as f:
+        all_weather_data = json.load(f)
+        
+    saved_city = all_weather_data['saved_city']
+    if city_name not in map_city_to_coords:
+        print('We do not have coordinates for that city.')
+    else:
+        coords = map_city_to_coords[city_name]
+        print(all_forecasts[coords])
+    
+    should_change_city_name = input('Change current city? yes/no')
+    if should_change_city_name == 'yes':
+        city_name = input('Please enter a city name:')
+        if city_name not in map_city_to_coords:
+            print('We do not have coordinates for that city.')
+        else:
+            all_weather_data['saved_city'] = city_name
+            with open('all_weather_data.json', 'w') as f:
+                json.dump(all_weather_data, f)
 
 -->
