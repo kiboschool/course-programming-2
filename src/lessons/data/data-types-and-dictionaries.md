@@ -70,5 +70,6 @@ country_data = {
 print(country_data["Ghana"]["currency"])
 ```
 
-In all of these examples, the dictionary is connecting keys (like the name of the country) to values (like the corresponding data for the country).  
+In all of these examples, the dictionary is connecting keys (like the name of the country) to values (like the corresponding data for the country).
 
+Dictionaries do take a bit of time to understand. You can read the informatation from Programming 1 [here](https://programming-1.vercel.app/lessons/data_structures/dict-basics.html), if it would be helpful.

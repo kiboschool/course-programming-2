@@ -1,6 +1,5 @@
 # Weather API Example
 
-
 Watch the video below to see how I update the weather program we've been working on to read real weather information from the internet.
 
 ## Part 1, Calling the API
@@ -13,5 +12,9 @@ Watch the video below to see how I update the weather program we've been working
 
 Exercise:
 
-Currently the program saves the json information to a file, and then reads the information back in from the file. This is pretty unnecessary. Remember that there is a 
+Currently the program saves the json information to a file, and then reads the information back in from the file. This is unnecessary, there is a way to get the information without needing to save to a file. Modify the program so that it doesn't save to a file.
+
+Hint: remember that there is a function `json.loads()` that loads from a string instead of a file. And the data type returned by the `decode()` method is a string.
+
+
 

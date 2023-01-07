@@ -1,5 +1,17 @@
 # Saving and Reading Data In Files
 
+### Following along in the code
+
+The next few pages have some links that say "Open Project". Later on when there is a tutorial video, you can click the Open Project link and see the code, open it up in VSCode, and follow along with the tutorial video.
+
+A reminder of how to use the Open Project links,
+
+<details><summary>Video</summary>
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b6f344e3887d46d7a63d5cafac2fc21e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+</details>
+
+
+
 ### Weather forecast
 
 Let's imagine that we are writing a program to display the weather forecast for a city. We'll be showing the estimated wind speed, temperature, and the percentage of cloud cover in the sky.
@@ -72,15 +84,21 @@ all_forecasts = {
 }
 ```
 
-Tutorial 1: Writing a program that shows the weather forecast
+Walkthrough 1: Writing a program that shows the weather forecast
 
 (Shows how to retrieve information from dictionaries)
 
+Click this link to get the starting code if you'd like to follow along.
+
+
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315"  src="https://tempclip.com/embed/U39GzGgC2otu2HR"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-Tutorial 2: Writing a program that remembers the current city
+Walkthrough 2: Writing a program that remembers the current city
 
 (Shows how to read and write json files)
+
+This builds off of the code from Walkthrough 1.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315"  src="https://tempclip.com/embed/9wSHCjudZUkjZpk"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
