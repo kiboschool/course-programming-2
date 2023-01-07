@@ -15,6 +15,8 @@ In this course we'll build off of what we learned in Programming 1. We will use 
 
 At the end of the course we will be able to be comfortable writing Python programs to accomplish basic tasks, and to write tests to check that the code is working correctly. We will understand what objects and classes are (in other words, writing object-oriented programs). Along the way we'll pick up tips on how to investigate programs that aren't working correctly, and we'll gain experience reading and understanding code that other people have written. Everything in the course will be truly valuable for doing real-world work in the field.
 
+You aren't on this journey alone. We'll work on team projects and collaborate, and we'll communicate in discord and office hours to help answer questions.
+
 ## Meeting Times
 
 Note that all times are listed in GMT, please convert to your local timezone.
@@ -96,4 +98,4 @@ your laptop and installed the software yet, follow the guide in
 ## References
 
 <a href="https://greenteapress.com/wp/think-python/" target="_blank">Think Python</a>
-by Allen Downey (Creative Commons Attribution-NonCommercial 3.0 Unported License)
+by Allen Downey
