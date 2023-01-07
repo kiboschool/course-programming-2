@@ -1,15 +1,15 @@
 # Course Projects
 
-During some weeks, you'll be given a project involving the new skills and concepts you
-learned. There will be a project for **Subclasses and Error-handling**, **Tests and Refactoring**, and **Abstraction**.
+During some weeks, you'll be given a project involving the new skills and concepts you learned.
 
 The projects will be challenging, and it's recommended that you complete the
 material and practice problems before you start the project each week.
 
-There will also be a midterm project and a final project, described on the next
-pages.
+There will also be a midterm project and a final project.
 
 # Projects List
+
+Below are the projects you'll be working on in this course:
 
 - Course Project 1: OOP Course Manager
 - Course Project 2: Phonebook refactoring
