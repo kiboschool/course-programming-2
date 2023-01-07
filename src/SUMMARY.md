@@ -22,6 +22,7 @@
   - [Weather API Example](lessons/data/weather-api-example.md)
   - [Exercises](lessons/data/exercises.md)
 
+<!--
 ### Week 2 - Classes and Objects
 
 - [Classes and Objects](lessons/classes-and-objects.md)
@@ -99,4 +100,4 @@
   - [Other Advanced Topics](lessons/advanced-topics/other-advanced-topics.md)
   - [Practice](lessons/advanced-topics/practice.md)
 
-
+-->
