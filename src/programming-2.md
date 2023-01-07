@@ -69,6 +69,14 @@ practice problems included in the course.
 - 25% Midterm Project
 - 25% Final Project
 
+## Important Notes
+
+- Our main communication tool is Discord. You are fully responsible for checking Discord for announcements and updates.
+- You are expected to attend all classes. If you miss a class, you are responsible for catching up on the material.
+- You are expected to complete all assignments on time. If for any reason you are unable to complete an assignment on time, you must contact the instructor before the deadline.Check the [late submission policy](lessons/course-projects.md#late-policy) for information on how late assignments are handled.
+- Cheating is not tolerated. If you are caught cheating, you will be given a zero for the assignment and you will be reported to the Academic Integrity Committee. Make sure you are familiar with the [Kibo School Academic Integrity Policy](https://kibo.school/academic-integrity-policy/). You are expected to follow the policy in all your work.
+- Make sure you check the [Getting help](lessons/asking-for-help.md) for information on how to get help with the course.
+
 ## Tools
 
 In this course, we are using these tools to work on code. If you haven't set up
