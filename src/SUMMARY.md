@@ -3,8 +3,11 @@
 [Course Overview](programming-2.md)
 [Getting Help](lessons/asking-for-help.md)
 [Course Projects](lessons/course-projects.md)
-[Midterm Project](lessons/midterm-project.md)
-[Final Project](lessons/final-project.md)
+
+<!--[Midterm Project](lessons/midterm-project.md)
+
+ [Final Project](lessons/final-project.md) -->
+
 [Live Classes](lessons/live-classes.md)
 [Additional Practice](lessons/additional-practice.md)
 
