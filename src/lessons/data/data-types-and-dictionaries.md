@@ -1,9 +1,9 @@
 
-# Data Types and Dictionaries
+# Data Types, Dictionaries
 
-Let's start with a reminder of some basics from the Programming 1 course.
+Let's start with a reminder of some topics from the Programming 1 course.
 
-### Data Types, and Other Programming 1 Concepts
+### Data Types, and Other Programming 1 Topics
 
 When you write `score = 100`, you are taking the **value** 100, and putting it into a **variable** named score.
 
