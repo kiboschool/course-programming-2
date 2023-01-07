@@ -19,6 +19,7 @@
   - [Ways to Structure Data](lessons/data/ways-to-structure-data.md)
   - [Saving and Reading Data In Files](lessons/data/saving-and-reading-data.md)
   - [Read Data From An Internet API](lessons/data/read-data-from-an-internet-api.md)
+  - [Weather API Example](lessons/data/weather-api-example.md)
   - [Examples](lessons/data/examples.md)
   - [Practice](lessons/data/practice.md)
 

@@ -65,7 +65,7 @@ How APIs solve the above problems:
 
 You can type an API url into the address bar for your browser and see the results there. But you'll just see raw data, so that isn't very useful. The intention is for programs, not people, to see it.
 
-Fortunately for my tomato plant project, there is a free API that any program can request to, that will respond with the current weather. I can write a program to automatically look at the weather forecast!
+Fortunately for my tomato plant project, there is a free API that any program can request to, that will respond with the current weather. I can write a program to automatically look at the weather forecast! And the data will be in json format, which we already know how to work with.
 
-Watch the video below to see how I update the weather program we've been working on to read real weather information from the internet.
+Watch the video in the next section to see how I update the weather program we've been working on to read real weather information from the internet.
 
