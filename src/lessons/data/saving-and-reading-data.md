@@ -88,9 +88,9 @@ Walkthrough 1: Writing a program that shows the weather forecast
 
 (Shows how to retrieve information from dictionaries)
 
-Click this link to get the starting code if you'd like to follow along.
+Click Open Project to get the code and follow along in VSCode.
 
-
+<!-- link to https://github.com/kibo-programming-2-jan-23/show-weather-from-file -->
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315"  src="https://tempclip.com/embed/U39GzGgC2otu2HR"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

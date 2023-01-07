@@ -10,9 +10,11 @@ Let's go back to one of the final projects from the Programming-1 course, the St
 Student Records
 
  - Must keep a list of the students
- - Student records include a student ID, a student name, and the courses they are enrolled in.
+ - Student records include a student ID, a student name, and the
+        courses they are enrolled in.
  - Must be able to Add or Remove students
- - Must be able to look up students and see their information as well as their course enrollments.
+ - Must be able to look up students and see their information as
+        well as their course enrollments.
 ```
 
 There are many ways to store this information. There could be a group of different `list`s. There could be a `dict` from student id to a `list` or `dict` of student information. When we talk about the shape of the data, like whether it is a dictionary of dictionaries or a list of dictionaries, this is called talking about the data structure.

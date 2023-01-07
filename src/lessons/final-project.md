@@ -2,7 +2,12 @@
 
 FINAL PROJECT: OBJECT-ORIENTED TIC TAC TOE 
 
-This builds off one of the final-projects from programming-1
+This builds off of the tic tac toe project from the Programming 1 course.
+
+We haven't posted the description of the final project yet, we will post it here.
+
+
+<!--
 
 * Students start with a full solution to that project
 * We provide a stub TicTacToeDrawer, student implements it to draw to console, and refactor code to call into that
@@ -19,12 +24,16 @@ This builds off one of the final-projects from programming-1
         * Students will make a TicTacToeDrawer implementation that uses unicode characters for more-fun graphics, like “✕” and “◯”, or have fun looking for other unicode markers.
 * Fun Challenge
     * Make another separate TicTacToeDraw implementation that does something creative.
+    
+Students can maybe either choose
+1) visual render tic tac toe, doesn't need to implement save/restore
+or
+2) tic tac toe that can save the game to a database
+-->
 
 <!--
         ◦ Fun Challenge
             ▪ make your own ticTacToeDraw that does something creative. Ideas: Makes an html file and open it / An html file with GIFs / Draws the board in a weird way / Shows your opponents board upside down to make it harder for them to enter their move / Plays sound effects / Makes it colored in the console /  Warns you if you are about to win or lose / Vpython
-
-
 
 • FINAL PROJECT option 2: OBJECT-ORIENTED COURSE MANAGER
         ◦ (do if there is time)
@@ -34,7 +43,5 @@ This builds off one of the final-projects from programming-1
                 • Refactor it to use classes
                 • Write tests for it
                 • Persist to a SQL database instead of to a standard file
-
-
 
 -->

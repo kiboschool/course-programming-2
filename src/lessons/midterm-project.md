@@ -4,6 +4,10 @@ MIDTERM PROJECT: OBJECT-ORIENTED MICROPROCESSOR
 
 This builds on your work from https://github.com/kiboschool/microprocessor-simulation
 
+We haven't posted the description of the midterm project yet, we will post it here.
+
+<!--
+
 * Make a Microprocessor class that has a method runInstruction() and helper methods for implementing the ops
 * Get it working so that it can run the prior examples
 * Then add a new feature
@@ -19,3 +23,5 @@ This builds on your work from https://github.com/kiboschool/microprocessor-simul
     * Could make a child class that logs
     * Could make a child class that measures stats
 * Make a child class of the microprocessor that writes the result down into a file each time.
+
+-->

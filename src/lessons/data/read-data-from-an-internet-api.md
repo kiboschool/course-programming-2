@@ -8,9 +8,9 @@ The technical term for the string that identifies a webpage is called the **URL*
 
 The technical term for retrieving a web page is sending a **request**. Behind the scenes, your web browser program (Chrome, Safari, or Firefox) is constantly sending out **requests** to get the webpages you are looking at.
 
-Remember that websites are built with **HTML**. Your browser sends a **request** for a certain **URL** of the page you are on. The internet server then responds to the **request** by sending over html code. The browser then interprets this HTML code and shows it on the screen.
+Remember that websites are built with **HTML**. Your browser sends a request for a certain URL of the page you are on. The internet server then responds to the request by sending over html code. The browser then interprets this **HTML** code and shows it on the screen.
 
-A Python script can send requests to retrieve a webpage from the internet. This is one of the reasons Python is a powerful and useful language. As you can see in the example, the name for the library to do this is called `urllib`, which is short for `url library`. By running this code, you can retrieve the main Kibo website,
+A Python script can send requests to retrieve a webpage from the internet. This is one of the reasons Python is a powerful and useful language. As you can see in the example, the name for the library to do this is called `urllib`. By running this code, you can retrieve the main Kibo website,
 
 ```
 import urllib.request
@@ -27,11 +27,11 @@ main()
 
 You can try running this example! It will create a file named `output.html`. Try opening `output.html` and see the HTML code inside.
 
-Some webpages remain the same over time. Every time I get the contents of "https://programming-2.vercel.app/programming-2.html" I get the same HTML code back, because the webpage has not changed.
+Some webpages remain the same over time. Every time I get the contents of "https://programming-2.vercel.app/programming-2.html" I get the same HTML code back. The webpage has not changed.
 
-Other webpages can change each time a request comes in. For example when I check my email I go to the same URL, `https://mail.google.com/mail/u/0/#inbox`. Even though each time I am going to the same URL, the results will come back with different information.
+Other webpages can change each time a request comes in. For example when I check my email I always go to the same URL, `https://mail.google.com/mail/u/0/#inbox`. But even though each time I am going to the same URL, I will see different items on the page. The server sends back a response with different information.
 
-Or if I am not logged into my email account, the results will come back with an error saying "unauthorized". The same error will happen if I try to read from mail.google.com in Python. It's trickier to use Python to send requests to webpages where you need to log in, we won't cover how to do that yet.
+Or, if I am not logged into my email account, the results will come back with an error saying "unauthorized". The same error will happen if I try to read from mail.google.com in Python. It's trickier to use Python to send requests to webpages where you need to log in; we won't cover how to do that yet.
 
 Exercises:
 * Run the example code above and look at the `output.html` file.
@@ -54,18 +54,18 @@ Theoretically, this would work. This is what the web browser is doing behind the
 * Second, once we've written all of that filtering code, the website might make some changes and cause the filtering to not work anymore - fairly often, the website will add a new feature or update the site, and then our code will get errors until we update it to make the filtering work again.
 * And third, many websites don't really want programs to automatically look at their data, and so they try to block Python from getting the website. (Programs looking at their data might send many requests, which would slow down the website.) Even many Google pages block access.
 
-The process of using the html that was designed for a browser is called **scraping**, and we try to avoid having to do it whenever possible.
+The process of using the html that was designed for a browser is called scraping, and we try to avoid having to do it whenever possible.
 
-Fortunately, some websites are set up to intentionally let programs connect to them, which eliminates these problems. This is called an **API**. Companies commonly create a **web API** - special URLs where if a program sends a request, they get easy-to-use data back in response.
+Fortunately, some websites are set up to intentionally let programs connect to them, which eliminates these problems. This is called an **API**. A company will create a **web API** by setting up a server that listens for special URLs. If a program sends a request to one of these URLs, they get pure data back in response.
 
-How APIs solve the above problems:
-* APIs do not send html back, or anything intended to be shown by the browser, they send only the pure data that you need. For example, instead of sending text and graphics back, they send just a list of numbers.
-* APIs do not have their output change arbitrarily. The company providing an API will be careful not to make changes that would cause your program to stop working.
-* An API can monitor how often it is being called, and block anything that is requesting it too often. If an API needs to block access, it can do so by requiring an "API token" to be used. (For us, we are using free APIs that do not need tokens, but you might see this come up in the future.).
+Why APIs are better than scraping:
+* APIs do not send html back, or anything intended to be shown by the browser, they send only the pure data that you need. For example, instead of sending text and graphics back, they could send just a list of numbers.
+* APIs keep their output structure the same. The company providing an API will be careful not to make changes that would cause your program to stop working. For example, if the API documentation says that the API will respond with a dictionary, it won't change a few weeks later to respond with a list instead.
+* An API can monitor how often it is being called, and block anything that is requesting it too often. (An API can restrict access to by requiring anyone connecting to it to provide a type of password called a token).
 
-You can type an API url into the address bar for your browser and see the results there. But you'll just see raw data, so that isn't very useful. The intention is for programs, not people, to see it.
+You can type an API url into the address bar for your browser and see the results there. But you'll just see raw data, so it isn't very useful. The intention an API is for programs, not people, to see it.
 
-Fortunately for my tomato plant project, there is a free API that any program can request to, that will respond with the current weather. I can write a program to automatically look at the weather forecast! And the data will be in json format, which we already know how to work with.
+Fortunately for my tomato plant project, there is a free API that any program can send requests to, that will respond with the weather forecast. I can write a program to automatically look at the weather forecast! And the data will be in json format, which we already know how to work with.
 
-Watch the video in the next section to see how I update the weather program we've been working on to read real weather information from the internet.
+Watch the video in the next section, to see how I update the weather program we've been working on to get real weather information from the internet.
 
