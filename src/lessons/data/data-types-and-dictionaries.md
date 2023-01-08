@@ -115,8 +115,4 @@ In all of these examples, the dictionary is connecting keys (like the name of th
 
 Dictionaries do take a bit of time to understand. You can [read the information from Programming 1 here](https://programming-1.vercel.app/lessons/data_structures/dict-basics.html), if it would be helpful.
 
-You can experiment with dictionaries here. Try creating a for loop to show all of the currencies in country_data.
-
-<iframe src="https://trinket.io/embed/python/67f058762c" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
 
