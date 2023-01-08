@@ -16,11 +16,14 @@ Student Records
         well as their course enrollments.
 ```
 
-There are many ways to store this information. There could be a group of different `list`s. There could be a `dict` from student id to a `list` or `dict` of student information. When we talk about the shape of the data, like whether it is a dictionary of dictionaries or a list of dictionaries, this is called talking about the data structure.
+There are many ways to store this information. There could be a group of different `list`s. There could be a `dict` from student id to a `list` or `dict` of student information. When we talk about the shape of the data, like whether it is a dictionary of dictionaries or a list of dictionaries, this is called talking about the **data structure**.
+
+<image src="../../images/w1/marble.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
+
 
 This would be one way to structure the student records:
 
-```
+```python
 student_ids = [35434, 67768, 17768, 45645]
 student_names = ['Joshua', 'Michael', 'Jessica', 'Rapheal']
 student_course_ids_enrolled = [[], [567567], [78979, 567567], []]
@@ -30,9 +33,11 @@ student_course_ids_enrolled = [[], [567567], [78979, 567567], []]
 
 This structure does work to solve the problem. But it isn't ideal for a few reasons. First of all, if a new student is added, a new element has to be added to all three lists, and if there is any place in the code that forgets to add an element to one of the lists, this is a bug that will cause errors. It is the same for deleting a student - all three lists would have to be updated. We'd have three different variables to keep track of and pass around to the different functions. 
 
+---
+
 This data structure would be better in some ways,
 
-```
+```python
 student_records = [
     ['Joshua', 35434, []],
     ['Michael', 67768, [567567]],
@@ -45,9 +50,11 @@ student_records = [
 
 The advantage is that we are down to one variable. And so when a student is added or deleted, there isn't a chance to forget to update one of the variables. But now, to get the name of the first student, we would write `student_records[0][0]` and to get the id we would write `student_records[0][1]`. This code is hard to read and understand because it's hard to remember that [0] refers to the name and [1] refers to the id. We could add comments to help explain, but it's still not great.
 
+---
+
 In general, a better data structure would be to use dictionaries,
 
-```
+```python
 student_records = [
     { 'name': 'Joshua', 'id': 35434, 'courses_enrolled_in': [] },
     { 'name': 'Michael', 'id': 67768, 'courses_enrolled_in': [567567] },

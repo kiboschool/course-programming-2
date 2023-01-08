@@ -4,8 +4,13 @@ sqlitebrowser.webp
 how-to-use-db-browser-for-sqlite-on-linux
 tomato.png
 https://openclipart.org/
-oop.
-
+oop.png
+mumbai university
 ttt.png
 wikipedia for tictactoe
+marble.png
+openclipart
+weather
+openclipart
+
 

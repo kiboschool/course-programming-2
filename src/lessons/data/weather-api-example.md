@@ -1,4 +1,3 @@
-# Weather API Example
 
 Watch the video below, to see how I update the weather program we've been working on to read real weather information from the internet.
 

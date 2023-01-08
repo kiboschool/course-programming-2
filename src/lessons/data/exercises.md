@@ -1,4 +1,4 @@
-# Exercises: Data
+# Exercises: data
 
 ---
 
@@ -16,9 +16,8 @@
 
 ## Submission
 
-**Reminder**: These small projects will be graded towards your final score. You should submit your work on Github
-Classroom so that your instructor can check your code, but you might not 
-get feedback on them.
+**Reminder**: These small projects will be graded and add a few points towards your final score. You should submit your work on Github
+Classroom so that your instructor can check your code.
 
 This video shows how to get assignment code onto your computer, and how to
 submit it to Github Classroom.
@@ -31,7 +30,7 @@ submit it to Github Classroom.
 
 ## Setup
 
-Click Open Project here to get a copy of the code. We will be adding to the weather API example!
+Click Open Project here to get a copy of the code. Just like the videos, we will be adding to the weather API example!
 
 <!-- link to https://github.com/kibo-programming-2-jan-23/show-weather-from-api-exercise -->
 
@@ -45,7 +44,7 @@ Once you have the coordinates, format them the way that the existing entries are
 
 Add a feature to the program, so that it shows the wind direction alongside the temperature. Show the wind direction in a descriptive way, for example display "From the southwest" instead of "SW" and "From the north" instead of "N".
 
-Hint: open the `api_output.json` file and look for wind. Remember that a dictionary can contain other dictionaries, but you can always just get the data in two steps if you need to.
+Hint: open the `api_output.json` file and look for wind. Remember that a dictionary can contain other dictionaries. It's sometimes easier to get the data in two steps.
 
 
 ### Part 3 (optional)
@@ -57,6 +56,8 @@ And remember that there is a function `json.loads()` that loads from a string in
 
 ### Submitting the project
 
-When you have completed these three parts, `commit` and `push` the code so that it will be submitted to the instructors.
+When you have completed these assignments, `commit` and `push` the code so that it will be submitted to the instructors.
+
+<image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
 
 
