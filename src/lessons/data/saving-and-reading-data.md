@@ -92,7 +92,7 @@ Click Open Project to get the code and follow along in VSCode.
 
 <!-- link to https://github.com/kibo-programming-2-jan-23/show-weather-from-file -->
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315"  src="https://tempclip.com/embed/U39GzGgC2otu2HR"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/crdXLylaxQo?rel=0" title="Weather - Reading from Dictionaries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Walkthrough 2: Writing a program that remembers the current city
 
@@ -100,7 +100,9 @@ Walkthrough 2: Writing a program that remembers the current city
 
 This builds off of the code from Walkthrough 1.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315"  src="https://tempclip.com/embed/9wSHCjudZUkjZpk"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/vO-wHSf9Tko?rel=0" title="Weather - Reading from Dictionaries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 Exercise:
 

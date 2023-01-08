@@ -40,6 +40,8 @@ Exercises:
 
 ## What is an API
 
+<img src="../../images/tomato.png" height="50%" width="50%" style="border: none, border-width : 0, border : 0; box-shadow: 0px 0px;" />
+
 Let's imagine, as an example, that I am growing a tomato plant. From my experience growing plants, I know that tomato plants shouldn't be left in cold weather outside, because this can hurt the plant. I'm living in an area where the weather gets cold sometimes.
 
 Every day I open my laptop, go to Google, and search for the weather forecast. I'll see if the forecast will get below 12 degrees celsius in the next few days and make plans to bring the plant inside if I need to.
