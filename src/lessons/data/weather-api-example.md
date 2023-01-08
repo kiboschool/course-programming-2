@@ -3,6 +3,9 @@ Watch the video below, to see how I update the weather program we've been workin
 
 Click Open Project to get the code and follow along in VSCode.
 
+<a href="https://classroom.github.com/a/Rq4XWArs" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Code%20for%20the%20weather%20api%20video%20(not%20graded)&color=blue" alt="weather-from-api-example--not-graded" /></a>
+
+
 <!-- link to https://github.com/kibo-programming-2-jan-23/show-weather-from-api  -->
 
 ## Part 1, Calling the API

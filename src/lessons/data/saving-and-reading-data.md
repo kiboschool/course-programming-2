@@ -96,6 +96,8 @@ all_forecasts = {
 
 Click Open Project to get the code and follow along in VSCode.
 
+<a href="https://classroom.github.com/a/bqXfOdqE" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Code%20for%20the%20weather%20file%20video%20(not%20graded)&color=blue" alt="weather-from-file-example--not-graded" /></a>
+
 <!-- link to https://github.com/kibo-programming-2-jan-23/show-weather-from-file -->
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/crdXLylaxQo?rel=0" title="Weather - Reading from Dictionaries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

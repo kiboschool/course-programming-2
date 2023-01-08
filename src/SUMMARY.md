@@ -21,7 +21,7 @@
   - [Data Types and Dictionaries](lessons/data/data-types-and-dictionaries.md)
   - [Experimenting with Dictionaries](lessons/data/experimenting-with-dictionaries.md)
   - [Ways to Structure Data](lessons/data/ways-to-structure-data.md)
-  - [Quiz](lessons/data/quiz.md)
+  - [Practice Quiz](lessons/data/practice-quiz.md)
   - [Saving and Reading Data In Files](lessons/data/saving-and-reading-data.md)
   - [Read Data From An Internet API](lessons/data/read-data-from-an-internet-api.md)
   - [Weather API Example](lessons/data/weather-api-example.md)

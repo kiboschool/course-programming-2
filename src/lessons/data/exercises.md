@@ -32,6 +32,8 @@ submit it to Github Classroom.
 
 Click Open Project here to get a copy of the code. Just like the videos, we will be adding to the weather API example!
 
+<a href="https://classroom.github.com/a/PCUb7tFJ" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Weather%20API%20Exercise&color=blue" alt="weather-api-exercise" /></a>
+
 <!-- link to https://github.com/kibo-programming-2-jan-23/show-weather-from-api-exercise -->
 
 ### Part 1

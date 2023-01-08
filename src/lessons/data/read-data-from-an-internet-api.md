@@ -72,7 +72,7 @@ Many APIs even send back data in JSON format, which is perfect for us!
 Why this is better than scraping:
 * APIs do not send html back, or anything intended to be shown by the browser, they send only the pure data that you need. For example, instead of sending text and graphics back, they could send just a list of numbers.
 * APIs keep their output structure the same. The company providing an API will be careful not to make changes that would cause your program to stop working. For example, if the API documentation says that the API will respond with a dictionary, it won't change a few weeks later to respond with a list instead.
-* An API can monitor how often it is being called, and block anything that is requesting it too often. (An API can restrict access to by requiring anyone connecting to it to provide a type of password called a token).
+* An API can monitor how often it is being called, and block anything that is requesting it too often. (An API can restrict access with a type of password called a token, but we won't need them in this project).
 
 You can type an API url into the address bar for your browser and see the results there. But you'll just see raw data, so it isn't very useful. The intention an API is for programs, not people, to see it.
 

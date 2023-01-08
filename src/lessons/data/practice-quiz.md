@@ -9,7 +9,7 @@ For practice, write a function that gets a list of park names. Remember that if 
 
 And if you use a for loop on a list, each time through the loop you will get one element in the list (the element could be a string, dictionary, or another list).
 
-<h2 style="margin-top:3em">Quiz</h2>
+<h2 style="margin-top:3em">Practice quiz</h2>
 
 <div data-tf-widget="V2DK1YRa" data-tf-medium="snippet" style="width:100%;height:600px;"  style="margin-top:3em"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
