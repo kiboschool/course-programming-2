@@ -2,11 +2,11 @@
 
 We'll be building programs that show information visually, programs that read data from the internet, and programs that interact with databases. 
 
-<image src="../../images/w1/scatter.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
+<image src="../../images/w1/scatter.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
 
-<image src="../../images/w1/server-combined.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
+<image src="../../images/w1/server-combined.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:2em" />
 
-<image src="../../images/w1/sqlitebrowser.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
+<image src="../../images/w1/sqlitebrowser.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:2em" />
 
 We'll learn how to track down errors in our code and how to investigate code that other people have written.
 
@@ -23,4 +23,4 @@ In this course we'll build off of what we learned in Programming 1. We will use 
 
 At the end of the course we will be able to be comfortable writing Python programs to accomplish basic tasks, and to write tests to check that the code is working correctly. We will understand what objects and classes are (in other words, writing object-oriented programs). Along the way we'll pick up tips on how to investigate programs that aren't working correctly, and we'll gain experience reading and understanding code that other people have written. Everything in the course will be truly valuable for doing real-world work in the field.
 
-<image src="../../images/w1/ttt.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
+<image src="../../images/w1/ttt.png" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
