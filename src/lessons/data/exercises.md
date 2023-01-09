@@ -2,20 +2,25 @@
 
 ---
 
+> 💡 This is your chance to put what you’ve learned into action.
 > **Remember**: Completing one of the three tasks below should be enough for you to earn the full mark, while completing two or more makes it **guaranteed**.
 
-## To submit an exercise:
+### Submission
 
 > **[Use this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
 
-<aside>
+You are required to submit documentation for 10 practice exercises over the
+course of the term. Each one will count for 1/10 of your practice grade, or 1%
+of your overall grade.
 
-**If you get stuck**
+* You are welcome to log practice that is not one of the exercises listed on the 
+practice page.
+* You can submit a link to a github repo, a replit, a Google doc, or some other 
+resource.
 
-1. Read the instructions again.
-2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
-
-</aside>
+Your log will count for credit as long as it:
+- is accessible to your instructor
+- shows your own work
 
 # Weather API Exercise
 
@@ -31,7 +36,7 @@ Click Open Project here to get a copy of the code. Just like the videos, we will
 
 Add a new city. You can usually find the coordinates for a city on the wikipedia page for a city, then look on the panel on the right side for "coordinates".
 
-Once you have the coordinates, format them in the way that the existing entries are written. Note that "S" or "south" is negative and "N" or "north" is positive. Add the new city to the list in `map_city_to_coords` and try it.
+Once you have the coordinates, format them the same way that the existing entries are written. Note that "S" or "south" is negative and "N" or "north" is positive. Add the new city to the list in `map_city_to_coords` and try it.
 
 ## Weather API Part 2 (1 point)
 
@@ -51,4 +56,15 @@ Hints:
 
 ## Submitting the assignment
 
-> **[Submit a link using this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
+When you are done, `commit` and `push` your code. Submit a link to your work on
+Github using this form: **[Programming Practice log](https://forms.gle/UbWLpo86JsWxrpNe9)**
+
+<image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
+
+<aside>
+
+**If you get stuck**
+1. Read the instructions again.
+2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
+
+</aside>

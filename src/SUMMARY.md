@@ -20,7 +20,6 @@
   <!-- - [Course Preview](lessons/data/course-preview.md) -->
 
   - [Data Types and Dictionaries](lessons/data/data-types-and-dictionaries.md)
-  - [Experimenting with Dictionaries](lessons/data/experimenting-with-dictionaries.md)
   - [Ways to Structure Data](lessons/data/ways-to-structure-data.md)
   - [Practice Quiz](lessons/data/practice-quiz.md)
   - [Saving and Reading Data In Files](lessons/data/saving-and-reading-data.md)

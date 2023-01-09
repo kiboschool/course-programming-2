@@ -17,6 +17,19 @@ Below are the projects you'll be working on in this course:
 - Midterm Project: OOP Microprocessor
 - Final Project
 
+Additionally, you'll log practice exercises.
+
+## Grading
+
+Your course grade will consist of:
+
+- 10% Exercises
+- 13.3% Course Project 1
+- 13.3% Course Project 2
+- 13.3% Course Project 3
+- 25% Midterm Project
+- 25% Final Project
+
 ## Practice Exercises
 
 Each week will include practice exercises to help you better understand

@@ -1,18 +1,18 @@
-# Preview
+# Course Preview
 
-We'll be building programs that show information visually, programs that read data from the internet, and programs that interact with databases.
+In this course, you'll build programs that show information visually, read data from the internet, and interact with databases. 
 
 <img align="center" src="../../images/w1/scatter.png">
 <img align="center" src="../../images/w1/server-combined.png">
 <img align="center" src="../../images/w1/sqlitebrowser.png">
 
-We'll learn how to track down errors in our code and how to investigate code that other people have written.
+You'll learn how to track down errors in our code and how to investigate code that other people have written.
 
-A big part of the course will be something called object-oriented programming - a way to structure your program to make it more organized and easier to change in the future.
+A big part of the course will be _object-oriented programming_: a way to organize your programs to make problems easier to think about and your code easier to change in the future.
 
 <image src="../../images/w1/oop.jpg" height="50%" width="50%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
 
-For our final project we'll write an object-oriented game that can save and resume its progress.
+For your final project you'll write an object-oriented game that can save and resume its progress.
 
 ### Details
 

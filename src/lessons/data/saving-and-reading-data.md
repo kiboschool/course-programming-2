@@ -1,27 +1,22 @@
 # Saving and Reading Data
 
-### Following along in the code
+## Following along in the code
 
-The next few pages have some links that say "Open Project". Later on when there is a tutorial video, you can click the Open Project link and see the code, open it up in VSCode, and follow along with the tutorial video.
-
-A reminder of how to use the Open Project links,
-
-<details><summary>Video</summary>
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b6f344e3887d46d7a63d5cafac2fc21e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-</details>
-
-
+> The next few lessons walk through the steps to build a project using files and nested data structures. 
+> 
+> When there is a tutorial video, you can click the "Open Project" link to see the code, open it in VSCode, and follow along with the video.
+> 
+> You will learn much more if you type out the code along with the tutorial.
 
 ### Weather forecast
 
-Let's imagine that we are writing a program to display the weather forecast for a city. We'll be showing the estimated wind speed, temperature, and the percentage of cloud cover in the sky.
+Let's write a program to display the weather forecast for a city. We'll show the estimated wind speed, temperature, and the percentage of cloud cover in the sky.
 
 For the first version of our program, the user will type in a city name, and we will show them the estimated temperature for the next 3 days.
 
 <image src="../../images/w1/weather.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
 
-
-This is the data structure we will use for the weather forecast for a city, it will be a list of dictionaries,
+This is the data structure we will use for the weather forecast for a city:
 
 ```python
 forecast = [
@@ -43,8 +38,7 @@ forecast = [
 ]
 ```
 
-
-Our imagined program stores the location data with GPS latitude+longitude coordinates (if you haven't seen these before, like 2.1° North, 5.6° West, they are similar to x and y coordinates on a graph, but are coordinates for a globe. Every location on the planet can be referred to with latitude+longitude coordinates). This will make the program realistic, because real weather data uses these coordinates.
+Our program stores the location data with GPS latitude and longitude coordinates, like 2.1° North, 5.6° West. GPS coordinates are similar to x and y coordinates on a graph, but are coordinates for a globe. Every location on the planet can be referred to by its latitude and longitude coordinates.
 
 The full data structure looks like this,
 
@@ -88,11 +82,10 @@ all_forecasts = {
 }
 ```
 
-### Videos
+### Walkthrough Part 1: Showing the Forecast
 
-<div style="margin-top:1em"><i>Walkthrough 1: Writing a program that shows the weather forecast</i></div>
-
-(Shows how to retrieve information from dictionaries)
+This walkthrough demonstrates retrieves data from the nested structures to
+display it. 
 
 Click Open Project to get the code and follow along in VSCode.
 
@@ -102,17 +95,13 @@ Click Open Project to get the code and follow along in VSCode.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/crdXLylaxQo?rel=0" title="Weather - Reading from Dictionaries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-*Walkthrough 2: Writing a program that remembers the current city*
+### Walkthrough Part 2: Saving the current city
 
-(Shows how to read and write json files)
-
-This builds off of the code from Walkthrough 1.
-
+This walkthrough demonstrates reading and writing json files.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/vO-wHSf9Tko?rel=0" title="Weather - Reading from JSON" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
-*Optional Exercise:*
+### Practice: Change the current city
 
 At the end of the program, ask the user if they would like to change the current city. If they type yes, let them type in a city, and then store that as the current city.
 
