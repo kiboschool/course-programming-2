@@ -2,7 +2,11 @@
 
 ---
 
-> 💡 This is your chance to put what you’ve learned into action.
+> **Remember**: Completing one of the three tasks below should be enough for you to earn the full mark, while completing two or more makes it **guaranteed**.
+
+## To submit an exercise:
+
+> **[Use this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
 
 <aside>
 
@@ -13,19 +17,7 @@
 
 </aside>
 
-## Submission
-
-**Reminder**: These assignments will be graded and add a few points towards your final score. You should submit your work on Github
-Classroom so that your instructor can check your code.
-
-This video shows how to get assignment code onto your computer, and how to
-submit it to Github Classroom.
-
-<details><summary>Video</summary>
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b6f344e3887d46d7a63d5cafac2fc21e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
+# Weather API Exercise
 
 ## Setup
 
@@ -47,7 +39,7 @@ Add a feature to the program, so that it shows the wind direction alongside the 
 
 Hint: open the `api_output.json` file and look for wind. Remember that a dictionary can contain other dictionaries. It's sometimes easier to get the data in two steps.
 
-## Part 3 (optional)
+## Weather API Part 3 (1 Point)
 
 Currently the program saves the json information to a file, and then reads the information back in from the file. This is unnecessary - isn't there a way to get the information without needing to save to a file first? Modify the program so that it doesn't save to a file.
 
@@ -59,6 +51,4 @@ Hints:
 
 ## Submitting the assignment
 
-When you are done, follow the "Getting and submitting programming assignments" video. `commit` and `push` the code so that it will be submitted to the instructors.
-
-<image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
+> **[Submit a link using this form](https://forms.gle/UbWLpo86JsWxrpNe9)**

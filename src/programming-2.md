@@ -18,7 +18,9 @@ In this course, you'll build off of what you learned in Programming 1.
 - You'll deepen our knowledge of software fundamentals - learning about object-oriented software, how to recover from errors, and how data is structured.
 - Finally, you will begin to explore the philosophy of writing software. This means going beyond "does my program compute the right thing", but to ask if a program is well organized, if it will be readable by other programmers, and if it will it be re-usable in other projects.
 
-At the end of the course, you will be able to write Python programs to accomplish basic tasks, and write tests to check that code is working correctly. You will understand what objects and classes are (in other words, writing object-oriented programs). Along the way you'll pick up tips on how to investigate programs that aren't working correctly, and gain experience reading and understanding code that other people have written.
+By the end of the course, you will understand what objects and classes are (in other words, writing object-oriented programs), you will be able to write more advanced programs: interacting with data sources, using a language called SQL, and creating graphics to visualize data. You will also be structuring your code in more-professional ways. Along the way you'll pick up tips on how to investigate programs that aren't working correctly, and gain experience reading and understanding code that other people have written.
+
+By the end of the course,.
 
 Everything in the course will be valuable for doing real-world work in the field.
 

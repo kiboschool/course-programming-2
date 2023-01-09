@@ -23,11 +23,11 @@ Each week will include practice exercises to help you better understand
 programming. You are _strongly_ encouraged to complete the practice exercises
 each week.
 
-Practice exercises make up 10% of the course grade. Exercises will contain assigned points beside them like this:
+Practice exercises make up 10% of the course grade. Exercises (or tasks) will contain assigned points beside them like this:
 
 <image src="../images/exercises.png" height="50%" width="70%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
 
-These points are **weights** that add up to a total of 10% of your final grade. Completing one exercise per week should be enough for you to earn the full mark, while completing two or more exercises per week makes it guaranteed.
+These points are **weights** that add up to a total of 10% of your final grade. Completing a 1-point exercise or task per week should be enough for you to earn the full mark, while completing two or more per week makes it guaranteed.
 
 After completing each exercise, use the below form to log your practice for credit:
 
