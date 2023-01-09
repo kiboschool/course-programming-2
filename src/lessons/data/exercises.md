@@ -18,12 +18,12 @@
 
 </aside>
 
-You are required to submit documentation for 10 practice exercises over the
-course of the term. Each one will count for 1/10 of your practice grade, or 1%
+You are required to submit documentation for 10 exercises over the
+course of the term. Each one will count for 1/10 of your exercises grade, or 1%
 of your overall grade.
 
-* You are welcome to log practice that is not one of the exercises listed on the 
-practice page.
+* You are welcome to log work that is not one of the exercises listed on the 
+exercises page.
 * You can submit a link to a github repo, a replit, a Google doc, or some other 
 resource.
 
@@ -66,7 +66,7 @@ Hints:
 ## Submitting the assignment
 
 When you are done, `commit` and `push` your code. Submit a link to your work on
-Github using this form: **[Programming Practice log](https://forms.gle/UbWLpo86JsWxrpNe9)**
+Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86JsWxrpNe9)**
 
 <image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
 

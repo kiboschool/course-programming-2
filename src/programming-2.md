@@ -74,7 +74,7 @@ There are multiple ways you'll learn in this course:
 
 - Read and engage with the materials on this site
 - Attend live class and complete the activities in class
-- Practice with exercises to try out the concepts
+- Write exercises to try out the concepts
 - Complete projects to demonstrate what you have learned
 
 Active engagement is necessary for success in the course! You should try to

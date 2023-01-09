@@ -17,8 +17,6 @@ Below are the projects you'll be working on in this course:
 - Midterm Project: OOP Microprocessor
 - Final Project
 
-Additionally, you'll log practice exercises.
-
 ## Grading
 
 Your course grade will consist of:
@@ -28,13 +26,12 @@ Your course grade will consist of:
 - 25% Midterm Project
 - 25% Final Project
 
-## Practice Exercises
+## Exercises
 
-Each week will include practice exercises to help you better understand
-programming. You are _strongly_ encouraged to complete the practice exercises
-each week.
+Some weeks will include exercises at the end to help you better understand
+programming. You will need to complete exercises, because they will count towards your score in the class.
 
-Practice exercises make up 10% of the course grade. Exercises (or tasks) will contain assigned points beside them like this:
+Exercises make up 10% of the course grade. Exercises (or tasks) will contain assigned points beside them like this:
 
 <image src="../images/exercises.png" height="50%" width="70%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
 
@@ -44,8 +41,7 @@ After completing each exercise, use the below form to log your practice for cred
 
 > **[Submit a link using this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
 
-- You are welcome to log practice that is not one of the exercises listed on the
-  practice page.
+- You are welcome to log work that is not one of the exercises listed on the page.
 - You can submit a link to a github repo or a replit. Make sure sure the link is accessible.
 
 Your entry in the log will count for credit as long as it:
