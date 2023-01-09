@@ -29,11 +29,11 @@ This code retrieves the homepage of the course website, and writes it to a file:
 ```python
 import urllib.request
 def main():
-url = 'https://programming-2.vercel.app/programming-2.html'
-results = urllib.request.urlopen(url)
-html_content = results.read().decode('utf-8')
-with open('output.html', 'w') as f:
-f.write(html_content)
+  url = 'https://programming-2.vercel.app/programming-2.html'
+  results = urllib.request.urlopen(url)
+  html_content = results.read().decode('utf-8')
+  with open('output.html', 'w') as f:
+    f.write(html_content)
 
 main()
 ```
