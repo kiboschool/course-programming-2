@@ -19,7 +19,7 @@
 </aside>
 
 You are required to submit documentation for 10 exercises over the
-course of the term. Each one will count for 1/10 of your exercises grade, or 1%
+course of the term. Each one will count for 1%
 of your overall grade.
 
 * You are welcome to log work that is not one of the exercises listed on the 
@@ -35,7 +35,7 @@ Your log will count for credit as long as it:
 
 ## Setup
 
-Click Open Project here to get a copy of the code. Just like the videos, we will be adding to the weather API example!
+Click Open Project here to get a copy of the code. Just like the videos, we will be adding to the weather API example! We recommend that you complete at least two of these exercises.
 
 <a href="https://classroom.github.com/a/PCUb7tFJ" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Weather%20API%20Exercise&color=blue" alt="weather-api-exercise" /></a>
 

@@ -35,7 +35,7 @@ Exercises make up 10% of the course grade. Exercises (or tasks) will contain ass
 
 <image src="../images/exercises.png" height="50%" width="70%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
 
-These points are **weights** that add up to a total of 10% of your final grade. Completing a 1-point exercise or task per week should be enough for you to earn the full mark, while completing two or more per week makes it guaranteed.
+For the weeks that have exercises, please complete two or more for that week, in order to earn full marks.
 
 After completing each exercise, use the below form to log your practice for credit:
 

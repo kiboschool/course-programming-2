@@ -97,8 +97,8 @@ A dictionary can contains lists, and a list can contain dictionaries.
 As you saw in the example, this type of "nested" structure can be a great way to 
 organize data for a given problem. 
 
-Write a function that takes a city name, navigates the nested dictionary, and 
-returns a list of park names. 
+Write a function that takes a country name, navigates the nested dictionary, and 
+returns a list of park names.
 
 <iframe src="https://trinket.io/embed/python/a99715e86f" width="100%" height="400" frameborder="0"  style="margin-top:1em" allowfullscreen></iframe>
 
@@ -109,3 +109,30 @@ name).
 If you use a for loop on a list, each time through the loop you will get one 
 element in the list (the element could be a string, dictionary, or another list).
 
+
+### Solution
+
+Here is a one way to get the list of park names:
+
+<details><summary>See the Solution</summary>
+
+```python
+def get_park_names(country_name):
+  ''' a function that uses the data above 
+  to get a list of park names'''
+  results = []
+  
+  if country_name not in all_country_data:
+    print('Could not find this country')
+  else:
+    country_data = all_country_data[country_name]
+    parks = country_data['parks']
+    for park in parks:
+      results.append(park['park_name'])
+    
+  return results
+
+get_park_names()
+```
+
+</details>
