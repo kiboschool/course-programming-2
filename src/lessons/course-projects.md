@@ -7,7 +7,7 @@ material and practice problems before you start the project each week.
 
 There will also be a midterm project and a final project.
 
-# Projects List
+## Projects List
 
 Below are the projects you'll be working on in this course:
 
@@ -17,18 +17,54 @@ Below are the projects you'll be working on in this course:
 - Midterm Project: OOP Microprocessor
 - Final Project
 
-<aside>
-Due dates for each week's mandatory exercises is the same as this week's project.
-</aside>
+## Practice Exercises
 
-# Late Policy
+Each week will include practice exercises to help you better understand
+programming. You are _strongly_ encouraged to complete the practice exercises
+each week.
+
+Practice exercises make up 10% of the course grade. Exercises will contain assigned points beside them like that:
+
+<image src="../images/exercises.png" height="50%" width="70%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
+
+These points are **weights** that sum up to the total 10% of your final grade. Completing one exercise per week should be enough for you to earn the full mark, while completing two or more exercises per week makes it guranteed.
+
+After completing each exercise, use the below form to log your practice for credit:
+
+> **[Submit a link using this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
+
+- You are welcome to log practice that is not one of the exercises listed on the
+  practice page.
+- You can submit a link to a github repo or a replit. Make sure sure the link is accessible.
+
+Your entry in the log will count for credit as long as it:
+
+- is accessible to your instructor
+- shows your own work
+
+## Late Policy
 
 - Late assignments will be accepted up to 48 hours after the original due date, but a **late penalty of 10%** will be applied for _each day_ the assignment is late.
-
-- No assignments will be accepted more than 48 hours after the original due date.
 
 - If a student has a legitimate reason for being unable to submit an assignment on time (e.g. illness, family emergency), they may request an extension by sending an email to the instuctor. Such requests must be made at least 24 hours before the original due date. The instructor will review each request and decide whether to grant an extension on a case-by-case basis.
 
 - If an extension is granted, the new due date will be determined by the instructor and communicated to the student. Late penalties will still apply if the assignment is not submitted by the new due date.
 
-- If a student repeatedly fails to submit assignments on time, or fails to request an extension in a timely manner, the instructor may take disciplinary action, which could include lowering the student's grade or dismissing them from the course.
+## Academic Integrity
+
+When you turn in an assignment, you are representing that the work is your own.
+Copying work from another student or from online and submitting it is _plagiarism_.
+
+As a reminder of Kibo's academic honesty and integrity policy: Any student found
+to be committing academic misconduct will be subject to disciplinary action
+including dismissal.
+
+Disciplinary action may include:
+
+- Failing the assignment
+- Failing the course
+- Dismissal from Kibo
+
+For more information about what counts as plagiarism and tips for working with
+integrity, review the ["What is Plagiarism?" Video](https://youtu.be/2qmWz7Qvh0E)
+and [Slides](https://docs.google.com/presentation/d/1CB_lQf3SZE37Fs3ZQC8o2tyiHGBSXxwVsMCg_md6CI0/)
