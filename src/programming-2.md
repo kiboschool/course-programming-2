@@ -7,13 +7,20 @@
 <aside>
 Kibo CS Faculty member Mohammed Saudi motivates the course.
 </aside>
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/TODO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-## What We'll Learn
+## What you'll learn
 
-In this course we'll build off of what we learned in Programming 1. We will use the tools we've learned to build more advanced programs: programs that read from the internet, display information visually, and interact with databases. We'll deepen our knowledge of software fundamentals - learning about object-oriented software, how to recover from errors, and how data is structured. Finally, we will begin to explore the philosophy of writing software. This means going beyond "does my program compute the right thing", but to ask questions like if is the program well-organized, if it will be readable by other programmers, and if it will it be re-usable in other projects.
+In this course, you'll build off of what you learned in Programming 1. 
 
-At the end of the course we will be able to be comfortable writing Python programs to accomplish basic tasks, and to write tests to check that the code is working correctly. We will understand what objects and classes are (in other words, writing object-oriented programs). Along the way we'll pick up tips on how to investigate programs that aren't working correctly, and we'll gain experience reading and understanding code that other people have written. Everything in the course will be truly valuable for doing real-world work in the field.
+* You will use the tools you've learned to build more advanced programs: programs that read from the internet, display information visually, and interact with databases. 
+* You'll deepen our knowledge of software fundamentals - learning about object-oriented software, how to recover from errors, and how data is structured. 
+* Finally, you will begin to explore the philosophy of writing software. This means going beyond "does my program compute the right thing", but to ask if a program is well organized, if it will be readable by other programmers, and if it will it be re-usable in other projects.
+
+At the end of the course, you will be able to write Python programs to accomplish basic tasks, and write tests to check that code is working correctly. You will understand what objects and classes are (in other words, writing object-oriented programs). Along the way you'll pick up tips on how to investigate programs that aren't working correctly, and gain experience reading and understanding code that other people have written. 
+
+Everything in the course will be valuable for doing real-world work in the field.
 
 You aren't on this journey alone. We'll work on team projects and collaborate, and we'll communicate in discord and office hours to help answer questions.
 
