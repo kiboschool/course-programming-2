@@ -63,9 +63,7 @@ practice problems included in the course.
 ## Assessments
 
 - 10% Exercises
-- 13% Course Project 1
-- 13% Course Project 2
-- 13% Course Project 3
+- 40% Course Projects
 - 25% Midterm Project
 - 25% Final Project
 
