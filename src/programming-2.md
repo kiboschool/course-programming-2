@@ -8,17 +8,19 @@
 Kibo CS Faculty member Mohammed Saudi motivates the course.
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/TODO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/g1SV-Lhgix0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## What you'll learn
 
-In this course, you'll build off of what you learned in Programming 1. 
+In this course, you'll build off of what you learned in Programming 1.
 
-* You will use the tools you've learned to build more advanced programs: programs that read from the internet, display information visually, and interact with databases. 
-* You'll deepen our knowledge of software fundamentals - learning about object-oriented software, how to recover from errors, and how data is structured. 
-* Finally, you will begin to explore the philosophy of writing software. This means going beyond "does my program compute the right thing", but to ask if a program is well organized, if it will be readable by other programmers, and if it will it be re-usable in other projects.
+- You will use the tools you've learned to build more advanced programs: programs that read from the internet, display information visually, and interact with databases.
+- You'll deepen our knowledge of software fundamentals - learning about object-oriented software, how to recover from errors, and how data is structured.
+- Finally, you will begin to explore the philosophy of writing software. This means going beyond "does my program compute the right thing", but to ask if a program is well organized, if it will be readable by other programmers, and if it will it be re-usable in other projects.
 
-At the end of the course, you will be able to write Python programs to accomplish basic tasks, and write tests to check that code is working correctly. You will understand what objects and classes are (in other words, writing object-oriented programs). Along the way you'll pick up tips on how to investigate programs that aren't working correctly, and gain experience reading and understanding code that other people have written. 
+By the end of the course, you will understand what objects and classes are (in other words, writing object-oriented programs), you will be able to write more advanced programs: interacting with data sources, using a language called SQL, and creating graphics to visualize data. You will also be structuring your code in more-professional ways. Along the way you'll pick up tips on how to investigate programs that aren't working correctly, and gain experience reading and understanding code that other people have written.
+
+By the end of the course,.
 
 Everything in the course will be valuable for doing real-world work in the field.
 
@@ -72,9 +74,7 @@ practice problems included in the course.
 ## Assessments
 
 - 10% Exercises
-- 13% Course Project 1
-- 13% Course Project 2
-- 13% Course Project 3
+- 40% Course Projects
 - 25% Midterm Project
 - 25% Final Project
 
@@ -83,7 +83,7 @@ practice problems included in the course.
 - Our main communication tool is Discord. You are fully responsible for checking Discord for announcements and updates.
 - You are expected to attend all classes. If you miss a class, you are responsible for catching up on the material.
 - You are expected to complete all assignments on time. If for any reason you are unable to complete an assignment on time, you must contact the instructor before the deadline.Check the [late submission policy](lessons/course-projects.md#late-policy) for information on how late assignments are handled.
-- Cheating is not tolerated. If you are caught cheating, you will be given a zero for the assignment and you will be reported to the Academic Integrity Committee. Make sure you are familiar with the [Kibo School Academic Integrity Policy](https://kibo.school/academic-integrity-policy/). You are expected to follow the policy in all your work.
+- Cheating is not tolerated. If you are caught cheating, you will be given a zero for the assignment and you will be reported to the Academic Integrity Committee. Make sure you are familiar with the [Kibo School Academic Integrity Policy](lessons/course-projects.html#academic-integrity). You are expected to follow the policy in all your work.
 - Make sure you check the [Getting help](lessons/asking-for-help.md) for information on how to get help with the course.
 
 ## Tools
