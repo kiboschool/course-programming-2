@@ -1,9 +1,8 @@
+# Ways to structure data
 
-## Data structures
+Let's look back to one of the final projects from Programming 1, the Student Enrollment Management project. 
 
-It is very useful for a list to contain dictionaries, or for a dictionary to contain other dictionaries. This is an important way to keep data organized.
-
-Let's go back to one of the final projects from the Programming-1 course, the Student Enrollment Management project. We were asked to build a project that had a list of student data,
+Here were some of the project requirements:
 
 ```
 Student Records
@@ -16,10 +15,15 @@ Student Records
         well as their course enrollments.
 ```
 
-There are many ways to store this information. There could be a group of different `list`s. There could be a `dict` from student id to a `list` or `dict` of student information. When we talk about the shape of the data, like whether it is a dictionary of dictionaries or a list of dictionaries, this is called talking about the **data structure**.
+There are many ways to store this information.
+* a group of different `list`s.
+* a `dict` with student id keys, and `list` or `dict` values, with student information
+
+When we talk whether it is a dictionary of dictionaries or a list of dictionaries, 
+we're talking about the "shape" of the data, and which **data structures** we're
+using.
 
 <image src="../../images/w1/marble.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
-
 
 This would be one way to structure the student records:
 
@@ -29,13 +33,19 @@ student_names = ['Joshua', 'Michael', 'Jessica', 'Rapheal']
 student_course_ids_enrolled = [[], [567567], [78979, 567567], []]
 ```
 
-(In this example solution I came up with, all of the ids are fake numbers I came up with as an example, and the lists in student_course_ids_enrolled are lists of the course ids that student is enrolled in. Don't worry about the courses, right now we're just thinking about the students).
+In this example, the lists in student_course_ids_enrolled are lists of the course ids the student is enrolled in. 
 
-This structure does work to solve the problem. But it isn't ideal for a few reasons. First of all, if a new student is added, a new element has to be added to all three lists, and if there is any place in the code that forgets to add an element to one of the lists, this is a bug that will cause errors. It is the same for deleting a student - all three lists would have to be updated. We'd have three different variables to keep track of and pass around to the different functions. 
+This structure does work to solve the problem. 
+
+But, it isn't ideal for a few reasons:
+- if a new student is added, a new element has to be added to all three lists
+- if there is any place in the code that forgets to add an element to one of the lists, there will be errors
+- It is the same for deleting a student: all three lists have to be updated.
+- We have three different variables to keep track of, and to pass to different functions. 
 
 ---
 
-This data structure would be better in some ways,
+Let's look at an improved way to structure the data.
 
 ```python
 student_records = [
@@ -46,13 +56,24 @@ student_records = [
 ]
 ```
 
-(notice that this is the same data as before, just moved to a different structure).
+This is the same data as before, just structured differently.
 
-The advantage is that we are down to one variable. And so when a student is added or deleted, there isn't a chance to forget to update one of the variables. But now, to get the name of the first student, we would write `student_records[0][0]` and to get the id we would write `student_records[0][1]`. This code is hard to read and understand because it's hard to remember that [0] refers to the name and [1] refers to the id. We could add comments to help explain, but it's still not great.
+What are the advantages?
+- We are down to one variable, so there's only one thing to pass into each
+    function
+- When a student is added or deleted, there's no way to forget to update one of the lists.
+
+Now, to get the name of the first student, the code is `student_records[0][0]`. 
+To get the id, we would write `student_records[0][1]`. 
+
+Accessing the values that way is hard to read and understand. It's hard to 
+remember that `[0]` refers to the name and `[1]` refers to the id. 
+
+We could add comments to help explain, but it's still not great.
 
 ---
 
-In general, a better data structure would be to use dictionaries,
+A better data structure would be to use a list of dictionaries.
 
 ```python
 student_records = [
@@ -63,4 +84,24 @@ student_records = [
 ]
 ```
 
-Our code will now be much easier to read, because we can write code like `student_records[0]["id"]` to refer to the id of the first student in the list.
+Our code will now be much easier to read and write, because we can write access 
+values like `student_records[0]["id"]` to refer to the id of the first student.
+
+## Practice: Dictionaries
+
+A dictionary can contains lists, and a list can contain dictionaries. 
+
+As you saw in the example, this type of "nested" structure can be a great way to 
+organize data for a given problem. 
+
+Write a function that takes a city name, navigates the nested dictionary, and 
+returns a list of park names. 
+
+<iframe src="https://trinket.io/embed/python/a99715e86f" width="100%" height="400" frameborder="0"  style="margin-top:1em" allowfullscreen></iframe>
+
+Remember that if you use a for loop to iterate through the items in a dictionary, 
+each time through the loop you will get one of the keys (in this case, a country 
+name).
+
+If you use a for loop on a list, each time through the loop you will get one 
+element in the list (the element could be a string, dictionary, or another list).

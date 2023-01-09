@@ -17,6 +17,19 @@ Below are the projects you'll be working on in this course:
 - Midterm Project: OOP Microprocessor
 - Final Project
 
+Additionally, you'll log practice exercises.
+
+## Grading
+
+Your course grade will consist of:
+
+- 10% Exercises
+- 13.3% Course Project 1
+- 13.3% Course Project 2
+- 13.3% Course Project 3
+- 25% Midterm Project
+- 25% Final Project
+
 ## Late Policy
 
 - Late assignments will be accepted up to 48 hours after the original due date, but a **late penalty of 10%** will be applied for _each day_ the assignment is late.
