@@ -10,7 +10,7 @@
 
 ### Weather forecast
 
-Let's write a program to display the weather forecast for a city. We'll show the estimated wind speed, temperature, and the percentage of cloud cover in the sky.
+Let's write a program to display the weather forecast for a city. We'll show the estimated temperature and wind speed.
 
 For the first version of our program, the user will type in a city name, and we will show them the estimated temperature for the next 3 days.
 
@@ -39,6 +39,8 @@ forecast = [
 ```
 
 Our program stores the location data with GPS latitude and longitude coordinates, like 2.1° North, 5.6° West. GPS coordinates are similar to x and y coordinates on a graph, but are coordinates for a globe. Every location on the planet can be referred to by its latitude and longitude coordinates.
+
+Software programs often use GPS coordinates like this to identity a location.
 
 The full data structure looks like this,
 
@@ -84,8 +86,8 @@ all_forecasts = {
 
 ### Walkthrough Part 1: Showing the Forecast
 
-This walkthrough demonstrates retrieves data from the nested structures to
-display it. 
+This walkthrough demonstrates retrieving data from the nested structures, and
+displaying it. 
 
 Click Open Project to get the code and follow along in VSCode.
 
@@ -101,7 +103,7 @@ This walkthrough demonstrates reading and writing json files.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/vO-wHSf9Tko?rel=0" title="Weather - Reading from JSON" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-### Practice: Change the current city
+### Practice: Change the current city (Optional)
 
 At the end of the program, ask the user if they would like to change the current city. If they type yes, let them type in a city, and then store that as the current city.
 

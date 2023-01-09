@@ -23,4 +23,4 @@ Here's a list of what we will cover this week:
 * Using dicts 
 * We will introduce a format called "JSON" that will let us store lists and 
   dicts in files.
-* We will practice reading data from the internet, using APIs
+* We will read data from the internet, using APIs

@@ -7,7 +7,7 @@ Let's talk about reading data from the internet.
 A **URL** identifies a resource on the internet. 
 
 You have seen URLs often, like `https://google.com`. In your web browser, when 
-you click on the address bar, you see the URL for the current page. An internet 
+you click on the address bar at the top, you see the URL for the current page. An internet 
 URL always starts with `http://` or `https://`, but sometimes the browser 
 doesn't show that part. 
 
@@ -16,7 +16,7 @@ The URL for this course website is `https://programming-2.vercel.app/programming
 To retrieve a web page, a program sends a **request**. Behind the scenes, your 
 web browser is constantly sending out requests to get pages to display.
 
-As you learned in Web Foundtions, websites are built with **HTML**. The browser 
+As you learned in Web Foundations, websites are built with **HTML**. The browser 
 sends a request for a URL, and the server, sends back a page of HTML. The browser
 interprets this HTML code and shows it on the screen.
 

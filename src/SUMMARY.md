@@ -17,8 +17,7 @@
 
 - [Reading and Writing Data](lessons/data.md)
 
-  <!-- - [Course Preview](lessons/data/course-preview.md) -->
-
+  - [Course Preview](lessons/data/course-preview.md)
   - [Data Types and Dictionaries](lessons/data/data-types-and-dictionaries.md)
   - [Ways to Structure Data](lessons/data/ways-to-structure-data.md)
   - [Practice Quiz](lessons/data/practice-quiz.md)

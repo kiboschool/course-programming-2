@@ -1,6 +1,7 @@
 # Ways to structure data
 
-Let's look back to one of the final projects from Programming 1, the Student Enrollment Management project. 
+Let's look back to one of the final projects from Programming 1, 
+the Student Enrollment Management project. 
 
 Here were some of the project requirements:
 
@@ -32,6 +33,8 @@ student_ids = [35434, 67768, 17768, 45645]
 student_names = ['Joshua', 'Michael', 'Jessica', 'Rapheal']
 student_course_ids_enrolled = [[], [567567], [78979, 567567], []]
 ```
+
+(The numbers here are just example IDs, this is just an example of what the data would look like.)
 
 In this example, the lists in student_course_ids_enrolled are lists of the course ids the student is enrolled in. 
 
@@ -105,3 +108,4 @@ name).
 
 If you use a for loop on a list, each time through the loop you will get one 
 element in the list (the element could be a string, dictionary, or another list).
+

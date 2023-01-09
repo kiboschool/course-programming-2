@@ -3,11 +3,20 @@
 ---
 
 > 💡 This is your chance to put what you’ve learned into action.
-> **Remember**: Completing one of the three tasks below should be enough for you to earn the full mark, while completing two or more makes it **guaranteed**.
+> **Remember**: Complete two or more of the three tasks in order to ensure earning full marks.
 
 ### Submission
 
+
 > **[Use this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
+
+<aside>
+
+**If you get stuck**
+1. Read the instructions again.
+2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
+
+</aside>
 
 You are required to submit documentation for 10 practice exercises over the
 course of the term. Each one will count for 1/10 of your practice grade, or 1%
@@ -61,10 +70,4 @@ Github using this form: **[Programming Practice log](https://forms.gle/UbWLpo86J
 
 <image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
 
-<aside>
 
-**If you get stuck**
-1. Read the instructions again.
-2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
-
-</aside>
