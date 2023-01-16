@@ -97,7 +97,7 @@ b = copy.deepcopy(a)
 
 Now a and b are completely separate instances.
 
-So, this is a better way to write get_reflected_point,
+So, this is a better way to write get_reflected_point:
 
 ```python
 def get_reflected_point(point):
@@ -108,7 +108,7 @@ def get_reflected_point(point):
 
 ```
 
-It works as expected,
+It works as expected:
 
 ```python
 

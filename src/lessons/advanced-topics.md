@@ -2,7 +2,7 @@
 
 There are so many exciting areas in computer science to explore! This week we will touch on some concepts, and also leave some time to begin work on final projects.
 
-We'll discuss areas like these,
+We'll discuss areas like these:
 
 * Most importantly, drawing graphics and save them to image files. We will use a library called PIL for this.
 * The apps you see running on your computer are internally called "processes". We'll learn how to launch a separate process from Python.

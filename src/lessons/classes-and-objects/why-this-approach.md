@@ -1,6 +1,6 @@
 # Why this approach
 
-There are others way we could have stored Points in our program. We could have used a list of length two,
+There are others way we could have stored Points in our program. We could have used a list of length two:
 
 ```python
 def make_point(initial_x, initial_y):
@@ -22,7 +22,7 @@ def move_left(point):
 
 An issue here is that we would have to always remember that [0] refers to x and [1] refers to y. And it could be hard to stop people from writing code incorrectly and accidentally add another number onto the list to give it a length different than two.
 
-Alternatively, we could have used functions and a dictionary,
+Alternatively, we could have used functions and a dictionary:
 
 ```python
 def make_point(initial_x, initial_y):

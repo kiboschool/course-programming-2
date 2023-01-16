@@ -7,3 +7,11 @@ do this after the "Why This approach" page
 let's represent our weather.
 Weather at point.
 windspeed
+
+functions that make object instances
+object methods that call other methods
+
+
+show copying in the video?
+
+say init is called the initializer

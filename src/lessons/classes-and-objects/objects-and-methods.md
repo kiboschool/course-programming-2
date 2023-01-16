@@ -21,7 +21,7 @@ As you may have noticed, an object can store other objects as part of the intern
 
 ## Another example of an object
 
-Remember when we retrieved information from the internet,
+Remember when we retrieved information from the internet:
 
 ```python
 url = 'https://www.7timer.info/bin/astro.php?lat=9.1&lon=7.4&output=json'

@@ -70,7 +70,7 @@ Towards the end, we opened and wrote files.
 
 Most importantly, we talked about "dictionaries". Dictionaries are useful for so many purposes.
 
-They can be a mapping from one piece of data to another,
+They can be a mapping from one piece of data to another:
 
 ```python
 capitals = {
@@ -83,7 +83,7 @@ capitals = {
 print(capitals["Kenya"]) # "Nairobi"
 ```
 
-and they can be used as a counter,
+and they can be used as a counter:
 
 ```python
 statistics = {
@@ -99,7 +99,7 @@ for element in data:
         statistics['count_how_many_less_than_ten'] += 1
 ```
 
-and a dictionary can even contain other dictionaries,
+and a dictionary can even contain other dictionaries:
 
 ```python
 country_data = {

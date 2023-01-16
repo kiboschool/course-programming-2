@@ -38,7 +38,7 @@
                 • Because persist() and load() were abstract methods, the calling code didn’t need to change as we made these changes
             ▪ One way we abstract on writing to db is an ‘orm’
             ▪ render() can be an abstract method 
-                • Render to console,
+                • Render to console
                 • Render using PIL to save a png to disk
         ◦ Abstraction/interfaces are a key part of code quality
         ◦ Rob’s thoughts on code quality:
