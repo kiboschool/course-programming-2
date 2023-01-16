@@ -38,7 +38,7 @@ Your log will count for credit as long as it:
 
 link to https://github.com/kibo-programming-2-jan-23/show-weather-from-api-exercise -->
 
-# \# 1. Creating instances
+# 1. Creating instances
 
 Point Class
 
@@ -53,7 +53,7 @@ one of them at the coordinates (-2, -2)
 use the `copy` module to create a copy of the first point and use moveRight to move it to the right.
 
 
-# \# 2. Fixing bugs
+# 2. Fixing bugs
 
 Point Class has a moveTo(x, y) method
 
@@ -65,7 +65,7 @@ Fix three bugs:
 
 3) __init instead of __init__ 
     
-# \# 3. Writing a method
+# 3. Writing a method
 
 File Helper
 
@@ -87,8 +87,6 @@ assignment: add a setContentsTo(s) method
 
 When you are done, `commit` and `push` your code. Submit a link to your work on
 Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86JsWxrpNe9)**
-
-<image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
 
 
 

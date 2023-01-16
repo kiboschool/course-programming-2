@@ -1,0 +1,9 @@
+
+use student example even though that's not the best?
+no, use weather at point example.
+do this after the "Why This approach" page
+
+
+let's represent our weather.
+Weather at point.
+windspeed

@@ -10,6 +10,9 @@ Raising errors is a useful tool when writing subclasses. For example, a subclass
 
 ## Learning Objectives
 
+* Classes can sometimes be complicated, and it's hard to get all of the code working on the first try. You will learn a way to sketch your program, to type down your ideas and not worry that the code does not work yet, which we call "pseudocode".
+* After writing pseudocode you can gradually revise the code to make it closer to a working program. It can be useful in these revisions to write "stubs", like an empty method that intentionally doesn't have code there yet, but will in the future as the program becomes more complete.
+* We can write `pass` in our empty method. It  is a placeholder to help us create a stub.
 * Be able to read and write code that uses subclasses.
 * Understand how subclasses inherit methods from the parent class
 * Learn about some specially named methods called "dunders".

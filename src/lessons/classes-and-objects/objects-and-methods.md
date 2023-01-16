@@ -15,7 +15,7 @@ So, the strings and ints we use every day are examples of objects.
 
 We can have a list in our program, for example by typing `list_of_names = []`. `list_of_students` has some internal data (which stores the names as strings) and some behavior (you can write `list_of_students.append(other_name)` to add a name).
 
-So lists are objects too.
+So, lists are objects too.
 
 As you may have noticed, an object can store other objects as part of the internal data. A list is an object, and it usually contains many other objects inside of it.
 
