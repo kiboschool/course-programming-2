@@ -3,17 +3,17 @@
 
 ## Classes and Instances
 
-A **class** is a category of similar objects, with similar data and similar behavior. If you run `print(type(5))` in Python, it will show `<class 'int'>`. And if you run `print(type('hello'))`, it will show `<class 'str'>`.
+We saw earlier that lists have methods like `append()`, and Responses have methods like `read()`. They have different methods because they are from different **classes**.
 
-When we create a particular object that belongs to the class, we call it an **instance** of the class. Every object is an instance of something. So for the class `int`, after running `number1 = 4` and `number2 = 5`, `number1` and `number2` each refer to objects that are instances of the class int. 
+A **class** is a category of similar objects, with similar data and similar behavior. We see the class by asking Python what type an object is. If you run `print(type(5))` in Python, it will show `<class 'int'>`. And if you run `print(type('hello'))`, it will show `<class 'str'>`. 
 
-For the class `list`, after running `list_of_names = ['James', 'Jennifer']`, there is now an object that is instance of class list that contains two instances of strings.
+When we create an object that belongs to a class, we call it an **instance** of the class. Every object is an instance of something. After running `number1 = 4` and `number2 = 5`, `number1` and `number2` refer to objects that are instances of the class int. 
 
-Different instances are separate. If I wrote `other_list_of_names = []` and `other_list_of_names.append('John')`, the variable `list_of_names` would not be changed, because even though they are both lists, it's a separate list instance.
+After running `list_of_names = ['James', 'Jennifer']`, there is now an object that is instance of class list that contains two instances of strings. If I then write `other_list_of_names = []` I have just created a new instance. The program now has two instances of lists that can store their own items.
 
 ## Creating a class
 
-In addition to using strings and lists, you can write your own class! 
+In addition to using strings and lists, you can create your own class.
 
 Let's say we are writing a program that draws a point on the screen. To represent where to draw the point, we need to have the x coordinate and the y coordinate. (We could say that the x coordinate is the number of pixels from the left side of the screen, and the y coordinate is the number of pixels from the bottom of the screen).
 
@@ -75,3 +75,4 @@ We said that objects are **behavior** and **internal data**.
 Our class describes what the behavior is (the methods) and what the internal data should start out with (the `__init__` method). 
 
 (The name of the class with parentheses will act like a function that generates instances. We can now write `my_point = Point(0, 0); print(type(my_point))` and we'll see that we have made a new type of object, `<class '__main__.Point'>`)
+
