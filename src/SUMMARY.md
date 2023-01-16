@@ -33,7 +33,9 @@
 
   - [Introduction](lessons/classes-and-objects/introduction.md)
   - [Objects and Methods](lessons/classes-and-objects/objects-and-methods.md)
-  - [Pseudocode And Stubs](lessons/classes-and-objects/pseudocode-and-stubs.md)
+  - [Creating a Class](lessons/classes-and-objects/creating-a-class.md)
+  - [Why this Approach](lessons/classes-and-objects/why-this-approach.md)
+  - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
   - [Examples](lessons/classes-and-objects/examples.md)
 
 ### Week 3 - Subclasses and Error-handling
@@ -43,6 +45,7 @@
   - [Introduction to Inheritence](lessons/subclasses-and-error-handling/introduction-to-inheritence.md)
   - [Clothes Example](lessons/subclasses-and-error-handling/clothes-example.md)
   - [Overriding And Dunders](lessons/subclasses-and-error-handling/overriding-and-dunders.md)
+  - [Pseudocode And Stubs](lessons/classes-and-objects/pseudocode-and-stubs.md)
   - [Exceptions](lessons/subclasses-and-error-handling/exceptions.md)
   - [Larger Classes](lessons/subclasses-and-error-handling/larger-classes.md)
   - [Examples](lessons/subclasses-and-error-handling/examples.md)

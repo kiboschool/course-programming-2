@@ -6,6 +6,7 @@ write code that creates three different point instances
 one of them at the coordinates (2, 2)
 one of them at the coordinates (0, 0)
 one of them at the coordinates (-2, -2)
+create a copy of the first point and use moveRight to move it to the right.
 
 
 Point Class has a moveTo(x, y) method

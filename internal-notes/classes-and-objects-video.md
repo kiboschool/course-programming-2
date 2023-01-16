@@ -74,7 +74,6 @@ that's why we capitalize
 Casing conventions and file conventions.
 
 
-Larger classes, origanizing the program to put everything in classes.
 Demo a higher level class, PointManager
 has a createRectangleCorners method
 has a createPointHalfwayBetween method

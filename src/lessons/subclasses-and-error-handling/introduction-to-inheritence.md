@@ -5,6 +5,8 @@
 <!--
 
 ------------------------------- content to mention this week -------------------------------
+Larger classes, origanizing the program to put everything in classes.
+
 
 write a helper function that creates two points.
 
