@@ -61,17 +61,9 @@ Writing `point_instance.move_up()` will calling the `move_up` method that we wro
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSIuZDGkNh2XEEMtJYZkxPqXVfp5KzbL9s3vT30KioiCSKJbq6nAVGdnlg-YjNl1FwncaSJFfYTuPFA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
-Now, going line by line through the class:
+This slideshow will go line by line through the class:
 
-<!-- Make this an embedded slide deck for better engagement. Can highlight the line we're talking about. -->
-
-* `class Point` says that we are defining a class called Point.
-* The indentation shows that the other lines below are inside this class and are part of it.
-* You'll see `self` a lot of places. Self refers to the current instance of the class - when we run `my_point.move_up()`, in that case `self` refers to `my_point`.
-* The first method has a special name, __init__. This method is called the **initializer** and it will get called automatically whenever a new instance is made.
-* By writing `self.x = initial_x`, we are putting internal data into the instance. This type of internal data is called a member variable. The rest of the methods can refer to `self.x` and it will act like a variable named x.
-* Methods work very similarly to other functions, it's just that they are inside a class and the first argument is called `self`. We write the arguments including `self` as the first parameter. When you call a method it is like calling a function. It would make sense to call the function by writing `my_point.move_up(my_point)`, since that is what the first argument will end up recieiving. Python chose to make it look redundant though, and, we only write `my_point.move_up()` to call the method, passing the `my_point` into `self` is done invisibly.
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRCq90ad0wfXUxI-PkR22m9Q91dJiSMQj3-z6Zg0QcE_C1qIJ4dApUKdWW1l9UnB0m-vkP98cQfMLsL/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 A class is kind of like a template for creating objects.
 
