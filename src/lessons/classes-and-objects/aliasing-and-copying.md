@@ -1,5 +1,5 @@
 
-# Objects continued
+# Aliasing and Copying
 
 Different instances are separate. If I wrote `other_list_of_names = []` and `other_list_of_names.append('John')`, the variable `list_of_names` would not be changed, because even though they are both lists, it's a separate list instance.
 

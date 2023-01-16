@@ -1,7 +1,9 @@
 
-# Objects
+# Objects and Methods
 
 You might have come across the phrase "Object-Oriented Programming". What does this mean: in programming, what is an object?
+
+## Objects
 
 An **object** has **internal data** and **behavior**.
 
@@ -36,6 +38,6 @@ Notice what happens when we write `list_of_students.append(other_name)`, or `res
 
 We are calling a function, but it is a function "attached" to an object.
 
-This type of function that is attached to an object is called a method. Lists have certain methods, like `append`, and Responses have certain methods, like `read`.
+This type of function that is attached to an object is called a **method**. Lists have certain methods, like `append`, and Responses have certain methods, like `read`.
 
 We'll soon learn more about objects and methods, and how to use them.

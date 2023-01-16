@@ -11,7 +11,7 @@ When we create an object that belongs to a class, we call it an **instance** of 
 
 After running `list_of_names = ['James', 'Jennifer']`, there is now an object that is instance of class list that contains two instances of strings. If I then write `other_list_of_names = []` I have just created a new instance. The program now has two instances of lists that can store their own items.
 
-## Creating a class
+## An example class
 
 In addition to using strings and lists, you can create your own class.
 
@@ -26,53 +26,83 @@ class Point:
         self.x = initial_x
         self.y = initial_y
     
-    def moveUp(self):
-        self.y += 1
-        
-    def moveDown(self):
-        self.y -= 1
-        
-    def moveRight(self):
+    def move_right(self):
         self.x += 1
         
-    def moveLeft(self):
+    def move_left(self):
         self.x -= 1
+
+    def move_up(self):
+        self.y += 1
+        
+    def move_down(self):
+        self.y -= 1
 ```
 
-This does look different than the code we've looked at before - don't worry, we will explain what it means.
+This looks different than the code we've seen before - don't worry, we will explain what it means.
 
-You can see that there are functions, the lines with `def`. Because of the indentation, these functions are inside of the class, and they act slightly differently. When a function is inside of a class like this, we call it a **method**. When we said that objects were about data and behavior, the behavior can be written using methods. Whenever we run code like this: `list_of_names = ['James', 'Jennifer']; list_of_names.append('John')`, the `.append` is calling a method. In this case our Point class has moveUp and moveDown methods that can be called.
+You can see that there are functions, the lines beginning with `def`. Because of the indentation, though, these functions are inside of the class, and they act slightly differently. This is how to create a **method**. When we said that objects were about data and behavior, the behavior can be written using methods. Remember that whenever we run code like this: `list_of_names = ['James', 'Jennifer']; list_of_names.append('John')`, the `.append` is calling a method. In this case our Point class has move_up and move_down methods that can be called.
 
 First, I'll show what using the class could look like, to get a picture of what is happening:
 
 ```python
 
-point = Point(0, 0)
-print('the point is at x=', point.x, 'y=', point.y) # shows x=0, y=0
-point.moveUp()
-print('the point is at x=', point.x, 'y=', point.y)  # shows x=0, y=1
-point.moveRight()
-print('the point is at x=', point.x, 'y=', point.y)  # shows x=1, y=1
+point_instance = Point(0, 0)
+print('the point_instance is at x=', point_instance.x, 'y=', point_instance.y) # shows x=0, y=0
+point_instance.move_up()
+print('the point_instance is at x=', point_instance.x, 'y=', point_instance.y)  # shows x=0, y=1
+point_instance.move_right()
+print('the point_instance is at x=', point_instance.x, 'y=', point_instance.y)  # shows x=1, y=1
 
 ```
 
+Writing `point_instance.move_up()` will calling the `move_up` method that we wrote in the class.
+
+
+<!--
+Slide 1:
+(Looking at code we've written before and seeing it from the perspective of objects and methods)
+
+Creating an object and calling methods
+
+list_of_names = []
+list_of_names.append('John')
+list_of_names.append('Jennifer')
+list_of_names.sort()
+
+Slide 2:
+This is also creating an object and calling methods
+
+response = urlopen.urlopen('http://abc')
+response.read()
+
+Slide 3:
+This is also creating an object and calling methods
+
+point_instance = Point()
+point_instance.move_up()
+
+-->
+
+
+
 Now, going line by line through the class:
 
-<!--Make this an embedded slide deck for better engagement. Can highlight the line we're talking about.-->
+<!-- Make this an embedded slide deck for better engagement. Can highlight the line we're talking about. -->
 
 * `class Point` says that we are defining a class called Point.
 * The indentation shows that the other lines below are inside this class and are part of it.
-* You'll see `self` a lot of places. Self refers to the current instance of the class - when we run `my_point.moveUp()`, in that case `self` refers to `my_point`.
+* You'll see `self` a lot of places. Self refers to the current instance of the class - when we run `my_point.move_up()`, in that case `self` refers to `my_point`.
 * The first method has a special name, __init__. This method is called the **initializer** and it will get called automatically whenever a new instance is made.
 * By writing `self.x = initial_x`, we are putting internal data into the instance. This type of internal data is called a member variable. The rest of the methods can refer to `self.x` and it will act like a variable named x.
-* Methods work very similarly to other functions, it's just that they are inside a class and the first argument is called `self`. We write the arguments including `self` as the first parameter. When you call a method it is like calling a function. It would make sense to call the function by writing `my_point.moveUp(my_point)`, since that is what the first argument will end up recieiving. Python chose to make it look redundant though, and, we only write `my_point.moveUp()` to call the method, passing the `my_point` into `self` is done invisibly.
+* Methods work very similarly to other functions, it's just that they are inside a class and the first argument is called `self`. We write the arguments including `self` as the first parameter. When you call a method it is like calling a function. It would make sense to call the function by writing `my_point.move_up(my_point)`, since that is what the first argument will end up recieiving. Python chose to make it look redundant though, and, we only write `my_point.move_up()` to call the method, passing the `my_point` into `self` is done invisibly.
 
 
 A class is kind of like a template for creating objects.
 
-We said that objects are **behavior** and **internal data**.
+Remember that we said that objects are **behavior** and **internal data**.
 
 Our class describes what the behavior is (the methods) and what the internal data should start out with (the `__init__` method). 
 
-(The name of the class with parentheses will act like a function that generates instances. We can now write `my_point = Point(0, 0); print(type(my_point))` and we'll see that we have made a new type of object, `<class '__main__.Point'>`)
+(The name of the class with parentheses will act like a function that makes an instance. It will automatically call the `__init__` method. We can now write `my_point = Point(0, 0); print(type(my_point))` and we'll see that we have made a new class of object, `<class '__main__.Point'>`)
 
