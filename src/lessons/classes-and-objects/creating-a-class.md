@@ -58,32 +58,7 @@ print('the point_instance is at x=', point_instance.x, 'y=', point_instance.y)  
 
 Writing `point_instance.move_up()` will calling the `move_up` method that we wrote in the class.
 
-
-<!--
-Slide 1:
-(Looking at code we've written before and seeing it from the perspective of objects and methods)
-
-Creating an object and calling methods
-
-list_of_names = []
-list_of_names.append('John')
-list_of_names.append('Jennifer')
-list_of_names.sort()
-
-Slide 2:
-This is also creating an object and calling methods
-
-response = urlopen.urlopen('http://abc')
-response.read()
-
-Slide 3:
-This is also creating an object and calling methods
-
-point_instance = Point()
-point_instance.move_up()
-
--->
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSIuZDGkNh2XEEMtJYZkxPqXVfp5KzbL9s3vT30KioiCSKJbq6nAVGdnlg-YjNl1FwncaSJFfYTuPFA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 Now, going line by line through the class:
