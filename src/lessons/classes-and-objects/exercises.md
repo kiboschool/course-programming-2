@@ -41,31 +41,47 @@ link to https://github.com/kibo-programming-2-jan-23/show-weather-from-api-exerc
 # \# 1. Creating instances
 
 Point Class
+
     write code that creates three different point instances
-    one of them at the coordinates (2, 2)
-    one of them at the coordinates (0, 0)
-    one of them at the coordinates (-2, -2)
-    create a copy of the first point and use moveRight to move it to the right.
+
+one of them at the coordinates (2, 2)
+
+one of them at the coordinates (0, 0)
+
+one of them at the coordinates (-2, -2)
+
+use the `copy` module to create a copy of the first point and use moveRight to move it to the right.
 
 
 # \# 2. Fixing bugs
 
 Point Class has a moveTo(x, y) method
-    Fix three bugs:
-    1) indendation is wrong
-    2) missing self in methods
-    3) __init instead of __init__ 
+
+Fix three bugs:
+
+1) indendation is wrong
+
+2) missing self in methods
+
+3) __init instead of __init__ 
     
 # \# 3. Writing a method
 
 File Helper
-    we call this a helper because it is simpler to write .getContents() than with open() as f.
-    File('test.txt')
-    self.currentfilename
-    method deleteFile()
-    method getContents()
-    method appendToFile('abc')
-    assignment: add a setContentsTo(s) method
+
+we call this a helper because it is simpler to write .getContents() than with open() as f.
+
+File('test.txt')
+
+self.currentfilename
+
+method deleteFile()
+
+method getContents()
+
+method appendToFile('abc')
+
+assignment: add a setContentsTo(s) method
 
 ## Submitting the assignment
 
