@@ -101,6 +101,6 @@ Our class describes what the behavior is (the methods) and what the internal dat
 
 (The name of the class with parentheses will act like a function that generates instances. We can now write `my_point = Point(0, 0); print(type(my_point))` and we'll see that we have made a new type of object, `<class '__main__.Point'>`)
 
-
+Video 1
 
 

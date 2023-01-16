@@ -1,37 +1,28 @@
 
 # Exercises
 
-Show SavedList and have students add to it.
-a list helper that always writes things to disk that way if the program crashes half way through it will always have a copy on disk.
-(helps connect concepts, lists are objects)
-SavedList()
-    method insert()
-    method append()
-        lst.append()
-        self.save()
-    method removeLastItem()
-    method remove(which)
-        lst
-    method modify(which, newcontents)
-
-    briefly mention that hiding details is good. people calling into it don't need to care that it uses json.
-    we'll pick up on that theme later
+Point Class
+write code that creates three different point instances
+one of them at the coordinates (2, 2)
+one of them at the coordinates (0, 0)
+one of them at the coordinates (-2, -2)
 
 
-Weather example
-    Demos composing classes.
-    Have a larger weatherlookup class with methods for retrieving it from the api.
-    Why is it more useful to use classes this way?  weather_helper.getByCity(‘lagos’).getUpcomingDay(‘3’).temperature() is easier to read than looping through the raw data.
+Point Class has a moveTo(x, y) method
+Fix three bugs:
+    1) indendation is wrong
+    2) missing self in methods
+    3) __init instead of __init__ 
     
-ListScrambler
-    Demos avoiding mutation by copying.
 
-
-file helper and/or directoryhelper
+file helper
 File('test.txt')
-method setContentsTo('abc')
-method appendToFile('abc')
-method getContents()
+self.currentfilename
 method deleteFile()
-    nice that it hides some details.
+method getContents()
+method appendToFile('abc')
+assignment: add a setContentsTo(s) method
+
+
+
 

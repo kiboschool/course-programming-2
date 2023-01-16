@@ -31,8 +31,8 @@
 
 - [Classes and Objects](lessons/classes-and-objects.md)
 
-  - [Introduction to Object Oriented Programming](lessons/classes-and-objects/introduction-to-object-oriented-programming.md)
-  - [Methods](lessons/classes-and-objects/methods.md)
+  - [Introduction](lessons/classes-and-objects/introduction.md)
+  - [Objects and Methods](lessons/classes-and-objects/objects-and-methods.md)
   - [Pseudocode And Stubs](lessons/classes-and-objects/pseudocode-and-stubs.md)
   - [Examples](lessons/classes-and-objects/examples.md)
 

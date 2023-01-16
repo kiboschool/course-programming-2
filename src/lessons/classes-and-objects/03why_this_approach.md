@@ -50,7 +50,7 @@ Why didn't we just use a dictionary and use the non-object-oriented way?
 
 * If we call `print(type(my_point))` it would just say `dict`. It would look like just any other dictionary, and in a large program it could be hard to know what data type we are looking at.
 * The structure of the file is now flat. A good benefit of using a class is that the data and the methods are all organized together into one structure.
-* It is much quicker to write code when you can type `point.x` instead of `point['x']`. And in fact, often in editors like VSCode, if there is a class instance and you begin to type `point.`, it will suggest `.moveUp()`,`.moveDown()` etc. as autocomplete options, which saves you time from going back to see what the methods are called.
+* It is much quicker to write code when you can type `point.x` instead of `point['x']`. And in fact, often in editors like VSCode, if there is a class instance and you begin to type `point.`, it will suggest `.moveUp()`,`.moveDown()` etc. as autocomplete options, which saves you time from going back to see what the methods are called. Because the data and methods are organized together into one structure, it will be easy for people adding on to your program will know what behavior is associated with which parts of data.
 
 In the introduction we discussed the benefits of modules, how gathering related code into one place is helpful for organization. Using a class also gathers related code into one structure in the python script and is similarly good for organization.
 
