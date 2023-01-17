@@ -1,4 +1,4 @@
-# Why this approach
+# Reasons to use Classes
 
 There are others way we could have stored Points in our program. We could have used a list of length two:
 

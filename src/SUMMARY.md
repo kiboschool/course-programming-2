@@ -33,7 +33,9 @@
   - [Introduction](lessons/classes-and-objects/introduction.md)
   - [Objects and Methods](lessons/classes-and-objects/objects-and-methods.md)
   - [Creating a Class](lessons/classes-and-objects/creating-a-class.md)
-  - [Why this Approach](lessons/classes-and-objects/why-this-approach.md)
+  - [Reasons to use Classes](lessons/classes-and-objects/reasons-to-use-classes.md)
+  - [Bugs to Watch Out For](lessons/classes-and-objects/bugs-to-watch-out-for.md)
+  - [Another Example Class](lessons/classes-and-objects/another-example-class.md)
   - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
 <!--
   - [Exercises](lessons/classes-and-objects/exercises.md)
