@@ -37,9 +37,9 @@
   - [Bugs to Watch Out For](lessons/classes-and-objects/bugs-to-watch-out-for.md)
   - [Another Example Class](lessons/classes-and-objects/another-example-class.md)
   - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
-<!--
   - [Exercises](lessons/classes-and-objects/exercises.md)
-
+  
+<!--
 ### Week 3 - Subclasses and Error-handling
 
 - [Subclasses and Error-handling](lessons/subclasses-and-error-handling.md)

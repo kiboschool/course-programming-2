@@ -23,6 +23,58 @@ Your log will count for credit as long as it:
 - is accessible to your instructor
 - shows your own work
 
+
+We recommend that you complete at least two of these exercises.
+
+
+## Creating Instances (1 point)
+
+<a href="https://classroom.github.com/a/Zors5n83" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Creating%20Instances&color=blue" alt="Classes Exercise: Creating Instances" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-creating-instances -->
+
+Using the Point class that is already there in the file, please do this:
+* Create an instance of the Point class with coordinates (0, 0) and put it in a variable named `first_instance`
+* Create an instance of the Point class with coordinates (0, 2) and put it in a variable named `second_instance`
+* Create an instance of the Point class with coordinates (2, 0) and put it in a variable named `third_instance`
+* On `first_instance`, write a call to the `move_right()` method.
+* Try running the program, and confirm that there are no errors that show up.
+
+## Fixing Bugs (1 point)
+
+<a href="https://classroom.github.com/a/NxxxDvIJ" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Fixing%20Bugs&color=blue" alt="Classes Exercise: Fixing Bugs" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-fixing-bugs
+ -->
+ 
+The `main.py` file isn't working, because there are mistakes in the code.
+
+* There are 3 problems.
+* Fix the mistakes in the program so that it works as expected.
+* Try running the program, and confirm that there are no errors that show up.
+
+(Hint: refer to the *Bugs To Watch Out For* video.)
+
+## Writing a Method (1 point)
+
+<a href="https://classroom.github.com/a/Arc0Vkqh" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Writing%20a%20Method&color=blue" alt="Classes Exercise: Writing a Method" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-writing-a-method -->
+
+Please edit `main.py`, and do the following:
+
+* Run the program and see what it does.
+* Add a new method called `print_contents` that reads the contents of the file, and uses print to show the results.
+* At the bottom of the file, have the `test_file` call the new `get_contents` method.
+* Try running the program, and confirm that there are no errors that show up.
+
+(Hint: there is information about reading from files [here](https://programming-1.vercel.app/lessons/files/basic_file_operations.html).)
+
+
+## Submitting the assignment
+
+When you are done, `commit` and `push` your code. Submit a link to your work on
+Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86JsWxrpNe9)**.
+
+Be sure that the link you submit will take the instructor directly to your code.
+
 <aside>
 
 **If you get stuck**
@@ -30,64 +82,3 @@ Your log will count for credit as long as it:
 2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
 
 </aside>
-
-
-
-
-<a href="https://classroom.github.com/a/Zors5n83" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Creating%20Instances&color=blue" alt="Classes Exercise: Creating Instances" /></a>
-<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-creating-instances -->
-
-<a href="https://classroom.github.com/a/NxxxDvIJ" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Fixing%20Bugs&color=blue" alt="Classes Exercise: Fixing Bugs" /></a>
-<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-fixing-bugs
- -->
-
-<a href="https://classroom.github.com/a/Arc0Vkqh" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Writing%20a%20Method&color=blue" alt="Classes Exercise: Writing a Method" /></a>
-<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-writing-a-method -->
-
-
-
-# 1. Creating instances
-
-Using the Point class from the lessons, create three different point instances
-- one at coordinates (2, 2)
-- one at coordinates (0, 0)
-- one at coordinates (-2, -2)
-
-Use the `copy` module to create a copy of the first point and use `move_right` to move it to the right.
-
-# 2. Fix bugs in a method
-
-The Point class has a `move_to(x, y)` method.
-
-Fix three bugs:
-
-1) indentation is wrong
-
-2) missing `self` in methods
-
-3) `__init` instead of __init__ 
- 
-# 3. Write a method
-
-File Helper
-
-we call this a helper because it is simpler to write `.get_contents()` than `with open() as f`.
-
-File('test.txt')
-
-self.currentfilename
-
-method deleteFile()
-
-method getContents()
-
-method appendToFile('abc')
-
-assignment: add a setContentsTo(s) method
-
-## Submitting the assignment
-
-When you are done, `commit` and `push` your code. Submit a link to your work on
-Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86JsWxrpNe9)**
-
-Be sure that the link you submit will take the instructor directly to your code.
