@@ -33,11 +33,18 @@ Your log will count for credit as long as it:
 
 
 
-<!--
 
-<a href="https://classroom.github.com/a/PCUb7tFJ" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Weather%20API%20Exercise&color=blue" alt="weather-api-exercise" /></a>
+<a href="https://classroom.github.com/a/Zors5n83" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Creating%20Instances&color=blue" alt="Classes Exercise: Creating Instances" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-creating-instances -->
 
-link to https://github.com/kibo-programming-2-jan-23/show-weather-from-api-exercise -->
+<a href="https://classroom.github.com/a/NxxxDvIJ" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Fixing%20Bugs&color=blue" alt="Classes Exercise: Fixing Bugs" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-fixing-bugs
+ -->
+
+<a href="https://classroom.github.com/a/Arc0Vkqh" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Classes%20Exercise:%20Writing%20a%20Method&color=blue" alt="Classes Exercise: Writing a Method" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/classes-exercise-writing-a-method -->
+
+
 
 # 1. Creating instances
 
