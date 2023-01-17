@@ -5,9 +5,9 @@
 A video with warnings about common bugs that we might accidentally run into:
 
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/3OWb-DYTBww?rel=0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; margin-top:1em; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/3OWb-DYTBww?rel=0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The most important tips from the video:
+What we saw in the video:
 
 * If the indentation isn't right,  errors can happen. For example, methods need to be indented to the right to be inside the class.
 * If the name of the initializer method is `init()`, or anything that's not `__init__()`, it won't be called and won't work.
