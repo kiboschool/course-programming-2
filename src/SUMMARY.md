@@ -26,7 +26,6 @@
   - [Weather API Example](lessons/data/weather-api-example.md)
   - [Exercises](lessons/data/exercises.md)
 
-<!--
 ### Week 2 - Classes and Objects
 
 - [Classes and Objects](lessons/classes-and-objects.md)
@@ -36,13 +35,14 @@
   - [Creating a Class](lessons/classes-and-objects/creating-a-class.md)
   - [Why this Approach](lessons/classes-and-objects/why-this-approach.md)
   - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
-  - [Examples](lessons/classes-and-objects/examples.md)
+  - [Exercises](lessons/classes-and-objects/exercises.md)
 
+<!--
 ### Week 3 - Subclasses and Error-handling
 
 - [Subclasses and Error-handling](lessons/subclasses-and-error-handling.md)
 
-  - [Introduction to Inheritence](lessons/subclasses-and-error-handling/introduction-to-inheritence.md)
+  - [Introduction to Inheritance](lessons/subclasses-and-error-handling/introduction-to-inheritance.md)
   - [Clothes Example](lessons/subclasses-and-error-handling/clothes-example.md)
   - [Overriding And Dunders](lessons/subclasses-and-error-handling/overriding-and-dunders.md)
   - [Pseudocode And Stubs](lessons/classes-and-objects/pseudocode-and-stubs.md)

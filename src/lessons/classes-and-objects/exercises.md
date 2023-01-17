@@ -3,20 +3,12 @@
 ---
 
 > 💡 This is your chance to put what you’ve learned into action.
-> **Remember**: Complete two or more of the three tasks in order to ensure earning full marks.
+>
+> **Remember**: Complete two or more of the three tasks in order to earn full marks.
 
 ### Submission
 
-
 > **[Use this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
-
-<aside>
-
-**If you get stuck**
-1. Read the instructions again.
-2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
-
-</aside>
 
 You are required to submit documentation for 10 exercises over the
 course of the term. Each one will count for 1%
@@ -31,6 +23,15 @@ Your log will count for credit as long as it:
 - is accessible to your instructor
 - shows your own work
 
+<aside>
+
+**If you get stuck**
+1. Read the instructions again.
+2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
+
+</aside>
+
+
 
 <!--
 
@@ -40,36 +41,30 @@ link to https://github.com/kibo-programming-2-jan-23/show-weather-from-api-exerc
 
 # 1. Creating instances
 
-Point Class
+Using the Point class from the lessons, create three different point instances
+- one at coordinates (2, 2)
+- one at coordinates (0, 0)
+- one at coordinates (-2, -2)
 
-    write code that creates three different point instances
+Use the `copy` module to create a copy of the first point and use `move_right` to move it to the right.
 
-one of them at the coordinates (2, 2)
+# 2. Fix bugs in a method
 
-one of them at the coordinates (0, 0)
-
-one of them at the coordinates (-2, -2)
-
-use the `copy` module to create a copy of the first point and use moveRight to move it to the right.
-
-
-# 2. Fixing bugs
-
-Point Class has a moveTo(x, y) method
+The Point class has a `move_to(x, y)` method.
 
 Fix three bugs:
 
-1) indendation is wrong
+1) indentation is wrong
 
-2) missing self in methods
+2) missing `self` in methods
 
-3) __init instead of __init__ 
-    
-# 3. Writing a method
+3) `__init` instead of __init__ 
+ 
+# 3. Write a method
 
 File Helper
 
-we call this a helper because it is simpler to write .getContents() than with open() as f.
+we call this a helper because it is simpler to write `.get_contents()` than `with open() as f`.
 
 File('test.txt')
 
@@ -88,6 +83,4 @@ assignment: add a setContentsTo(s) method
 When you are done, `commit` and `push` your code. Submit a link to your work on
 Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86JsWxrpNe9)**
 
-
-
-
+Be sure that the link you submit will take the instructor directly to your code.

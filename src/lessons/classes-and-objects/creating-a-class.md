@@ -1,26 +1,40 @@
-
 # Creating a Class
 
 ## Classes and Instances
 
 We saw earlier that lists have methods like `append()`, and Responses have methods like `read()`. They have different methods because they are from different **classes**.
 
-A **class** is a category of similar objects, with similar data and similar behavior. We see the class by asking Python what type an object is. If you run `print(type(5))` in Python, it will show `<class 'int'>`. And if you run `print(type('hello'))`, it will show `<class 'str'>`. 
+A **class** is a category of similar objects, with similar data and similar behavior. You can ask Python the type an object to see its class. If you run `print(type(5))` in the console, it will show `<class 'int'>`. And if you run `print(type('hello'))`, it will show `<class 'str'>`. 
 
-When we create an object that belongs to a class, we call it an **instance** of the class. Every object is an instance of something. After running `number1 = 4` and `number2 = 5`, `number1` and `number2` refer to objects that are instances of the class int. 
+When we create an object that belongs to a class, we call it an **instance** of the class. Every object is an instance of some class. After running `number1 = 4` and `number2 = 5`, `number1` and `number2` refer to objects that are instances of the class int. 
 
-After running `list_of_names = ['James', 'Jennifer']`, there is now an object that is instance of class list that contains two instances of strings. If I then write `other_list_of_names = []` I have just created a new instance. The program now has two instances of lists that can store their own items.
+After running `list_of_students = ['Ola', 'Mo', 'Keno']`, there is now an object that is an instance of class list that contains two instances of strings. If you then run `other_list_of_names = []`, you have just created a new instance of the list class. The program now has two lists that can store their own items.
 
-## An example class
+Strings, Lists, Ints, and the other types you've seen so far are all built-in
 
-In addition to using strings and lists, you can create your own class.
+### Check your understanding
 
-Let's say we are writing a program that draws a point on the screen. To represent where to draw the point, we need to have the x coordinate and the y coordinate. (We could say that the x coordinate is the number of pixels from the left side of the screen, and the y coordinate is the number of pixels from the bottom of the screen).
-
-This is an example of what it looks like to create a class for Points:
+What will the result be for each line when the code is evaluated?
 
 ```python
+>>> type(67.4)
+>>> type(["hello"])
+>>> type(None)
+>>> [type([]), type({})]
+```
 
+First, try to predict the result. Then, enter each line in the Python console to
+check your guess.
+
+## Making your own class
+
+In addition to using built-in classes like strings and lists, you can create your own classes.
+
+Let's say we are writing a program that draws points on the screen. To represent where to draw each point, we need to have the x coordinate and the y coordinate. The x coordinate will be the number of pixels from the left side of the screen, and the y coordinate will be the number of pixels from the bottom of the screen.
+
+This is an example of what it looks like to create a class Point:
+
+```python
 class Point:
     def __init__(self, initial_x, initial_y):
         self.x = initial_x
@@ -39,44 +53,55 @@ class Point:
         self.y -= 1
 ```
 
-This looks different than the code we've seen before - don't worry, we will explain what it means.
+You can see that there are functions, the lines beginning with `def`. Because of the indentation, these functions are _inside of the class_, and they act slightly differently. They are _methods_.
 
-You can see that there are functions, the lines beginning with `def`. Because of the indentation, though, these functions are inside of the class, and they act slightly differently. They are methods.
+Objects have data and behavior. 
 
-When we said that objects were about data and behavior, the behavior can be written using methods. Remember that whenever we run code like this: `list_of_names = ['James', 'Jennifer']; list_of_names.append('John')`, the `.append` is calling a method. In this case our Point class has move_up and move_down methods that can be called.
 
-First, I'll show what using the class could look like, to get a picture of what is happening:
+The behavior can be written using methods. Remember that whenever we run code like: `list_of_names.append('John')`, the `.append` is calling a method. 
+
+Our Point class has methods `move_left`, `move_right`, `move_up`, and `move_down`. 
+
+The data for the x and y coordinates is stored on the Point instance using the `self` keyword. The `__init__` method sets the initial values, and the `move_` methods change the values.
+
+Here's what it would look like to use the `Point` class:
 
 ```python
-
-point_instance = Point(0, 0)
-print('x=', point_instance.x, 'y=', point_instance.y) # shows x=0, y=0
-point_instance.move_up()
-print('x=', point_instance.x, 'y=', point_instance.y) # shows x=0, y=1
-point_instance.move_right()
-print('x=', point_instance.x, 'y=', point_instance.y) # shows x=1, y=1
-
+start = Point(0, 0) # create a point instance
+print('x=', start.x, 'y=', start.y) # x=0, y=0
+start.move_up()
+print('x=', start.x, 'y=', start.y) # x=0, y=1
+start.move_right()
+print('x=', start.x, 'y=', start.y) # x=1, y=1
 ```
 
-Writing `point_instance.move_up()` will calling the `move_up` method that we wrote in the class.
+`point_instance.move_up()` calls the `move_up` method defined in the class.
 
-## Slides 1
+### Slides: Using instances
 
-This slideshow will show how working with an instance of an object is similar to working with an instance of a list:
+> Click through the slides to see how working with an instance of a Point is similar to working with an instance of a list
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSIuZDGkNh2XEEMtJYZkxPqXVfp5KzbL9s3vT30KioiCSKJbq6nAVGdnlg-YjNl1FwncaSJFfYTuPFA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSIuZDGkNh2XEEMtJYZkxPqXVfp5KzbL9s3vT30KioiCSKJbq6nAVGdnlg-YjNl1FwncaSJFfYTuPFA/embed?start=false&loop=false&delayms=60000" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-## Slides 2
+## Slides: `Point` class explanation
 
-This slideshow will go line by line through the class:
+> Click through the slides to see an explanation for each line of the Point class
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRCq90ad0wfXUxI-PkR22m9Q91dJiSMQj3-z6Zg0QcE_C1qIJ4dApUKdWW1l9UnB0m-vkP98cQfMLsL/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRCq90ad0wfXUxI-PkR22m9Q91dJiSMQj3-z6Zg0QcE_C1qIJ4dApUKdWW1l9UnB0m-vkP98cQfMLsL/embed?start=false&loop=false&delayms=60000" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-A class is kind of like a template for creating objects.
+## Templates for objects
 
-Remember that we said that objects are **behavior** and **internal data**.
+A class is a template for creating objects.
+
+Objects have **behavior** and **internal data**.
 
 Our class describes what the **behavior** is (the methods) and what the **internal data** should start out with (the `__init__` method). 
 
-(The name of the class with parentheses will act like a function that makes an instance. It will automatically call the `__init__` method. We can now write `my_point = Point(0, 0); print(type(my_point))` and we'll see that we have made a new class of object, `<class '__main__.Point'>`)
+To create a new instance, you can use the class like a function that makes an instance. It will call the `__init__` method with the arguments you pass in. When you write 
 
+```python
+my_point = Point(0, 0)
+print(type(my_point))
+```
+
+you'll see that a new class of object, `<class '__main__.Point'>`

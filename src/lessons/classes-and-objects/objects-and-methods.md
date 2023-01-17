@@ -1,27 +1,28 @@
-
 # Objects and Methods
 
-You might have come across the phrase "Object-Oriented Programming". What does this mean: in programming, what is an object?
+By now, you have heard the phrase "Object-Oriented Programming". 
+
+What does this mean? In programming, what is an object?
 
 ## Objects
 
-An **object** has **internal data** and **behavior**.
+An **object** has _internal data_ and _behavior_.
 
-When you have a string in our program, for example by typing `name = 'Michael'`. `name` has some internal data (which stores the letters) and some behavior (it knows how to be joined onto another string, split into smaller strings, and so on).
+When you have a string like `name = 'Michael'`, `name` has some internal data (which stores the letters) and some behavior (it knows how to be joined onto another string, split into smaller strings, and so on).
 
-When you have an int in our program, for example by typing `number = 5`. `number` has some internal data (which stores the value 5) and some behavior (it knows how to be added, subtracted and multiplied).
+When you have an int, like `number = 5`, `number` has some internal data (which stores the value 5) and some behavior (it knows how to be added, subtracted and multiplied).
 
-So, the strings and ints we use every day are examples of objects.
+The strings and ints you use every day are examples of objects.
 
-We can have a list in our program, for example by typing `list_of_names = []`. `list_of_students` has some internal data (which stores the names as strings) and some behavior (you can write `list_of_students.append(other_name)` to add a name).
+We can have a list, like `list_of_students = ['Ola', 'Mo', 'Keno']`. `list_of_students` has internal data (which stores the names as strings) and behavior (you can write `list_of_students.append(other_name)` to add a name).
 
-So, lists are objects too.
+Lists are objects too!
 
-As you may have noticed, an object can store other objects as part of the internal data. A list is an object, and it usually contains many other objects inside of it.
+As you may have noticed, an object can store other objects as part of the internal data. A list is an object, and it usually contains other objects inside of it.
 
 ## Another example of an object
 
-Remember when we retrieved information from the internet:
+Remember when we retrieved information from the internet?
 
 ```python
 url = 'https://www.7timer.info/bin/astro.php?lat=9.1&lon=7.4&output=json'
@@ -36,8 +37,10 @@ An object can be very simple, like an int. Or it can be complicated, and contain
 
 Notice what happens when we write `list_of_students.append(other_name)`, or `response.read()`.
 
-We are calling a function, but it is a function "attached" to an object.
+We are calling a function, but the function is "attached" to the object.
 
-This type of function that is attached to an object is called a **method**. Lists have certain methods, like `append`, and Responses have certain methods, like `read`.
+A function that is attached to an object is called a **method**.
+
+Lists have certain methods, like `append`, and Responses have certain methods, like `read`.
 
 We'll soon learn more about objects and methods, and how to use them.
