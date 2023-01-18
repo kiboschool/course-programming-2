@@ -1,12 +1,17 @@
-# Introduction to Inheritence
+# Introduction to Inheritance
 
 
 
 <!--
 
 ------------------------------- content to mention this week -------------------------------
-Larger classes, origanizing the program to put everything in classes.
+I want to show:
 
+* method that takes params (show the self parameter disappearing)-done in video1
+* method that calls another method-done in video1
+* Function that returns an instance-done in video1
+* Larger classes, organizing the program to put everything in classes.
+ 
 
 write a helper function that creates two points.
 
@@ -73,7 +78,7 @@ one way to do this is with composition-
 show example-
 but this is inflexible and needs a lot of typing, kind of fragile and you'd have to update it when any of the methods change
 
-one solution for this is called inheritence!
+one solution for this is called inheritance!
 
 by default it does what the parent class does.
 -->
