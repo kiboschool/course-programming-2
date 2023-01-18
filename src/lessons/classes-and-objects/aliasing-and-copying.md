@@ -2,7 +2,7 @@
 
 ## Aliasing
 
-Different instances are separate from each other. If I wrote  `list_of_names = []` and `other_list_of_names = []` and `other_list_of_names.append('John')`, the variable `list_of_names` would not be changed. They are both lists, but they are separate instances.
+Different instances are separate from each other. If I wrote  `list_of_names = []` and `other_list_of_names = []` and `other_list_of_names.append('Ola')`, the variable `list_of_names` would not be changed. They are both lists, but they are separate instances.
 
 The same thing happens for instances of custom classes. If you generate two different instances:
 
@@ -13,14 +13,14 @@ b = Point(0, 0)
 
 they are separate.
 
-There are ways to make two names that point to the same object - where they are not separate. <span style="color:red">This is where things get dangerous</span>. If you assign an object to a different variable:
+There are ways to make two names that point to the same object - where they are not separate. If you assign an object to a different variable:
 
 ```python 
 a = Point(0, 0)
 b = a
 ```
 
-`a` and `b` refer to *the same object*. Any changes to `a` will show up in b, and vice versa. This is called **aliasing**.  `a` and `b` are like two nicknames for the same person.
+`a` and `b` refer to *the same object*. <span style="color:red">This is where things are dangerous</span>. Any changes to `a` will show up in b, and vice versa. This is called **aliasing**.  `a` and `b` are like two nicknames for the same person.
 
 ```python
 a = Point(0, 0)
@@ -51,7 +51,7 @@ move_right_twice(a)
 print(a.x) # 2
 ```
 
-The object `a` gets changed, because the `point` in the function is the same as `a`. This is usually what we want, but we need to be aware of it.
+The object `a` gets changed, because the `point` in the function is the same as `a`. This is usually what you want, but you need to be aware of it.
 
 ## Example: Reflecting a point
 
@@ -66,20 +66,19 @@ def get_reflected_point(point):
     return point
 ```
 
-The `get_reflected_point` is not written correctly! It does return a reflected point as we wanted, but it has "side effects" - it modifies the original point. In this case, we don't want aliasing.
+The `get_reflected_point` is not written correctly! The math is correct and it does return a reflected point as we wanted. But it has "side effects" - it modifies the original point. In this case, we don't want aliasing. The place that calls this function will probably not expect the original point to be changed - see what happens:
 
 ```python
+first_point = (3, 3)
+reflected_point = get_reflected_point(a)
 
-a = (3, 3)
-reflected = get_reflected_point(a)
-
-print(reflected.x) # shows -3, just like we want
+print(reflected_point.x) # shows -3, just like we want
 # but it also did something we didn't want
-print(a.x) # this also shows -3. our original was modified.
+print(first_point.x) # this also shows -3. our original was modified.
 
 ```
 
-`get_reflected_point()` should make a copy instead.
+The solution is that `get_reflected_point()` should make a copy first, and change the copy.
 
 ## Copying
 
@@ -103,13 +102,13 @@ def get_reflected_point(point):
     return copied_point
 ```
 
-It works as expected:
+This time, the program works as expected:
 
 ```python
-a = (3, 3)
-reflected = get_reflected_point(a)
+point = (3, 3)
+reflected_point = get_reflected_point(point)
 
-print(reflected.x) # shows -3, just like we want.
+print(reflected_point.x) # shows -3, just like we want.
 
-print(a.x) # this also shows 3, our original is left intact.
+print(point.x) # this shows 3, our original is left intact.
 ```

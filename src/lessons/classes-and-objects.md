@@ -3,11 +3,11 @@
 You may have heard the terms "objects", "classes", or "object-oriented 
 programming". This week, you'll learn what these terms mean. 
 
-In the past, you have seen _variables_ where you can store a value, like `name = input("What is your name?")` or `x = 5`. The values are a `string` and an `int` respectively.
+In the past, you have seen how to store _data_ in memory, like `x = 5`, or like `list_of_students = ['Ola', 'Mo', 'Keno']`.
 
 You have also seen _functions_, where you can write some code to do a certain action or solve a certain problem.
 
-An _object_ combines values and functions. It is a value that holds data, and has its own functions. 
+An _object_ can be thought of as both containing data, and containing functions. It is a value that holds data, and has its own functions. We'll be learning more about objects this week.
 
 ## Learning Objectives
 
