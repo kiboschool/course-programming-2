@@ -2,6 +2,8 @@
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/kPkqyoTSdks?rel=0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+If you'd like to follow along, you can see the starting code <a href="https://github.com/kibo-programming-2-jan-23/walkthroughs/tree/main/classes-weather-data/beginning" target="_blank">here</a> and the end result <a href="https://github.com/kibo-programming-2-jan-23/walkthroughs/tree/main/classes-weather-data/end" target="_blank">here</a>.
+
 Some of what we learned in the video:
 
 * If we use a class, we will know what attributes are there on the instance.

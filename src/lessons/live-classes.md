@@ -9,7 +9,7 @@ in github classroom, you can reach out in Discord to be added to the team.
 
 | Week | Topic             | Section 1                                   | Section 2                                   |
 | ---- | ----------------- | ------------------------------------------- | ------------------------------------------- |
-| 1    | Workign with APIs | [Code][w1-s1-code] - [YouTube][w1-s1-video] | [Code][w1-s2-code] - [YouTube][w1-s2-video] |
+| 1    | Working with APIs | [Code][w1-s1-code] - [YouTube][w1-s1-video] | [Code][w1-s2-code] - [YouTube][w1-s2-video] |
 
 [w1-s1-code]: https://replit.com/@section1-wed/Class1-APIs-Class-Solution#main.py
 [w1-s2-code]: https://replit.com/@section2-thur/Class1-APIs-Solution#main.py
