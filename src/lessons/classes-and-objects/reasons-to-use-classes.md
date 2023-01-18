@@ -49,7 +49,7 @@ Why didn't we just use a dictionary and use the non-object-oriented way?
 
 * If we call `print(type(my_point))` it would just say `dict`. It would look like just any other dictionary! In a large program, it would be hard to distinguish points from other dictionaries.
 * The functions associated with a Point are now clear. The data and the methods are organized together into one structure, so any developer can tell which functions are related to Points, and which are not.
-* It is quicker to write code when you can type `point.x` instead of `point['x']`. In fact, editors like VSCode, when you type `point.`, it will suggest `.move_up()`,`.move_down()` etc. as autocomplete options. Autocomplete saves you from going back to see what the methods are called.
+* It is quicker to write code when you can type `point.x` instead of `point['x']`. In fact, in editors like VSCode, when you type `point.`, it will suggest `.move_up()`,`.move_down()` etc. as autocomplete options. Autocomplete saves you from going back to see what the methods are called.
 
 Because the data and methods are organized together into one structure, it will be easy for people adding on to your program will know what behavior is associated with which parts of data, and to know where to add new behavior.
 

@@ -45,6 +45,6 @@ We are calling a function, but the function is "attached" to the object.
 
 A function that is attached to an object is called a **method**.
 
-Lists have certain methods, like `append`, and Responses have certain methods, like `read`.
+Lists have certain methods, like `append`, and responses have certain methods, like `read`.
 
 We'll soon learn more about objects and methods, and how to use them.

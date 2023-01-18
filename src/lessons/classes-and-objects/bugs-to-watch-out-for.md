@@ -16,13 +16,13 @@ What we saw in the video:
 * If you forget to add parentheses when creating a class, it won't work.
 * If you don't use capital letters for a class, the code will be harder to understand.
 
-## Sometimes it's not easy!
+## It's not always easy
 
-Choosing how to make classes and methods is like writing functions, or like programming in general. There isn't a clear right and wrong way to decide what should be inside a function and what the function should be called. Programmers often ask themselves questions like:
+It isn't always easy to know how to make classes and methods. It's like how for functions, there isn't a clear way to decide what should be inside a function, and what the function should be called. Programmers often ask themselves questions like:
 
 * "What should this class be called?"
-* "Should it be a method on this class, or a method on another class?"
-* "Should this be a method, or should it be a function in another file?"
+* "Should I add the code as a method on this class, or a method on another class?"
+* "Should these lines of code be a method, or should they be a function in another file?"
 * "Should the method do both of these things, or should there be two different methods?" 
 
-It's normal to find it difficult answering these questions. We will do our best and keep working!
+It's normal to find it difficult answering these questions. The goal is for the program to be understandable by other people. We will do our best and keep working!

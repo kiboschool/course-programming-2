@@ -2,15 +2,13 @@
 
 ## Classes and Instances
 
-We saw earlier that lists have methods like `append()`, and Responses have methods like `read()`. They have different methods because they are from different **classes**.
+We saw earlier that lists have methods like `append()`, and responses have methods like `read()`. They have different methods because they are from different **classes**.
 
 A **class** is a category of similar objects, with similar data and similar behavior. You can ask Python the type an object to see its class. If you run `print(type(5))` in the console, it will show `<class 'int'>`. And if you run `print(type('hello'))`, it will show `<class 'str'>`. 
 
 When we create an object that belongs to a class, we call it an **instance** of the class. Every object is an instance of some class. After running `number1 = 4` and `number2 = 5`, `number1` and `number2` refer to objects that are instances of the class int. 
 
 After running `list_of_students = ['Ola', 'Mo', 'Keno']`, there is now an object that is an instance of class list that contains two instances of strings. If you then run `other_list_of_names = []`, you have just created a new instance of the list class. The program now has two lists that can store their own items.
-
-Strings, Lists, Ints, and the other types you've seen so far are all built-in
 
 ### Check your understanding
 
@@ -28,7 +26,7 @@ check your guess.
 
 ## Making your own class
 
-In addition to using built-in classes like strings and lists, you can create your own classes.
+If you want to define a new type of object, that isn't a list, dictionary, or anything built-in, you can create your own.
 
 Let's say we are writing a program that draws points on the screen. To represent where to draw each point, we need to have the x coordinate and the y coordinate. The x coordinate will be the number of pixels from the left side of the screen, and the y coordinate will be the number of pixels from the bottom of the screen.
 
@@ -75,7 +73,7 @@ start.move_right()
 print('x=', start.x, 'y=', start.y) # x=1, y=1
 ```
 
-`point_instance.move_up()` calls the `move_up` method defined in the class.
+`start.move_up()` calls the `move_up` method defined in the class. It is like calling a function, it's just that this is a function attached to the object.
 
 ### Slides: Using instances
 
@@ -97,11 +95,13 @@ Objects have **behavior** and **internal data**.
 
 Our class describes what the **behavior** is (the methods) and what the **internal data** should start out with (the `__init__` method). 
 
-To create a new instance, you can use the class like a function that makes an instance. It will call the `__init__` method with the arguments you pass in. When you write 
+To create a new instance, you can use the class like a function that makes an instance. It will call the `__init__` method with the arguments you pass in.
+
+When you write:
 
 ```python
 my_point = Point(0, 0)
 print(type(my_point))
 ```
 
-you'll see that a new class of object, `<class '__main__.Point'>`
+You are creating an object which is an instance of the new class we wrote. You now have a `<class '__main__.Point'>`.
