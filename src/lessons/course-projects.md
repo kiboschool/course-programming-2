@@ -11,10 +11,10 @@ There will also be a midterm project and a final project.
 
 Below are the projects you'll be working on in this course:
 
-- Course Project 1: OOP Course Manager
-- Course Project 2: Phonebook refactoring
-- Course Project 3: OOP Clothing Store
+- Course Project 1: OOP Jukebox
 - Midterm Project: OOP Microprocessor
+- Course Project 2: OOP Course Manager
+- Course Project 3: OOP Clothing Store
 - Final Project
 
 ## Grading
