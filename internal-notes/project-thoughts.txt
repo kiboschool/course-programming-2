@@ -1,5 +1,3 @@
-Don't add to the assessments document yet, we're still exploring this idea:
-If they complete more than needed this will give them extra credit.
 
 
 --------------------
@@ -15,32 +13,10 @@ https://regexr.com/
 https://github.com/rstudio/concept-maps
 
 
---------------------
-weather example:
---------------------
-
-requests is a lot better but urlopen is sufficient for this
-
-This api is nice-no apikey needed, data has complex but not-too-complex structure... but 
-https://api.weather.gov/gridpoints/OKX/33,36/forecast/hourly, https://api.weather.gov/points/40.7484,-73.9856
-Openweather has africa so it would be better, although it does need an api key. We can give those out to people though.
-
-Even better is open meteo
 
 
 --------------------
-abandoned: ball object
---------------------
-Ball object
-Pre-written example: have a “ball” with a weight, x and y position.
-Shows that each class instance has independent state. 
-A method on it like print-current-position and a stubbed method like print-is-y-position-negative
-Students implement stubbed method
-Students add a new method like get-distance-from-origin
-(could then have different gravity, motion simulators, etc)
-
---------------------
-abandoned: shirt object
+shirt object
 --------------------
 Clothes store - simple read-from-inventory app
 Little console app that asks user for a Brand name to search for
@@ -79,24 +55,6 @@ Go back to the weather exercise from week 1
 Insert the results into sql records
 Use matplotlib to draw data visualization of the temperature over time
 
-
------------
-out of scope
-------------
-other dunders
-custom error types
-An exercise taking a topic and making a new class hierarchy
-sql
-	Joins, index, transactions
-	Selecting count(*) to get number of rows in the table
-	Logic in sql, select tackles+shots+goals*4 as estimatedskill
-And on the topic of apis, if time, POSTing to an api
-Discuss relationships between objects when you persist state:
-Classic example of a blog, authors, posts
-Why is it better to have the post link to an author id instead of just having the author’s name right there?
-So in a sense the use of json is like using an abstraction because it’s reusable
-We provide a codebase, student writes about how it could be refactored
-Binary files and raw bytes
 
 
 -----------
@@ -140,13 +98,6 @@ Must include working tests
 Must be split into separate files
 
 
---------------
-other final project ideas
---------------
-Stateful program that persists between runs (could be a game high score, like reflexes game)
-tic tac toe can run in different modes:
-play against random-move computer
-play against friend
 
 
 
