@@ -5,20 +5,6 @@
 <!--
 
 
-Discuss SavedList
-
-
-------------------------------- content to mention this week -------------------------------
-I want to show:
-
-* method that takes params (show the self parameter disappearing)-done in video1
-* method that calls another method-done in video1
-* Function that returns an instance-done in video1
-* Larger classes, organizing the program to put everything in classes.
- 
-
-write a helper function that creates two points.
-
 
 Take
     Add pass statement

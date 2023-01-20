@@ -4,16 +4,6 @@ Inheritance and Error Handling
 
 Exceptions
 ---------------------------------------------------------------
-Errors will happen in our software even if it's not really a mistake,
-it's just didn't anticipate invalid input.
-We are reading a dictionary with json and the data is unreliable.
-my_dict['nonexistant'] causes an exception.
-We are writing the course manager, and we need the ID to be an integer.
-We have an 'area of a circle' program.
-User enters a radius. Need it to be a valid float.
-Have the users run it, and see that it says ValueError.
-Try running it.
-So we have to be able to do something with these cases so that they don't cause crashes.
 
 
 Exception handling
@@ -41,9 +31,6 @@ mention pass
 mention the __str__ dunder
 
 
-Modeling
----------------------------------------------------------------
-Ben:
 
 
 
@@ -75,8 +62,6 @@ madlibs example
 Base class does substitution. One implementation asks input from user. One implementation pulls from random list.
 
 
-Best video on inheritance I found,
-https://www.youtube.com/watch?v=C8qE3mKiBrQ&list=PL98qAXLA6afuh50qD2MdAj3ofYjZR_Ph
 
 Clothing store model
 Article of clothing
@@ -87,8 +72,7 @@ Useful for inheritance-adding logging.
 
 And Drawing. pen, color.
 
---------------------
-Create an aside: "subclass", "derived class", "child class" all similar terms
+
 
 Composition
 ---------------------------------------------------------------
