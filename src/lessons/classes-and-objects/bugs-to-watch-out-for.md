@@ -11,7 +11,7 @@ What we saw in the video:
 
 * If the indentation isn't right,  errors can happen. For example, methods need to be indented to the right to be inside the class.
 * If the name of the initializer method is `init()`, or anything that's not `__init__()`, it won't be called and won't work.
-* If a method doesn't have`self` as the first argument, this can cause the error message`takes 0 positional arguments but 1 was given`.
+* If a method doesn't have `self` as the first argument, this can cause the error message `takes 0 positional arguments but 1 was given`.
 * If you don't spell all attributes correctly, you might get an attribute not found error.
 * If you forget to add parentheses when creating a class, it won't work.
 * If you don't use capital letters for a class, the code will be harder to understand.

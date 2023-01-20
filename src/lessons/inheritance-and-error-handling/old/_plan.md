@@ -44,18 +44,6 @@ mention the __str__ dunder
 Modeling
 ---------------------------------------------------------------
 Ben:
-Explain Modeling. Picking parts of what's important to us and putting that in a class.
-Imagine we are creating a video game where you are driving a car and racing against other cars.
-It would make sense to have a class for the car - it has data and behavior.
-Will the internal data for the car class compute all of the details for every piece of metal and molecule in the car? Will the code simulate how each part of metal in the car bends, and how the engine works?
-No, that amount of detail isn't needed. We would include only the most simple attributes that we need.
-In the game we are making, all we need is the position, speed, color, and max speed of the car.
-So it only represents an abstract idea of the car, more than a car in the real world.
-The process of taking something in the real world and only choosing a few parts of it to make attributes on a class is called Modeling.
-
-Many examples that teach classes have an example class like Dog with an attribute number_of_legs set to 4. At first this doesn't really make sense
-because there are so many important things about dogs that aren't included.
-But this is just a model - the author took what was most important to the program they were writing and only included that.
 
 
 
