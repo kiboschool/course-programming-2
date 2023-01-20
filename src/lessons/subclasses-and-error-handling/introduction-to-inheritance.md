@@ -4,6 +4,10 @@
 
 <!--
 
+
+Discuss SavedList
+
+
 ------------------------------- content to mention this week -------------------------------
 I want to show:
 
@@ -17,7 +21,7 @@ write a helper function that creates two points.
 
 
 Take
-    Add pass ?
+    Add pass statement
 
 Discuss *model*. very simplified computer representation of data+behavior.
 Take a clothing store model, ArticleOfClothing
@@ -25,10 +29,9 @@ methods getPrice()
 
 talk about the bug
 putting a=[] at the top
-
 class mylist:
     my_list = []
-
+and getting optional parameters is similar.
 
 
 Show SavedList and have students add to it.
@@ -58,6 +61,16 @@ ListScrambler
     Demos avoiding mutation by copying.
 
 ------------------------------- in progress -------------------------------
+
+
+Three examples:
+    PersistedList
+    Clothing
+    Drawing
+    
+        use pass and pseudocode on this one
+    
+    
 
 
 
