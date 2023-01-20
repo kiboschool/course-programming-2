@@ -1,12 +1,14 @@
 # Exceptions
 
-Exceptions and errors happen often when we are developing a program. Let's explore more information about what is going on behind the scenes when an error happens.
+When developing a program, it is common for errors to come up. The first version of a program often has issues, that then get resolved when the program is tested.
+
+Let's explore more deeply what is going on behind the scenes when an error occurs.
 
 ## Errors
 
 Let's recall the *Bugs to Watch Out For* video from last week. The code there was intentionally written incorrectly, to show the common mistakes that occur when making classes. 
 
-Very often in the video, when running the program, an error occurred.
+Very often in the video, when running the program, an error occurs.
 
 The program stops running, and a box pops up on the screen with details about the error. For example, the message might say `line 45 of main.py`. This is useful because you can open the `main.py` and go to line 45. This might give information about seeing what went wrong.
 
@@ -39,7 +41,7 @@ print('init is called')
 
 ```
 
-(Do you remember how to fix this?)
+> (Do you remember how to fix this?)
 
 Usually, the message `starting the script` would still show up, even if there were problems later in the file. After all, Python is running the program in order, line by line from the top, right? But an IndentationError is a type of Syntax Error. And for Syntax Errors, none of the code in the file is run.
 
@@ -105,13 +107,13 @@ class WeatherData:
 weather_data = WeatherData()
 ```
 
-The program runs fine, and doesn't pop up any errors or warnings.
+The program runs fine, and doesn't pop up any error messages or warnings.
 
 But it isn't correct! We wanted init to be the initializer, and it must be written as `__init__(self)`, not as `init(self)`. The `init is called` message never showed up.
 
-We can call this a **silent error**. Unless you are carefully paying attention, you might not even notice anything is wrong, but it is still wrong.
+We could call category of problem a **silent error**. Unless you are carefully paying attention, you might not even notice anything is wrong, but it is still wrong.
 
-A very clear example:
+A clear example of a mistake in a program:
 
 ```python
 
@@ -122,18 +124,21 @@ def get_temperature(weather_data):
 
 When someone calls this, they will get the wrong data back.
 
-Silent errors can also be subtle. They can be the hardest to track down and fix.
+Some programs show error messages in a log file, or briefly appear on the screen at the end of the when the program runs. This is also somewhat hidden.
+
+Silent errors can be subtle. The output could be slightly wrong, and hard to notice. Or the program could give the correct output in same cases, . This can be the hardest category of problem to track down and fix.
 
 
 ## Exceptions
 
 Let's go back to category 2, Runtime Errors.
 
-Every runtime error in Python has a more specific error type.
+Every runtime error in Python has a specific error type.
 
-This is what shows up in the message. Sometimes the name of the error type helps you realize what went wrong, like `FileNotFoundError`. And sometimes it isn't as clear, like when forgetting to add `self` causes a `TypeError`.
+This is what shows up in the message. Sometimes the name of the error type helps you realize what went wrong, like `FileNotFoundError`. Sometimes it isn't as clear, though, like when forgetting to add `self` causes a `TypeError`.
 
-Write a program that reads from a variable that does not exist. What error type is shown then?
+> ### Investigation
+> Write a program that reads from a variable that does not exist. What error type is shown then?
 
 It turns out that when Python runs into a problem, it does these steps behind the scenes:
 
@@ -143,12 +148,13 @@ It turns out that when Python runs into a problem, it does these steps behind th
   * on the object it stores an attribute with line that was being run
   * on the object it stores a string with a message
 * Python then stops your program completely
-* Python then shows the error type, for example `FileNotFoundError`.
+* Python then shows the error type, for example `DivideByZeroError`.
 * Python then shows the information on the newly created object.
 
 This sequence of events is known as **raising an exception**.
 
-This type of object, that stores information about an error that happened, is called an **exception object**.
+This type of object, which stores information about an error that occurred, is called an **exception object**.
 
-As you have seen, Runtime Errors, in category 2, are interesting to explore. We will talk about them further in the next page.
+Runtime Errors, in category 2, are interesting to explore. We will talk about them further in the next page.
+
 
