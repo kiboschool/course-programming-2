@@ -226,12 +226,11 @@ class PersistedListIntoJson(GenericPersistedList):
     
 ```
 
-Now we no longer have the repeated code!
+Now, we no longer have the repeated code.
 
 An instance of `PersistedListIntoLines` will still have the `append` and `insert` methods, because it has **inherited** those methods from the GenericPersistedList class.
 
 An instance of `PersistedListIntoJson` will still have the `append` and `insert` methods, because it has **inherited** those methods from the GenericPersistedList class.
-
 
 ## Terminology
 
