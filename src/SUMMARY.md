@@ -50,7 +50,6 @@
   - [Models](lessons/inheritance-and-error-handling/models.md)
   - [Inheritance](lessons/inheritance-and-error-handling/inheritance.md)
   - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
-  - [Higher Level Classes](lessons/inheritance-and-error-handling/higher-level-classes.md)
   - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
   - [Project](lessons/inheritance-and-error-handling/project.md)
 

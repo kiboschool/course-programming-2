@@ -1,8 +1,8 @@
 # Inheritance
 
-Let's work on a program, and think about ways it can be organized better.
+For the case where you have a program that needs to run in different modes, let's learn a way to write better code.
 
-We have a program that needs to save data to disk. For example, this could be a list of student names used by a course enrollment manager program. When the program starts, it loads the list from the file on disk. When the program makes changes to the list, the changes need to be saved.
+Let's say we have a program that needs to save data to disk. For example, this could be a list of student names used by a course enrollment manager program. When the program starts, it loads the list from the file on disk. When the program makes changes to the list, the changes need to be saved.
 
 In this case, imagine that instead of waiting for the user to select some Save feature, or instead of waiting for the program to exit, we want the data to automatically be saved on every change.
 
@@ -43,7 +43,7 @@ class PersistedList:
         
 ```
 
-This code essentially does work.
+This code mostly works.
 
 <!-- make a replit for it
 try running it and see the output file
@@ -231,6 +231,8 @@ Now, we no longer have the repeated code.
 An instance of `PersistedListIntoLines` will still have the `append` and `insert` methods, because it has **inherited** those methods from the GenericPersistedList class.
 
 An instance of `PersistedListIntoJson` will still have the `append` and `insert` methods, because it has **inherited** those methods from the GenericPersistedList class.
+
+Inheritance can be used for many purposes. It's often useful when there are two classes that have the same set of methods, but are in different modes and end up implementing the methods differently.
 
 ## Terminology
 

@@ -14,7 +14,7 @@ get the wind speed at Accra at time point 5
 
 In programming-1, one of the practice exercises was to write a program that found the area of a circle. First the program asked the user to type in a number. Then it computed the area, which is pi * radius * radius. Then, it 
 
-<img src="../../images/w3/circle.png" />
+<img src="../../images/w3/circle.png" width="20%" height="20%" />
 
 Write a program to read the contents of a file. The contents will be a string, so use `float` to turn it into a decimal number. Then, show the area of a circle with that radius. Use exception handling so that if the file does not have a number, show the message "not a number".
 

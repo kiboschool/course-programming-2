@@ -14,15 +14,15 @@ The program stops running, and a box pops up on the screen with details about th
 
 There are three large categories of errors:
 
-### 1) Syntax Errors
+### Category #1: Syntax Errors
 
 Remember that the first error that showed up in the *Bugs to Watch Out For* video popped up a message saying "IndentationError". This is because there was code like this,
 
 ```python
 
 class WeatherData:
-def init(self):
-print('init is called')
+def display(self):
+print('display is called')
 
 ```
 
@@ -36,12 +36,13 @@ The interesting thing is that this code is so incorrect, that Python does not ru
 print('starting the script')
 
 class WeatherData:
-def init(self):
-print('init is called')
+def display(self):
+print('display is called')
 
 ```
 
-> (Do you remember how to fix this?)
+> ### Debugging
+> Do you remember how to fix this?
 
 Usually, the message `starting the script` would still show up, even if there were problems later in the file. After all, Python is running the program in order, line by line from the top, right? But an IndentationError is a type of Syntax Error. And for Syntax Errors, none of the code in the file is run.
 
@@ -51,7 +52,7 @@ Structural problems generally cause Syntax Errors. So if a `:` is missing when i
 
 Fortunately, Syntax Errors are usually the easiest to fix because Python will tell you the line number that has the problem. Editors like VSCode sometimes show red lines underneath likely syntax errors.
 
-### 2) Runtime Errors
+### Category #2: Runtime Errors
 
 In the Bugs To Watch Out for video, one of the problems was forgetting to have `self` as the first received in a method. 
 
@@ -94,24 +95,7 @@ Runtime errors are a very common category of problem.
 What runtime errors can you think of?
 
 
-### 3) Silent Errors
-
-Consider another example from the video,
-
-```python
-
-class WeatherData:
-    def init(self):
-        print('init is called')
-
-weather_data = WeatherData()
-```
-
-The program runs fine, and doesn't pop up any error messages or warnings.
-
-But it isn't correct! We wanted init to be the initializer, and it must be written as `__init__(self)`, not as `init(self)`. The `init is called` message never showed up.
-
-We could call category of problem a **silent error**. Unless you are carefully paying attention, you might not even notice anything is wrong, but it is still wrong.
+### Category #3: Logic Errors
 
 A clear example of a mistake in a program:
 
@@ -124,10 +108,25 @@ def get_temperature(weather_data):
 
 When someone calls this, they will get the wrong data back.
 
-Some programs show error messages in a log file, or briefly appear on the screen at the end of the when the program runs. This is also somewhat hidden.
+The program runs smoothly, and will not pop up any error messages or warnings.
 
-Silent errors can be subtle. The output could be slightly wrong, and hard to notice. Or the program could give the correct output in same cases, . This can be the hardest category of problem to track down and fix.
+But it isn't correct. We could call this category of problem a **logic error**. It's a type of bug in a program. It might be completely silent, and not show any visible errors or warnings. Unless you are carefully paying attention, you might not even notice anything is wrong, but it is still wrong.
 
+
+Logic errors can be subtle. The output could be slightly wrong, and hard to notice. Or the program could give the correct output in same cases, but not all cases. This can be the hardest category of problem to track down and fix.
+
+Consider another example from last week's video,
+
+```python
+
+class WeatherData:
+    def init(self):
+        print('init is called')
+
+weather_data = WeatherData()
+```
+
+We wanted init to be the initializer, and it must be written as `__init__(self)`, not as `init(self)`. The `init is called` message never showed up. This is why we need to write test code to confirm that the program is working as expected.
 
 ## Exceptions
 
