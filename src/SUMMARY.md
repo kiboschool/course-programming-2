@@ -45,7 +45,7 @@
 - [Inheritance and Error-handling](lessons/inheritance-and-error-handling.md)
 
   - [Exceptions](lessons/inheritance-and-error-handling/exceptions.md)
-  - [Exception Handling](lessons/inheritance-and-error-handling/exception-handling.md)
+  - [Handling Exceptions](lessons/inheritance-and-error-handling/handling-exceptions.md)
   - [Tools when Making Classes](lessons/inheritance-and-error-handling/tools-when-making-classes.md)
   - [Models](lessons/inheritance-and-error-handling/models.md)
   - [Inheritance](lessons/inheritance-and-error-handling/inheritance.md)
