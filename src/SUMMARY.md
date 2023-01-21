@@ -38,9 +38,9 @@
   - [Another Example Class](lessons/classes-and-objects/another-example-class.md)
   - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
   - [Exercises](lessons/classes-and-objects/exercises.md)
-  
 
-### Week 3 - Subclasses and Error-handling
+
+### Week 3 - Inheritance and Error-handling
 
 - [Inheritance and Error-handling](lessons/inheritance-and-error-handling.md)
 
