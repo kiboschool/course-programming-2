@@ -43,15 +43,15 @@ class PersistedList:
         
 ```
 
-This code mostly works.
+This code does work, but it's not as good as it could be.
 
 <!-- make a replit for it
 try running it and see the output file
 -->
 
-Let's add some improvements, though. There is some repeated code. We can add a *helper method* to reduce the repetition.
+Let's add some improvements. There is some repeated code. We can add a helper method to reduce the repetition.
 
-We don't expect outside users of the class to need to call this `persist()` method, but it is still worth writing even if it is only used internally.
+We don't expect outside users of the class to need to call this `persist()` method. It's an internal method to help the other methods work.
 
 ```python
 import os
@@ -93,14 +93,14 @@ class PersistedList:
 
 The program doesn't work, though, if one of the items has a newline (\n) character in it. We can make a new version of the persistedlist that saves to `json`, which is a good way of solving the problem. Imagine that we still need to keep the original PersistedList around though, because there are older parts of the program that still need to use that format.
 
-> In professional software development, *backwards compatibility* is an issue. It can be hard to change the way data is stored on disk, even if it's not stored in a good way. This is because customers out on their own computers will already have a lot of data stored in the old format.
+> In professional software development, *backwards compatibility* is something to be aware of. If this is a program running on a customer's device, it can be hard to change the way data is stored on disk, even if it's not stored in the best way. This is because customers on their own devices will already have a lot of data stored in the old format.
 
 ```python
 import os
 import json
 
 
-class PersistedList:
+class PersistedListIntoLines:
     def __init__(self, filename):
         if os.path.exists(filename):
             with open(filename, 'r') as f:
@@ -244,6 +244,7 @@ We can think of the GenericPersistedList as the *parent*, and the PersistedListI
 
 Please watch the first 5 minutes of this video, for a lot more information about inheritance in Python.
 
-https://www.youtube.com/watch?v=C8qE3mKiBrQ&list=PL98qAXLA6afuh50qD2MdAj3ofYjZR_Ph
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/C8qE3mKiBrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 

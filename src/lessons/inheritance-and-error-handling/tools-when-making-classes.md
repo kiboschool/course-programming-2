@@ -75,71 +75,43 @@ Read data from the dictionary
 
 ## The pass statement (helps with step 3)
 
-Let's say we are working on our PersistedList example. (This is a list class we showed, it saves the contents into a text file whenever modifications are made).
+Let's say we are working on a PersistedList class. (It saves the contents of the list into a text file whenever modifications are made). Imagine that we are writing a very advanced PersistedList that stores information onto the internet. It will send the data to an API to save the list on a server.
 
-```python
-import os
+We haven't written the code to send to the API yet. First, we write it in pseudocode.
 
-class PersistedList:
-    def __init__(self, filename):
-        if os.path.exists(filename):
-            with open(filename, 'r') as f:
-                file_contents = f.read()
-                self.internal_list = file_contents.split('\n')
-        else:
-            self.internal_list = []
-    
-    def persist(self):
-        with open(filename, 'w') as f:
-            new_file_contents = '\n'.join(self.internal_list)
-            f.write(new_file_contents)    
-    
-    def append(self, incoming_string):
-        self.internal_list.append(incoming_string)
-        self.persist()
-```
-
-Imagine that we are now writing a very advanced PersistedList that stores information onto the internet. It could, say, send a POST to an API to save the list on a server.
-
-But, we haven't written the code to connect to the API yet.
-
-First, we write it in pseudocode.
-
-But when it is in pseudocode, we can't try running the program. It would cause syntax errors, because the pseudocode is not valid Python syntax.
-
-We can comment it out:
+But when it is in pseudocode, we can't try running the program. It would cause syntax errors, because the pseudocode is not valid Python syntax. So, we put the pseudocode in comments:
 
 ```python
 import os
 
 class PersistedListInternet:
     def __init__(self, filename):
-        # connect to the api and download the data
+        # download the data from the api
     
     def persist(self):
-        # connect to the api and send the data
+        # send the data to the api
     
     def append(self, incoming_string):
         self.internal_list.append(incoming_string)
         self.persist()
 ```
 
-But we get syntax errors still because Python will not run the script if any methods are empty. Even with the comments there, they are too empty, there needs to be more code.
+But we get syntax errors still because Python will not run the script if any methods are empty. Even with the comments there, they are too empty. Python needs a line of code there.
 
-A good approach for this intermediate phase, where you don't have working code yet, but you at least want to be able to run a few small snippets of code, is to **add pass statements**.
+A solution for this is to **add pass statements**.
 
-The **pass** statement helps us avoid syntax errors, but it does not do anything.
+The **pass** statement helps us avoid syntax errors. It does not do anything at all.
 
 ```python
 import os
 
 class PersistedListInternet:
     def __init__(self, filename):
-        # connect to the api and download the data
+        # download the data from the api
         pass
     
     def persist(self):
-        # connect to the api and send the data
+        # send the data to the api
         pass
     
     def append(self, incoming_string):
@@ -147,21 +119,20 @@ class PersistedListInternet:
         self.persist()
 ```
 
-With `pass` there, we no longer get a syntax error, and we can run the program again.
+With `pass` there, we no longer get a syntax error, and we can run the program again. If the persist method gets called, nothing happens, which is fine at this stage.
 
-It's just a helpful tool. `pass` is good whenever we want an empty function or empty method, which is especially useful in a half-finished program where we intentionally don't have anything written there yet.
+`pass` is good whenever we want an empty function or empty method, which is especially useful in a half-finished program where we intentionally don't have anything written there yet.
 
 
 ## The \_\_str\_\_ method (helps with step 4)
 
-When debugging, we often want to see what the contents of our object are. It's very common to write test code that does a few things, then prints all of the attributes of the class, then we visually look and see if it looks right.
+When debugging, we often want to see what the contents of our object are. It's very common to write a snippet of test code that calls a few methods, then prints all of the attributes of the class, so that we visually look and see if the results look right.
 
-(When we're done with the program we'll delete these little test snippets.)
+(At the end when we're done with the program, we'll delete these little pieces of code.)
 
-If we run 
+If we run:
 
 ```python
-
 list_of_names = []
 list_of_names.append('Michael')
 list_of_names.append('Keno')
@@ -172,23 +143,24 @@ print(list_of_names)
 we see the names printed. But if we run:
 
 ```python
+class Point:
+    def __init__(self, initial_x, initial_y):
+        self.x = initial_x
+        self.y = initial_y
 
-list_of_names = PersistedList()
-list_of_names.append('Michael')
-list_of_names.append('Keno')
-print(list_of_names)
-
+start = Point(1, 2)
+print(start)
 ```
 
-using our own PersistedList class, the `print` doesn't work very well. It just says `<__main__.PersistedList object at 0x0000023CA16D13A0>`, which is not very useful for debugging.
+using our own Point class, the `print` doesn't work very well. It just says `<__main__.Point object at 0x0000023CA16D13A0>`, which is not very useful for debugging.
 
-We could write a `display` method, which would work fine. This is what we've used before, and it has worked. But it is convenient to be able to send everything to `print`, as if it were a list, dict, or string.
+We could create a `display` method, which would work fine. This is what we've used before in the WeatherData class. But it is convenient to be able to send everything to `print`, as if it were a list, dict, or string.
 
 Please read the page [here](https://www.pythontutorial.net/python-oop/python-__str__/) which talks about a special method named `__str__`.
 
 With `__str__`, you can customize what `print(my_object)` will show.
 
 > ### Challenge
-> What code would you write so that `print(list_of_names)` is more helpful, when list_of_names is a PersistedList instance?
+> What code would you write so that `print(start)` is more helpful, when start is a Point instance?
 
 <font size="-1">Sources: Wikipedia, [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode).</font>
