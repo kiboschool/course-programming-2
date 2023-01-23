@@ -39,11 +39,11 @@
   - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
   - [Exercises](lessons/classes-and-objects/exercises.md)
 
-
 ### Week 3 - Inheritance and Error-handling
 
 - [Inheritance and Error-handling](lessons/inheritance-and-error-handling.md)
 
+  - [Encapsulation](lessons/inheritance-and-error-handling/encapsulation.md)
   - [Exceptions](lessons/inheritance-and-error-handling/exceptions.md)
   - [Handling Exceptions](lessons/inheritance-and-error-handling/handling-exceptions.md)
   - [Tools when Making Classes](lessons/inheritance-and-error-handling/tools-when-making-classes.md)
@@ -52,7 +52,6 @@
   - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
   - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
   - [Project](lessons/inheritance-and-error-handling/project.md)
-
 
 <!--
 
