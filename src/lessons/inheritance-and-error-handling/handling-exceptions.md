@@ -163,7 +163,7 @@ try/except everywhere, the program would keep going, even if it were doing the
 wrong thing. Just like the cartoon, if the program keeps going, it can create
 more problems!
 
-In a sense, adding too many try/except risks turning Category 2 runtime errors 
+Adding try/except in too many places isn't a good way to improve a program. It risks turning Category 2 runtime errors 
 (which are annoying, but at least stop the program and show the line where the 
 failure is) into Category 3 logic errors (which do not stop the program, and are 
 harder to track down).

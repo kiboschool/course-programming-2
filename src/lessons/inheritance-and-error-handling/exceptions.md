@@ -51,7 +51,8 @@ line by line from the top, right?
 But an `IndentationError` is a type of `SyntaxError`. And for a `SyntaxError`, 
 none of the code in the file is run.
 
-### Behind the Scenes: Syntax Errors
+<details>
+<summary><strong>Behind the Scenes: Syntax Errors</strong></summary>
 
 When you enter `python main.py` on the Terminal, Python takes a series of steps. 
 First, it reads the code for the _structures_. It finds out where the classes 
@@ -59,6 +60,8 @@ are, where the functions are, and where the loops, conditions, statements, and
 expressions are. This step is called _parsing the syntax_.
 
 Only _after_ parsing does Python actually execute the code from top to bottom. 
+</details>
+
 
 When Python can't understand the syntax (like when the indentation is wrong), 
 it stops everything early.
@@ -68,7 +71,7 @@ or a class, function, or loop does not have the correct form, this will usually
 cause some type of syntax error.
 
 Fortunately, syntax errors are usually the easiest to fix! Python will tell you 
-the line number that has the problem. Editors like VSCode can also show red 
+the line number that has the problem. Also, editors like VSCode will show red 
 lines underneath likely syntax errors.
 
 ### Category #2: Runtime Errors
@@ -177,11 +180,11 @@ This is what shows up in the message. Sometimes the name of the error type
 helps you realize what went wrong, like `FileNotFoundError`. Sometimes it isn't 
 as clear, though, like when forgetting to add `self` causes a `TypeError`.
 
-### Try it: Investigation
+#### Try it: Investigation
 
 > Write a program that uses a variable that does not exist. What error type is shown?
 
-## Behind the scenes: Runtime Exceptions
+#### Behind the scenes: Runtime Exceptions
 
 When Python runs into a problem, it follows these steps:
 
@@ -198,5 +201,5 @@ This type of object, which stores information about an error that occurred, is c
 
 This sequence of events is known as **raising an exception**.
 
-Runtime Errors have lots more to explore. In the next lesson, you'll see how to
+Runtime Errors have many interesting aspects to explore. In the next lesson, you'll see how to
 create and handle them.

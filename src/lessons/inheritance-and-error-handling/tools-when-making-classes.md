@@ -1,24 +1,30 @@
 # Tools when Making Classes
 
-You already have experience writing programs, so you've probably already done all of this before, but here are some thoughts and strategies, for the next time you are writing a larger program. We will also look at some new tools specific to classes and objects.
+You already have experience writing programs, and so you've gotten a feel for how to what steps to take when working on a larger project. Here we will introduce some new tools specific to classes and objects.
 
-When we're writing complicated programs, sometimes we have to write the program in multiple stages.
+When we're writing complicated programs, sometimes we write the program in multiple steps.
 
-* 1) First, we'll type down our ideas of what the program will do, e.g. our goals.
-* 2) Then, we can type down some ideas for functions and classes. We're dividing the program into different parts.
-* 3) Next, we will write code that can be run as Python, but isn't complete. Maybe some of the functions aren't written yet.
-* 4) The next step could be to write simple pieces of test code that checks if the program is working.
-* 5) After more and more working and revising, the program is finally done.
+1) First, we'll type down our ideas of what the program will do, e.g. our goals.
 
-In this page, I will talk about some concepts and tools for stages 2, 3, and 4.
+1) Then, we can type down some ideas for functions and classes. We're dividing the program into different parts.
+    * (We'll see how **pseudocode** can help during this step)
+    
+1) Next, we will write code that can be run as Python, but isn't complete. Maybe some of the functions aren't written yet.
+    * (We'll see how **pass** can help during this step)
+    
+1) The next step could be to write simple pieces of test code that checks if the program is working.
+    * (We'll see how **\_\_str\_\_** can help during this step)
+    
+1) After more and more working and revising, and putting all of the pieces together, the program is complete.
 
-## Pseudocode (helps with stage 2)
 
-Pseudocode is an informal description of what a program does. It uses the structural conventions of a normal programming language, but is intended for human reading rather than machine reading.
+## Pseudocode (helps with step 2)
+
+> 📗 Pseudocode is an informal description of what a program does. It uses the structural conventions of a normal programming language, but is intended for human reading rather than machine reading.
 
 You can write it in a .py file, but it intentionally won't run. It is a way to type down your thoughts about how the program could work.
 
-Pseudocode is a simple way of writing programming code in English. Pseudocode is not an actual programming language. It uses short phrases to write code for programs before you actually create it in a specific language. Once you know what the program is about and how it will function, then you can use pseudocode to create statements to achieve the required results for your program.
+Pseudocode is a simple way of writing programming code in English. Pseudocode is not an actual programming language. It uses short phrases to write ideas for programs before you actually create them in a real programming language. Later, once you know what the program is about and how it will function, eventually you can translate pseudocode into Python.
 
 An example:
 
@@ -26,9 +32,9 @@ An example:
 Get student id from user
 Get student's grade from data
 If student's grade is greater than or equal to 60
-Print "passed"
+    Print "passed"
 Else
-Print "failed"
+    Print "failed"
 End
 
 ```
@@ -67,12 +73,11 @@ Read data from the dictionary
 ```
 
 
-## The pass statement (helps with stage 3)
+## The pass statement (helps with step 3)
 
-Let's say we are working on our PersistedList example,
+Let's say we are working on our PersistedList example. (This is a list class we showed, it saves the contents into a text file whenever modifications are made).
 
 ```python
-
 import os
 
 class PersistedList:
@@ -92,21 +97,6 @@ class PersistedList:
     def append(self, incoming_string):
         self.internal_list.append(incoming_string)
         self.persist()
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        self.persist()
-    
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
-    
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
-        self.persist()
 ```
 
 Imagine that we are now writing a very advanced PersistedList that stores information onto the internet. It could, say, send a POST to an API to save the list on a server.
@@ -115,77 +105,45 @@ But, we haven't written the code to connect to the API yet.
 
 First, we write it in pseudocode.
 
-But when it is in pseudocode, we can't try running anything, because we will hit syntax errors.
+But when it is in pseudocode, we can't try running the program. It would cause syntax errors, because the pseudocode is not valid Python syntax.
 
 We can comment it out:
 
 ```python
-
 import os
 
 class PersistedListInternet:
     def __init__(self, filename):
-        # TODO: connect to the api and download the data
+        # connect to the api and download the data
     
     def persist(self):
-        # TODO: connect to the api and send the data
+        # connect to the api and send the data
     
     def append(self, incoming_string):
         self.internal_list.append(incoming_string)
         self.persist()
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        self.persist()
-    
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
-    
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
-        self.persist()
 ```
 
-But we get syntax errors still because Python doesn't like the methods being empty. Even with the comment there it is too empty, and Python complains.
+But we get syntax errors still because Python will not run the script if any methods are empty. Even with the comments there, they are too empty, there needs to be more code.
 
 A good approach for this intermediate phase, where you don't have working code yet, but you at least want to be able to run a few small snippets of code, is to **add pass statements**.
 
 The **pass** statement helps us avoid syntax errors, but it does not do anything.
 
 ```python
-
 import os
 
 class PersistedListInternet:
     def __init__(self, filename):
-        # TODO: connect to the api and download the data
+        # connect to the api and download the data
         pass
     
     def persist(self):
-        # TODO: connect to the api and send the data
+        # connect to the api and send the data
         pass
     
     def append(self, incoming_string):
         self.internal_list.append(incoming_string)
-        self.persist()
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        self.persist()
-    
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
-    
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
         self.persist()
 ```
 
@@ -194,7 +152,7 @@ With `pass` there, we no longer get a syntax error, and we can run the program a
 It's just a helpful tool. `pass` is good whenever we want an empty function or empty method, which is especially useful in a half-finished program where we intentionally don't have anything written there yet.
 
 
-## The \_\_str\_\_ method (helps with stage 4)
+## The \_\_str\_\_ method (helps with step 4)
 
 When debugging, we often want to see what the contents of our object are. It's very common to write test code that does a few things, then prints all of the attributes of the class, then we visually look and see if it looks right.
 
@@ -233,4 +191,4 @@ With `__str__`, you can customize what `print(my_object)` will show.
 > ### Challenge
 > What code would you write so that `print(list_of_names)` is more helpful, when list_of_names is a PersistedList instance?
 
-References: Wikipedia page for pseudocode.
+<font size="-1">Sources: Wikipedia, [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode).</font>

@@ -14,7 +14,7 @@ creating graphics to visualize data. You will also learn to work with Object
 Oriented code, which will let you structure data and behavior into natural
 groups that make applications easier to reason about.
 
-## Learning Objectives
+## Preview
 
 Here's a list of what we will cover this week:
 
