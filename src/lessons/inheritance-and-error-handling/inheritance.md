@@ -11,7 +11,7 @@ This would be a great case for writing a class. We are used to using `list` obje
 > <a href="https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo" target="_blank">**Click here to follow along on Replit!**</a> Please sign up for an account and request to join the team if you haven't already.
 
 
-> Once you are in Replit, click `Shell` on the right and type in a script like `python main_v1.py` to run one of the scripts.
+> Once you are in Replit, click `Shell` on the right, type in `python main_v1.py`, and press Enter to run one of the scripts.
 
 > <img src="../../images/w3/replit2.png" width="80%" height="80%" />
 

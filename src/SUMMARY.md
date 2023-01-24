@@ -43,10 +43,10 @@
 
 - [Inheritance and Error-handling](lessons/inheritance-and-error-handling.md)
 
-  - [Encapsulation](lessons/inheritance-and-error-handling/encapsulation.md)
   - [Exceptions](lessons/inheritance-and-error-handling/exceptions.md)
   - [Handling Exceptions](lessons/inheritance-and-error-handling/handling-exceptions.md)
   - [Tools when Making Classes](lessons/inheritance-and-error-handling/tools-when-making-classes.md)
+  - [Encapsulation](lessons/inheritance-and-error-handling/encapsulation.md)
   - [Models](lessons/inheritance-and-error-handling/models.md)
   - [Inheritance](lessons/inheritance-and-error-handling/inheritance.md)
   - [Video on Inheritance](lessons/inheritance-and-error-handling/video-on-inheritance.md)

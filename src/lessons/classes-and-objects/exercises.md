@@ -68,7 +68,7 @@ Please edit `main.py`, and do the following:
 (Hint: there is information about reading from files [here](https://programming-1.vercel.app/lessons/files/basic_file_operations.html).)
 
 
-## Submitting the assignment
+## Submitting an assignment
 
 When you are done, `commit` and `push` your code. Submit a link to your work on
 Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86JsWxrpNe9)**.

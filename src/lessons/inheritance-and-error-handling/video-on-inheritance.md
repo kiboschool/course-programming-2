@@ -7,7 +7,7 @@ Please watch the first 5 minutes of this video. It contains detailed information
 ## Fun fact (optional)
 
 <details>
-<summary><strong>Runtime errors use inheritance (optional)</strong></summary>
+<summary><strong>Fun fact (optional)</strong></summary>
 
 Remember what we showed a few pages ago, when we talked about all of the types of exception objects for the errors in Python?
 
