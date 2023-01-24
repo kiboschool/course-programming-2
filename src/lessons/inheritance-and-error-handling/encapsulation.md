@@ -139,7 +139,7 @@ Another reason to hide the internal state and behavior of an object is to preven
 A typical example in python that implements the above:
 
 ```python
-class ClassStudents:
+class StudentList:
     def __init__(self):
         self.__students = []
 
@@ -156,7 +156,7 @@ class ClassStudents:
 Users of the above code can access students list like this:
 
 ```python
-student_list = ClassStudents()
+student_list = StudentList()
 student_list.add_student("John")
 student_list.add_student("Mary")
 student_list.remove_student("John")
@@ -172,7 +172,7 @@ student_list.students.append("Mary")
 student_list.students.pop("John")
 ```
 
-In the second example, the user is relying on the implementation details of the `ClassStudents` class `student_list.students.append`. If we change the implementation of the `ClassStudents` class to use a `dict` instead of a `list`, users will have to change their code. That describes really bad code and program design.
+In the second example, the user is relying on the implementation details of the `StudentList` class `student_list.students.append`. If we change the implementation of the `StudentList` class to use a `dict` instead of a `list`, users will have to change their code. That describes really bad code and program design.
 
 ## What Should We Do?
 

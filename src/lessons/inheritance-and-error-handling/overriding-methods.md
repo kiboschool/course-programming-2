@@ -1,10 +1,6 @@
 # Overriding Methods
 
-## Video
 
-Please watch the first 5 minutes of this video, for a lot more information about inheritance in Python.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/C8qE3mKiBrQ?start=0&end=300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 [**Click here to follow along on Replit!** ](https://replit.com/team/kibo-programming-2/MadLibs-Override-Demo) Please sign up for an account and request to join the team if you haven't already.
 
@@ -119,3 +115,4 @@ A class can inherit from a class that itself inherits from a different class - t
 > ### Fun fact
 > Recall when we talked about types of errors. A DivideByZeroError is a type of RunTimeError whch is a type of general error. Python internally uses inheritance for this!
 
+https://blog.airbrake.io/blog/python/class-hierarchy
