@@ -4,6 +4,20 @@ Please watch the first 5 minutes of this video. It contains detailed information
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/C8qE3mKiBrQ?start=0&end=300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+## Fun fact (optional)
+
+<details>
+<summary><strong>Runtime errors use inheritance (optional)</strong></summary>
+
+Remember what we showed a few pages ago, when we talked about all of the types of exception objects for the errors in Python?
+
+The exception objects that Python creates when a runtime error gets hit - the ones that capture the line number where the exception was raised, the current file, and so on. 
+
+A `ZeroDivisionError` is a type of `ArithmeticError`, which is a type of `Exception`, which is a type of `BaseException`.
+
+Fun fact: Python internally uses inheritance for this! The objects are instances of classes.  For example, there is a class `ZeroDivisionError` that is a child of a class named `ArithmeticError`. You can glance at the list [here](https://blog.airbrake.io/blog/python/class-hierarchy) to learn more. 
+</details>
+
 ## Conclusions
 
 * Inheritance is the ability to define a new class that is a modified version of an existing class.

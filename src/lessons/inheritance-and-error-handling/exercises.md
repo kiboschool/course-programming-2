@@ -1,30 +1,36 @@
 # Exercises
 
-1)
+* Edit main.py
+* Write a short script to show the area of a circle
+    * First ask the user to type in a number for radius, by using `input()`
+    * Use `float()` to convert what the user typed into a decimal number
+    * Then compute the area, which is pi * radius * radius
+    
+<img src="../../images/w3/circle.png" width="20%" height="20%"  style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" />
 
-Navigating a program with many classes:
+* If the user does not type in a number, for example if they type in letters, show the message "not a number" and exit.
+    * Hint: this is an example of exception handling.
+    * `try` and `except` will be useful tools.
 
-Read the object-oriented weather data program.
+-----------
 
-At the bottom of the file, write two lines of code.
-
-get the wind speed at Accra at time point 5
-
-2)
-
-In programming-1, one of the practice exercises was to write a program that found the area of a circle. First the program asked the user to type in a number. Then it computed the area, which is pi * radius * radius. Then, it 
-
-<img src="../../images/w3/circle.png" width="20%" height="20%" />
-
-Write a program to read the contents of a file. The contents will be a string, so use `float` to turn it into a decimal number. Then, show the area of a circle with that radius. Use exception handling so that if the file does not have a number, show the message "not a number".
+* Edit main.py
+* Create a child class of the `GenericPersistedList` class called `ResetablePersistedList`.
+* Add a method on that child class called `reset()`. It should set the current list to `[]`, (an empty list).
+* Write some code at the bottom of the file that creates a `ResetablePersistedList` check that `reset` works.
 
 
-3) 
-Make a child class of the GenericPersistedList class called ResetablePersistedList.
+-----------
 
-Add a method on that class called `reset()`. It should reset the current list so that it will then be set to an empty list with no contents.
 
-I have added a \_\_str\_\_ method to make printing the contents easier.
+circle-handle-exceptions-exercise
+Circle (handling exceptions)
+https://classroom.github.com/a/qoLC72Lo
 
-Write a handful of lines of test code, and use `print` to show the contents, to confirm that the reset() method works as expected.
+https://github.com/kibo-programming-2-jan-23/circle-handle-exceptions-exercise
 
+persisted-list-reset-exercise
+https://classroom.github.com/a/OsrSI8Mu
+https://github.com/kibo-programming-2-jan-23/persisted-list-reset-exercise
+
+PersistedList Reset (Inheritance)

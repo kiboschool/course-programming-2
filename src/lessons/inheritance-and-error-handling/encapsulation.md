@@ -1,16 +1,4 @@
-# The Four OOP Pillars
-
-Recall that object-oriented programming is a programming paradigm that is based on the concept of objects. The 4 pillars of OOP are: encapsulation, inheritance, abstraction, and polymorphism. In this lesson, we will learn about encapsulation and inheritance. But first, let's go over what these four pillars are.
-
-**Encapsulation**: This refers to the practice of hiding the internal state and behavior of an object, and exposing only a public interface for interacting with it.
-
-**Inheritance**: This allows one class to inherit the properties and methods of another, allowing for a hierarchical relationship between classes.
-
-**Polymorphism**: Polymorphism means that different classes can respond to the same method call in different ways by overriding and overloading methods.
-
-**Abstraction**: This is the process of making complicated systems easier to understand by breaking them up into smaller, more manageable parts. In OOP, this is often achieved through the use of abstract classes and interfaces.
-
-This might be a lot to take in, but no worries! We will go over each of these pillars in detail in this lesson and the following ones.
+# Encapsulation
 
 ## Encapsulation
 
@@ -179,3 +167,17 @@ In the second example, the user is relying on the implementation details of the 
 There is a debate in the software market about whether or not we should make all members of a class private and use accessors and mutators. The answer is that it depends on the situation and the culture of the language we use.
 
 In Python, we are going to follow the common culture of the language by keeping the members' default to public and only changing when needed.
+
+## The 4 pillars of OOP
+
+Recall that object-oriented programming is a programming paradigm that is based on the concept of objects. The 4 pillars of OOP are: encapsulation, inheritance, abstraction, and polymorphism. In this lesson, we will learn about encapsulation and inheritance. But first, let's go over what these four pillars are.
+
+**Encapsulation**: This refers to the practice of hiding the internal state and behavior of an object, and exposing only a public interface for interacting with it.
+
+**Inheritance**: This allows one class to inherit the properties and methods of another, allowing for a hierarchical relationship between classes.
+
+**Polymorphism**: Polymorphism means that different classes can respond to the same method call in different ways by overriding and overloading methods.
+
+**Abstraction**: This is the process of making complicated systems easier to understand by breaking them up into smaller, more manageable parts. In OOP, this is often achieved through the use of abstract classes and interfaces.
+
+This might be a lot to take in, but no worries! We will go over each of these pillars in detail in this lesson and the following ones.

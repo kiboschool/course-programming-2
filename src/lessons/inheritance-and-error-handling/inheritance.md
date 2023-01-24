@@ -8,7 +8,8 @@ In this case, imagine that instead of waiting for the user to select some Save f
 
 This would be a great case for writing a class. We are used to using `list` objects, we use them all of the time. We can create a class to make objects that are similar to lists, so that they are easy to use + have the append method we are used to, but they also save the contents.
 
-> [**Click here to follow along on Replit!** ](https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo) Please sign up for an account and request to join the team if you haven't already.
+> <a href="https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo" target="_blank">**Click here to follow along on Replit!**</a> Please sign up for an account and request to join the team if you haven't already.
+
 
 > Once you are in Replit, click `Shell` on the right and type in a script like `python main_v1.py` to run one of the scripts.
 
