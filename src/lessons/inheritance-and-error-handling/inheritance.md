@@ -8,86 +8,92 @@ In this case, imagine that instead of waiting for the user to select some Save f
 
 This would be a great case for writing a class. We are used to using `list` objects, we use them all of the time. We can create a class to make objects that are similar to lists, so that they are easy to use + have the append method we are used to, but they also save the contents.
 
+[**Click here to follow along on Replit!** ](https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo) Please sign up for an account and request to join the team if you haven't already.
+
 ```python
+# main_v1.py
 
 class PersistedList:
-    def __init__(self, filename):
-        with open(filename, 'r') as f:
-            file_contents = f.read()
-            self.internal_list = file_contents.split('\n')
+  def __init__(self, filename):
+    self.filename = filename
     
-    def append(self, incoming_string):
-        self.internal_list.append(incoming_string)
-        with open(filename, 'w') as f:
-            new_file_contents = '\n'.join(self.internal_list)
-            f.write(new_file_contents)
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        with open(filename, 'w') as f:
-            new_file_contents = '\n'.join(self.internal_list)
-            f.write(new_file_contents)
+    if os.path.exists(filename):
+      with open(self.filename, 'r') as f:
+        file_contents = f.read()
+        self.internal_list = file_contents.split('\n')
+    else:
+      self.internal_list = []
+
+  def append(self, incoming_string):
+    self.internal_list.append(incoming_string)
+    with open(self.filename, 'w') as f:
+      new_file_contents = '\n'.join(self.internal_list)
+      f.write(new_file_contents)
     
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
-    
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
-        with open(filename, 'w') as f:
-            new_file_contents = '\n'.join(self.internal_list)
-            f.write(new_file_contents)
+  def insert(self, position, incoming_string):
+    self.internal_list.insert(position, incoming_string)
+    with open(self.filename, 'w') as f:
+      new_file_contents = '\n'.join(self.internal_list)
+      f.write(new_file_contents)
+  
+  def get_last_item(self):
+    length = len(self.internal_list)
+    return self.internal_list[length - 1]
+  
+  def get_item_at(self, position):
+    return self.internal_list[position]
+  
+  def set_item_at(self, position, incoming_string):
+    self.internal_list[position] = incoming_string
+    with open(self.filename, 'w') as f:
+      new_file_contents = '\n'.join(self.internal_list)
+      f.write(new_file_contents)
         
 ```
 
 This code does work, but it's not as good as it could be.
-
-<!-- make a replit for it
-try running it and see the output file
--->
 
 Let's add some improvements. There is some repeated code. We can add a helper method to reduce the repetition.
 
 We don't expect outside users of the class to need to call this `persist()` method. It's an internal method to help the other methods work.
 
 ```python
-import os
+# main_v2_helper.py
 
 class PersistedList:
-    def __init__(self, filename):
-        if os.path.exists(filename):
-            with open(filename, 'r') as f:
-                file_contents = f.read()
-                self.internal_list = file_contents.split('\n')
-        else:
-            self.internal_list = []
+  def __init__(self, filename):
+    self.filename = filename
     
-    def persist(self):
-        with open(filename, 'w') as f:
-            new_file_contents = '\n'.join(self.internal_list)
-            f.write(new_file_contents)    
+    if os.path.exists(filename):
+      with open(self.filename, 'r') as f:
+        file_contents = f.read()
+        self.internal_list = file_contents.split('\n')
+    else:
+      self.internal_list = []
+      
+  def persist(self):
+    with open(self.filename, 'w') as f:
+      new_file_contents = '\n'.join(self.internal_list)
+      f.write(new_file_contents)
     
-    def append(self, incoming_string):
-        self.internal_list.append(incoming_string)
-        self.persist()
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        self.persist()
+  def append(self, incoming_string):
+    self.internal_list.append(incoming_string)
+    self.persist()
     
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
-    
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
-        self.persist()
+  def insert(self, position, incoming_string):
+    self.internal_list.insert(position, incoming_string)
+    self.persist()
+  
+  def get_last_item(self):
+    length = len(self.internal_list)
+    return self.internal_list[length - 1]
+  
+  def get_item_at(self, position):
+    return self.internal_list[position]
+  
+  def set_item_at(self, position, incoming_string):
+    self.internal_list[position] = incoming_string
+    self.persist()
         
 ```
 
@@ -96,73 +102,79 @@ The program doesn't work, though, if one of the items has a newline (\n) charact
 > In professional software development, *backwards compatibility* is something to be aware of. If this is a program running on a customer's device, it can be hard to change the way data is stored on disk, even if it's not stored in the best way. This is because customers on their own devices will already have a lot of data stored in the old format.
 
 ```python
+# main_v3_two_classes.py
+
 import os
 import json
 
-
 class PersistedListIntoLines:
-    def __init__(self, filename):
-        if os.path.exists(filename):
-            with open(filename, 'r') as f:
-                file_contents = f.read()
-                self.internal_list = file_contents.split('\n')
-        else:
-            self.internal_list = []
+  def __init__(self, filename):
+    self.filename = filename
     
-    def persist(self):
-        with open(filename, 'w') as f:
-            new_file_contents = '\n'.join(self.internal_list)
-            f.write(new_file_contents)    
+    if os.path.exists(filename):
+      with open(self.filename, 'r') as f:
+        file_contents = f.read()
+        self.internal_list = file_contents.split('\n')
+    else:
+      self.internal_list = []
+      
+  def persist(self):
+    with open(self.filename, 'w') as f:
+      new_file_contents = '\n'.join(self.internal_list)
+      f.write(new_file_contents)
     
-    def append(self, incoming_string):
-        self.internal_list.append(incoming_string)
-        self.persist()
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        self.persist()
+  def append(self, incoming_string):
+    self.internal_list.append(incoming_string)
+    self.persist()
     
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
-    
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
-        self.persist()
+  def insert(self, position, incoming_string):
+    self.internal_list.insert(position, incoming_string)
+    self.persist()
+  
+  def get_last_item(self):
+    length = len(self.internal_list)
+    return self.internal_list[length - 1]
+  
+  def get_item_at(self, position):
+    return self.internal_list[position]
+  
+  def set_item_at(self, position, incoming_string):
+    self.internal_list[position] = incoming_string
+    self.persist()
 
-class PersistedListJson:
-    def __init__(self, filename):
-        if os.path.exists(filename):
-            with open(filename, 'r') as f:
-                self.internal_list = json.load(f)
-        else:
-            self.internal_list = []
-            
-    def persist(self):
-        with open(filename, 'w') as f:
-            json.dump(self.internal_list, f)    
+class PersistedListIntoJson:
+  def __init__(self, filename):
+    self.filename = filename
     
-    def append(self, incoming_string):
-        self.internal_list.append(incoming_string)
-        self.persist()
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        self.persist()
+    if os.path.exists(filename):
+      with open(self.filename, 'r') as f:
+        self.internal_list = json.load(f)
+    else:
+      self.internal_list = []
+      
+  def persist(self):
+    with open(self.filename, 'w') as f:
+      json.dump(self.internal_list, f)
     
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
+  def append(self, incoming_string):
+    self.internal_list.append(incoming_string)
+    self.persist()
     
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
-        self.persist()
+  def insert(self, position, incoming_string):
+    self.internal_list.insert(position, incoming_string)
+    self.persist()
+  
+  def get_last_item(self):
+    length = len(self.internal_list)
+    return self.internal_list[length - 1]
+  
+  def get_item_at(self, position):
+    return self.internal_list[position]
+  
+  def set_item_at(self, position, incoming_string):
+    self.internal_list[position] = incoming_string
+    self.persist()
+
         
 ```
 
@@ -173,55 +185,61 @@ It turns out that, in Python, there is something called **class inheritance**.
 A class can **inherit** from another class, which means that it will get a copy of all of the methods. This is what it looks like:
 
 ```python
+# main_v4_inheritance.py
+
 import os
 import json
 
-class GenericPersistedList:
-    def append(self, incoming_string):
-        self.internal_list.append(incoming_string)
-        self.persist()
-        
-    def insert(self, position, incoming_string):
-        self.internal_list.append(position, incoming_string)
-        self.persist()
+class PersistedListGeneral:
+  def append(self, incoming_string):
+    self.internal_list.append(incoming_string)
+    self.persist()
     
-    def get_last_item(self, position):
-        length = len(self.internal_list)
-        return self.internal_list[length - 1]
+  def insert(self, position, incoming_string):
+    self.internal_list.insert(position, incoming_string)
+    self.persist()
+  
+  def get_last_item(self):
+    length = len(self.internal_list)
+    return self.internal_list[length - 1]
+  
+  def get_item_at(self, position):
+    return self.internal_list[position]
+  
+  def set_item_at(self, position, incoming_string):
+    self.internal_list[position] = incoming_string
+    self.persist()
+  
+class PersistedListIntoLines(PersistedListGeneral):
+  def __init__(self, filename):
+    self.filename = filename
     
-    def get_item_at(self, position):
-        return self.internal_list[position]
-    
-    def set_item_at(self, position, incoming_string):
-        self.internal_list[position] = incoming_string
-        self.persist()
+    if os.path.exists(filename):
+      with open(self.filename, 'r') as f:
+        file_contents = f.read()
+        self.internal_list = file_contents.split('\n')
+    else:
+      self.internal_list = []
+      
+  def persist(self):
+    with open(self.filename, 'w') as f:
+      new_file_contents = '\n'.join(self.internal_list)
+      f.write(new_file_contents)
+  
 
-
-class PersistedListIntoLines(GenericPersistedList):
-    def __init__(self, filename):
-        if os.path.exists(filename):
-            with open(filename, 'r') as f:
-                file_contents = f.read()
-                self.internal_list = file_contents.split('\n')
-        else:
-            self.internal_list = []
+class PersistedListIntoJson(PersistedListGeneral):
+  def __init__(self, filename):
+    self.filename = filename
     
-    def persist(self):
-        with open(filename, 'w') as f:
-            new_file_contents = '\n'.join(self.internal_list)
-            f.write(new_file_contents)    
-    
-class PersistedListIntoJson(GenericPersistedList):
-    def __init__(self, filename):
-        if os.path.exists(filename):
-            with open(filename, 'r') as f:
-                self.internal_list = json.load(f)
-        else:
-            self.internal_list = []
-            
-    def persist(self):
-        with open(filename, 'w') as f:
-            json.dump(self.internal_list, f)    
+    if os.path.exists(filename):
+      with open(self.filename, 'r') as f:
+        self.internal_list = json.load(f)
+    else:
+      self.internal_list = []
+      
+  def persist(self):
+    with open(self.filename, 'w') as f:
+      json.dump(self.internal_list, f)
     
     
 ```
@@ -230,21 +248,21 @@ Now, we no longer have the repeated code.
 
 An instance of `PersistedListIntoLines` will still have the `append` and `insert` methods, because it has **inherited** those methods from the GenericPersistedList class.
 
-An instance of `PersistedListIntoJson` will still have the `append` and `insert` methods, because it has **inherited** those methods from the GenericPersistedList class.
+An instance of `PersistedListIntoJson` will still have the `append` and `insert` methods, because it has **inherited** those methods from the GenericPersistedList class.Inheritance can be used for many purposes. It's often useful when there are two classes that have the same set of methods, but are in different modes and end up implementing the methods differently.
 
-Inheritance can be used for many purposes. It's often useful when there are two classes that have the same set of methods, but are in different modes and end up implementing the methods differently.
+> ### Practice
+> Open `main_v4_inheritance.py` in replit. (There is a link to replit at the top of this page).  
+> * At the bottom of the file, create an instance of the `PersistedListIntoLines` class that saves into the file "fruit.txt"
+> * Use the `append` method to add the string "apples" to the list
+> * Use the `append` method to add the string "bananas" to the list
+> * (Notice that the append method works even though `PersistedListIntoLines` does not have that method. This is because it is using the method from `PersistedListGeneral`).
+> * Open "fruit.txt" and see the contents.
 
 ## Terminology
 
 We can think of the GenericPersistedList as the *parent*, and the PersistedListIntoLines class as the *child*. We can use the terms *parent class* and *child class*. 
 
-> Because object-oriented programming has been around for so many years, and has been added to so many different languages, people sometimes use the same terms for the same concepts. So instead of *parent class* and *child class*, people will sometimes say *super class* and *sub class*, or *base class* and *derived class*.
-
-## Video
-
-Please watch the first 5 minutes of this video, for a lot more information about inheritance in Python.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/C8qE3mKiBrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+> Object-oriented programming has been around for decades, and it has been added to very many different programming languages. People sometimes use the different terms for what is essentially the same concept. So instead of *parent class* and *child class*, people will sometimes say *super class* and *sub class*, or *base class* and *derived class*.
 
 
 

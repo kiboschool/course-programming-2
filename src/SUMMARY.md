@@ -49,12 +49,14 @@
   - [Tools when Making Classes](lessons/inheritance-and-error-handling/tools-when-making-classes.md)
   - [Models](lessons/inheritance-and-error-handling/models.md)
   - [Inheritance](lessons/inheritance-and-error-handling/inheritance.md)
-  - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
-  - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
   - [Project](lessons/inheritance-and-error-handling/project.md)
+  
 
 
 <!--
+
+#  - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
+#  - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
 
 ### Week 4 - SQL and Data Visualization
 

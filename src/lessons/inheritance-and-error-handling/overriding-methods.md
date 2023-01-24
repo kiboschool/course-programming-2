@@ -1,5 +1,13 @@
 # Overriding Methods
 
+## Video
+
+Please watch the first 5 minutes of this video, for a lot more information about inheritance in Python.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/C8qE3mKiBrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+
 (this page is still in progress)
 
 In this page, we'll be continuing to talk about the case where one class **inherits** from another class.
