@@ -8,7 +8,13 @@ In this case, imagine that instead of waiting for the user to select some Save f
 
 This would be a great case for writing a class. We are used to using `list` objects, we use them all of the time. We can create a class to make objects that are similar to lists, so that they are easy to use + have the append method we are used to, but they also save the contents.
 
-[**Click here to follow along on Replit!** ](https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo) Please sign up for an account and request to join the team if you haven't already.
+> <a href="https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo" target="_blank">**Click here to follow along on Replit!**</a> Please sign up for an account and request to join the team if you haven't already.
+
+
+> Once you are in Replit, click `Shell` on the right, type in `python main_v1.py`, and press Enter to run one of the scripts.
+
+> <img src="../../images/w3/replit2.png" width="80%" height="80%" />
+
 
 ```python
 # main_v1.py
@@ -94,7 +100,6 @@ class PersistedList:
   def set_item_at(self, position, incoming_string):
     self.internal_list[position] = incoming_string
     self.persist()
-        
 ```
 
 The program doesn't work, though, if one of the items has a newline (\n) character in it. We can make a new version of the persistedlist that saves to `json`, which is a good way of solving the problem. Imagine that we still need to keep the original PersistedList around though, because there are older parts of the program that still need to use that format.
@@ -174,8 +179,6 @@ class PersistedListIntoJson:
   def set_item_at(self, position, incoming_string):
     self.internal_list[position] = incoming_string
     self.persist()
-
-        
 ```
 
 Our program is pretty long, now, and there's again repeated code.
@@ -240,8 +243,6 @@ class PersistedListIntoJson(PersistedListGeneral):
   def persist(self):
     with open(self.filename, 'w') as f:
       json.dump(self.internal_list, f)
-    
-    
 ```
 
 Now, we no longer have the repeated code.
