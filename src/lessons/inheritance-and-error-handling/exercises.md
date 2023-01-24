@@ -48,9 +48,8 @@ Because there is also a project this week, there are only two exercises on this 
 <!-- https://github.com/kibo-programming-2-jan-23/persisted-list-reset-exercise -->
 
 * Please edit main.py
-* Create a child class of the `GenericPersistedList` class called `ResetablePersistedList`.
-* Add a method on that child class called `reset()`. It should set the current list to `[]`, (an empty list).
-
+* Create a child class of the `PersistedList` class called `ResetablePersistedList`.
+* Add a method on that child class called `reset()`. It should set the current list to `[]` (an empty list).
 
 
 ## Submitting an assignment
