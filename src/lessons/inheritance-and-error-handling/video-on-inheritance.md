@@ -10,8 +10,9 @@ Please watch the first 5 minutes of this video. It contains detailed information
 
 * This relationship between classes—similar, but different—is one of the reasons to use inheritance, because otherwise the code would be duplicated. To define a new class that inherits from an existing class, you put the name of the existing class in parentheses. When a new class inherits from an existing one, the existing one is called the parent and the new class is called the child.
 
-* On the other hand, inheritance can also make programs difficult to read. When a method is called, it is sometimes not clear where to find its definition. The relevant code may be spread across several files.
+* It's possible that, if used excessively, inheritance can make programs difficult to read. When a method is called, it is sometimes not clear where to find its definition. The relevant code may be spread across several files.
 
-* Inheritance is a useful feature. Some programs that would be repetitive without inheritance can be written more elegantly with it. In some cases, the inheritance structure reflects the natural structure of the concepts, which makes the design easier to understand.
+* In some cases, though, you can express a child class as being *a type of* the base class. For example, a `PersistedListJson` *is a type of* a `PeristedList`. For cases like this, inheritance reflects the natural structure of the concepts, which makes the design easier to understand.
 
+<!-- a couple sentences here borrowed from Think Csci -->
 

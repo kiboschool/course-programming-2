@@ -1,16 +1,21 @@
 # Overriding Methods
 
+> [**Click here to follow along on Replit!** ](https://replit.com/team/kibo-programming-2/MadLibs-Override-Demo) Please sign up for an account and request to join the team if you haven't already.
+
+> Once you are in Replit, click `Shell` on the right and type in a script like `python main_v1.py` to run one of the scripts.
+
+> <img src="../../images/w3/replit3.png" width="80%" height="80%" />
 
 
-[**Click here to follow along on Replit!** ](https://replit.com/team/kibo-programming-2/MadLibs-Override-Demo) Please sign up for an account and request to join the team if you haven't already.
+In this page, we'll be continuing to talk about the case where one class inherits from another class. Remember that inheriting a class will let it use methods from the parent class.
 
-(this page is still in progress)
+We'll be exploring what happens when a child class defines a method with the same name as a method on the parent class.
 
-In this page, we'll be continuing to talk about the case where one class **inherits** from another class.
+## Madlibs
 
-Remember that inheriting a class will let it use methods from the parent class when using the child class.
+But first, let's go back to a Madlibs example, like the project from Programming 1.Try running this code in replit, and understand how it works. 
 
-## Another Example of Inheritance
+## Object-Oriented Madlibs
 
 <!-- 
 start with this:
