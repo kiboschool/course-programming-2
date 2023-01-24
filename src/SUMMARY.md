@@ -52,8 +52,10 @@
   - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
   - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
   - [Project](lessons/inheritance-and-error-handling/project.md)
+  
 
 <!--
+
 
 ### Week 4 - SQL and Data Visualization
 

@@ -163,7 +163,7 @@ try/except everywhere, the program would keep going, even if it were doing the
 wrong thing. Just like the cartoon, if the program keeps going, it can create
 more problems!
 
-In a sense, adding too many try/except risks turning Category 2 runtime errors 
+Adding try/except in too many places isn't a good way to improve a program. It risks turning Category 2 runtime errors 
 (which are annoying, but at least stop the program and show the line where the 
 failure is) into Category 3 logic errors (which do not stop the program, and are 
 harder to track down).
@@ -177,10 +177,13 @@ Let's say you had a program that deletes old log files that have the extension
 
 Right when you get to the `delete()` part of the code that deletes the file, 
 you would write something that checks again that the filename ends with `.log`. 
-If it doesn't, you could raise and exception and crash the program, because 
+If it doesn't, you could intentionally raise and exception and crash the program, because 
 if the filename does not end with `.log`, there is definitely a problem! Instead 
 of continuing (and potentially deleting important files), you would rather stop 
 everything and limit the damage.
+
+If we lived in a perfect world, code would have no bugs, and the assert would not be needed. In reality, though, 
+programs do have bugs. Even if there are not many bugs now, they might be introduced over time as the program changes.
 
 One tool for intentionally creating an exception when something isn't right, is 
 writing an **assert**. It looks like this:
@@ -192,4 +195,4 @@ def complicated_delete_log_function(file):
 ```
 
 If the file name does not end with `.log`, the program will crash with an
-AssertionError.
+AssertionError. That is much better than deleting an important file.

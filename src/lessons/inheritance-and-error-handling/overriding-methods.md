@@ -1,5 +1,13 @@
 # Overriding Methods
 
+## Video
+
+Please watch the first 5 minutes of this video, for a lot more information about inheritance in Python.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/C8qE3mKiBrQ?start=0&end=300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+[**Click here to follow along on Replit!** ](https://replit.com/team/kibo-programming-2/MadLibs-Override-Demo) Please sign up for an account and request to join the team if you haven't already.
+
 (this page is still in progress)
 
 In this page, we'll be continuing to talk about the case where one class **inherits** from another class.
@@ -96,7 +104,7 @@ Example here.
 
 Please continue the video here, from 5 minutes onward,
 
-https://www.youtube.com/watch?v=C8qE3mKiBrQ&list=PL98qAXLA6afuh50qD2MdAj3ofYjZR_Ph
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/C8qE3mKiBrQ?start=325&end=888;rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Inherited classes are linked
 

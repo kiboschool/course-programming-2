@@ -1,7 +1,7 @@
 # Inheritance and Error-handling
 
 This week, we will continue learning about Classes. Specifically, we'll focus on 
-_Inheritance_: a way to share behavior between a parent class and child classes. 
+_Inheritance_: a way to share behavior between classes. You can do this by defining a class to be a child of another class. 
 
 Child classes work mostly the same as the parent class, but have different, 
 specialized behavior, added features, or adaptations.
@@ -19,3 +19,4 @@ and the `__str__` method.
 
 After this week, you'll be able to handle exceptions and share behavior between
 classes using inheritance. 
+
