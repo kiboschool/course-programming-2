@@ -38,20 +38,25 @@
   - [Another Example Class](lessons/classes-and-objects/another-example-class.md)
   - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
   - [Exercises](lessons/classes-and-objects/exercises.md)
+
+
+### Week 3 - Inheritance and Error-handling
+
+- [Inheritance and Error-handling](lessons/inheritance-and-error-handling.md)
+
+  - [Exceptions](lessons/inheritance-and-error-handling/exceptions.md)
+  - [Handling Exceptions](lessons/inheritance-and-error-handling/handling-exceptions.md)
+  - [Tools when Making Classes](lessons/inheritance-and-error-handling/tools-when-making-classes.md)
+  - [Models](lessons/inheritance-and-error-handling/models.md)
+  - [Inheritance](lessons/inheritance-and-error-handling/inheritance.md)
+  - [Project](lessons/inheritance-and-error-handling/project.md)
   
+
+
 <!--
-### Week 3 - Subclasses and Error-handling
 
-- [Subclasses and Error-handling](lessons/subclasses-and-error-handling.md)
-
-  - [Introduction to Inheritance](lessons/subclasses-and-error-handling/introduction-to-inheritance.md)
-  - [Clothes Example](lessons/subclasses-and-error-handling/clothes-example.md)
-  - [Overriding And Dunders](lessons/subclasses-and-error-handling/overriding-and-dunders.md)
-  - [Pseudocode And Stubs](lessons/classes-and-objects/pseudocode-and-stubs.md)
-  - [Exceptions](lessons/subclasses-and-error-handling/exceptions.md)
-  - [Larger Classes](lessons/subclasses-and-error-handling/larger-classes.md)
-  - [Examples](lessons/subclasses-and-error-handling/examples.md)
-  - [Project](lessons/subclasses-and-error-handling/project.md)
+#  - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
+#  - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
 
 ### Week 4 - SQL and Data Visualization
 

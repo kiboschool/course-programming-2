@@ -9,7 +9,7 @@ You have also seen _functions_, where you can write some code to do a certain ac
 
 An _object_ can be thought of as both containing data, and containing functions. It is a value that holds data, and has its own functions. We'll be learning more about objects this week.
 
-## Learning Objectives
+## Preview
 
 Here is what we will be exploring this week:
 
