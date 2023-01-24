@@ -22,13 +22,13 @@ This would be a great case for writing a class. We are used to using `list` obje
 class PersistedList:
   def __init__(self, filename):
     self.filename = filename
+    self.internal_list = []
     
     if os.path.exists(filename):
       with open(self.filename, 'r') as f:
         file_contents = f.read()
-        self.internal_list = file_contents.split('\n')
-    else:
-      self.internal_list = []
+        if file_contents:
+          self.internal_list = file_contents.split('\n')
 
   def append(self, incoming_string):
     self.internal_list.append(incoming_string)
@@ -69,13 +69,13 @@ We don't expect outside users of the class to need to call this `persist()` meth
 class PersistedList:
   def __init__(self, filename):
     self.filename = filename
+    self.internal_list = []
     
     if os.path.exists(filename):
       with open(self.filename, 'r') as f:
         file_contents = f.read()
-        self.internal_list = file_contents.split('\n')
-    else:
-      self.internal_list = []
+        if file_contents:
+          self.internal_list = file_contents.split('\n')
       
   def persist(self):
     with open(self.filename, 'w') as f:
@@ -115,13 +115,13 @@ import json
 class PersistedListIntoLines:
   def __init__(self, filename):
     self.filename = filename
+    self.internal_list = []
     
     if os.path.exists(filename):
       with open(self.filename, 'r') as f:
         file_contents = f.read()
-        self.internal_list = file_contents.split('\n')
-    else:
-      self.internal_list = []
+        if file_contents:
+          self.internal_list = file_contents.split('\n')
       
   def persist(self):
     with open(self.filename, 'w') as f:
@@ -150,12 +150,11 @@ class PersistedListIntoLines:
 class PersistedListIntoJson:
   def __init__(self, filename):
     self.filename = filename
+    self.internal_list = []
     
     if os.path.exists(filename):
       with open(self.filename, 'r') as f:
         self.internal_list = json.load(f)
-    else:
-      self.internal_list = []
       
   def persist(self):
     with open(self.filename, 'w') as f:
@@ -216,13 +215,13 @@ class PersistedListGeneral:
 class PersistedListIntoLines(PersistedListGeneral):
   def __init__(self, filename):
     self.filename = filename
+    self.internal_list = []
     
     if os.path.exists(filename):
       with open(self.filename, 'r') as f:
         file_contents = f.read()
-        self.internal_list = file_contents.split('\n')
-    else:
-      self.internal_list = []
+        if file_contents:
+          self.internal_list = file_contents.split('\n')
       
   def persist(self):
     with open(self.filename, 'w') as f:
@@ -233,12 +232,11 @@ class PersistedListIntoLines(PersistedListGeneral):
 class PersistedListIntoJson(PersistedListGeneral):
   def __init__(self, filename):
     self.filename = filename
+    self.internal_list = []
     
     if os.path.exists(filename):
       with open(self.filename, 'r') as f:
         self.internal_list = json.load(f)
-    else:
-      self.internal_list = []
       
   def persist(self):
     with open(self.filename, 'w') as f:
