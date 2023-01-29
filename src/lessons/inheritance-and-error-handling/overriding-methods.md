@@ -1,6 +1,6 @@
 # Overriding Methods
 
-> <a href="https://replit.com/team/kibo-programming-2/MadLibs-Override-Demo" target="_blank">**Click here to follow along on Replit!**</a> Please sign up for an account and request to join the team if you haven't already.
+> <a href="https://replit.com/team/kibo-programming-2/MadLibs-Override-Demo" target="_blank">**Click here to follow along on Replit!**</a> Please sign up for an account and [click here to join the team](https://replit.com/teams/join/wpxxedriwhucvhltgfepbmwqswbdrhss-kibo-programming-2) if you haven't already.
 
 > Once you are in Replit, click `Shell` on the right, type in `python v1.py`, and press Enter to run one of the scripts.
 
