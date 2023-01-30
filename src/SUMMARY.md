@@ -60,9 +60,9 @@
   - [Knowledge Check](lessons/oop-review/knowledge-check.md)
   - [Class syntax](lessons/oop-review/class-syntax.md)
   - [Inheritance](lessons/oop-review/inheritance.md)
+  - [Error handling](lessons/oop-review/error-handling.md)
 <!--
   - [OOP Design](lessons/oop-review/oop-design.md)
-  - [Error handling](lessons/oop-review/error-handling.md)
   - [Exercises](lessons/oop-review/exercises.md)
 -->
 
