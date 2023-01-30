@@ -35,13 +35,13 @@ Because there is also a project this week, there are only two exercises on this 
     * First ask the user to type in a number for radius, by using `input()`
     * Use `float()` to convert what the user typed into a decimal number
     * Then, compute and show the area, which is pi * radius * radius
-    
+
 <img src="../../images/w3/circle.png" width="20%" height="20%"  style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-left: 5em; " />
 
 * If the user does not type in a number, for example if they type in letters, show the message "not a number" and exit.
     * Hint: this is an example of exception handling.
     * `try` and `except` will be useful tools.
-    
+
 ## PersistedList Reset (Inheritance) (1 point)
 
 <a href="https://classroom.github.com/a/OsrSI8Mu" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=PersistedList%20Reset%20(Inheritance)&color=blue" alt="PersistedList Reset (Inheritance)" /></a>
