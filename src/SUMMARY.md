@@ -53,11 +53,22 @@
   - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
   - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
   - [Project](lessons/inheritance-and-error-handling/project.md)
-  
+
+### Week 4 - OOP Review
+
+- [OOP Review](lessons/oop-review.md)
+  - [Knowledge Check](lessons/oop-review/knowledge-check.md)
+  - [Class syntax](lessons/oop-review/class-syntax.md)
+  - [Inheritance](lessons/oop-review/inheritance.md)
+  - [Error handling](lessons/oop-review/error-handling.md)
+<!--
+  - [OOP Design](lessons/oop-review/oop-design.md)
+  - [Exercises](lessons/oop-review/exercises.md)
+-->
+
 <!--
 
-
-### Week 4 - SQL and Data Visualization
+### Week 5 - SQL and Data Visualization
 
 - [SQL and Data Visualization](lessons/sql-and-vis.md)
 
