@@ -14,4 +14,7 @@ weather
 openclipart
 cars.png
 openclipart
+calc.png
+emojipedia(unicode 7.0 emoji)
+
 

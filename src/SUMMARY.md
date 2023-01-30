@@ -4,9 +4,9 @@
 [Getting Help](lessons/asking-for-help.md)
 [Projects and Exercises](lessons/course-projects.md)
 
-<!--[Midterm Project](lessons/midterm-project.md)
+[Midterm Project](lessons/midterm-project.md)
 
- [Final Project](lessons/final-project.md) -->
+ <!--[Final Project](lessons/final-project.md) -->
 
 [Live Classes](lessons/live-classes.md)
 [Additional Practice](lessons/additional-practice.md)
