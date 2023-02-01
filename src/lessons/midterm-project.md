@@ -1,27 +1,30 @@
 # Midterm Project
 
-MIDTERM PROJECT: OBJECT-ORIENTED MICROPROCESSOR
+**Due Date - Feb 10**
 
-This builds on your work from https://github.com/kiboschool/microprocessor-simulation
+---
 
-We haven't posted the description of the midterm project yet, we will post it here.
+> 💡 This is an individual project. You are expected to work independently.
+>
+> If you get stuck, confused, or have trouble with the project, you should use a channel in Discord, or message an instructor.
 
-<!--
 
-* Make a Microprocessor class that has a method runInstruction() and helper methods for implementing the ops
-* Get it working so that it can run the prior examples
-* Then add a new feature
-    * instead of a number can put the special string askForInput to get a number. Enforce valid integer.
-    * instead of a number can put the special string result to the refer to previous number computed
-    * (this will have to be state on the class)
-    * So you could say `{add 4, 5}`, `{add result, 5}`, `{print result}`
-    * This way you can make it do real computation
-    * We’ll give a little demo ‘program’ to do something like convert celsius to fahrenheit and print answer
-* Don’t worry about making any other classes (each operation could be a class (e.g. a base class could parse input into a list that children interpret) but it doesn’t need to be (there will still be an if-then mapping opname to logic, just earlier))
-* Benefit of OOP for this:
-    * state is confined to one place
-    * Could make a child class that logs
-    * Could make a child class that measures stats
-* Make a child class of the microprocessor that writes the result down into a file each time.
+## <img src="../../images/midterm/calc.png" width="4%" height="4%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" /> Numeric Processor
 
--->
+For the midterm project, you will write a program that processes numbers (reading through a data file and performing computation).
+
+Your program will send requests to an API to assist with some of the computation.
+
+(This project has a few similarities with the microprocessor simulation project in Programming 1. This time, though, you will be using classes and methods, instead of functions.)
+
+[![chatbot](https://img.shields.io/static/v1?label=Begin%20Project&message=Numeric%20Processor&color=blue)](https://classroom.github.com/a/P2YFfJ_d)
+
+<!-- https://github.com/kibo-programming-2-jan-23/numeric-processor -->
+
+Remember..
+
+- **Read** the instructions
+- **Plan** before you code
+- **Debug** if you aren't getting the desired output
+- **Attend** office hours if you need additional support
+- **Ask** for help in Discord
