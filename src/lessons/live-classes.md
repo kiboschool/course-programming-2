@@ -12,6 +12,7 @@ in github classroom, you can reach out in Discord to be added to the team.
 | 1    | Working with APIs   | [Code][w1-s1-code] - [YouTube][w1-s1-video] | [Code][w1-s2-code] - [YouTube][w1-s2-video] |
 | 2    | Classes and Objects | [Code][w2-s1-code] - [YouTube][w2-s1-video] | [Code][w2-s2-code] - [YouTube][w2-s2-video] |
 | 3    | More OOP            | [Code][w3-s1-code] - [YouTube][w3-s1-video] | [Code][w3-s2-code] - [YouTube][w3-s2-video] |
+| 4    | Inheritance         | [Code][w4-s1-code] - [YouTube][w4-s1-video] | [Code][w4-s2-code] - [YouTube][w4-s2-video] |
 
 [w1-s1-code]: https://replit.com/@section1-wed/Class1-APIs-Class-Solution#main.py
 [w1-s2-code]: https://replit.com/@section2-thur/Class1-APIs-Solution#main.py
@@ -25,3 +26,7 @@ in github classroom, you can reach out in Discord to be added to the team.
 [w3-s2-code]: https://replit.com/@section2-thur/class3-tabletennis-solution#main.py
 [w3-s1-video]: https://youtu.be/Du-d9e3SKvg
 [w3-s2-video]: https://youtu.be/Du-d9e3SKvg
+[w4-s1-code]: https://replit.com/@section1-wed/class4-inheritance-solution#volleyball.py
+[w4-s2-code]: https://replit.com/@section2-thur/class4-inheritance-solution#volleyball.py
+[w4-s1-video]: https://youtu.be/sBZILWWMX94
+[w4-s2-video]: https://youtu.be/sBZILWWMX94
