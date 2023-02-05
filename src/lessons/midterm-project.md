@@ -1,13 +1,12 @@
 # Midterm Project
 
-**Due Date - Feb 10**
+**Due Date - Feb 11**
 
 ---
 
 > 💡 This is an individual project. You are expected to work independently.
 >
 > If you get stuck, confused, or have trouble with the project, you should use a channel in Discord, or message an instructor.
-
 
 ## <img src="../../images/midterm/calc.png" width="4%" height="4%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px;" /> Numeric Processor
 
