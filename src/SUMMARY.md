@@ -61,12 +61,10 @@
   - [Class syntax](lessons/oop-review/class-syntax.md)
   - [Inheritance](lessons/oop-review/inheritance.md)
   - [Error handling](lessons/oop-review/error-handling.md)
-<!--
+  <!--
   - [OOP Design](lessons/oop-review/oop-design.md)
   - [Exercises](lessons/oop-review/exercises.md)
--->
-
-<!--
+    -->
 
 ### Week 5 - SQL and Data Visualization
 
@@ -80,6 +78,7 @@
   - [Data Visualization](lessons/sql-and-vis/data-visualization.md)
   - [Examples](lessons/sql-and-vis/examples.md)
 
+<!--
 ### Week 6 - Debugging
 
 - [Debugging](lessons/debugging.md)
