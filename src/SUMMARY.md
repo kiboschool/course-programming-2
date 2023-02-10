@@ -66,17 +66,17 @@
   - [Exercises](lessons/oop-review/exercises.md)
     -->
 
-### Week 5 - SQL and Data Visualization
+### Week 5 - Databases and Data Visualization
 
-- [SQL and Data Visualization](lessons/sql-and-vis.md)
+- [Databases and Data Visualization](lessons/db-and-vis.md)
 
-  - [Querying Data](lessons/sql-and-vis/querying-data.md)
-  - [Introduction to SQL](lessons/sql-and-vis/introduction-to-sql.md)
-  - [Inserting, Updating, and Deleting](lessons/sql-and-vis/inserting-updating-deleting.md)
-  - [Limits And Ordering](lessons/sql-and-vis/limits-and-ordering.md)
-  - [Installing Matplot Lib](lessons/sql-and-vis/installing-matplot-lib.md)
-  - [Data Visualization](lessons/sql-and-vis/data-visualization.md)
-  - [Examples](lessons/sql-and-vis/examples.md)
+  - [Querying Data](lessons/db-and-vis/querying-data.md)
+  - [Introduction to SQL](lessons/db-and-vis/introduction-to-sql.md)
+  - [Inserting, Updating, and Deleting](lessons/db-and-vis/inserting-updating-deleting.md)
+  - [Limits And Ordering](lessons/db-and-vis/limits-and-ordering.md)
+  - [Installing Matplot Lib](lessons/db-and-vis/installing-matplot-lib.md)
+  - [Data Visualization](lessons/db-and-vis/data-visualization.md)
+  - [Examples](lessons/db-and-vis/examples.md)
 
 <!--
 ### Week 6 - Debugging

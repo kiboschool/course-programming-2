@@ -6,7 +6,7 @@ The way to communicate with a database is a different language called SQL.
 
 Databases work very well when you have very large data sets, like if you are creating the next Facebook and you need a place to store every single comment that people have ever written. While we're on the topic of large data sets, we will talk about how to show visualizations of the data. This can help us see trends and understand the data. For our next-Facebook example we could create a data visualization of number-of-comments per day and if it looks like a line going up and to the right, this means our website is getting more and more active!
 
-## Learning Objectives
+## Topics
 
 * Write code that loops through data in lists to find the information that was requested.
 * If there is a database, use a `select` in SQL to find information.
