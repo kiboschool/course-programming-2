@@ -66,7 +66,7 @@
   - [Exercises](lessons/oop-review/exercises.md)
     -->
 
-### Week 5 - Databases and Data Visualization
+### Week 6 - Databases and Data Visualization
 
 - [Databases and Data Visualization](lessons/db-and-vis.md)
 
@@ -77,9 +77,10 @@
   - [Installing Matplot Lib](lessons/db-and-vis/installing-matplot-lib.md)
   - [Data Visualization](lessons/db-and-vis/data-visualization.md)
   - [Examples](lessons/db-and-vis/examples.md)
+  - [Project: OOP Course Manager ](lessons/db-and-vis/project.md)
 
 <!--
-### Week 6 - Debugging
+### Week 7 - Debugging
 
 - [Debugging](lessons/debugging.md)
 
@@ -90,7 +91,7 @@
   - [Documentation](lessons/debugging/documentation.md)
   - [Examples](lessons/debugging/examples.md)
 
-### Week 7 - Tests and Refactoring
+### Week 8 - Tests and Refactoring
 
 - [Tests and Refactoring](lessons/tests-and-refactoring.md)
 
@@ -99,9 +100,8 @@
   - [Tips For Writing Tests](lessons/tests-and-refactoring/tips-for-writing-tests.md)
   - [Asserts And Named Params](lessons/tests-and-refactoring/asserts-and-named-params.md)
   - [Examples](lessons/tests-and-refactoring/examples.md)
-  - [Project](lessons/tests-and-refactoring/project.md)
 
-### Week 8 - Abstraction
+### Week 9 - Abstraction and PIL
 
 - [Abstraction](lessons/abstraction.md)
 
