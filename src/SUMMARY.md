@@ -70,13 +70,6 @@
 
 - [Databases and Data Visualization](lessons/db-and-vis.md)
 
-  - [Querying Data](lessons/db-and-vis/querying-data.md)
-  - [Introduction to SQL](lessons/db-and-vis/introduction-to-sql.md)
-  - [Inserting, Updating, and Deleting](lessons/db-and-vis/inserting-updating-deleting.md)
-  - [Limits And Ordering](lessons/db-and-vis/limits-and-ordering.md)
-  - [Installing Matplot Lib](lessons/db-and-vis/installing-matplot-lib.md)
-  - [Data Visualization](lessons/db-and-vis/data-visualization.md)
-  - [Examples](lessons/db-and-vis/examples.md)
   - [Project: OOP Course Manager ](lessons/db-and-vis/project.md)
 
 <!--
