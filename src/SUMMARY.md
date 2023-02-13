@@ -70,13 +70,13 @@
 
 - [Databases and Data Visualization](lessons/db-and-vis.md)
 
-  - [Persisting Data ](lessons/db-and-vis/persisting-data.md)
-  - [Database Advantages ](lessons/db-and-vis/db-advantages.md)
-  - [ORM ](lessons/db-and-vis/orm.md)
-  - [ORM Syntax ](lessons/db-and-vis/orm-syntax.md)
+  - [Persisting Data](lessons/db-and-vis/persisting-data.md)
+  - [Database Advantages](lessons/db-and-vis/db-advantages.md)
+  - [ORM](lessons/db-and-vis/orm.md)
+  - [ORM Syntax](lessons/db-and-vis/orm-syntax.md)
   - [Exploring Data](lessons/db-and-vis/exploring-data.md)
   - [Visualizing Data](lessons/db-and-vis/visualizing-data.md)
-  - [Project: OOP Course Manager ](lessons/db-and-vis/project.md)
+  - [Project: OOP Course Manager](lessons/db-and-vis/project.md)
 
 <!--
 ### Week 7 - Debugging

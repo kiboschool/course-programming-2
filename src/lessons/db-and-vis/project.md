@@ -1,14 +1,11 @@
 # Project: OOP Course Manager
 
-(This project is not due this week, but you can beginning working on it now)
-
 **Due Date: Feb 20**
 
 > This is an individual project. You are expected to work on your own to solve
 > write your code. Don't share your code with other students!
 >
 > If you get stuck, ask for help in Discord or attend Office Hours.
-
 
 In this project, you'll build on the course manager project from Programming 1. You'll work with an Object-oriented version of the application, using inheritance, custom errors, and the SQLAlchemy ORM.
 

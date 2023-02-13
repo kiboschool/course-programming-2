@@ -56,20 +56,56 @@ class SongListUsingOrm:
         else:
             print('Song not found')
             return None
-
 ```
 
-### How to set up SQLAlchemy
+### SQLAlchemy Schema
 
-Telling SQLAlchemy about a table is done by creating a class called a *SqlAlchemy model*. Notice that the class isn't a normal standalone class, it is a class that inherits from *Base*.
+After installing and configuring SQLAlchemy, you need to tell the ORM about the tables and columns in the database.
 
-Don't worry if the model class is hard to understand, you won't really be asked to create a model class like this from scratch. When learning very new lines of code like this, the best strategy is to copy from an existing example and modify it to fit the new situation.
+To tell SQLAlchemy about a table, you create a class called a *SqlAlchemy model*. Models aren't standalone classes; they inherit from the SQLAlchemy *Base*.
 
-The code for creating an engine also looks unusual, the lines with `create_engine`. Again, you can think of this as boilerplate, and copy it to each of your projects. (SQLAlchemy has laid out the code like this to allow people to create different types of connections and different types of sessions, but the defaults work fine for us).
+```python
+class Song(Base):
+    __tablename__ = "Songs"
+    id = Column(Integer, primary_key=True)
+    name = Column(String())
+    artist = Column(String())
+    times_listened_to = Column(Integer)
+```
+
+This would correspond to a table like this in SQL:
+
+```sql
+CREATE TABLE Songs (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  artist TEXT,
+  times_listened_to INTEGER
+);
+```
+ 
+Don't worry if the model class is hard to understand. You won't be asked to create a model class like this from scratch. When learning to use libraries, one strategy is to copy from an existing example and modify it to fit your new situation.
+
+The code for creating an engine also looks unusual. Again, you can think of this as boilerplate, and copy it to each of your projects. SQLAlchemy has laid out the code like this to allow people to create different types of connections and different types of sessions, but the defaults work fine for us.
+
+```python
+self.engine = create_engine(f'sqlite:///{filename}', echo=False)
+Session = sessionmaker(self.engine)
+self.session = Session()
+```
+
+This is similar what you had to do with the SQLite library, dealing with connections and cursors.
 
 ### Bonus: More about SQLAlchemy
 
-SQLAlchemy is a good example of object-oriented programming for another reason. Remember in the midterm when we made subclasses that could run in different modes. The calling code remained the same, but the child class would have slightly different behavior, like measuring statistics. In a similar way, SQLAlchemy internally has different implementations that connect to different database systems. So if your Python program interacts with a database through SQLAlchemy, it would only take a few lines of code changed to make it interact with a SQLite system, a Postgres system, a MySQL system, and so on. This is great because your program can easily adapt - you make only a minor change to your code running on your computer vs running in the cloud, running with a small amount of data vs running with large data sets.
+SQLAlchemy is a good example of object-oriented programming for another reason: it abstracts over the underlying database.
 
-(You can read in-depth information about SQLAlchemy here, https://leportella.com/sqlalchemy-tutorial/).
+In the midterm, you made subclasses that could run in different modes. The calling code remained the same, but the child class would have slightly different behavior, like measuring statistics. 
 
+In a similar way, SQLAlchemy internally has different implementations that connect to different database systems. If your Python program interacts with a database through SQLAlchemy, it would only take a few lines of changes to change the database from SQLite to Postgres or MySQL or another system. 
+
+This is great! Your program can easily adapt. A common use case is to use SQLite when developing locally, then Postgres in the deployed application. You only need a minor change to which code runs on your computer vs running in the cloud to use an entirely different database.
+
+## Further Reading: SQLAlchemy
+
+You can follow an in-depth SQLAlchemy tutorial here: [https://leportella.com/sqlalchemy-tutorial/](https://leportella.com/sqlalchemy-tutorial/)
