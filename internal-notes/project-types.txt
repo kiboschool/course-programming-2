@@ -5,7 +5,7 @@ Draw from these project types for the mini-exercises,
 Debugging / fix this to pass the tests
 Fill in the missing parts
 Predict what will happen
-Order the statements
+Order the statements (https://js-parsons.github.io/)
 Explore some code / answer questions about it
 Code explanation
 Documentation

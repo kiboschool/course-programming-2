@@ -70,6 +70,10 @@
 
 - [Databases and Data Visualization](lessons/db-and-vis.md)
 
+  - [Persisting Data ](lessons/db-and-vis/persisting-data.md)
+  - [Database Advantages ](lessons/db-and-vis/db-advantages.md)
+  - [ORM ](lessons/db-and-vis/orm.md)
+  - [ORM Syntax ](lessons/db-and-vis/orm-syntax.md)
   - [Project: OOP Course Manager ](lessons/db-and-vis/project.md)
 
 <!--
