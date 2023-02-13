@@ -18,7 +18,7 @@ Saving data into a database is similar - the code will be more complicated, but 
 Imagine that you're working on a program that keeps track of what music we listen to. You have a long list of songs and a counter of how many times they have been played. The data looks like this:
 
 
-```
+```python
 {
     "songs": [
         {
@@ -98,7 +98,7 @@ class SongListUsingJson:
 
 The program is written in a nice object-oriented way, so it can be used pretty easily,
 
-```
+```python
 song_list = SongListUsingJson('songs-kibo.json')
 song_id = test.get_song_id('Fatela')
 song_list.increase_times_listened_to(songid)
@@ -132,7 +132,7 @@ A database works well for the program because it was already laid out in a list.
 
 The code to interact with this database is here,
 
-```
+```python
 import json
 import sqlite3
 

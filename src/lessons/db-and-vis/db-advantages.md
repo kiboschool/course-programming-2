@@ -15,7 +15,7 @@ We'll run it 1000 times to get a better statistical sample size. (If we only com
 
 A first shot at a comparison is here,
 
-```
+```python
 def bad_test_with_json():
     for _ in range(1000):
         song_list = SongListUsingJson('songs-kibo.json')
@@ -34,7 +34,7 @@ This isn't a good way to measure how fast it is, because it has to reconnect eve
 A more realistic test:
 
 
-```
+```python
 def test_with_json():
     song_list = SongListUsingJson('songs-kibo.json')
     for row in song_list.data['songs']:

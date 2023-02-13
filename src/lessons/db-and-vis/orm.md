@@ -11,14 +11,14 @@ Even worse, if the user could control what was put into the string, it can cause
 
 Consider this line of code
 
-```
+```python
 sql = "UPDATE Songs SET name = " + name + " WHERE id = " + song_id;
 cursor = conn.execute(sql)
 ```
 
 This seems to work at first. But if the user were able to type in a `song_id` of `1 or TRUE`, the sql that would be executed would be  
 
-```
+```sql
 UPDATE Songs SET name = changed WHERE id = 1 or TRUE
 ```
 
@@ -26,7 +26,7 @@ This would change the name on **every single row**. This is called [SQL injectio
 
 By using the question marks,
 
-```
+```python
 conn.execute("UPDATE Songs SET nme = ? WHERE id=?", [song_name, song_id])
 ```
 
