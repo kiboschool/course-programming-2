@@ -1,23 +1,28 @@
 # Database Advantages
 
-There are lots of advantages to using databases:
+There are lots of advantages to using databases, for example:
 
 - Fewer bugs
-- Simpler code
+- Consistency
+- Scalability
+- Security
 - Faster performance
 
 ## Fewer bugs
-
 We already saw one advantage of using a database. The column names and table names are defined ahead of time. From then on, any typos in the column or table name are detected instantly because an error will be occur. An error is better than the program silently not working, like the bug in the JSON version of the Songs program.
 
 As you've learned, modeling data using databases can prevent lots of other kinds of subtle data corruption and integrity issues.
 
-## Simpler Code
+## Consistency 
+Databases help ensure data consistency by enforcing constraints, such as data type and integrity rules, preventing invalid data from being entered. For example, if you try to enroll a student in a course that does not exist, a database can prevent such an error from happening.
 
-When using lists instead of a database, your program often needs many loops. Your program is simpler when you can use SQL's SELECT statements to get data, instead of looping through a list of objects. The sql statement `SELECT FROM Songs WHERE artist='Myley Cyrus' and name='Flowers'` is quite clear. The list implementation would need to loop through the list and check two conditions for each item. With a database, on the other hand, you don't need to write the loops.
+## Scalability 
+Databases can handle large amounts of data and can be scaled up or down to accommodate changing business needs. It can also be distributed across multiple machines.
+
+## Security
+Databases provide several security mechanisms to protect the data they store, including authentication, authorization, auditing, and backup and recovery. You can control who can see or edit data on all or part of the database.
 
 ## Faster Performance
-
 Databases are optimized for performance when working with large data sets. While it's possible to write programs that manage data as quickly or more quickly as databases, it can take massive effort.
 
 Let's measure the speed of the two versions of the Song program, to see the difference in speed between the database version and the JSON file. 
