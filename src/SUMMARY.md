@@ -68,6 +68,8 @@
 
 ### Week 5 - Midterm Week
 
+- [Midterm Week](lessons/midterm-week.md)
+
 ### Week 6 - SQL and Data Visualization
 
 - [SQL and Data Visualization](lessons/sql-and-vis.md)
