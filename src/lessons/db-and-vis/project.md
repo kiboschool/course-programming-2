@@ -1,6 +1,6 @@
 # Project: OOP Course Manager
 
-**Due Date: Feb 20**
+**Due Date: Feb 24**
 
 > This is an individual project. You are expected to work on your own to solve
 > write your code. Don't share your code with other students!
