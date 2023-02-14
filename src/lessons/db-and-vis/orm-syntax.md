@@ -1,6 +1,10 @@
 
 ## ORM Syntax
 
+You will first need to install SQLAlchemy if it is not already installed.
+
+In a terminal, run `py -m pip install sqlalchemy`, `python3 -m pip install sqlalchemy`, `python -m pip install sqlalchemy`, or use the way you have usually installed Python modules. (This is the way you have installed other modules like Requests).
+
 Here is our songs program, updated to use the ORM called SQLAlchemy:
 
 ```python

@@ -76,7 +76,12 @@
   - [ORM Syntax](lessons/db-and-vis/orm-syntax.md)
   - [Exploring Data](lessons/db-and-vis/exploring-data.md)
   - [Visualizing Data](lessons/db-and-vis/visualizing-data.md)
+<<<<<<< HEAD
   - [Project: OOP Course Manager](lessons/db-and-vis/project.md)
+=======
+  - [Exercises](lessons/db-and-vis/exercises.md)
+  - [Project: OOP Course Manager ](lessons/db-and-vis/project.md)
+>>>>>>> 3084cc4 (Add data vis section)
 
 <!--
 ### Week 7 - Debugging
