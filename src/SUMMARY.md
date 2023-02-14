@@ -66,6 +66,7 @@
   - [Exercises](lessons/oop-review/exercises.md)
 -->
 
+<!--
 ### Week 5 - Midterm Week
 
 - [Midterm Week](lessons/midterm-week.md)
@@ -82,7 +83,7 @@
   - [Data Visualization](lessons/sql-and-vis/data-visualization.md)
   - [Examples](lessons/sql-and-vis/examples.md)
 
-<!--
+
 ### Week 6 - Debugging
 
 - [Debugging](lessons/debugging.md)
