@@ -61,30 +61,30 @@
   - [Class syntax](lessons/oop-review/class-syntax.md)
   - [Inheritance](lessons/oop-review/inheritance.md)
   - [Error handling](lessons/oop-review/error-handling.md)
-<!--
+  <!--
   - [OOP Design](lessons/oop-review/oop-design.md)
   - [Exercises](lessons/oop-review/exercises.md)
--->
+    -->
 
-<!--
 ### Week 5 - Midterm Week
 
 - [Midterm Week](lessons/midterm-week.md)
 
-### Week 6 - SQL and Data Visualization
+### Week 6 - Databases and Data Visualization
 
-- [SQL and Data Visualization](lessons/sql-and-vis.md)
+- [Databases and Data Visualization](lessons/db-and-vis.md)
 
-  - [Querying Data](lessons/sql-and-vis/querying-data.md)
-  - [Introduction to SQL](lessons/sql-and-vis/introduction-to-sql.md)
-  - [Inserting, Updating, and Deleting](lessons/sql-and-vis/inserting-updating-deleting.md)
-  - [Limits And Ordering](lessons/sql-and-vis/limits-and-ordering.md)
-  - [Installing Matplot Lib](lessons/sql-and-vis/installing-matplot-lib.md)
-  - [Data Visualization](lessons/sql-and-vis/data-visualization.md)
-  - [Examples](lessons/sql-and-vis/examples.md)
+  - [Persisting Data](lessons/db-and-vis/persisting-data.md)
+  - [Database Advantages](lessons/db-and-vis/db-advantages.md)
+  - [ORM](lessons/db-and-vis/orm.md)
+  - [ORM Syntax](lessons/db-and-vis/orm-syntax.md)
+  - [Exploring Data](lessons/db-and-vis/exploring-data.md)
+  - [Visualizing Data](lessons/db-and-vis/visualizing-data.md)
+  - [Exercises](lessons/db-and-vis/exercises.md)
+  - [Project: OOP Course Manager](lessons/db-and-vis/project.md)
 
-
-### Week 6 - Debugging
+<!--
+### Week 7 - Debugging
 
 - [Debugging](lessons/debugging.md)
 
@@ -95,7 +95,7 @@
   - [Documentation](lessons/debugging/documentation.md)
   - [Examples](lessons/debugging/examples.md)
 
-### Week 7 - Tests and Refactoring
+### Week 8 - Tests and Refactoring
 
 - [Tests and Refactoring](lessons/tests-and-refactoring.md)
 
@@ -104,9 +104,8 @@
   - [Tips For Writing Tests](lessons/tests-and-refactoring/tips-for-writing-tests.md)
   - [Asserts And Named Params](lessons/tests-and-refactoring/asserts-and-named-params.md)
   - [Examples](lessons/tests-and-refactoring/examples.md)
-  - [Project](lessons/tests-and-refactoring/project.md)
 
-### Week 8 - Abstraction
+### Week 9 - Abstraction and PIL
 
 - [Abstraction](lessons/abstraction.md)
 

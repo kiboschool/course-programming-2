@@ -7,12 +7,12 @@ To access the code, you'll need to have joined the github classroom org and been
 added to the team. Once you've joined the Github team by accepting an assignment
 in github classroom, you can reach out in Discord to be added to the team.
 
-| Week | Topic                      | Section 1                                   | Section 2                                   |
-| ---- | -------------------------- | ------------------------------------------- | ------------------------------------------- |
-| 1    | Working with APIs          | [Code][w1-s1-code] - [YouTube][w1-s1-video] | [Code][w1-s2-code] - [YouTube][w1-s2-video] |
-| 2    | Classes and Objects        | [Code][w2-s1-code] - [YouTube][w2-s1-video] | [Code][w2-s2-code] - [YouTube][w2-s2-video] |
-| 3    | More OOP                   | [Code][w3-s1-code] - [YouTube][w3-s1-video] | [Code][w3-s2-code] - [YouTube][w3-s2-video] |
-| 4    | Inheritance                | [Code][w4-s1-code] - [YouTube][w4-s1-video] | [Code][w4-s2-code] - [YouTube][w4-s2-video] |
+| Week | Topic               | Section 1                                   | Section 2                                   |
+| ---- | ------------------- | ------------------------------------------- | ------------------------------------------- |
+| 1    | Working with APIs   | [Code][w1-s1-code] - [YouTube][w1-s1-video] | [Code][w1-s2-code] - [YouTube][w1-s2-video] |
+| 2    | Classes and Objects | [Code][w2-s1-code] - [YouTube][w2-s1-video] | [Code][w2-s2-code] - [YouTube][w2-s2-video] |
+| 3    | More OOP            | [Code][w3-s1-code] - [YouTube][w3-s1-video] | [Code][w3-s2-code] - [YouTube][w3-s2-video] |
+| 4    | Inheritance         | [Code][w4-s1-code] - [YouTube][w4-s1-video] | [Code][w4-s2-code] - [YouTube][w4-s2-video] |
 | 5    | Class Members & Exceptions | [Code][w5-s1-code] - [YouTube][w5-s1-video] | [Code][w5-s2-code] - [YouTube][w5-s2-video] |
 
 [w1-s1-code]: https://replit.com/@section1-wed/Class1-APIs-Class-Solution#main.py

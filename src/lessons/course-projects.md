@@ -12,8 +12,8 @@ There will also be a midterm project and a final project.
 Below are the projects you'll be working on in this course:
 
 - Course Project 1: OOP Jukebox (**Due Date: Jan 31**)
-- Midterm Project: OOP Microprocessor
-- Course Project 2: OOP Course Manager
+- Midterm Project: OOP Microprocessor (**Due Date: Feb 10**)
+- Course Project 2: OOP Course Manager (**Due Date: Feb 24**)
 - Course Project 3: OOP Clothing Store
 - Final Project
 
