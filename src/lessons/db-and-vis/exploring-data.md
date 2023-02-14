@@ -1,12 +1,22 @@
+# Exploring Data
 
-## Exploring Data
+You've seen how to connect to a database and use an ORM to model tables and rows. In this lesson, you'll see a bit more about how to use an ORM to explore data and answer questions.
 
-### Pop Charts
+There are two explorations here: one for pop music data and one for football statistics.
 
-Please download these files, and place them in a folder on your computer, [pop_charts_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.db) and [pop_charts_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.py).
+> **Follow along** with the examples below. Download the files, run the code, and make changes to experiment with the data and the program.
+
+## Pop Charts
+
+The Pop Charts are a list of the top 100 songs, ranked in order of popularity, which in this case is measured by the number of YouTube views.
+
+This is based on real data from YouTube, ranking the currently most-popular music.
+
+Download these files, and place them in a folder on your computer: 
+- [pop_charts_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.db)
+- [pop_charts_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.py).
 
 ```python
-
 from sqlalchemy import String, Integer, Column
 from sqlalchemy import select, create_engine
 from sqlalchemy.orm import relationship, declarative_base, sessionmaker
@@ -48,15 +58,10 @@ class PopChartsExploration:
 if __name__ == '__main__':
     popChartsExploration = PopChartsExploration('pop_charts_exploration.db')
     popChartsExploration.get_longest_song()
-    
-
 ```
 
-This is based on real data from YouTube, ranking the currently most-popular music.
 
-The Pop Charts are a list of the top 100 songs, ranked in order of popularity, which in this case is measured by the number of YouTube views.
-
-As the `PopCharts` class shows, there are some columns like song name, artist, time_on_chart, and so on. 
+As the `PopCharts` class shows, there table has columns for each song, like the song's name and artist. 
 
 * `time_on_chart` is the number of days the song has been ranked in the top 100. 
 * `change` is the percentage increase or decrease in the number of views since last week.
@@ -69,21 +74,35 @@ We can use our Python program to answer questions about the data. It can be fun 
 
 In a statistics course, we could perform measurements on the different values to answer questions like variance and average. For now, we'll just look at basic properties like highest and lowest values.
 
-If we want to find the longest song, we can sort by duration in **descending** order and retrieve the first result. (The `.desc()` specifies sorting in this order, from largest value to smallest).
+If we want to find the longest song, we can sort by duration in **descending** order and retrieve the first result. The `.desc()` method specifies sorting in this order, from largest value to smallest.
 
-Similarly, if we want to find the longest song, we can sort by duration in **descending** order and retrieve the first result. (You could use `.asc()` to specify sorting in this order, from largest value to smallest).
+Similarly, if we want to find the shortest song, we can sort by duration in **ascending** order and retrieve the first result. You can use `.asc()` to specify sorting in this order, from smallest value to largest.
 
-Notice that SQLAlchemy is giving us many useful features, and we don't have to write any sql.
+Notice that SQLAlchemy is giving us access to many useful database features, without having to write the SQL by hand.
 
-One caveat is to remember to indicate the primary key. Tables in a relational database usually have an `id` column. This id is also referred to as the *primary key*. SQLAlchemy expects at least one of the columns to be marked with `primary_key=True`, or it will throw an error when your program runs.
+Tables in a relational database usually have an `id` column that serves as the *primary key*. SQLAlchemy expects at least one of the columns to be marked with `primary_key=True`, or it will throw an error when your program runs.
 
-> Exercise:
-> * modify the code so that it finds the song that has been ranked in the top 100 for the shortest amount of time. 
-> * then run the program and get the artist and name of that song.
+### Try it yourself: Pop Charts 
+
+Practice working with the Pop Charts data.
+
+If you hadn't already done so, download [pop_charts_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.db) and [pop_charts_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.py).
+
+Use the SQLAlchemy ORM to generate queries to answer the following questions:
+
+* How many songs are in the pop charts database?
+* What is the most liked song?
+* What is the most viewed song?
+* What are the 10 top trending songs? (Hint: Find the songs with the largest percentage increase in views this week.)
+* What song that has been ranked in the top 100 for the shortest amount of time?
 
 ### Football Players
 
-Please download these files, and place them in a folder on your computer, [football_players_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.db) and [football_players_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.py).
+This is real data, scraped from Wikipedia. It contains player information for World Cup football matches. There are many players who aren't included in this data set.
+
+Download these files, and place them in a folder on your computer: 
+- [football_players_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.db)
+- [football_players_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.py).
 
 ```python
 from sqlalchemy import String, Integer, Column, ForeignKey
@@ -134,22 +153,22 @@ class FootballPlayersExploration:
 if __name__ == '__main__':
     footballPlayersExploration = FootballPlayersExploration('football_players_exploration.db')
     footballPlayersExploration.get_most_goals()
-    
-
 ```
-
-This is real data that was scraped from Wikipedia. It contains player information for world cup football matches.
 
 If we want to find the player who scored the most goals, we can sort by goal scored in descending order and retrieve the first result.
 
-(There are many players who aren't included in this data set).
+Run the script, and see the answer. 
 
-Please run the script, and see the answer. 
+This database has two tables, one for Players and one for Countries. Programmers often create databases this way, splitting the data into different tables. You might remember that this is called [normalization](https://web-app-development.vercel.app/lessons/data-modeling/relations-and-normalization.html).
 
-Note that this database has two tables, one for Players and one for Countries. Programmers often create databases this way, splitting the data into different tables. You might remember that this is called [normalization](https://web-app-development.vercel.app/lessons/data-modeling/relations-and-normalization.html).
+## Try it yourself: Football Players
 
-> Bonus challenge:
-> * modify the code so that it does another query in `get_most_goals` to determine and display the country name.
-> * remember that you can run queries by writing code that looks like this,
->   * `result = self.session.query(Table).filter_by(column_name=value).first()`
+Practice working with the Football Players data.
 
+If you hadn't already done so, download [football_players_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.db) and [football_players_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.py).
+
+Use the SQLAlchemy ORM to generate queries to answer the following questions:
+
+* What country did the player with the most goals play for? After finding the player with the most goals in `get_most_goals`, write another query to find that player's country (you can use a query by country id, or add a [SQLAlchemy relationship](https://docs.sqlalchemy.org/en/14/tutorial/orm_related_objects.html#tutorial-orm-related-objects))
+* What 10 players have the most caps?
+* What country has the most goals scored by its players? (This will require [grouping and aggregating](https://docs.sqlalchemy.org/en/20/tutorial/data_select.html#aggregate-functions-with-group-by-having)).
