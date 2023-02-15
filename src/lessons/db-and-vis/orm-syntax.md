@@ -15,7 +15,9 @@ from sqlalchemy.orm import relationship, declarative_base, sessionmaker
 Base = declarative_base()
 
 class Song(Base):
-    # these lines look unusual, they're just telling sqlalchemy what the table name and columns are
+    # these lines look unusual,
+    # they're sqlalchemy's way to tell the orm what the table name and columns are
+    
     __tablename__ = "Songs"
     id = Column(Integer, primary_key=True)
     name = Column(String())
@@ -23,7 +25,8 @@ class Song(Base):
     times_listened_to = Column(Integer)
     
     # from now on we can have rows that are an instance of the Song class.
-    # we can think of a row as being an instance of Song, and the attributes are the columns.
+    # we can think of a row as being an instance of Song,
+    # and the attributes are the columns.
 
 class SongListUsingOrm:
     def __init__(self, filename):

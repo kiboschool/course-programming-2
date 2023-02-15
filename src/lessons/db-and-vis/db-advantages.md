@@ -9,9 +9,9 @@ There are lots of advantages to using databases, for example:
 - Faster performance
 
 ## Fewer bugs
-We already saw one advantage of using a database. The column names and table names are defined ahead of time. From then on, any typos in the column or table name are detected instantly because an error will be occur. An error is better than the program silently not working, like the bug in the JSON version of the Songs program.
+We already saw one advantage of using a database. The column names and table names are defined beforehand. From then on, any typos in the column or table name are detected instantly because an error will be occur. (This is better than the program silently not working).
 
-As you've learned, modeling data using databases can prevent lots of other kinds of subtle data corruption and integrity issues.
+In this way, modeling data using databases can prevent many kinds of subtle data corruption and integrity issues.
 
 ## Consistency 
 Databases help ensure data consistency by enforcing constraints, such as data type and integrity rules, preventing invalid data from being entered. For example, if you try to enroll a student in a course that does not exist, a database can prevent such an error from happening.
@@ -94,20 +94,25 @@ Why is it faster? The Sqlite .db file is structured in a very specific way. Upda
 
 This advantage gets better and better when the data sets are larger. Imaging working with a data set that is hundreds of megabytes. The json file approach of writing the entire file on every `save()` would be far too slow.
 
-Can we skip the `save()` method until the very end of the program? Wouldn't that make the program run a lot faster? Usually we can't - this would mean that if the program crashes, all of the progress and recent changes would be completely lost.
+* Why do we need to call `save()` or `commit()` so often, if this is a slow part of the program?
+* Could we move it to the end of the program?
+* The issue is that we need to be careful about crashes,
+* When using a database we want to call `save()` or `commit()` relatively often, because otherwise if a crash occurs, all of the recent changes would be gone - the changes wouldn't actually be written to the output file yet.
 
 ### Reflections
 
-Database aren't magic. You could write a database system yourself, if you had enough time! 
+Database aren't magic. You could write a database system yourself, if you had enough time.
 
-You could write a Python program that takes a string like `insert into Students (firstname, lastname) values ("John", "Anderson") `. It could split apart the string, find the values, and recognize the meaning of the syntax. It could make a dictionary, and then save the dictionary to a JSON file on disk. When a program sent your program a string like `select from Students where firstname='John'`, your program could interpret the string, read the json file and get the result.
+You could write a Python program that takes a string like `"insert into Students (firstname, lastname) values ('John', 'Anderson')"`. It could split apart the string, find the values, and recognize the meaning of the syntax. It could make a dictionary, and then save the dictionary to a JSON file on disk. When a program sent your program a string like `'select from Students where firstname="John"'`, your program could interpret the string, read the json file and get the result.
 
 This is essentially what database programs do. 
 
 Over the years, developers have optimized database programs to be faster and more resilient to errors. Database systems are careful about what data is stored in memory (e.g. in lists and dictionaries). For example, because data is stored on disk, it doesn't also need to be held in memory. The json version is inefficient because the entire data set is stored both on disk and in the in-memory lists and dictionaries. It doesn't necessarily need to be in both. So databases have an advantage for reduced memory usage, and can even store multi-gigabyte databases that would be too big to store in memory.
 
-Databases can also use an **index** to make queries run quickly.
+Databases can also use what is known as an index to make queries run quickly.
 
-Databases often have a layer that coordinates access, so that many different programs can connect to the same data set at the same time. If doing this with a JSON file, even if the two programs took turns accessing the file, it'd be very hard to avoid the possibility of one program to mistakenly writing over the changes made by the other program.
+Databases often have a layer that coordinates access, so that many different programs can connect to the same data set at the same time. This would be hard to do with a JSON file. Even if two programs took turns accessing the file, it would be complicated to prevent one program from writing over the changes made by the other program.
 
-Databases aren't always the perfect choice, though. It's easy to look inside a JSON file to see what the data looks like. To see inside a sqlite db file, one has to use a specialized tool, like the program `DB Browser for SQLite`. The code for databases is often more complex, and execution speed is often not needed. For small structured data, like program configuration, a JSON file is probably a better choice than a database.
+So in summary, even though writing your own database system would be possible, it makes sense to use an existing system, because years of effort have gone into optimizing a system like SQLite.
+
+Databases aren't always the perfect choice. It's easy to look inside a JSON file to see what the data looks like. To see inside a sqlite db file, one has to use a specialized tool, like the program `DB Browser for SQLite`. The code for databases is often more complex, and execution speed is often not needed. For small structured data, like program configuration, a JSON file is probably a better choice than a database.

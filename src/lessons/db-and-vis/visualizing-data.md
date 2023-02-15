@@ -10,9 +10,9 @@ In Python, there are a few tools that can be used to visualize data. This week w
 
 ## Further Reading: What is data visualization?
 
-See <a href="https://careerfoundry.com/en/blog/data-analytics/what-is-data-visualization/">this article from CareerFoundry</a> for an introduction to Data Visualization.
+See <a href="https://careerfoundry.com/en/blog/data-analytics/what-is-data-visualization/" target="_blank">this article from CareerFoundry</a> for an introduction to Data Visualization.
 
-<a href="https://careerfoundry.com/en/blog/data-analytics/what-is-data-visualization/"><img align="center"  width="75%" height="75%" src="../../images/w6/datavis.png"></a>
+<a href="https://careerfoundry.com/en/blog/data-analytics/what-is-data-visualization/" target="_blank"><img align="center"  width="75%" height="75%" src="../../images/w6/datavis.png"></a>
 
 ## Histograms
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     song_length_histogram()
 ```
 
-The `get_durations` function uses sqlalchemy to get a list of the length in seconds of each song. This list of numbers is passed to matplotlib's `pyplot.hist`, which decides which numbers go in which _bins_ and draws the graph.
+The `get_durations` function uses SQLAlchemy to get a list of the length in seconds of each song. This list of numbers is passed to matplotlib's `pyplot.hist`, which decides which numbers go in which _bins_ and draws the graph.
 
 **Try it**: Run the code. Looking at the graph, how long are most songs in the data set?
 
@@ -95,7 +95,9 @@ if __name__ == '__main__':
     make_scatter_plot()
 ```
 
-This plot is with caps (appearances) on the x axis and goals on the y axis. There is a weak relationship. A strong correlation would show a straight line, and this is more of a cloud: it's not a strong correlation. This means that scoring more goals is linked to appearing more, but it's not a very strong link.
+This plot is with caps (appearances) on the x axis and goals on the y axis. So a player who was in many matches but did not score many goals would show up as a dot in the lower right of the plot. And a player who was not in many matches, but scored many goals, would show up as a dot in the upper left of the plot.
+
+In this case, there is a weak relationship. A strong correlation would show a straight line, and this is more of a cloud: it's not a strong correlation. This means that scoring more goals is linked to appearing more, but it's not a very strong link.
 
 <img align="center"  width="75%" height="75%" src="../../images/w6/plot1.png">
 

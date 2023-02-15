@@ -135,7 +135,7 @@ This is a downside of using dictionaries and JSON to persist data. A typo like t
 <aside> 
 You have used databases in the Web App Development course.
 
-This week we will be using Sqlite databases. Sqlite saves data to a single file, which can be right next to your code, for simplicity. Sqlite is widely used, and it is built into Python. That menas you don't need to install anything extra to use it.
+This week we will be using Sqlite databases. Sqlite saves data to a single file, which can be right next to your code, for simplicity. Sqlite is widely used, and it is built into Python. That means you don't need to install anything extra to use it.
 
 We'll skip over setting up the database. Here, we'll focus on communicating to the database from Python. Refer to the Web Applications course to review database setup. 
 </aside>
