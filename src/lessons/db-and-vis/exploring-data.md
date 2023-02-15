@@ -16,7 +16,7 @@ The Pop Charts are a list of the top 100 songs, ranked in order of popularity, w
 This is based on real data from YouTube, ranking the currently most-popular music.
 
 ```python
-from sqlalchemy import String, Integer, Column
+from sqlalchemy import String, Integer, Float, Column
 from sqlalchemy import select, create_engine
 from sqlalchemy.orm import relationship, declarative_base, sessionmaker
 
@@ -29,7 +29,7 @@ class PopCharts(Base):
     name = Column(String())
     artist = Column(String())
     time_on_chart = Column(Integer)
-    change = Column(Integer)
+    change = Column(Float)
     total_views = Column(Integer)
     num_likes = Column(Integer)
     duration = Column(Integer)
