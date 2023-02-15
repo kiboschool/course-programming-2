@@ -4,15 +4,18 @@ Charts, graphs, and other illustrations help people understand data better than 
 
 In Python, there are a few tools that can be used to visualize data. This week we'll use a library called `matplotlib`.
 
-> **Install matplotlib**
->
-> `matplotlib` is an external package. You can install it using pip.
+Follow along by opening this project:
+
+<a href="https://classroom.github.com/a/6HpS4dwM" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Visualizing%20Data%20(Matplotlib)&color=blue" alt="Visualizing Data (Matplotlib)" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/visualizing-data-matplotlib -->
+
 
 ## Further Reading: What is data visualization?
 
 See <a href="https://careerfoundry.com/en/blog/data-analytics/what-is-data-visualization/" target="_blank">this article from CareerFoundry</a> for an introduction to Data Visualization.
 
 <a href="https://careerfoundry.com/en/blog/data-analytics/what-is-data-visualization/" target="_blank"><img align="center"  width="75%" height="75%" src="../../images/w6/datavis.png"></a>
+
 
 ## Histograms
 
@@ -25,6 +28,8 @@ Histograms are explained on the page [here](https://www.tibco.com/reference-cent
 We can add a script alongside our previous exploration scripts, that uses matplotlib and the existing scripts to draw a histogram.
 
 This example creates a histogram of song lengths:
+
+> Note, before running this, you will need to install the `matplotlib` library using `pip`.
 
 ```python
 import matplotlib.pyplot as pyplot
@@ -52,7 +57,11 @@ if __name__ == '__main__':
 
 The `get_durations` function uses SQLAlchemy to get a list of the length in seconds of each song. This list of numbers is passed to matplotlib's `pyplot.hist`, which decides which numbers go in which _bins_ and draws the graph.
 
-**Try it**: Run the code. Looking at the graph, how long are most songs in the data set?
+> **Try it**: 
+> * You should open `pop_charts_viz.py` from inside the project mentioned at the top of this page.
+> * Run the code.
+> * Looking at the histogram graph, what is the most common length of a song the data set?
+
 
 ## Scatter Plots
 
@@ -133,6 +142,8 @@ if __name__ == '__main__':
 There is a stronger correlation. The data is shaped in more of a line than a cloud. This makes sense! Forwards score more goals than other players, so caps should be more strongly correlated with goals.
 
 ## Try it yourself: Scatter plots
+
+You should open `football_players_viz.py` from inside the project mentioned at the top of this page.
 
 Make scatterplots for goals vs caps for different positions.
 

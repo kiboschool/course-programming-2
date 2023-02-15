@@ -23,7 +23,9 @@ Your log will count for credit as long as it:
 
 On the [Exploring Data](exploring-data.html) page, do the steps mentioned in the **Try it yourself** sections.
 
-* Download the pop charts and football database files and code
+<a href="https://classroom.github.com/a/8xhgZMis" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Exploring%20Data%20(With%20an%20ORM)&color=blue" alt="Exploring Data (With an ORM)" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/exploring-data-orm -->
+
 * Add more functions to the code so that it answers the other questions listed
 * Then, run the program and get the answers
 
@@ -31,7 +33,9 @@ On the [Exploring Data](exploring-data.html) page, do the steps mentioned in the
 
 On the [Visualizing Data](visualizing-data.html) page, do the steps mentioned in the **Try it yourself** section.
 
-* Download the football players `db` file and python code
+<a href="https://classroom.github.com/a/6HpS4dwM" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Visualizing%20Data%20(Matplotlib)&color=blue" alt="Visualizing Data (Matplotlib)" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/visualizing-data-matplotlib -->
+
 * Look inside the database and get the codes for different positions, such as `FW` for forward or `GK` for goalkeeper. You can do this by opening the `.db` file in a tool like `DB Browser for Sqlite`, or by writing a script to loop through player rows and print out the `.position`.
 * Modify the code to generate other charts to answer the questions.
 

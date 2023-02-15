@@ -4,17 +4,16 @@ You've seen how to connect to a database and use an ORM to model tables and rows
 
 There are two explorations here: one for pop music data and one for football statistics.
 
-> **Follow along** with the examples below. Download the files, run the code, and make changes to experiment with the data and the program.
+Follow along, by opening this project:
+
+<a href="https://classroom.github.com/a/8xhgZMis" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Exploring%20Data%20(With%20an%20ORM)&color=blue" alt="Exploring Data (With an ORM)" /></a>
+<!-- https://github.com/kibo-programming-2-jan-23/exploring-data-orm -->
 
 ## Pop Charts
 
 The Pop Charts are a list of the top 100 songs, ranked in order of popularity, which in this case is measured by the number of YouTube views.
 
 This is based on real data from YouTube, ranking the currently most-popular music.
-
-Download these files, and place them in a folder on your computer: 
-- [pop_charts_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.db)
-- [pop_charts_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.py).
 
 ```python
 from sqlalchemy import String, Integer, Column
@@ -84,9 +83,7 @@ Tables in a relational database usually have an `id` column that serves as the *
 
 ### Try it yourself: Pop Charts 
 
-Practice working with the Pop Charts data.
-
-If you hadn't already done so, download [pop_charts_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.db) and [pop_charts_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/pop-charts/pop_charts_exploration.py).
+Practice working with the Pop Charts data. You should open `pop_charts_exploration.py` from inside the project mentioned at the top of this page.
 
 Use the SQLAlchemy ORM to generate queries to answer the following questions:
 
@@ -100,9 +97,6 @@ Use the SQLAlchemy ORM to generate queries to answer the following questions:
 
 This is real data, scraped from Wikipedia. It contains player information for World Cup football matches. There are many players who aren't included in this data set.
 
-Download these files, and place them in a folder on your computer: 
-- [football_players_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.db)
-- [football_players_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.py).
 
 ```python
 from sqlalchemy import String, Integer, Column, ForeignKey
@@ -165,7 +159,7 @@ This database has two tables, one for Players and one for Countries. Programmers
 
 Practice working with the Football Players data.
 
-If you hadn't already done so, download [football_players_exploration.db](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.db) and [football_players_exploration.py](https://github.com/kibo-programming-2-jan-23/walkthroughs/blob/main/db-and-vis/football/football_players_exploration.py).
+You should open `football_players_exploration.py` from inside the project mentioned at the top of this page.
 
 Use the SQLAlchemy ORM to generate queries to answer the following questions:
 
