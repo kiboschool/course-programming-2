@@ -83,17 +83,16 @@
   - [Exercises](lessons/db-and-vis/exercises.md)
   - [Project: OOP Course Manager](lessons/db-and-vis/project.md)
 
-<!--
 ### Week 7 - Debugging
 
 - [Debugging](lessons/debugging.md)
-
-  - [Tips For Print Debugging](lessons/debugging/tips-for-print-debugging.md)
+  - [Types of Bugs](lessons/debugging/examples.md)
+  - [Debugging Strategy](lessons/debugging/strategy.md)
+  - [Print Debugging](lessons/debugging/print-debugging.md)
   - [Stop the World Debugging](lessons/debugging/stop-the-world-debugging.md)
-  - [Organizing Code](lessons/debugging/organizing-code.md)
-  - [Exploring Codebases](lessons/debugging/exploring-codebases.md)
-  - [Documentation](lessons/debugging/documentation.md)
-  - [Examples](lessons/debugging/examples.md)
+  - [Exercises](lessons/debugging/exercises.md)
+<!--
+  - [Debugging Resources](lessons/debugging/resources.md)
 
 ### Week 8 - Tests and Refactoring
 

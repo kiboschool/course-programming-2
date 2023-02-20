@@ -10,3 +10,11 @@ We will introduce some tips and techniques for finding out what is happening in 
 * There is a way to freeze a program at a certain point and look at the exact line of code that the program was about to run. This type of stopping the world debugging requires special tools, and isn't always needed, but can sometimes be very helpful. With this type of debugging you can step line-by-line to see exactly where the program goes, like in the PyTutor website.
 * We will talk about organizing code to make future debugging easier.
 * You will be able to better document your code. For example, "docstrings" are like multi-line commemnts that can be used to type an explanation of what a function does.
+
+## Debugging Manifesto
+
+Debugging can get frustrating!
+
+It's worth bookmarking this [Debugging Manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/) by Julia Evans.
+
+![debugging manifesto](/images/debugging-manifesto.png)
