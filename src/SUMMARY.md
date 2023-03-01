@@ -93,12 +93,15 @@
   - [Exercises](lessons/debugging/exercises.md)
 <!--
   - [Debugging Resources](lessons/debugging/resources.md)
+-->
 
 ### Week 8 - Tests and Refactoring
 
 - [Tests and Refactoring](lessons/tests-and-refactoring.md)
 
   - [Testing](lessons/tests-and-refactoring/testing.md)
+  
+<!--
   - [Introduction to Refactoring](lessons/tests-and-refactoring/introduction-to-refactoring.md)
   - [Tips For Writing Tests](lessons/tests-and-refactoring/tips-for-writing-tests.md)
   - [Asserts And Named Params](lessons/tests-and-refactoring/asserts-and-named-params.md)
