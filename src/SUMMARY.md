@@ -95,12 +95,13 @@
   - [Debugging Resources](lessons/debugging/resources.md)
 -->
 
-### Week 8 - Tests and Refactoring
+### Week 8 - Testing
 
-- [Tests and Refactoring](lessons/tests-and-refactoring.md)
+- [Testing](lessons/testing.md)
 
-  - [Testing](lessons/tests-and-refactoring/testing.md)
-  - [Project: Testing the Order Processor](lessons/tests-and-refactoring/project.md)
+  - [Overview of Testing](lessons/testing/overview-of-testing.md)
+  - [Unit Testing](lessons/testing/unit-testing.md)
+  - [Project](lessons/testing/project.md)
 
 <!--
   - [Introduction to Refactoring](lessons/tests-and-refactoring/introduction-to-refactoring.md)
@@ -108,7 +109,7 @@
   - [Asserts And Named Params](lessons/tests-and-refactoring/asserts-and-named-params.md)
   - [Examples](lessons/tests-and-refactoring/examples.md)
 
-### Week 9 - Abstraction and PIL
+### Week 9 - Refactoring and Abstraction and PIL
 
 - [Abstraction](lessons/abstraction.md)
 
