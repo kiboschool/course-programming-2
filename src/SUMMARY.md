@@ -100,7 +100,8 @@
 - [Tests and Refactoring](lessons/tests-and-refactoring.md)
 
   - [Testing](lessons/tests-and-refactoring/testing.md)
-  
+  - [Project: Testing the Order Processor](lessons/tests-and-refactoring/project.md)
+
 <!--
   - [Introduction to Refactoring](lessons/tests-and-refactoring/introduction-to-refactoring.md)
   - [Tips For Writing Tests](lessons/tests-and-refactoring/tips-for-writing-tests.md)
