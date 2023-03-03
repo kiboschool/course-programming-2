@@ -1,6 +1,15 @@
 
 # The Unittest Framework
 
+## Creating tests in Python
+
+Watch this video to see how to use the `unittest` framework in Python:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/Oz0Z2tNuvDw?start=10&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+(You don't need to work on the example from 10:10 onwards in the video).
+
+
 ## Frameworks
 
 You have noticed that when we have a test file, we have used the `unittest` module. Why didn't we just write some functions with asserts, and call them at the bottom of the file?
@@ -25,10 +34,3 @@ Also, if you add methods called `setUp` or `tearDown` to the class, `setUp` will
 
 One way to organize test classes is to create one test class for each corresponding class in your source code. And then for each method on your real class, create several test methods in the test class to cover the different scenarios for that method.
 
-## Creating tests in Python
-
-Watch this video to see how to use the `unittest` framework in Python:
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/Oz0Z2tNuvDw?start=10&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-(You don't need to work on the example from 10:10 onwards in the video).
