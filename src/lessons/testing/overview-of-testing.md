@@ -28,39 +28,51 @@ Over the years, software developers have come up with different types of testing
 
 > Note that the definitions below are the standard definitions, but when people talk, they sometimes use the terms more loosely: even though technically the term "unit tests" refers to a specific type of test, when people chat they'll sometimes refer to just about any test as a unit test.
 
-Some common types of tests:
+Common types of tests include:
 
 ### Automation tests
 
 A high level test that involves simulating user input. For example, an automation test for a website could simulate moving the cursor, clicking on buttons, and inserting text into the text boxes as if a user were typing there.
 
-A related term is _end-to-end test_. An end-to-end test for a program that interacts with an api will communicate with a real server, and follow essentially the same code paths that would occur if a customer were using the program.
+The test will then look at the output and see if it matches what was expected. It will record an error if the output is different than the expected result.
+
+Some automated tests are _end-to-end tests_ that try to match real usage of the program as much as possible. For example, consider a program that interacts with a server API. An end-to-end test for this program would communicate with a real server, and follow essentially the same code paths that would occur if a customer were using the program.
 
 ### Integration tests
 
 Tests that focus on connecting the different parts of the program.
 
-For example, your program might have a class that records student registration and a class that saves the results to a database. An integration test would confirm that the classes are interacting in the expected way, and that the changes actually make it to the database.
+For example, consider a course enrollment program. Your program might have a class that lets the user enroll students and a class that saves the results to a database. An integration test would confirm that the classes are interacting in the expected way.
 
-You typically don't need as many integration tests, because there typically isn't as much variability. As long as a few records make it into the database successfully, you can be pretty sure that the database connection code is correct, and that any bugs would be coming from other parts of the program.
+<!--You typically don't need to write as many integration tests. In the course enrollment case, as long as a few records make it into the database successfully, you can be pretty sure that the code to connect to the database is correct. There still might be bugs, but they are coming from another parts of the program.-->
 
 ### Component tests
 
-These test a component of your program. For example, there could be part of your program that computes information and writes a result file to disk. A component test could import only that part of the program, send it input, and check that the file was written.
+This type of test is for a "component" of your program. A component often refers to feature in the program, and includes more than one class.
 
-These are similar to integration tests, but instead of the focus being on the connection between the pieces of the program, the focus is on the functionality+end result. There are often many, to test each supported feature.
+These are similar to integration tests, but instead of the focus being on the connection between the pieces of the program, the focus is on the functionality+end result. There are often many component tests, to test each supported feature.
+
+A component test will not simulate the user interface the way an automation test would. It calls into lower-level, more internal parts of the program. It might still interact with files on disk, or a database, though.
 
 ### Unit tests
 
+One of the frustrations with tests is knowing what to do if a test fails. If a high level test like an automation test reports a failure, you have to spend a significant amount of time tracking down what happened. You have to debug and find where in the program the failure occurred.
+
+A "unit test" solves this problem.
+
 Unit tests focus just on one small piece of your program. You would write a unit test to check just one method of a class. The idea is to isolate just one small piece of the code to test - not allowing any other code to be involved.
 
-This does have a benefit - one of the frustrations with automated tests is knowing what to do if a test fails. Because unit tests only look at one place, that is the place causing the problem.
+Because unit tests only look at one place, if there is a failure you will know exactly the location to look for the problem.
 
 For a software project, there can easily be thousands of unit tests. So it is important for the tests to run quickly. It is also important for the tests to be reliable. You will be running unit tests frequently and should never be distracted by random failures that aren't caused by actual bugs.
 
-For these reasons, a unit test should never communicate with an api - making an internet call is slow, unreliable (the server might be down or throw a transient error), and potentially expensive (the api might have a limit of the number of calls allowed before blocking you or charging money).
+For these reasons, a unit test should never communicate with an internet API:
 
-You will read later more about unit tests, including how to write unit tests for a program that relies on an api to work.
+* making an internet call is slow
+* making an internet call is unreliable (the server might be down or throw a transient error)
+* it could be monetarily expensive (unit tests get run frequently. the api might have a limit of the number of calls allowed before blocking you or charging money).
+
+You can still write unit tests for a program that communicates with an internet API. The solution is to put the program in a mode that only affects the internet request. When running in a test mode, the code doesn't make a real internet request but instead looks at hard-coded data. This solution is called a making a "mock".
 
 <!--
 ### Comparisons
