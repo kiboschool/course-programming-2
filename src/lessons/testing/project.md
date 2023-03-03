@@ -1,4 +1,4 @@
-# Project: Testing the Order Processor
+# Project: Testing an Order Processor
 
 **Due Date: March 8**
 > This is an individual project. You are expected to work on your own to solve

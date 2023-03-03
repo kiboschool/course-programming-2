@@ -17,14 +17,14 @@ You have noticed that when we have a test file, we have used the `unittest` modu
 A few reasons why it is helpful to use a **testing framework** like `unittest`:
 
 * Shows a console UI when running the tests, with a count of passes and failures.
-* Useful methods like `self.assertEqual`. This is similar to the `assert` keyword, but if the values are not equal, the values are shown to the console as part of the error message.
+* Useful methods like `self.assertEqual`. This is similar to the `assert` keyword, but if the values are not equal, the values are shown to the console as part of the error message, saving you time.
   * For example, your test might say `self.assertEqual(result, '4')`
   * The error message will say something like `expected '4' but got '5'.` instead of just `AssertionError`.
   * This makes it quicker to debug/discover the problem.
   * Sometimes the bug is a real bug in the program, and sometimes it is simply a bug in the test.
 * Because `unittest` is a common framework, other programs connect to it. For example, there are VSCode extensions that make it convenient to work with `unittest` tests.
 
-## Test Classes
+## Test classes
 
 It might seem confusing to need to create a class that inherits from unittest.TestCase. Why did we have to write `class TestMultiply(unittest.TestCase)`?
 
@@ -32,5 +32,16 @@ We're mostly just using a class to organize all of the tests into one structure.
 
 Also, if you add methods called `setUp` or `tearDown` to the class, `setUp` will run before each test, and `tearDown` will run after each test. Behind the scenes, these are overriding methods on the base `unittest.TestCase` class.
 
-One way to organize test classes is to create one test class for each corresponding class in your source code. And then for each method on your real class, create several test methods in the test class to cover the different scenarios for that method.
+One good way to organize test classes is to create one test class for each corresponding class in your source code. And then for each method on your real class, create several test methods in the test class to cover the different scenarios for that method.
 
+## A hidden benefit to writing tests
+
+If you write tests only a long time after developing your program, it might be tricky to add tests. Your program might have classes and methods that perform many actions, and so one method might need 5 or more tests to cover what it does. You also might need to write extensive `setUp` and `tearDown` helpers, because some classes expect complex state to be present.
+
+As a program grows over time, it is natural for your program to begin to depend on the precise interaction between multiple classes. This is called coupling, and it can be fragile because adding future changes can cause the program to stop working in hard-to-debug ways.
+
+But if you are writing tests around the same time as developing the program, writing the tests can influence the way you write the program code too. The tests might influence you to write shorter methods that do fewer actions. And the tests might influence you to have smaller classes that are more focused on one part of the program. These traits are beneficial to making a flexible program that can be changed and repurposed in the future, which is an important benefit for professional software.
+
+Because unit tests focus on just one method of one class, it helps you avoid coupling because it encourages you to write classes that can work more independently.
+
+You are still learning as a programmer, so don't worry if you don't yet feel how writing tests can help in this way. It's just something to keep in mind: in larger scale projects, a hidden benefit to writing tests is that they help organize your program structure.

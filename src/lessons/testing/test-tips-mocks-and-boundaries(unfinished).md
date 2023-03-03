@@ -1,6 +1,15 @@
 
 # Test Tips: Mocks and Boundaries
 
+(Ideally, show negative examples for as much as possible, to show the pitfalls of not following the advice).
+
+Example for mocks: use an APICaller mock
+
+Example for boundaries: when reading json from a file. when reading json from a file it makes more sense to test for None/test for invalid data types. for typical methods in your code, especially non-public methods, you usually don't need unit tests to check invalid data types/None.
+
+Example for transitions: make the max length of a string 20, adding "..." if truncated. This has non-trivial transition cases.
+
+
 ### Reliability
 
 You will be running your unit tests very often. It would be frustrating if a test failed for no good reason, even if this was a rare occurrence. You need the test to run exactly the same way each time.
