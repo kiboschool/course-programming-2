@@ -37,10 +37,16 @@ To follow best practices, when you are writing unit tests, you should have at le
 
 It is also good practice to write a new test whenever you fix a bug – the test should specifically check for the bug which you have just fixed. If the bug was caused by something which is a common mistake, it’s possible that someone will make the same mistake again in the future – the test will help to prevent that.
 
+<font size="-1">Sources for this page include: https://python-textbok.readthedocs.io/</font>
 
-Please watch this video to learn about Unit Testing in Python:
+### Are checks within your code considered tests?
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/Oz0Z2tNuvDw?start=10&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<blockquote>
 
-<font size="-1">Sources include: https://python-textbok.readthedocs.io/</font>
+You might remember back in the "Inheritence and error handling" chapter we mentioned the concept of an **assert**. 
 
+For example, if you had a function called `delete_log_function` you could add intentionally creating an exception when something isn't right. You would add a line `assert file.name.endswith('.log')` to make sure that if for some reason/some other bug the function is being called for a file that isn't a log file, the program will intentionally crash rather than proceding and deleting files it shouldn't.
+
+Using an `assert` in this way is a good thing to have in your program, and it is similar to writing a test, but *isn't the same*. They both are ways to check that your program is working, and they both might use something called assert. But when we say we are writing tests for a program, we mean tests are set apart from the main code of a program. You should both write many tests outside the main code, and add a few asserts inside the main code if there is a place that would prevent a serious problem.
+
+</blockquote>
