@@ -45,5 +45,22 @@ Right now, the `show_weather_to_user` function is not as easily testable because
 
 * Make a list of at least 3 test cases you would write if you were to write unit tests for this function.
 
+### Creating a test (optional challenge)
 
+* Create a file named `program.py` on your computer,
+* Copy the `show_weather_to_user` function into that file,
+* Create a file in the same folder named `test_show_weather_from_api.py`,
+* Add test methods that call the `show_weather_to_user` function. For example,
+
+```python
+import unittest
+import program
+
+class TestShowWeatherFromApi(unittest.TestCase):
+  def test_when_hour_number_is_24(self):
+     fake_weather_data_list = ...
+     result = program.show_weather_to_user(fake_weather_data_list)
+     assert result == ...
+
+```
 

@@ -26,9 +26,9 @@ def get_sum(the_list):
 
 ```
 
-You write a test for a list of 5 items. It's very likely that if the program works for a list of length 5 items, it will also work for a list of 6 items. And so, you don't need to write tests covering everything from length=1 to length=6.
+You write a test for a list of 5 items. It's very likely that if the program works for a list of length 5 items, it will also work for a list of 6 items. And so, you don't need to write tests covering everything from length of 1 to length of 6.
 
-(It is usually a good idea to write a test for a length of 0, though.)
+<!--(It is usually a good idea to write a test for a length of 0, though.)-->
 
 ### Off-by-one errors
 
