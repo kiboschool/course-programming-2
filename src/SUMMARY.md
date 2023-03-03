@@ -103,6 +103,10 @@
   - [Overview of Testing](lessons/testing/overview-of-testing.md)
   - [Unit Testing](lessons/testing/unit-testing.md)
   - [The Unittest Framework](lessons/testing/the-unittest-framework.md)
+  - [Test Tips: Off-By-One Issues](lessons/testing/test-tips-off-by-one-issues.md)
+  - [Test Tips: Mocks and Boundaries](lessons/testing/test-tips-mocks-and-boundaries.md)
+  - [Test Tips: Best Practices](lessons/testing/test-tips-best-practices.md)
+  - [Exercises](lessons/testing/exercises.md)
   - [Project](lessons/testing/project.md)
 
 <!--

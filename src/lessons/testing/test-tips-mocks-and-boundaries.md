@@ -1,6 +1,14 @@
 
 # Test Tips: Mocks and Boundaries
 
+### Reliability
+
+You will be running your unit tests very often. It would be frustrating if a test failed for no good reason, even if this was a rare occurrence. You need the test to run exactly the same way each time.
+
+Imagine you are writing a test that 
+
+### Structuring your program
+
 This is an other reason to write tests as you write your program, instead of waiting until the end.
  Also, it might take a lot of time to write the tests at that point because your code might be stuck.
 
