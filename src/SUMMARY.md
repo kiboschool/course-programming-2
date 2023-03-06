@@ -107,6 +107,16 @@
   - [Exercises](lessons/testing/exercises.md)
   - [Project](lessons/testing/project.md)
 
+### Week 9 - Abstraction
+
+- [Abstraction](lessons/abstraction.md)
+  - [Abstraction in OOP](lessons/abstraction/abstraction-in-oop.md)
+  - [Other forms of Abstraction](lessons/abstraction/other-forms-of-abstraction.md)
+
+### Week 10 - Final Project
+
+- [Final Project](lessons/final-project.md)
+
 <!--
   - [Introduction to Refactoring](lessons/tests-and-refactoring/introduction-to-refactoring.md)
   - [Tips For Writing Tests](lessons/tests-and-refactoring/tips-for-writing-tests.md)

@@ -1,13 +1,14 @@
 # Abstraction
 
-Abstraction is an important concept in computer science, it isn't easy to describe, but by the end of this course you will gain an understanding of it. Imagine a game that has a save() method to save the current progress, and a load() method that looks for the saved information and restores it to resume where you were. We'll talk about how the program can treat save() and load() as "abstractions" that don't have assumptions aobut the internals of what save and load do internally.
+Abstraction is a fundamental concept in programming that is used to simplify complex systems by focusing on their essential characteristics or features, while hiding their unnecessary details from the users.
 
-This is a good way to write a program because in the future we can easily add features. We could make a new save() and load() that write to a database for very fast save times. Or even make a save() and load() that store information on the internet.
+For example, in the real world, a car is a complex system that has many different parts. But when you drive a car, you don't need to know how the engine works or how the brakes work. You just need to know how to use the steering wheel and the pedals to drive the car. This is abstraction.
+
+In programming, For example, when we use the `print()` function, we don't need to know how the computer prints things to the screen. We just need to know how to use the `print()` function.
+
+You can abstract, hide unnecessary details of, data or behavior (implementation).
 
 ## Learning Objectives
 
-* First, we'll talk about "helper functions", which is writing a simpler-to-use function instead of needing to have copies of complicated code in many places.
-* An "interface" refers to the methods on a class. If two different classes implement the same methods with the same parameters, we can say that they share the same "interface".
-* Even if the program gets the right answer and functions correctly, it still might not be written in the best way possible. For example, it might be hard to read and understand the code, which in the world of computer science, is still important. This is part of what it means to have code quality.
-* You will see in a hands-on example how abstraction helps us make changes to a program more quickly.
-
+- You will learn about the concept of abstraction and how it is used in programming.
+- You will learn how to achieve abstraction in your code.

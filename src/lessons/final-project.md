@@ -1,13 +1,13 @@
 # Final Project
 
-FINAL PROJECT: OBJECT-ORIENTED TIC TAC TOE 
+Final project will be released soon. Stay tuned!
+
+<!--
+FINAL PROJECT: OBJECT-ORIENTED TIC TAC TOE
 
 This builds off of the tic tac toe project from the Programming 1 course.
 
 We haven't posted the description of the final project yet, we will post it here.
-
-
-<!--
 
 * Students start with a full solution to that project
 * We provide a stub TicTacToeDrawer, student implements it to draw to console, and refactor code to call into that
@@ -24,7 +24,7 @@ We haven't posted the description of the final project yet, we will post it here
         * Students will make a TicTacToeDrawer implementation that uses unicode characters for more-fun graphics, like “✕” and “◯”, or have fun looking for other unicode markers.
 * Fun Challenge
     * Make another separate TicTacToeDraw implementation that does something creative.
-    
+
 Students can maybe either choose
 1) visual render tic tac toe, doesn't need to implement save/restore
 or
