@@ -4,7 +4,7 @@ Abstraction is one of the core concepts in object-oriented programming (OOP). It
 
 If this confuses you with encapsulation, don't worry. A good encapsulation is a good abstraction too. In encapsulation, when we hide the implementation details of an object, that's hiding unnecessary details from the users. So, good encapsulation is good abstraction too.
 
-## Abstraction using Abstract Classes
+## Abstract Classes
 
 An abstract class is a class that contains one or more abstract methods. An abstract method is a method that is declared but contains **no implementation**. Abstract classes cannot be instantiated, and their abstract methods must be implemented by their subclasses.
 Here is an example of an abstract class in Python:
@@ -58,7 +58,9 @@ Now here is a client code that uses the Database class:
         return result
 ```
 
-The above class is able to connect to and run queries on any databases without actually knowing how the database works or what type of database it is. It just needs to know that the database has a connect method and a query method (which are defined by the Database abstract class). This is abstraction.
+## Abstraction in the Client Class
+
+The above class is able to connect to and run queries on any databases without actually knowing how the database works or what type of database it is. It just needs to know that the database has a connect method and a query method (which are defined by the Database abstract class). This is abstraction achieved by using abstract classes.
 
 Here is how different people can use the Client class on different databases:
 
@@ -77,8 +79,9 @@ Here is how different people can use the Client class on different databases:
     print(result2)
 ```
 
-The above code uses the ABC module to define an abstract class. ABC stands for Abstract Base Class. It also provides the `@abstractmethod` decorator to define abstract methods. The `@abstractmethod decorator` is used to mark a method as abstract. An abstract method is a method that is declared, but contains **no implementation**. Abstract classes can not be instantiated, and their abstract methods must be implemented by their subclasses.
+The `Database` class code uses the ABC module to define an abstract class. ABC stands for Abstract Base Class. It also provides the `@abstractmethod` decorator to define abstract methods. The `@abstractmethod decorator` is used to mark a method as abstract. An abstract method is a method that is declared, but contains **no implementation**. Abstract classes can not be instantiated, and their abstract methods must be implemented by their subclasses.
 
+<!--
 ## Interfaces
 
 Interfaces are another way to achieve abstraction in OOP. An interface is a contract that defines the behavior of a class. It is a collection of abstract methods. A class implements an interface by providing the implementation of all the abstract methods defined in the interface. You can think of an interface as a 100% abstract class. That means an interface contains only abstract methods and no concrete methods (methods with implementation).
@@ -101,3 +104,4 @@ class Serializer(ABC):
 ```
 
 As you can see, the Serializer interface looks like an abstract class. The only difference there is that it does not contain any concrete methods. It only contains abstract methods.
+-->

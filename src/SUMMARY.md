@@ -112,6 +112,7 @@
 - [Abstraction](lessons/abstraction.md)
   - [Abstraction in OOP](lessons/abstraction/abstraction-in-oop.md)
   - [Other forms of Abstraction](lessons/abstraction/other-forms-of-abstraction.md)
+  - [Summary](lessons/abstraction/summary.md)
 
 ### Week 10 - Final Project
 
