@@ -16,5 +16,4 @@ cars.png
 openclipart
 calc.png
 emojipedia(unicode 7.0 emoji)
-
-
+other images are from openclipart.

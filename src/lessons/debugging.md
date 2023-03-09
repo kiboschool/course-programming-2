@@ -17,4 +17,4 @@ Debugging can get frustrating!
 
 It's worth bookmarking this [Debugging Manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/) by Julia Evans.
 
-![debugging manifesto](/images/debugging-manifesto.png)
+![debugging manifesto](/images/w7/debugging-manifesto.png)

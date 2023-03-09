@@ -3,11 +3,6 @@
 [Course Overview](programming-2.md)
 [Getting Help](lessons/asking-for-help.md)
 [Projects and Exercises](lessons/course-projects.md)
-
-[Midterm Project](lessons/midterm-project.md)
-
- <!--[Final Project](lessons/final-project.md) -->
-
 [Live Classes](lessons/live-classes.md)
 [Additional Practice](lessons/additional-practice.md)
 
@@ -66,9 +61,9 @@
   - [Exercises](lessons/oop-review/exercises.md)
     -->
 
-### Week 5 - Midterm Week
+### Week 5 - Midterm Project
 
-- [Midterm Week](lessons/midterm-week.md)
+- [Midterm Project](lessons/midterm-project.md)
 
 ### Week 6 - Databases and Data Visualization
 

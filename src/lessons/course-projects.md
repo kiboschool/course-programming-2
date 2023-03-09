@@ -33,7 +33,7 @@ programming. You will need to complete exercises, because they will count toward
 
 Exercises make up 10% of the course grade. Exercises (or tasks) will contain assigned points beside them like this:
 
-<image src="../images/exercises.png" height="50%" width="70%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
+<image src="../images/intro/exercises.png" height="50%" width="70%" style="border:none, border-width: 0, border: 0; box-shadow: 0px 0px; margin-top:1em" />
 
 For the weeks that have exercises, please complete two or more for that week, in order to earn full marks.
 
