@@ -16,6 +16,8 @@ in github classroom, you can reach out in Discord to be added to the team.
 | 5    | Class Members & Exceptions   | [Code][w5-s1-code] - [YouTube][w5-s1-video] | [Code][w5-s2-code] - [YouTube][w5-s2-video] |
 | 6    | Polymorphism                 | [Code][w6-s1-code] - [YouTube][w6-s1-video] | [Code][w6-s2-code] - [YouTube][w6-s2-video] |
 | 7    | Polymorphism 2 + Abstraction | [Code][w7-s1-code] - [YouTube][w7-s1-video] | [Code][w7-s2-code] - [YouTube][w7-s2-video] |
+| 8    | Debugging                    | [Code][w8-s1-code] - [YouTube][w8-s1-video] | [Code][w8-s2-code] - [YouTube][w8-s2-video] |
+| 9    | Testing                      | [Code][w9-s1-code] - [YouTube][w9-s1-video] | [Code][w9-s2-code] - [YouTube][w9-s2-video] |
 
 [w1-s1-code]: https://replit.com/@section1-wed/Class1-APIs-Class-Solution#main.py
 [w1-s2-code]: https://replit.com/@section2-thur/Class1-APIs-Solution#main.py
@@ -45,3 +47,13 @@ in github classroom, you can reach out in Discord to be added to the team.
 [w7-s2-code]: https://replit.com/@section2-thur/class7-poly-abstraction-solution
 [w7-s1-video]: https://youtu.be/2LZ6clQvhdQ
 [w7-s2-video]: https://youtu.be/EoSkcFSrF5c
+[w7-s1-code]: https://replit.com/@section1-wed/class7-poly-abstraction-solution
+[w7-s2-code]: https://replit.com/@section2-thur/class7-poly-abstraction-solution
+[w8-s1-code]: https://github.com/mhassanist/numeric-processor-buggy-version.git
+[w8-s2-code]: https://github.com/mhassanist/numeric-processor-buggy-version.git
+[w8-s1-video]: https://youtu.be/nrgMP59t5vE
+[w8-s2-video]: https://youtu.be/zfrAB7Ib1pQ
+[w9-s1-code]: https://replit.com/@section1-wed/class9-testing-solution
+[w9-s2-code]: https://replit.com/@section2-thur/class9-testing-solution
+[w9-s1-video]: https://youtu.be/v4VIVKjWLBM
+[w9-s2-video]: https://youtu.be/v4VIVKjWLBM
