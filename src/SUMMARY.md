@@ -56,10 +56,6 @@
   - [Class syntax](lessons/oop-review/class-syntax.md)
   - [Inheritance](lessons/oop-review/inheritance.md)
   - [Error handling](lessons/oop-review/error-handling.md)
-  <!--
-  - [OOP Design](lessons/oop-review/oop-design.md)
-  - [Exercises](lessons/oop-review/exercises.md)
-    -->
 
 ### Week 5 - Midterm Project
 
@@ -87,9 +83,6 @@
   - [Stop the World Debugging](lessons/debugging/stop-the-world-debugging.md)
   - [Exercises](lessons/debugging/exercises.md)
 
-<!--
-  - [Debugging Resources](lessons/debugging/resources.md)
--->
 
 ### Week 8 - Testing
 
@@ -113,32 +106,3 @@
 
 - [Final Project](lessons/final-project.md)
 
-<!--
-  - [Introduction to Refactoring](lessons/tests-and-refactoring/introduction-to-refactoring.md)
-  - [Tips For Writing Tests](lessons/tests-and-refactoring/tips-for-writing-tests.md)
-  - [Asserts And Named Params](lessons/tests-and-refactoring/asserts-and-named-params.md)
-  - [Examples](lessons/tests-and-refactoring/examples.md)
-
-### Week 9 - Refactoring and Abstraction and PIL
-
-- [Abstraction](lessons/abstraction.md)
-
-  - [Helper Functions](lessons/abstraction/helper-functions.md)
-  - [Interfaces](lessons/abstraction/interfaces.md)
-  - [Example: Persisting Data](lessons/abstraction/example-persisting-data.md)
-  - [Other Abstraction Examples](lessons/abstraction/other-abstraction-examples.md)
-  - [Discuss Code Quality](lessons/abstraction/discuss-code-quality.md)
-  - [Project](lessons/abstraction/project.md)
-
-### Week 9 - Advanced Topics
-
-- [Advanced Topics](lessons/advanced-topics.md)
-
-  - [Introduction to PIL](lessons/advanced-topics/introduction-to-pil.md)
-  - [Processes](lessons/advanced-topics/mention-processes.md)
-  - [GUI Programming](lessons/advanced-topics/mention-gui.md)
-  - [Performance And Algorithms](lessons/advanced-topics/performance-and-algorithms.md)
-  - [Other Advanced Topics](lessons/advanced-topics/other-advanced-topics.md)
-  - [Practice](lessons/advanced-topics/practice.md)
-
--->
