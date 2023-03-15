@@ -1,5 +1,6 @@
 # Abstraction
 
+<!--
 Earlier in this course, you read a page about what it means to make a <a href="/lessons/inheritance-and-error-handling/models.html">model</a>. You saw how programs often have representations of something in the real world, like a car. In a software program it is common to create a model, a simplified representation of that concept, which contains only the parts of that concept that are relevant to the program.
 
 For example, a model of a car in a simple video game, all the game needs to keep track of was the position and speed.
@@ -27,7 +28,7 @@ The idea of abstraction is that in our program we just write "get the square roo
 -----------------
 
 Abstraction is similar to making a model
-
+-->
 
 Abstraction is a fundamental concept in programming that is used to simplify complex systems by focusing on their essential characteristics or features while hiding their unnecessary details from the users.
 
@@ -66,4 +67,4 @@ print("My height is {:.2f} meters.".format(height))
 Another example is the `math` module. We don't need to know how the computer calculates the square root of a number. We just need to know how to use the `sqrt()` function.
 
 
-save/load
+<!-- save/load -->
