@@ -98,9 +98,16 @@
 ### Week 9 - Abstraction
 
 - [Abstraction](lessons/abstraction.md)
+  - [Introduction to Abstraction](lessons/abstraction/introduction-to-abstraction.md)
+  - [Flexibility](lessons/abstraction/flexibility.md)
+  - [Shared Interfaces](lessons/abstraction/shared-interfaces.md)
+  - [Abstract Methods And Classes](lessons/abstraction/abstract-methods-and-classes.md)
+  - [Summary](lessons/abstraction/summary.md)
+<!--
+
   - [Abstraction in OOP](lessons/abstraction/abstraction-in-oop.md)
   - [Other forms of Abstraction](lessons/abstraction/other-forms-of-abstraction.md)
-  - [Summary](lessons/abstraction/summary.md)
+  -->
 
 ### Week 10 - Final Project
 
