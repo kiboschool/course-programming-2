@@ -3,6 +3,8 @@
 
 We'll continue with the Game Saver example from the previous page.
 
+In this page, we'll describe what an abstract method is, and what an abstract class is.
+
 ### Abstract methods
 
 In the latest version of the Game Saver example, this is what the parent class looks like:
@@ -35,16 +37,12 @@ So this is a big reason why we care about which classes are abstract classes ver
 
 <details><summary>Optional: Marking a class as abstract</summary>
 
-Python has a way to mark a class as abstract. This shows people that it's not ready to use on its own.
+Python has a way to mark a class as abstract. This shows people that you should not make an instance of it.
 
 
-(This isn't used in Python as often as it is in other languages, though. In other languages it can be more powerful because they automatically stop your program from accidentally creating an instance of abstract class instead of a child class).
+(This isn't used in Python as often as it is in other languages, though. In other languages it's more useful because your program stops right away if you've accidentally created an instance of a abstract class anywhere instead of a child class).
 
-</details>
-
-<details><summary>Optional: Python syntax for abstract classes</summary>
-
-This syntax can be used to mark abstract classes:
+<b>Python syntax for abstract classes</b>
 
 ```python
 from abc import ABC, abstractmethod
@@ -63,7 +61,19 @@ class GameSaver(ABC):
 
 </details>
 
-<details><summary>Optional: Extended information about abstract classes</summary>
+<details><summary>Optional: Terminology</summary>
+
+Because object-oriented programming has been around for so many years, there are many different terms. You might come across these terms as you read about object-oriented programming:
+
+* A base class means essentially the same thing as a parent class.
+* A concrete class means essentially the same thing as an implementation class (that is to say, a child class of a parent class that has some abstract methods).  
+* (Remember that an abstract method is an empty placeholder method). People sometimes use the term interface to refer to a class where all methods are abstract methods. You could say that an interface is a completely-abstract abstract class.
+
+
+</details>
+
+
+<details><summary>Optional: Another example</summary>
 
 Here is another example of an abstract class in Python:
 
@@ -82,64 +92,40 @@ class DatabaseConnection(ABC):
 class MySQLDatabaseConnection(DatabaseConnection):
     def connect(self):
         # Code to connect to a MySQL database
-        pass
+        ...
 
     def query(self, query_string):
         # Code to execute a query on a MySQL database
-        pass
+        ...
 
 class MongoDBDatabaseConnection(DatabaseConnection):
     def connect(self):
         # Code to connect to a MongoDB database
-        pass
+        ...
 
     def query(self, query_string):
         # Code to execute a query on a MongoDB database
-        pass
+        ...
 ```
 
-In this example, DatabaseConnection is an abstract class that defines two abstract methods: connect and query. These methods do not have any implementation in the abstract class, but their presence **ensures that any concrete subclass of DatabaseConnection must implement them**.
+DatabaseConnection is an abstract class that defines two abstract methods: connect and query. Any implementation  child class of DatabaseConnection must implement them.
 
-MySQLDatabaseConnection and MongoDBDatabaseConnection are **concrete** subclasses of DatabaseConnection that implement the connect and query methods according to their specific database systems. By inheriting from DatabaseConnection, they **must** implement these methods, making them compatible with the abstract DatabaseConnection class.
+MySQLDatabaseConnection and MongoDBDatabaseConnection are **implementation** child classes of DatabaseConnection that implement the connect and query methods. Each implementation has different code according to their specific database systems. By inheriting from DatabaseConnection, they **must** implement these methods or they will not be compatible with the abstract DatabaseConnection class.
 
-Now here is a client code that uses the DatabaseConnection class:
+Example code that uses the DatabaseConnection class:
 
 ```python
-    class Client:
-    def __init__(self, database):
-        self.database = database
-
-    def run_query(self, query_string):
-        self.database.connect()
-        result = self.database.query(query_string)
-        self.database.disconnect()
-        return result
+def connect_and_run_query(database, query_string):
+    database.connect()
+    result = database.query(query_string)
+    return result
 ```
 
-## Abstraction in the Client Class
 
-The above class is able to connect to and run queries on any databases without actually knowing how the database works or what type of database it is. It just needs to know that the database has a connect method and a query method (which are defined by the DatabaseConnection abstract class). This is abstraction achieved by using abstract classes.
-
-Here is how different people can use the Client class on different databases:
-
-```python
-    # sample usage with mysql database
-    mysql_database = MySQLDatabaseConnection()
-    client1 = Client(mysql_database)
-    result1 = client1.run_query("SELECT * FROM customers")
-
-    # sample usage with mysql database
-    mongodb_database = MongoDBDatabaseConnection()
-    client2 = Client(mongodb_database)
-    result2 = client2.run_query("db.customers.find()")
-
-    print(result1)
-    print(result2)
-```
+The function is able to connect to and run queries on any databases without actually knowing how the database works or what type of database it is. It just needs to know that the database has a connect method and a query method (which are defined by the DatabaseConnection abstract class).
 
 
 </details>
-
 
 
 
@@ -174,12 +160,14 @@ As you can see, the Serializer interface looks like an abstract class. The only 
 <blockquote>
 <b>Optional exercise:</b>
 
-We touched on similar concepts when we discussed inheritence and the PersistedList classes [here](/lessons/inheritance-and-error-handling/inheritance.html). We gave the PersistedListIntoLines and PersistedListIntoJson classes have the same interface, knowing that this would make it easy for code using the class to switch between one and the other.)
+We touched on similar concepts when we discussed inheritence and the PersistedList classes [here](/lessons/inheritance-and-error-handling/inheritance.html). We gave the PersistedListIntoLines and PersistedListIntoJson classes the same interface, knowing that this would make it easy for code using the class to switch between one and the other.)
 
 Write an abstract base class depicting the interface for `PersistedListIntoJson`.
+
+(Hint: in this class, all of the methods will just raise an NotImplementedError).
 </blockquote>
 
 
 Abstraction is one of the core concepts in object-oriented programming (OOP). It is the process of simplifying complex real-world entities into their essential characteristics or features while hiding their unnecessary details from the users. In other words, it focuses on what an object does rather than how it does it.
 
-If this confuses you with encapsulation, don't worry. A good encapsulation is a good abstraction too. In encapsulation, when we hide the implementation details of an object, that's hiding unnecessary details from the users. So, good encapsulation is good abstraction too.
+If this confuses you with encapsulation, don't worry. A good encapsulation is a good abstraction too. In encapsulation, when we make the implementation details of an object less accessible from the outside, that is related to hiding details. So, good encapsulation is good abstraction too.

@@ -148,6 +148,8 @@ class GameSaverOnline(GameSaver):
 
 ```
 
+A programmer looking at the code will see this and know that it means that GameSaverToFile and GameSaverOnline need to have the same save() and load() methods.
+
 In this example, the parent class GameSaver depicts the **interface**. The child classes GameSaverToFile and  GameSaverOnline we refer to as an **implementation**. The child classes have methods that override the interface methods.
 
 This new version of the program doesn't really change the functionality. But it does convey to anyone working on the program that GameSaverToFile and GameSaverOnline need to share the same interface. And, if the child class has forgotten to add a method,  the NotImplementedError will fire to remind us to fix this.
