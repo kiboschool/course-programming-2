@@ -52,15 +52,30 @@ But because of abstraction, we only need to think about this:
 
 <!-- 
 Could potentially add in the future if we explain enough,
-Flesh out the save/load example
 Image of a black box - hide the complexity within the box
 Video "Abstraction Can Make Your Code Worse"
 https://www.youtube.com/watch?v=rQlMtztiAoA -->
 
+### 🏙️️ Another benefit of abstraction
+
+
+Imagine a program where you enter the name of a city, and it displays information about that city. For example, if the user enters Accra, the program would output `Country: Ghana, Population 284,000, Coordinates: 5°33′N 0°12′W`. The goal is for the same program to run in different modes:
+
+* as a command-line text program
+* as a visual program with menus and buttons, running in Windows (this type of program is known as GUI)
+* running within a web browser as part of a website
+
+If the program wrote its output by having a lot of `print` statements everywhere, this would be limiting. It would work in VSCode and as a command-line text program that runs in a console. But visual programs in Windows have a different way to display text - not print, but a function called SendMessage. And programs running on a web browser also have a completely different way to have text show on the website. `print` will not work in those cases.
+
+Instead of the program calling `print` in a lot of places, the solution is to have the program instead call a helper function `display_text`. We can think of `display_text` as a *generalized* or *abstract* action that represents the idea of displaying text. We call making this change *abstraction*.
+
+We are focusing on what the program does, and not the specifics of how it is achieved. The benefit is that the same program can now be easily run in different mode, without needing to make any changes. (Over in the `display_text` function, the program can determine what mode it is running in, and call the appropriate function to actually show the text).
+
+So, another benefit of abstraction, besides simplication, is that your program can be more adaptible. Abstraction will help you write a program that runs in different situations without needing modification.
 
 ### 🏷️	 Other examples
 
-There can be abstraction even for programs that don't use classes and methods. For example, for this program:
+There can be also abstraction even for programs that don't use classes and methods. For example, for this program:
 
 ```python
 import lower_layer_helpers

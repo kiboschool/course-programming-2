@@ -103,11 +103,8 @@
   - [Shared Interfaces](lessons/abstraction/shared-interfaces.md)
   - [Abstract Methods And Classes](lessons/abstraction/abstract-methods-and-classes.md)
   - [Summary](lessons/abstraction/summary.md)
-<!--
+<!--  - [Benefits of a Good Interface](lessons/abstraction/benefits-of-a-good-interface.md) -->
 
-  - [Abstraction in OOP](lessons/abstraction/abstraction-in-oop.md)
-  - [Other forms of Abstraction](lessons/abstraction/other-forms-of-abstraction.md)
-  -->
 
 ### Week 10 - Final Project
 

@@ -7,8 +7,8 @@ The idea is to focus on essential characteristics, and hide unnecessary details.
 
 In this week, you will:
 
-* Learn how abstraction can make code easier to understand
-* Learn how thinking about interfaces can make code flexible for future changes
-* Learn how to write methods in a class that are marked as abstract
+* Learn how abstraction can make your code easier to read and work with
+* Learn how thinking about interfaces can make code more flexible for future changes
+* Learn about object-oriented programming concepts, including abstract methods
 
 *(Note: You will not need to use abstraction in your final project).*

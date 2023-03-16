@@ -1,7 +1,7 @@
 
 # Flexibility
 
-When a program has good abstraction, it is more *flexible*.
+When a program has good abstraction, it is more flexible.
 
 This means that when, in the future bug fixes or new features are needed, the code is easier to change.
 
