@@ -59,13 +59,13 @@ Please contact on Discord first with questions about the course.
 
 - Week 1 - Reading and Writing Data
 - Week 2 - Classes and Objects
-- Week 3 - Subclasses and Error-handling
+- Week 3 - Inheritance and Error-handling
 - Week 4 - OOP Review
-- Week 5 - SQL and Data Visualization
-- Week 6 - Debugging
-- Week 7 - Tests and Refactoring
-- Week 8 - Abstraction
-- Week 9 - Advanced Topics
+- Week 5 - Midterm Project
+- Week 6 - Databases and Data Visualzation
+- Week 7 - Debugging
+- Week 8 - Testing
+- Week 9 - Abstraction
 - Week 10 - Final Project
 
 ## How the course works

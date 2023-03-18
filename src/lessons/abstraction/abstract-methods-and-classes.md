@@ -160,7 +160,7 @@ As you can see, the Serializer interface looks like an abstract class. The only 
 <blockquote>
 <b>Optional exercise:</b>
 
-We touched on similar concepts when we discussed inheritence and the PersistedList classes [here](/lessons/inheritance-and-error-handling/inheritance.html). We gave the PersistedListIntoLines and PersistedListIntoJson classes the same interface, knowing that this would make it easy for code using the class to switch between one and the other.)
+We touched on similar concepts when we discussed inheritence and the PersistedList classes [here](/lessons/inheritance-and-error-handling/inheritance.html). We gave the PersistedListIntoLines and PersistedListIntoJson classes the same interface. The benefit is that code that saves lists can be flexible, it can just save the list without needing to know which of the classes it is using.)
 
 Write an abstract base class depicting the interface for `PersistedListIntoJson`.
 

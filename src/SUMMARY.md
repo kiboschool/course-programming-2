@@ -102,8 +102,8 @@
   - [Flexibility](lessons/abstraction/flexibility.md)
   - [Shared Interfaces](lessons/abstraction/shared-interfaces.md)
   - [Abstract Methods And Classes](lessons/abstraction/abstract-methods-and-classes.md)
+  - [Refactoring](lessons/abstraction/refactoring.md)
   - [Summary](lessons/abstraction/summary.md)
-<!--  - [Benefits of a Good Interface](lessons/abstraction/benefits-of-a-good-interface.md) -->
 
 
 ### Week 10 - Final Project

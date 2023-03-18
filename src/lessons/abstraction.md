@@ -11,4 +11,4 @@ In this week, you will:
 * Learn how thinking about interfaces can make code more flexible for future changes
 * Learn about object-oriented programming concepts, including abstract methods
 
-*(Note: You will not need to use abstraction in your final project).*
+*(Note that the information in this chapter isn't needed for your final project).*

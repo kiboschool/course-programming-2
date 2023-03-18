@@ -49,7 +49,7 @@ But in the future, it will probably need to change. You might need a feature to 
 
 The problem is that **the details are not hidden**. To improve the code, the high level code should not have details about how the save is occurring!
 
-A solution would be to instead have code that looks like this:
+A good solution would be to instead have code that looks like this:
 
 ```python
 class GameSaver:
