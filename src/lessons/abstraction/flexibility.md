@@ -5,7 +5,7 @@ When a program has good abstraction, it is more flexible.
 
 This means that when, in the future bug fixes or new features are needed, the code is easier to change.
 
-### Layers
+### ☰ Layers
 
 A program typically has different layers. Code in the higher layers imports and uses classes that are written in lower layers. The highest layers are generally the user-interface code, and the lowest layers are the simple helper functions that do not need to call into any other modules.
 
@@ -21,7 +21,7 @@ Imagine you are creating a game, and you need a feature where the player can sav
 
 There are several places in the code that need to save the game - when the player clicks save, after completing a level, every 5 minutes just in case, and so on.
 
-You know you want saving to be a separate method, since you definitely don't want to have duplicated code in all of those places. (You write a method that builds a dictionary, calls json.dumps to convert to a json string, and puts the json string into a text file. You then write a load method that can read that file to restore the game progress).
+You know you want saving to be a separate method, since you definitely don't want to have duplicated code in all of those places.<!-- (You write a method that builds a dictionary, calls json.dumps to convert to a json string, and puts the json string into a text file. You then write a load method that can read that file to restore the game progress).-->
 
 Imagine that calling the method looks like this: 
 

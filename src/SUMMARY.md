@@ -100,7 +100,7 @@
 - [Abstraction](lessons/abstraction.md)
   - [Introduction to Abstraction](lessons/abstraction/introduction-to-abstraction.md)
   - [Flexibility](lessons/abstraction/flexibility.md)
-  - [Shared Interfaces](lessons/abstraction/shared-interfaces.md)
+  - [Sharing an Interface](lessons/abstraction/sharing-an-interface.md)
   - [Abstract Methods And Classes](lessons/abstraction/abstract-methods-and-classes.md)
   - [Refactoring](lessons/abstraction/refactoring.md)
   - [Summary](lessons/abstraction/summary.md)

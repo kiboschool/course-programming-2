@@ -33,14 +33,11 @@ In a sense, an abstract class is not "ready to use" yet, because part of the fun
 > 💡 If someone using the code tried to make an instance of GameSaver, it wouldn't be very useful because the methods do nothing but raise an error!
 
 
-So this is a big reason why we care about which classes are abstract classes versus which classes are implementations. We shouldn't make an instance of abstract classes - we instead need to instantiate the implementation classes, where all of the methods work.
+So this is a reason why we care about which classes are abstract classes versus which classes are implementations. We shouldn't make an instance of abstract classes - we instead need to instantiate the implementation classes, where all of the methods work.
 
 <details><summary>Optional: Marking a class as abstract</summary>
 
-Python has a way to mark a class as abstract. This shows people that you should not make an instance of it.
-
-
-(This isn't used in Python as often as it is in other languages, though. In other languages it's more useful because your program stops right away if you've accidentally created an instance of a abstract class anywhere instead of a child class).
+Python has a way to mark a class as abstract. This isn't used in Python as often as it is in other languages, though. Using the abstractmethod decorator on a method will show people reading the code that the class is not intended to be instantiated.
 
 <b>Python syntax for abstract classes</b>
 
@@ -122,7 +119,7 @@ def connect_and_run_query(database, query_string):
 ```
 
 
-The function is able to connect to and run queries on any databases without actually knowing how the database works or what type of database it is. It just needs to know that the database has a connect method and a query method (which are defined by the DatabaseConnection abstract class).
+This code is simple and easy to read. The function is able to connect to and run queries on any databases without actually knowing how the database works or what type of database it is. It just needs to know that the database has a connect method and a query method (which are defined by the DatabaseConnection abstract class).
 
 
 </details>
@@ -160,14 +157,15 @@ As you can see, the Serializer interface looks like an abstract class. The only 
 <blockquote>
 <b>Optional exercise:</b>
 
-We touched on similar concepts when we discussed inheritence and the PersistedList classes [here](/lessons/inheritance-and-error-handling/inheritance.html). We gave the PersistedListIntoLines and PersistedListIntoJson classes the same interface. The benefit is that code that saves lists can be flexible, it can just save the list without needing to know which of the classes it is using.)
+We touched on similar concepts when we discussed inheritence and the PersistedList classes [here](/lessons/inheritance-and-error-handling/inheritance.html). We gave the PersistedListIntoLines and PersistedListIntoJson classes the same interface. That way, the code that uses a persisted list can just add items and save the list without needing to know which of the classes it is using. Either class would work.)
 
 Write an abstract base class depicting the interface for `PersistedListIntoJson`.
 
-(Hint: in this class, all of the methods will just raise an NotImplementedError).
+(Hint: in this class, none of the methods will contain code. They will just raise a  `NotImplementedError`).
 </blockquote>
 
 
 Abstraction is one of the core concepts in object-oriented programming (OOP). It is the process of simplifying complex real-world entities into their essential characteristics or features while hiding their unnecessary details from the users. In other words, it focuses on what an object does rather than how it does it.
 
 If this confuses you with encapsulation, don't worry. A good encapsulation is a good abstraction too. In encapsulation, when we make the implementation details of an object less accessible from the outside, that is related to hiding details. So, good encapsulation is good abstraction too.
+1

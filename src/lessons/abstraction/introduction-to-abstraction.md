@@ -75,7 +75,9 @@ So, another benefit of abstraction, besides simplication, is that your program c
 
 ### 🏷️	 Other examples
 
-There can be also abstraction even for programs that don't use classes and methods. For example, for this program:
+The examples so far have shown abstraction for programs that use classes and methods.
+
+A program that just uses functions can also be thought of as having abstraction, like in this example:
 
 ```python
 import lower_layer_helpers
