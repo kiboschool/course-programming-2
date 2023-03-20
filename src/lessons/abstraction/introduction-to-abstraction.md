@@ -27,9 +27,11 @@ We could imagine a world where to compute a square root we would have to choose 
 
 But this would be confusing to read! It would be distracting to think about the choice of algorithm when the differences have no real impact on what the program does.
 
-The idea of abstraction is to **hide the unimportant details**.
+When we write code with abstraction in mind, we **hide the unimportant details**.
 
-What matters most for a high level language like Python is to have code that is easy to read and understand. And so Python gives us just one choice, `math.sqrt`. Behind the scenes, Python will use one of the algorithms. Because we don't need to know about that detail when we write our program, we can say that detail is hidden.
+What matters most for a high level language like Python is to have code that is easy to read and understand. And so, Python gives us just one choice, `math.sqrt`. Behind the scenes, Python will use one of the square root algorithms. Because we don't need to know about that detail when we write our program, we can say that detail is hidden.
+
+In this case, the author of Python's `math` library thought about abstraction and realized that people computing the square root of a number don't need to know the details. So they hid the details, like the choice of which algorithm to use, by only providing one simple `sqrt` function.
 
 ### 🚗 Driving a car
 
@@ -56,7 +58,7 @@ Image of a black box - hide the complexity within the box
 Video "Abstraction Can Make Your Code Worse"
 https://www.youtube.com/watch?v=rQlMtztiAoA -->
 
-### 🏙️️ Another benefit of abstraction
+### 🏙️️ Example: displaying text
 
 
 Imagine a program where you enter the name of a city, and it displays information about that city. For example, if the user enters Accra, the program would output `Country: Ghana, Population 284,000, Coordinates: 5°33′N 0°12′W`. The goal is for the same program to run in different modes:
@@ -67,30 +69,31 @@ Imagine a program where you enter the name of a city, and it displays informatio
 
 If the program wrote its output by having a lot of `print` statements everywhere, this would be limiting. It would work in VSCode and as a command-line text program that runs in a console. But visual programs in Windows have a different way to display text - not print, but a function called SendMessage. And programs running on a web browser also have a completely different way to have text show on the website. `print` will not work in those cases.
 
-Instead of the program calling `print` in a lot of places, the solution is to have the program instead call a helper function `display_text`. We can think of `display_text` as a *generalized* or *abstract* action that represents the idea of displaying text. Changing the code from calling print to calling display_text is *abstraction*.
+Instead of the program calling `print` in a lot of places, the solution is to create a new function called `display_text`. We would then have the program call `display_text`, instead of `print`. We can think of `display_text` as a *generalized* or *abstract* action that represents the idea of displaying text. Changing the code from calling print to calling display_text is *abstraction*.
 
 We are focusing on what the program does, and not the specifics of how it is achieved. The benefit is that the same program can now be easily run in different modes, without needing to make any changes. (Over in the `display_text` function, the program can determine what mode it is running in, and call the appropriate function to actually show the text).
 
 So, another benefit of abstraction, besides simplication, is that your program can be more adaptible. Abstraction will help you write a program that runs in different situations without needing modification.
 
-### 🏷️	 Other examples
+### 🏷️	 Example: getting the price
 
-The examples so far have shown abstraction for programs that use classes and methods.
+This is a way to use abstraction in your code: find a piece of complicated code, create a new Python module, and move the complicated code there.
 
-A program that just uses functions can also be thought of as having abstraction, like in this example:
+For example, you are working on a store program where items being sold have prices. The way to get the price of an item was complicated and had dozens of lines of code. The solution is to create a file called `get_price_helpers.py` and move all of that complicated code into a `get_price` function in that file.
+
+The existing code that needed to get the price of an item is now simple and easy to read. For example, there is a function that calculates the total price when there are many of one type of item. `calculate_total_price` is now very simple because it does need to see any of the complexity of the `get_price` function.
 
 ```python
-import lower_layer_helpers
+import get_price_helpers
 
 def calculate_total_price(item, quantity):
-    price = lower_layer_helpers.get_price(item)
+    price = get_price_helpers.get_price(item)
     total_price = price * quantity
     return total_price
 ```
 
-We are calling a function called `get_price`.
 
-In the background, the `get_price` function might be using a database to get the price of the item, or it might be using a dictionary to get the price of the item.
+In this case, the detail being hidden is the detail of how the price is being retrieved from the item. `get_price` might be using a database to get the price of the item, or it might be using a dictionary, or even reading from the internet. From the point of view of the calculate_total_price function, it doesn't matter.
 
 The details of the `get_price` function are hidden from us, and we don't need to know how it works. This is abstraction.
 
