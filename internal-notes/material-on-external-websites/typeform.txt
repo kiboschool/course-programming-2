@@ -1,0 +1,49 @@
+https://programming-2.vercel.app/lessons/data/practice-quiz.html
+
+Here is a quick quiz on some of what we've learned this week. It won't be graded :)
+Can a dictionary contain other dictionaries?This question is required. *
+Yes
+No
+
+That's correct!
+A dictionary can contain other dictionaries.
+We can even have a dictionary that contains lists, and a list that contains dictionaries.
+
+Continue
+press Enter
+
+Fill in the blank: "Someone wrote a version of a program that uses a list to compute the answer, and I wrote a version of the program that uses a dictionary to solve the answer. So, our programs use different ________."This question is required. *
+
+A
+file formats
+B
+data structures
+C
+data libraries
+D
+modules
+
+
+Correct!
+Choosing to use a dictionary instead of a list is a good example of what it means to choose a data structure.
+
+
+Continue
+press Enter ↵
+
+
+When we run the line of code my_variable = "1.25", what is the type of my_variable?This question is required. *
+A
+int
+B
+float
+C
+str
+D
+number
+
+The answer is "str".
+
+This is a tricky one. If it were my_variable = 1.25, the answer would be float, it would be a floating point number. But because there are quotation marks, "1.25" is actually a string and just treated as text. Why does this difference matter? Writing + will add two floats, but if the inputs are strings, it will join two strings together.
+
+Open up Python and try showing the results of 1.25 + 1.25, and then show the results of "1.25" + "1.25" - the results are different!
