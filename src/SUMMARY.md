@@ -2,12 +2,14 @@
 
 [Course Overview](programming-2.md)
 [Getting Help](lessons/asking-for-help.md)
-[Projects and Exercises](lessons/course-projects.md)
+<!-- [Projects and Exercises](lessons/course-projects.md)
 [Live Classes](lessons/live-classes.md)
+ -->
+
 [Additional Practice](lessons/additional-practice.md)
-
+[Changelog](changelog.md)
 ## Lessons
-
+<!-- 
 ### Week 1 - Reading and Writing Data
 
 - [Reading and Writing Data](lessons/data.md)
@@ -110,3 +112,12 @@
 
 - [Final Project](lessons/final-project.md)
 
+## Revision
+ -->
+### Week 1 - Object-Oriented Programming
+- [Object-Oriented Programming](revision/w1-oop-intro.md)
+  - [Objects and Methods](revision/w1-oop-intro/1-objects-and-methods.md)
+  - [Creating Classes](revision/w1-oop-intro/2-creating-classes.md)
+  - [Bugs to Watch Out For](revision/w1-oop-intro/3-bugs-to-watch-out-for.md)
+  - [Another Example](revision/w1-oop-intro/4-creating-with-classes.md)
+  - [Exercises](revision/w1-oop-intro/exercises.md)
