@@ -13,9 +13,9 @@ To define a class in Python we follow this pattern:
 class MyClass:
 #<-> Note the indentation of all our code below 
     def __init__(self, param_1, param_2...):
-        # This is a special method that helps us define how we will create objects in our code.
         self.data_1 = param_1
         self.data_2 = param_2 * 7
+        self.data_3 = "some_default_value"
 
     def method_1(self):
         # We can define a behaviour in this method
@@ -49,16 +49,7 @@ class Point:
 
 With these few lines of code, it's now possible for us to define points: 
 
-```python
-my_point = Point(4, 7)
-
-print(my_point.x) # prints 4
-print(my_point.y) # prints 7
-
-start = Point(0, 0)
-print(start.x) # prints 0
-print(start.y) # prints 0
-```
+<iframe src="https://trinket.io/embed/python3/953c906fbe" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Let's dig deeper into what is going on here: We call _x_ and _y_ the attributes of Point objects. These represent the _data_ stored in each object and they can be accessed and manipulated directly. For example we can modify my_point's x coordinate: 
 
@@ -81,11 +72,14 @@ You may be wondering, where is our constructor method called? It is not obvious 
 ### Check your understanding:
 
 What do you think would happen if you were to execute this line of code: 
-```python
-print(my_point.z)
-```
+
+<iframe src="https://trinket.io/embed/python3/d28b6f70f5" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Make a prediction about what will be printed, then test it out yourself.
+
+<details> <summary>Solution:</summary>
+    We will get an error! more specifically, an _AttributeError_, as the Point class does not have an attribute called _z_ defined in its constructor.
+</details>
 
 ## Our first methods
 
@@ -112,17 +106,7 @@ class Point:
 
 Now on top of storing data, our objects have behaviour. Here's what it would look like to use the `Point` class now:
 
-```python
-start = Point(0, 0) # create a point instance
-my_point = Point(4, 7) 
-print('x=', start.x, 'y=', start.y) # x=0, y=0
-start.move_up()
-print('x=', start.x, 'y=', start.y) # x=0, y=1
-start.move_right()
-print('x=', start.x, 'y=', start.y) # x=1, y=1
-
-print('x=', my_point.x, 'y=', my_point.y) # x=4, y=7 We did not call any method on it, so it is unchanged
-```
+<iframe src="https://trinket.io/embed/python3/ebfe56913e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 `start.move_up()` calls the `move_up` method defined in the class. It is like calling a function, it's just that this is a function attached to the object.
 

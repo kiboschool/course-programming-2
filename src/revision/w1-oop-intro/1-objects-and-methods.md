@@ -52,6 +52,23 @@ What will the result be for each line when the code is evaluated?
 First, try to predict the result. Then, enter each line in the Python console to
 check your guess.
 
+<details> <summary>Solution:</summary>
+
+```python
+type(67.4)
+# <class 'float'>
+
+type(["hello"]) 
+# <class 'list'> don't get distracted by the String! This is still a list
+
+type(None) 
+# <class 'NoneType'> this is a special class for None only.
+
+[type([]), type({})] 
+# [<class 'list'>, <class 'dict'>] here we check the type of a list, then the type of a dictionary, and store both results in a list.
+```
+	
+</details>
 
 ## What's next?
 

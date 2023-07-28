@@ -9,8 +9,8 @@
 [Additional Practice](lessons/additional-practice.md)
 [Changelog](changelog.md)
 ## Lessons
-<!-- 
-### Week 1 - Reading and Writing Data
+
+<!-- ### Week 1 - Reading and Writing Data
 
 - [Reading and Writing Data](lessons/data.md)
 
@@ -22,8 +22,8 @@
   - [Read Data From An Internet API](lessons/data/read-data-from-an-internet-api.md)
   - [Weather API Example](lessons/data/weather-api-example.md)
   - [Exercises](lessons/data/exercises.md)
-
-### Week 2 - Classes and Objects
+ -->
+<!-- ### Week 2 - Classes and Objects
 
 - [Classes and Objects](lessons/classes-and-objects.md)
 
@@ -35,6 +35,18 @@
   - [Another Example Class](lessons/classes-and-objects/another-example-class.md)
   - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
   - [Exercises](lessons/classes-and-objects/exercises.md)
+ -->
+
+### Week 1 - Object-Oriented Programming
+- [Object-Oriented Programming](revision/w1-oop-intro.md)
+  - [Objects and Methods](revision/w1-oop-intro/1-objects-and-methods.md)
+  - [Creating Classes](revision/w1-oop-intro/2-creating-classes.md)
+  - [Bugs to Watch Out For](revision/w1-oop-intro/3-bugs-to-watch-out-for.md)
+  - [Building with Classes](revision/w1-oop-intro/4-creating-with-classes.md)
+  - [Exercises](revision/w1-oop-intro/exercises.md)
+
+### Week 2 - [WIP] Objects and Memory
+- [ [WIP] Objects and Memory](revision/w2-memory-and-objects.md)
 
 ### Week 3 - Inheritance and Error-handling
 
@@ -112,12 +124,3 @@
 
 - [Final Project](lessons/final-project.md)
 
-## Revision
- -->
-### Week 1 - Object-Oriented Programming
-- [Object-Oriented Programming](revision/w1-oop-intro.md)
-  - [Objects and Methods](revision/w1-oop-intro/1-objects-and-methods.md)
-  - [Creating Classes](revision/w1-oop-intro/2-creating-classes.md)
-  - [Bugs to Watch Out For](revision/w1-oop-intro/3-bugs-to-watch-out-for.md)
-  - [Another Example](revision/w1-oop-intro/4-creating-with-classes.md)
-  - [Exercises](revision/w1-oop-intro/exercises.md)

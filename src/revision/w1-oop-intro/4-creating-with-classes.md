@@ -34,14 +34,8 @@ So how would we represent this rectangle?
 <img align="center" src="../../images/w1/rectangle_example.png">
 
 We can provide our constructor with a `Point` object, and two numbers for the width and height
-```python
-my_rectangle = Rectangle(Point(1, 4), 3, 2)
 
-print(my_rectangle.width) # prints 3
-print(my_rectangle.height) # prints 2
-print(my_rectangle.top_left_corner.x) # prints 1
-print(my_rectangle.top_left_corner.y) # prints 4
-```
+<iframe src="https://trinket.io/embed/python3/ae06519505" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 This is an example of **composition**: You can use objects as attributes of other, more complex objects. This helps us leverage all the code we have writen before, as we will see in just a moment. 
 
@@ -60,15 +54,7 @@ class Rectangle:
 
 So we can now move up the entire rectangle: 
 
-```python
-my_rectangle = Rectangle(Point(1, 4), 3, 2)
-
-print(my_rectangle.top_left_corner.y) # prints 4
-
-my_rectangle.move_up()
-
-print(my_rectangle.top_left_corner.y) # prints 5
-```
+<iframe src="https://trinket.io/embed/python3/06cb7de6cc" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Notice here that the `Point` class has a method called `move_up`, and so does the `Rectangle` class. This is not an issue though, as Python can tell which definition to use **based on the type of the object the method is called on**.
 
@@ -89,27 +75,8 @@ Turns out, this is such a common problem that python already has a solution for 
 
 Let's define an `__str__` method for the point class:
 
-```python
-class Point:
-    def __init__(self, initial_x, initial_y):
-        self.x = initial_x
-        self.y = initial_y
+<iframe src="https://trinket.io/embed/python3/ece9d0cc7f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-    def move_right(self):
-        self.x += 1
-        
-    def move_left(self):
-        self.x -= 1
-
-    def move_up(self):
-        self.y += 1
-        
-    def move_down(self):
-        self.y -= 1
-
-    def __str__(self):
-    	return f'({self.x}, {self.y})'
-```
 With this change, we reap the benefit not only when interacting with `Point` objects directly, but also when using other classes that use `Point` objects.
 
 ```python
@@ -117,6 +84,16 @@ print(my_rectangle.top_left_corner) # outputs (1, 4)
 ```
 ### Check for understanding:
 How would you modify the `Rectangle` class so that we can print a `Rectangle` object directly and see meaningful information?
+
+<details><summary>Solution: </summary>
+
+It's really up to you how to describe a rectangle, as long as you can easily identify it. Your solution should be something along the lines of:
+
+```python
+    def __str__(self):
+        return f"A rectangle of width {self.width}, height {self.height}, and with a top left corner positioned at {self.top_left_corner}"
+```
+</details>
 
 ## What's next?
 
