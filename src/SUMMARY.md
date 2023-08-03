@@ -46,7 +46,12 @@
   - [Exercises](revision/w1-oop-intro/exercises.md)
 
 ### Week 2 - [WIP] Objects and Memory
-- [ [WIP] Objects and Memory](revision/w2-memory-and-objects.md)
+- [Memory](revision/w2-memory-and-objects.md)
+  - [References and Memory](revision/w2-memory-and-objects/1-references.md)
+  - [Copying Objects](revision/w2-memory-and-objects/2-aliasing-copying.md)
+  - [Scope](revision/w2-memory-and-objects/3-scope.md)
+  - [Debugging](revision/w2-memory-and-objects/4-debugging-practice.md)
+  - [Exercises](revision/w2-memory-and-objects/exercises.md)
 
 ### Week 3 - Inheritance and Error-handling
 

@@ -1,3 +1,18 @@
+# August 3:
+## Content:
+- Please focus on parts 1, 2, and 3 for review. This covers references, aliasing and copying, and scope
+
+# July 28
+## Content: 
+- Brought back the entire course outline.
+- Revised all knowledge checks in week 1 to include a hidden solution
+- Embedded tinker.io snippets accross w1.2 and w1.4 to make examples more interactive
+
+## Assignment:
+- Reworded instructons based on David's feedback to encourage students to run unit tests
+
+
+
 # July 27
 ## Content:
 - Rewrote the intro to the week with the aim of making the high level idea of OOP more relatable
@@ -8,12 +23,3 @@
 
 ## Assignment:
 -  Designed a bank-account assignment to assess the student's ability to set up a constructor, customize the `__str__` method, and build increasingly more complex methods. More details in the exercises file as well as the repo: https://github.com/kiboschool/programming2-w1-bank-accounts
-
-# July 28
-## Content: 
-- Brought back the entire course outline.
-- Revised all knowledge checks in week 1 to include a hidden solution
-- Embedded tinker.io snippets accross w1.2 and w1.4 to make examples more interactive
-
-## Assignment:
-- Reworded instructons based on David's feedback to encourage students to run unit tests
