@@ -54,16 +54,14 @@
   - [Exercises](revision/w2-memory-and-objects/exercises.md)
 
 ### Week 3 - Inheritance
-
 - [Inheritance](revision/w3-inheritance.md)
   - [Modeling](revision/w3-inheritance/1-modeling.md)
   - [Inheritance](revision/w3-inheritance/2-inheritance-syntax.md)
   - [Overriding](revision/w3-inheritance/3-overriding.md)
-  - [Example](revision/w3-inheritance/inheritance-examples)
+  - [Example](revision/w3-inheritance/4-inheritance-examples.md)
 
 ### Week 4 - [WIP] Projects and Data
-
-- [Data](revison/w4-data.md)
+- [Data](revision/w4-data.md)
   - [File I/O](revision/w4-data/1-file-io.md)
   - [Handling Exceptions](revision/w4-data/2-handling-exceptions.md)
   - [API Calls](revision/w4-data/3-api-calls.md)
