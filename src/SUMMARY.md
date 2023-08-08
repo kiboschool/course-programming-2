@@ -45,7 +45,7 @@
   - [Building with Classes](revision/w1-oop-intro/4-creating-with-classes.md)
   - [Exercises](revision/w1-oop-intro/exercises.md)
 
-### Week 2 - [WIP] Objects and Memory
+### Week 2 - Objects and Memory
 - [Memory](revision/w2-memory-and-objects.md)
   - [References and Memory](revision/w2-memory-and-objects/1-references.md)
   - [Copying Objects](revision/w2-memory-and-objects/2-aliasing-copying.md)
@@ -53,28 +53,21 @@
   - [Debugging](revision/w2-memory-and-objects/4-debugging-practice.md)
   - [Exercises](revision/w2-memory-and-objects/exercises.md)
 
-### Week 3 - Inheritance and Error-handling
+### Week 3 - Inheritance
 
-- [Inheritance and Error-handling](lessons/inheritance-and-error-handling.md)
+- [Inheritance](revision/w3-inheritance.md)
+  - [Modeling](revision/w3-inheritance/1-modeling.md)
+  - [Inheritance](revision/w3-inheritance/2-inheritance-syntax.md)
+  - [Overriding](revision/w3-inheritance/3-overriding.md)
+  - [Example](revision/w3-inheritance/inheritance-examples)
 
-  - [Exceptions](lessons/inheritance-and-error-handling/exceptions.md)
-  - [Handling Exceptions](lessons/inheritance-and-error-handling/handling-exceptions.md)
-  - [Tools when Making Classes](lessons/inheritance-and-error-handling/tools-when-making-classes.md)
-  - [Encapsulation](lessons/inheritance-and-error-handling/encapsulation.md)
-  - [Models](lessons/inheritance-and-error-handling/models.md)
-  - [Inheritance](lessons/inheritance-and-error-handling/inheritance.md)
-  - [Video on Inheritance](lessons/inheritance-and-error-handling/video-on-inheritance.md)
-  - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
-  - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
-  - [Project](lessons/inheritance-and-error-handling/project.md)
+### Week 4 - [WIP] Projects and Data
 
-### Week 4 - OOP Review
-
-- [OOP Review](lessons/oop-review.md)
-  - [Knowledge Check](lessons/oop-review/knowledge-check.md)
-  - [Class syntax](lessons/oop-review/class-syntax.md)
-  - [Inheritance](lessons/oop-review/inheritance.md)
-  - [Error handling](lessons/oop-review/error-handling.md)
+- [Data](revison/w4-data.md)
+  - [File I/O](revision/w4-data/1-file-io.md)
+  - [Handling Exceptions](revision/w4-data/2-handling-exceptions.md)
+  - [API Calls](revision/w4-data/3-api-calls.md)
+  - [Putting it all together](revision/w4-data/4-weather-api-example.md)
 
 ### Week 5 - Midterm Project
 
