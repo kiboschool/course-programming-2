@@ -5,13 +5,20 @@
 > 💡 This is your chance to put what you’ve learned into action.
 >
 
-## Banking Basics
+# Banking Basics
 
 In this assignment, we will create a **class** that models bank accounts. We will build a constuctor, a custom way to display bank account information, as well as the basic operations one can do with an account: Deposit and withdraw money.
 
+### Provided code:
+`main.py` is where you will do the work. It has an incomplete `Account` class where you will have to create 4 methods.
+
+`test.py` is used for testing. You will not need to read it or modify it. Use `python3 test.py` to run the tests. At the beginning they should all fail. 
+
+If all tests pass by the time you submit you will earn full marks. 
+
 ### Step 1: Initializing Accounts (2 points)
 
-in `main.py`, define an class called `Account`
+in `main.py`, complete the `Account` class
 
 Objects of this class **must** have the following two attributes:
 - **owner**: This is a string that represents who owns the account. This should be a **parameter** to your constructor
@@ -25,6 +32,8 @@ print(my_account.owner) # Shows Mehdi
 print(my_account.balance) # Shows 0
 ```
 
+Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 1/7 tests
+
 ### Step 2: Displaying Account Info (1 point)
 Let's make it easier to see what is going on in our account. Define an `__str__` method to display details of an account. 
 We want to be able to do the following:
@@ -35,6 +44,8 @@ print(my_account)
 ```
 
 Recall that the `__str__` method needs to **return** a string, not print it!
+
+Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 2/7 tests
 
 ### Step 3: Depositing to the account (2 points)
 At this point, we have stressed Mehdi enough with an empty bank account. Let's build a way to put some money in it. 
@@ -57,7 +68,9 @@ print(my_account)  # Display "Mehdi's account balance is 0"
 # WE IGNORE NEGATIVE INPUTS
 ```
 
-### Step 4: Withdrawing from the account (2 points)
+Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 4/7 tests
+
+### Step 4: Withdrawing from the account (3 points)
 Unfortunately, everything that goes up must come down. Let's figure out how to withdraw money from the account. 
 
 Define a `withdraw` method that takes one parameter called amount, and **decreases** the balance by that amount. As with `deposit` we want to ignore negative numbers.
@@ -86,6 +99,8 @@ print(my_account)  # Display "Mehdi's account balance is 80"
 print(my_account.withdraw(200)) #Displays False
 print(my_account)  # Display "Mehdi's account balance is 80"
 ```
+
+Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 7/7 tests
 
 ### Optional challenge: Putting it all together
 The final step to having a useful bank account is being able to transfer our balance to other people's accounts. 
