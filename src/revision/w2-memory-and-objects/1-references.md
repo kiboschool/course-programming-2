@@ -27,7 +27,7 @@ But the two variables are two separate boxes. They represent two different place
 We can then carry on copying the data around and get to our objective. 
 
 ## Primitives vs Objects
-Let's look at another example. Here we have two variables that are meant to track two different concepts (My birthday is 11, and I have 11 players on my football team) but they just happen to have the same value. Let's see what happens when we modify one:
+Let's look at another example. Here we have two variables that are meant to track two different concepts (My birthday is the 11th of the month, and I have 11 players on my football team) but they just happen to have the same value. Let's see what happens when we modify one:
 
 <iframe width="1200" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=number_of_players%20%3D%2011%0Abirthday%20%3D%20number_of_players%0A%0Aprint%28number_of_players%29%0Aprint%28birthday%29%0A%0Anumber_of_players%20-%3D%201%0A%0A%23%20This%20should%20change%0Aprint%28number_of_players%29%0A%0A%23%20This%20should%20not%0Aprint%28birthday%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -35,7 +35,7 @@ Step through the code step by step: Notice here that as we modify one of the var
 
 We do have to be careful though, let's look at another example.
 
-This approaches the same idea: We have two variables that serve different purposes - in this case I have one list for the people I want to invite in my party, and another list for the people who play on my team - but they share the same value.
+This examples is very similar: We have two variables that serve different purposes - in this case I have one list for the people I want to invite to my birthday party, and another list for the people who play on my team - but they share the same value.
 
 Step through the code and observe what happens as we modify one of these variables:
 
@@ -51,7 +51,7 @@ We however, have two variables that **point** to that same object, which is repr
 
 The arrow makes sense as a symbol, but behind the scenes, both our `players_on_team` and `party_guests` hold the location in memory where the object is stored. They are not the object itself, they are the address where we can find the object.
 
-Different programmin languages and communities refer to this kind of variable in diffrent ways, they are all effectively equivalent: You can call these "arrows" an object **reference**, or a **pointer** to an object.
+Different programmin languages and communities refer to this kind of variable in diffrent ways, they are all effectively equivalent: You can call these "arrows" an object **reference**, or a **pointer** to an object, or **the address** of the object
 
  When we say: 
 

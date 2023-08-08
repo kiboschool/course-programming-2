@@ -30,4 +30,4 @@ Here is what we will be exploring this week:
 
 ## Why does this matter?
 
-In the scope of our learning, we will rarely try to solve problems that risk us running out of memory. Nevertheless, it is important as a developer to understand that **while we have a lot of resources, they are still limited.** We will have other courses dedicated to these issues, but for now, we will focus on a few core and simple concepts.
+In the scope of our learning, we will rarely try to solve problems that risk us running out of memory. Nevertheless, it is important as a developer to understand that **while we have a lot of resources, they are still limited.** We will have other courses dedicated to these issues, but for now, we will focus on a few core concepts.

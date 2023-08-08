@@ -1,6 +1,8 @@
 # Frames and Scopes
 
-Now, we are in Programming 2 now. We want to go a bit deeper with the content. The visualizations we saw in the previous section have some terms that we haven't defined yet. Let's explore them and what they mean. In particular, let's talk about what a **frame** is: Let's consider a very simple example:
+You are in Programming 2 now, and one of our key goals is to get you to be able to have conversations with other engineers and developers. 
+
+We want to go a bit deeper with the content. The visualizations we saw in the previous section have some terms that we haven't defined yet. Let's explore them and what they mean. In particular, let's talk about what a **frame** is: Let's consider a very simple example:
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=x%20%3D%2010%0Aprint%28x%29%0A%0Adef%20my_function%28%29%3A%0A%20%20%20%20y%20%3D%205%0A%20%20%20%20print%28y%29%0A%20%20%20%20%0A%0Amy_function%28%29%0A%0Aprint%28y%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=8&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -26,7 +28,7 @@ That being said, let's look at scenarios where two different variables have the 
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=x%20%3D%2010%0Aprint%28x%29%0A%0Adef%20my_function%28%29%3A%0A%20%20%20%20x%20%3D%205%0A%20%20%20%20print%28x%29%0A%20%20%20%20%0A%0Amy_function%28%29%0A%0Aprint%28x%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=8&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-Our first few steps are the same: We have a global variable `x`, and a function. We ultimately call the function and it creates its own stack frame. 
+Our first few steps are the same: We have a global variable `x`, and a function. We ultimately call the function and it creates its own stack frame.
 
 What happens when we execute Step 6? Well we end up with a new variable, also called `x`, within the function's stack frame. This variable will only exist as long as we are still inside the function. So we can say the **scope** of this `x` is the function `my_function`
 
@@ -100,4 +102,8 @@ In Python, the **global frame** is available throughout the execution of our pro
 
 ## Knowledge check:
 
-[WIP]
+Take some time thinking through the code here before running it. How many frames do you think will exist at once as you execute this program? 
+
+It's a good habit to try and visualize it yourself, with pen and paper, before you start running pythontutor
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20count_down%28number%29%3A%0A%20%20%20%20if%20number%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20print%28%22Done!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28number%29%0A%20%20%20%20%20%20%20%20count_down%28number%20-%201%29%0A%0Acount_down%282%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=16&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>

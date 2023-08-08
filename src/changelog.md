@@ -1,3 +1,9 @@
+# August 7:
+## Content:
+- Revisions to lessons 1 -> 4 in week 2.
+- Added the intro and lessons for week 3.
+- Preliminary pass on week 4, which will still need additional revisions
+
 # August 3:
 ## Content:
 - Please focus on parts 1, 2, and 3 for review. This covers references, aliasing and copying, and scope
