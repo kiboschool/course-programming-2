@@ -1,12 +1,8 @@
-# Inheritance
+# Persistence
 
-For the case where you have a program that needs to run in different modes, let's learn a way to write better code.
+In our previous example, we deliberately saved our data at the end of the process. We can create an even smoother experience for our users in some cases. Instead of waiting for them to save, we auto-save their work for them as they do it. That way, if something were to go wrong and the program or the machine it's running on crashes, they won't use much work. 
 
-Let's say we have a program that needs to save data to disk. For example, this could be a list of student names used by a course enrollment manager program. When the program starts, it loads the list from the file on disk. When the program makes changes to the list, the changes need to be saved.
-
-In this case, imagine that instead of waiting for the user to select some Save feature, or instead of waiting for the program to exit, we want the data to automatically be saved on every change.
-
-This would be a great case for writing a class. We are used to using `list` objects, we use them all of the time. We can create a class to make objects that are similar to lists, so that they are easy to use + have the append method we are used to, but they also save the contents.
+We will approach this in a bit of an abstract way: Many programs use lists right? Let's create a new class, `PersistedList`, which works exactly like a `List`, but always saves its content to a file.
 
 > <a href="https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo" target="_blank">**Click here to follow along on Replit!**</a> Please sign up for an account and request to join the team if you haven't already.
 
@@ -180,11 +176,7 @@ class PersistedListIntoJson:
     self.persist()
 ```
 
-Our program is pretty long, now, and there's again repeated code.
-
-It turns out that, in Python, there is something called **class inheritance**. 
-
-A class can **inherit** from another class, which means that it will get a copy of all of the methods. This is what it looks like:
+Our program is pretty long, now, and there's again repeated code. Our two classes are very similar, so perhaps we can leverage **inheritance?**
 
 ```python
 # main_v4_inheritance.py
@@ -256,9 +248,3 @@ An instance of `PersistedListIntoJson` will still have the `append` and `insert`
 > * Use the `append` method to add the string "bananas" to the list
 > * (Notice that the append method works even though `PersistedListIntoLines` does not have that method. This is because it is using the method from `PersistedListGeneral`).
 > * Open "fruit.txt" and see the contents.
-
-## Terminology
-
-We can think of the GenericPersistedList as the *parent*, and the PersistedListIntoLines class as the *child*. We can use the terms *parent class* and *child class*. 
-
-> Object-oriented programming has been around for decades, and it has been added to very many different programming languages. People sometimes use the different terms for what is essentially the same concept. So instead of *parent class* and *child class*, people will sometimes say *super class* and *sub class*, or *base class* and *derived class*.

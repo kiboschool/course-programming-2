@@ -1,8 +1,19 @@
-# August 7:
+# August 9:
+## Content:
+- Clean up pass on week 3 + week 4
+
+## Assignments:
+- W3 assignment up for review.
+- W4 assignment maintained as the old week 1 assignment
+
+# August 8:
 ## Content:
 - Revisions to lessons 1 -> 4 in week 2.
 - Added the intro and lessons for week 3.
 - Preliminary pass on week 4, which will still need additional revisions
+
+## Assignments:
+- W2 assignment up for review - remix of OOP Jukebox old assignment to make it more of a debugging exercise. 
 
 # August 3:
 ## Content:

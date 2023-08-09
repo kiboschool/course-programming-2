@@ -37,6 +37,7 @@ forecast = [
     },
 ]
 ```
+_forecast is a **list**. Each entry is a dictionary that contains 3 keys: "day", "temperature", "wind_speed"_
 
 Our program stores the location data with GPS latitude and longitude coordinates, like 2.1° North, 5.6° West. GPS coordinates are similar to x and y coordinates on a graph, but are coordinates for a globe. Every location on the planet can be referred to by its latitude and longitude coordinates.
 
@@ -83,6 +84,7 @@ all_forecasts = {
     ]
 }
 ```
+_all_forecast is a dictionary. It uses a GPS coordinate as a key, and a forecast, as shown previously, as its entry_
 
 ### Walkthrough Part 1: Showing the Forecast
 

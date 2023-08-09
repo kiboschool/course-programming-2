@@ -58,14 +58,16 @@
   - [Modeling](revision/w3-inheritance/1-modeling.md)
   - [Inheritance](revision/w3-inheritance/2-inheritance-syntax.md)
   - [Overriding](revision/w3-inheritance/3-overriding.md)
-  - [Example](revision/w3-inheritance/4-inheritance-examples.md)
+  - [Inheritance Example](revision/w3-inheritance/4-inheritance-examples.md)
+  - [Exercises](revision/w3-inheritance/exercises.md)
 
-### Week 4 - [WIP] Projects and Data
+### Week 4 - Projects and Data
 - [Data](revision/w4-data.md)
   - [File I/O](revision/w4-data/1-file-io.md)
-  - [Handling Exceptions](revision/w4-data/2-handling-exceptions.md)
+  - [Design Example 1](revision/w4-data/2-persistent-list.md)
   - [API Calls](revision/w4-data/3-api-calls.md)
   - [Putting it all together](revision/w4-data/4-weather-api-example.md)
+  - [Exercises](revision/w4-data/exercises.md)
 
 ### Week 5 - Midterm Project
 

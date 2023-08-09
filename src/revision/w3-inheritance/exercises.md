@@ -38,7 +38,7 @@ print(test_checking) # Display: Mehdi's Checking Account. Balance = 0
 
 Convince yourself that `CheckingAccount` objects are able to handle the `deposit`, `withdraw` and `transfer` method.
 
-Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 4/ tests
+Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 4/12 tests
 
 ### Step 2: Customizing Savings Account (2 points)
 
@@ -63,7 +63,7 @@ print(test_saving) # Display: Mehdi's Savings Account. Balance = 202
 
 Convince yourself that `SavingsAccount` objects are able to handle the `deposit`, `withdraw` and `transfer` method.
 
-Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 9/ tests
+Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 8/12 tests
 
 ### Step 3: How do banks make money if they give you money? (2 points)
 If bans provide us interest, how do they make money? Well there are many strategies banks use, but one tricky one is that they charge users for making transfers. 
@@ -85,7 +85,7 @@ print(test_saving) # Display: Mehdi's Savings Account. Balance = 85
 
 test_saving.transfer(20, test_checking)# This should really remove 25 from test_saving
 ```
-Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 9/ tests
+Once you've convinced yourself that your code is correct. Run `python3 test.py`: You should pass 10/12 tests
 
 ### Step 4: LockedAccount (2 points)
 Another strategy banks use to make money is by holding your money for a long time. Some banks offer locked accounts: You can put money there, and it accrues interest like a savings account, but you are not allowed to take the money out for some amount of time. 
