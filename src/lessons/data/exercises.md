@@ -70,4 +70,3 @@ Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86J
 
 <image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
 
-

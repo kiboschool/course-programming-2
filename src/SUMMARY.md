@@ -43,7 +43,8 @@
   - [Creating Classes](revision/w1-oop-intro/2-creating-classes.md)
   - [Bugs to Watch Out For](revision/w1-oop-intro/3-bugs-to-watch-out-for.md)
   - [Building with Classes](revision/w1-oop-intro/4-creating-with-classes.md)
-  - [Exercises](revision/w1-oop-intro/exercises.md)
+  - [Practice](revision/w1-oop-intro/practice.md)
+  - [Assignment](revision/w1-oop-intro/assignment.md)
 
 ### Week 2 - Objects and Memory
 - [Memory](revision/w2-memory-and-objects.md)
@@ -51,7 +52,8 @@
   - [Copying Objects](revision/w2-memory-and-objects/2-aliasing-copying.md)
   - [Scope](revision/w2-memory-and-objects/3-scope.md)
   - [Debugging](revision/w2-memory-and-objects/4-debugging-practice.md)
-  - [Exercises](revision/w2-memory-and-objects/exercises.md)
+  - [Practice](revision/w2-memory-and-objects/practice.md)
+  - [Assignment](revision/w2-memory-and-objects/assignment.md)
 
 ### Week 3 - Inheritance
 - [Inheritance](revision/w3-inheritance.md)
@@ -59,7 +61,8 @@
   - [Inheritance](revision/w3-inheritance/2-inheritance-syntax.md)
   - [Overriding](revision/w3-inheritance/3-overriding.md)
   - [Inheritance Example](revision/w3-inheritance/4-inheritance-examples.md)
-  - [Exercises](revision/w3-inheritance/exercises.md)
+  - [Practice](revision/w3-inheritance/practice.md)
+  - [Assignment](revision/w3-inheritance/assignment.md)
 
 ### Week 4 - Projects and Data
 - [Data](revision/w4-data.md)
@@ -67,11 +70,20 @@
   - [Design Example 1](revision/w4-data/2-persistent-list.md)
   - [API Calls](revision/w4-data/3-api-calls.md)
   - [Putting it all together](revision/w4-data/4-weather-api-example.md)
-  - [Exercises](revision/w4-data/exercises.md)
+  - [Practice](revision/w4-data/practice.md)
+  - [Assignment](revision/w4-data/assignment.md)
 
 ### Week 5 - Midterm Project
 
 - [Midterm Project](lessons/midterm-project.md)
+
+<!-- 
+collections
+  - lists: comprehension
+  - dicts: comprehension + counter + defaultdict
+  - tuples: when to use.
+  - sets: application of math content.
+ -->
 
 ### Week 6 - Databases and Data Visualization
 
