@@ -85,18 +85,16 @@ collections
   - sets: application of math content.
  -->
 
-### Week 6 - Databases and Data Visualization
+### Week 6 - Collections
 
-- [Databases and Data Visualization](lessons/db-and-vis.md)
+- [Colelctions](revision/w6-collections.md)
 
-  - [Persisting Data](lessons/db-and-vis/persisting-data.md)
-  - [Database Advantages](lessons/db-and-vis/db-advantages.md)
-  - [What is an ORM?](lessons/db-and-vis/orm.md)
-  - [ORM Syntax](lessons/db-and-vis/orm-syntax.md)
-  - [Exploring Data](lessons/db-and-vis/exploring-data.md)
-  - [Visualizing Data](lessons/db-and-vis/visualizing-data.md)
-  - [Exercises](lessons/db-and-vis/exercises.md)
-  - [Project: OOP Course Manager](lessons/db-and-vis/project.md)
+  - [Lists](revision/w6-collections/1-lists-revisitied.md)
+  - [Tuples](revision/w6-collections/2-tuples.md)
+  - [Sets](revision/w6-collections/3-sets.md)
+  - [Dictionary](revision/w6-collections/4-dictionaries-revisited.md)
+  - [Practice](revision/w6-collections/practice.md)
+  - [Assignment](revision/w6-collections/assignment.md)
 
 ### Week 7 - Debugging
 
