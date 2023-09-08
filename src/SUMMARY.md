@@ -7,35 +7,7 @@
  -->
 
 [Additional Practice](lessons/additional-practice.md)
-[Changelog](changelog.md)
 ## Lessons
-
-<!-- ### Week 1 - Reading and Writing Data
-
-- [Reading and Writing Data](lessons/data.md)
-
-  - [Course Preview](lessons/data/course-preview.md)
-  - [Data Types and Dictionaries](lessons/data/data-types-and-dictionaries.md)
-  - [Ways to Structure Data](lessons/data/ways-to-structure-data.md)
-  - [Practice Quiz](lessons/data/practice-quiz.md)
-  - [Saving and Reading Data In Files](lessons/data/saving-and-reading-data.md)
-  - [Read Data From An Internet API](lessons/data/read-data-from-an-internet-api.md)
-  - [Weather API Example](lessons/data/weather-api-example.md)
-  - [Exercises](lessons/data/exercises.md)
- -->
-<!-- ### Week 2 - Classes and Objects
-
-- [Classes and Objects](lessons/classes-and-objects.md)
-
-  - [Introduction](lessons/classes-and-objects/introduction.md)
-  - [Objects and Methods](lessons/classes-and-objects/objects-and-methods.md)
-  - [Creating a Class](lessons/classes-and-objects/creating-a-class.md)
-  - [Reasons to use Classes](lessons/classes-and-objects/reasons-to-use-classes.md)
-  - [Bugs to Watch Out For](lessons/classes-and-objects/bugs-to-watch-out-for.md)
-  - [Another Example Class](lessons/classes-and-objects/another-example-class.md)
-  - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
-  - [Exercises](lessons/classes-and-objects/exercises.md)
- -->
 
 ### Week 1 - Object-Oriented Programming
 - [Object-Oriented Programming](revision/w1-oop-intro.md)
@@ -64,7 +36,7 @@
   - [Practice](revision/w3-inheritance/practice.md)
   - [Assignment](revision/w3-inheritance/assignment.md)
 
-### Week 4 - Projects and Data
+### Week 4 - Data
 - [Data](revision/w4-data.md)
   - [File I/O](revision/w4-data/1-file-io.md)
   - [Design Example 1](revision/w4-data/2-persistent-list.md)
@@ -77,17 +49,10 @@
 
 - [Midterm Project](lessons/midterm-project.md)
 
-<!-- 
-collections
-  - lists: comprehension
-  - dicts: comprehension + counter + defaultdict
-  - tuples: when to use.
-  - sets: application of math content.
- -->
 
 ### Week 6 - Collections
 
-- [Colelctions](revision/w6-collections.md)
+- [Collections](revision/w6-collections.md)
 
   - [Lists](revision/w6-collections/1-lists-revisitied.md)
   - [Tuples](revision/w6-collections/2-tuples.md)
@@ -96,39 +61,33 @@ collections
   - [Practice](revision/w6-collections/practice.md)
   - [Assignment](revision/w6-collections/assignment.md)
 
-### Week 7 - Debugging
+### Week 7 - Exceptions & Testing
 
-- [Debugging](lessons/debugging.md)
-  - [Types of Bugs](lessons/debugging/examples.md)
-  - [Debugging Strategy](lessons/debugging/strategy.md)
-  - [Print Debugging](lessons/debugging/print-debugging.md)
-  - [Stop the World Debugging](lessons/debugging/stop-the-world-debugging.md)
-  - [Exercises](lessons/debugging/exercises.md)
-
-
-### Week 8 - Testing
-
-- [Testing](lessons/testing.md)
-
-  - [Overview of Testing](lessons/testing/overview-of-testing.md)
-  - [Unit Testing](lessons/testing/unit-testing.md)
-  - [The Unittest Framework](lessons/testing/the-unittest-framework.md)
-  - [Test Tips: Off-By-One Issues](lessons/testing/test-tips-off-by-one-issues.md)
-  - [Exercises](lessons/testing/exercises.md)
-  - [Project](lessons/testing/project.md)
-
-### Week 9 - Abstraction
-
-- [Abstraction](lessons/abstraction.md)
-  - [Introduction to Abstraction](lessons/abstraction/introduction-to-abstraction.md)
-  - [Flexibility](lessons/abstraction/flexibility.md)
-  - [Sharing an Interface](lessons/abstraction/sharing-an-interface.md)
-  - [Abstract Methods And Classes](lessons/abstraction/abstract-methods-and-classes.md)
-  - [Refactoring](lessons/abstraction/refactoring.md)
-  - [Summary](lessons/abstraction/summary.md)
+- [Exceptions & Testing](revision/w7-errors-and-testing.md)
+  - [Creating Errors](revision/w7-errors-and-testing/1-creating-errors.md)
+  - [Testing Your Code](revision/w7-errors-and-testing/2-testing-your-code.md)
+  - [The unittest framework](revision/w7-errors-and-testing/3-unittest.md)
+  - [Testing Concepts](revision/w7-errors-and-testing/4-more-testing.md)
+  - [Practice](revision/w7-errors-and-testing/practice.md)
+  - [Assignment](revision/w7-errors-and-testing/assignment.md)
 
 
-### Week 10 - Final Project
+### Week 8 - Writing Good Code
 
-- [Final Project](lessons/final-project.md)
+- [What Is Good Code?](revision/w8-what-is-good-code?.md)
+  - [Introduction to Abstraction](revision/w8-what-is-good-code?/1-clear-abstraction.md)
+  - [Coding for Flexibility](revision/w8-what-is-good-code?/2-future-flexibility.md)
+  - [Single Responsibility](revision/w8-what-is-good-code?/3-single-responsibility.md)
+  - [Refactoring](revision/w8-what-is-good-code?/4-refactoring.md)
+  - [Practice](revision/w8-what-is-good-code?/practice.md)
+  - [Assignment](revision/w8-what-is-good-code?/assignment.md)
+
+### Week 9 - Recap Week
+
+- [Revision Week](revision/w9-revision-week.md)
+  - [Final Project](lessons/final-project.md)
+
+
+<!-- ### Week 10 - Final Project
+ -->
 
