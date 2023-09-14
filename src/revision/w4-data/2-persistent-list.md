@@ -72,7 +72,15 @@ class PersistedList:
     self.persist()  
 ```
 
-The program doesn't work, though, if one of the items has a newline (\n) character in it. We can make a new version of the persistedlist that saves to `json`, which is a good way of solving the problem. Imagine that we still need to keep the original PersistedList around though, because there are older parts of the program that still need to use that format.
+Our program has a big flaw: Things would be challenging if we allowed strings inside our list to contain a new line. Imagine if our list contained the string "a\nb": This would write the characte 'a', then a new line, then the character 'b'. If we wanted to load this list back into code, without context for what the list was originally, we would load the list ['a', 'b'], since we said we would put each entry from the list in its own line. 
+
+We can make a new, more reliable version of the persistedlist that saves to `json`, which is a good way of solving the problem: Because we can save data structures, and load json files directy into data structures, we don't usually care about formatting too much. the `load` and `dump` methods are design to take care of writing the correct things, and can handle whitespace issues like newlines within strings corectly. Storing ["a\nb"] as json, you would see:
+
+```json
+["a\nb"]
+```
+
+Imagine that we still need to keep the original PersistedList around though, because there are older parts of the program that still need to use that format.
 
 > In professional software development, *backwards compatibility* is something to be aware of. If this is a program running on a customer's device, it can be hard to change the way data is stored on disk, even if it's not stored in the best way. This is because customers on their own devices will already have a lot of data stored in the old format.
 

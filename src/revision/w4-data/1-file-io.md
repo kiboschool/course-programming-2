@@ -109,4 +109,50 @@ This walkthrough demonstrates reading and writing json files.
 
 At the end of the program, ask the user if they would like to change the current city. If they type yes, let them type in a city, and then store that as the current city.
 
+### Syntax Summary:
 
+Opening a file is simple with the `with open()` syntax.
+
+```python
+with open('path/to/your/file', mode) as f:
+```
+- mode is a string that tells python what we want to do with the file. Setting mode to `'r'` means we want to **read** the file.
+- setting mode to `'w'` means we want to **write** to the file. You should think of this as **overwriting!** any existing content will be removed!
+- seting mode to `'a'` means we want to **append** to the file. This will add whatever you write to the end of the file.
+- `f` here is just a variable name that represents our file, we can replace that `f` with anything that would make more sense!
+
+Reading and writing from a file is straightforward:
+- f.read() returns the entire content of a file.
+- f.write("some content") will write the string "some content" to the file. If our mode was `w` that would be all what the file says. If the mode was append, we would add it to the bottom of the file.
+
+You can also read the content of the file line by line. The simplest way to do so is with the following syntax:
+```python
+with open('path/to/your/file', 'r') as f:
+    for line in f:
+        # line will contain the first line in the first iteration of the loop, the second line in the next, etc.
+```
+
+Alternatively, you can use the readline() method. `f.readline()` returns the first line of the file the first time you call it, the second line the second time you call it, etc.
+
+There are many more methods you can use for handling files you can read about [here](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+
+Now handling json is a bit different. You could open a json file the same way as above, but in the case of json we **know** the data is structured, so we can get a data structure out of the file - for example a dictionary - instead of going through a list of strings!
+
+```python
+import json
+with open('my_json_file.json', 'r') as example:
+    example_content = json.load(example)
+```
+
+Note here that we first must import the json library - this contains many useful methods beyond the ones we cover here to deal with jsons. You can read the json documentation [here](https://docs.python.org/3/tutorial/inputoutput.html#saving-structured-data-with-json)
+
+Once we open the file, we can use the `load` method of the `json` library to directly turn its content into a data structure! If the json in the file represented a list, we would get a list! if it represented a dictionary, we would get a dictonary!
+
+This also means that we should be able to directly store lists or dictionary as json files, and we can!
+
+
+```python
+import json
+with open('json_output.json', 'w') as example:
+    example_content = json.dump(example)
+```
