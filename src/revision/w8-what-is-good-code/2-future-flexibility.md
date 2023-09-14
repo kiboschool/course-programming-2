@@ -65,7 +65,7 @@ In this case, the detail being hidden is the detail of how the price is being re
 
 The details of the `get_price` function are hidden from us, and we don't need to know how it works. This is abstraction.
 
-## 💾 Saving data
+## 💾 Abstraction in practice
 
 Now with all these new concepts in mind, let's try to improve some code ourselves!
 When a program has good abstraction, it is more flexible.

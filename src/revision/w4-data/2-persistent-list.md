@@ -4,8 +4,7 @@ In our previous example, we deliberately saved our data at the end of the proces
 
 We will approach this in a bit of an abstract way: Many programs use lists right? Let's create a new class, `PersistedList`, which works exactly like a `List`, but always saves its content to a file.
 
-> <a href="https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo" target="_blank">**Click here to follow along on Replit!**</a> Please sign up for an account and request to join the team if you haven't already.
-
+<a href="https://replit.com/team/kibo-programming-2/PersistedList-Inheritance-Demo" target="_blank">**Click here to follow along on Replit!**</a> _Please sign up for an account and request to join the team if you haven't already._
 
 > Once you are in Replit, click `Shell` on the right, type in `python main_v1.py`, and press Enter to run one of the scripts.
 
@@ -36,21 +35,7 @@ class PersistedList:
     self.internal_list.insert(position, incoming_string)
     with open(self.filename, 'w') as f:
       new_file_contents = '\n'.join(self.internal_list)
-      f.write(new_file_contents)
-  
-  def get_last_item(self):
-    length = len(self.internal_list)
-    return self.internal_list[length - 1]
-  
-  def get_item_at(self, position):
-    return self.internal_list[position]
-  
-  def set_item_at(self, position, incoming_string):
-    self.internal_list[position] = incoming_string
-    with open(self.filename, 'w') as f:
-      new_file_contents = '\n'.join(self.internal_list)
-      f.write(new_file_contents)
-        
+      f.write(new_file_contents)    
 ```
 
 This code does work, but it's not as good as it could be.
@@ -84,24 +69,14 @@ class PersistedList:
     
   def insert(self, position, incoming_string):
     self.internal_list.insert(position, incoming_string)
-    self.persist()
-  
-  def get_last_item(self):
-    length = len(self.internal_list)
-    return self.internal_list[length - 1]
-  
-  def get_item_at(self, position):
-    return self.internal_list[position]
-  
-  def set_item_at(self, position, incoming_string):
-    self.internal_list[position] = incoming_string
-    self.persist()
+    self.persist()  
 ```
 
 The program doesn't work, though, if one of the items has a newline (\n) character in it. We can make a new version of the persistedlist that saves to `json`, which is a good way of solving the problem. Imagine that we still need to keep the original PersistedList around though, because there are older parts of the program that still need to use that format.
 
 > In professional software development, *backwards compatibility* is something to be aware of. If this is a program running on a customer's device, it can be hard to change the way data is stored on disk, even if it's not stored in the best way. This is because customers on their own devices will already have a lot of data stored in the old format.
 
+So we only need to change the name of our existing class to make it a bit more clear what it does:
 ```python
 # main_v3_two_classes.py
 
@@ -130,19 +105,11 @@ class PersistedListIntoLines:
     
   def insert(self, position, incoming_string):
     self.internal_list.insert(position, incoming_string)
-    self.persist()
-  
-  def get_last_item(self):
-    length = len(self.internal_list)
-    return self.internal_list[length - 1]
-  
-  def get_item_at(self, position):
-    return self.internal_list[position]
-  
-  def set_item_at(self, position, incoming_string):
-    self.internal_list[position] = incoming_string
-    self.persist()
+    self.persist()  
+```
 
+And we can create a new, very similar class to that can persist lists into Json
+```python
 class PersistedListIntoJson:
   def __init__(self, filename):
     self.filename = filename
@@ -162,22 +129,12 @@ class PersistedListIntoJson:
     
   def insert(self, position, incoming_string):
     self.internal_list.insert(position, incoming_string)
-    self.persist()
-  
-  def get_last_item(self):
-    length = len(self.internal_list)
-    return self.internal_list[length - 1]
-  
-  def get_item_at(self, position):
-    return self.internal_list[position]
-  
-  def set_item_at(self, position, incoming_string):
-    self.internal_list[position] = incoming_string
-    self.persist()
+    self.persist()  
 ```
 
 Our program is pretty long, now, and there's again repeated code. Our two classes are very similar, so perhaps we can leverage **inheritance?**
 
+First we create a class that carries all the shared logic
 ```python
 # main_v4_inheritance.py
 
@@ -192,18 +149,10 @@ class PersistedListGeneral:
   def insert(self, position, incoming_string):
     self.internal_list.insert(position, incoming_string)
     self.persist()
-  
-  def get_last_item(self):
-    length = len(self.internal_list)
-    return self.internal_list[length - 1]
-  
-  def get_item_at(self, position):
-    return self.internal_list[position]
-  
-  def set_item_at(self, position, incoming_string):
-    self.internal_list[position] = incoming_string
-    self.persist()
-  
+```
+
+Now we can inherit from it! The children classes only need to define the `persist` method
+```python  
 class PersistedListIntoLines(PersistedListGeneral):
   def __init__(self, filename):
     self.filename = filename
