@@ -15,7 +15,7 @@
   - [Creating Classes](revision/w1-oop-intro/2-creating-classes.md)
   - [Bugs to Watch Out For](revision/w1-oop-intro/3-bugs-to-watch-out-for.md)
   - [Building with Classes](revision/w1-oop-intro/4-creating-with-classes.md)
-  - [Practice](revision/w1-oop-intro/practice.md)
+  - [Practice](revision/w1-oop-intro/practice.md) #TO-DO make each heading unique
   - [Assignment](revision/w1-oop-intro/assignment.md)
 
 ### Week 2 - Objects and Memory
@@ -74,13 +74,13 @@
 
 ### Week 8 - Writing Good Code
 
-- [What Is Good Code?](revision/w8-what-is-good-code?.md)
-  - [Introduction to Abstraction](revision/w8-what-is-good-code?/1-clear-abstraction.md)
-  - [Coding for Flexibility](revision/w8-what-is-good-code?/2-future-flexibility.md)
-  - [Single Responsibility](revision/w8-what-is-good-code?/3-single-responsibility.md)
-  - [Refactoring](revision/w8-what-is-good-code?/4-refactoring.md)
-  - [Practice](revision/w8-what-is-good-code?/practice.md)
-  - [Assignment](revision/w8-what-is-good-code?/assignment.md)
+- [What Is Good Code?](revision/w8-what-is-good-code.md)
+  - [Introduction to Abstraction](revision/w8-what-is-good-code/1-clear-abstraction.md)
+  - [Coding for Flexibility](revision/w8-what-is-good-code/2-future-flexibility.md)
+  - [Single Responsibility](revision/w8-what-is-good-code/3-single-responsibility.md)
+  - [Refactoring](revision/w8-what-is-good-code/4-refactoring.md)
+  - [Practice](revision/w8-what-is-good-code/practice.md)
+  - [Assignment](revision/w8-what-is-good-code/assignment.md)
 
 ### Week 9 - Recap Week
 

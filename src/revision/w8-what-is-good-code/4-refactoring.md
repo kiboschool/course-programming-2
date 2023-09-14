@@ -1,4 +1,3 @@
-
 # Refactoring
 
 The video here will explain what refactoring is, and why it can be helpful:
@@ -47,7 +46,8 @@ Because in the world of professional software development, code is always changi
     * Maintaining compatibility with the newest versions of Python, and newest versions of the Python modules being used
 
 
-### Wikipedia's definition
+## Wrap up
 
-> In computer programming and software design, **code refactoring** is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. Refactoring is intended to improve the design, structure, and/or implementation of the software, while preserving its functionality. Potential advantages of refactoring may include improved code readability and reduced complexity.
+This brings us to the end of new content for the course. Next week we will focus on revision of content: Make sure to come prepared to discuss topics you still feel unsure about. 
 
+We will also release your final project early next week! You will have two weeks to work on it, and it will be your biggest coding exercise yet. Organize your time to start as early as possible, and use office hours wisely!
