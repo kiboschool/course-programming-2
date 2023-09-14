@@ -53,36 +53,10 @@ This is a matter of style, of preference, so don't hold on to it too strongly. T
 
 One of the most common use cases for using tuples is scenarios where you want to return more than one value from a function. For example, let's say we build a program for a quizz. We could have a function that provides us both a question and its answer, that way the rest of our program would both know what question to show a learner, as well as how to validate their answer.
 
-A tuple is a good structure to use to return both data at once - An object may be overkill, while trying to use two different functions that each return one of the values would make our code messy.
+A tuple is a good structure to use to return both data at once - An object may be overkill, while trying to use two different functions that each return one of the values would make our code messy. Read through the following example to see how you can seamlessly use such functions in your code:
 
-```python
-def get_question():
-	# This is a simplified function. In practice it would read from a file, database, or make an API call.
-	return ("What is the OOP principle by which we can connect classes together in a hierarchy?", "Inheritance")
-```
 
-We can use this in practice by indexing into the result:
-
-```python
-question = get_question()[0]
-answer = get_question()[1]
-```
-
-This is a bit redundant however, as we make the call to our function twice. Better to save the result:
-
-```python
-result = get_question()
-question = result[0]
-answer = result[1]
-```
-
-This is a bit better, but it could be farther improved: We're writing a few lines for what should be a simple assignment, and we also have no context for what other data could be in the `result` variable. Is `result[2]` valid? who knows?
-
-There is a handy feature of Python that helps a lot: Unpacking. This is valid syntax:
-
-```python
-question, answer = get_question()
-```
+<iframe src="https://trinket.io/embed/python3/0e05d42560" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 You can assign a tuple of size two to two variables at once. By default, the first variable will get the entry at index 0, and the next variable the entry at index 1. 
 

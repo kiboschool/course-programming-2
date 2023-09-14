@@ -84,7 +84,16 @@ Similarly for lists: What if the input list to our function is empty? do things 
 
 ## What is unit testing?
 
-A unit test is a function that checks if another function correctly performs a specific task. Unit tests are what we would use to explore all the concerns we've been reading about so far. Before we jump into it though, let's introduce some new `Python` syntax that will be helpful here:
+If you look at all the previous sections we covered, clearly we have a lot to think about! If we wanted to manually test our code each time we've worked on it for a while we would have to:
+- document all our test cases somewhere.
+- set up a test by running our program, or starting the console and importing a specific function to run it.
+- do it over and over again going through all these scenarios
+- document whenever a test fails or gives us incorrect output.
+- this means we need to already know with 100% confidence what the output to each test should be given our changed code. 
+
+I don't know about you but that seems like way too much work. We can get the benefits of thorough testing without all these headaches by setting up **Automated Unit Tests** for our project. We will explore the automation in the next section, but for now let's define Unit Tests:
+
+A Unit Test is a function that checks if another function correctly performs a specific task. Unit tests are what we would use to explore all the concerns we've been reading about so far. Before we jump into it though, let's introduce some new `Python` syntax that will be helpful here:
 
 ```python
 assert True

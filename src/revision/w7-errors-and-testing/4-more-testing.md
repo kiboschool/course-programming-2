@@ -13,6 +13,8 @@ While higher coverage values are better than lower ones, recall that the presenc
 
 It is however stil worth tracking code coverage, as projects with low coverage - or god forbid none at all! - should be treated very carefully, and with a deliberate focus on testing the parts of the code that are untested.
 
+This is often seen as the _bare minimum_ for your work to be included in a serious professional and/or open source project: If you do not show a high test coverage, other developers will not trust your contribution. 
+
 ### Mocking
 
 As we've seen in the previous video, unit tests focus on isolating small portions of the code to focus on. All the examples we've seen so far have involved simple, self contained functions, but every now and then our code will interact with another system. This can be an api call or a connection to a database to name a few examples. How can we then test such a function?
