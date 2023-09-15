@@ -34,8 +34,9 @@ units:
       - name: Week 1 Assignment
         path: src/revision/w1-oop-intro/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 100
   - name: Memory
     activities:
       - name: Introduction
@@ -68,8 +69,9 @@ units:
       - name: Week 2 Assignment
         path: src/revision/w2-memory-and-objects/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: Inheritance
     activities:
       - name: Introduction
@@ -102,8 +104,9 @@ units:
       - name: Week 3 Assignment
         path: src/revision/w3-inheritance/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: Data
     activities:
       - name: Introduction
@@ -136,8 +139,9 @@ units:
       - name: Week 4 Assignment
         path: src/revision/w4-data/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: Midterm Project
     activities:
       - name: Introduction
@@ -174,8 +178,9 @@ units:
       - name: Week 7 Assignment
         path: src/revision/w6-collections/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: Exceptions & Testing
     activities:
       - name: Introduction
@@ -208,8 +213,9 @@ units:
       - name: Week 8 Assignment
         path: src/revision/w7-errors-and-testing/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: What Is Good Code
     activities:
       - name: Introduction
@@ -239,11 +245,12 @@ units:
         workload: 60
         type: lesson
         kind: general
-      - name: Week 8 Assignment
+      - name: Week 9 Assignment
         path: src/revision/w8-what-is-good-code/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: Revision Week
     activities:
       - name: Introduction
@@ -251,6 +258,7 @@ units:
       - name: Final Project
         path: src/lessons/final-project.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
 
