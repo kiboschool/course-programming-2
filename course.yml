@@ -1,0 +1,256 @@
+name: Programming 2
+code: CSF003
+term: Oct-2023
+units:
+  - name: Object-Oriented Programming
+    activities:
+      - name: Introduction
+        path: src/revision/w1-oop-intro.md
+      - name: Objects and Methods
+        path: src/revision/w1-oop-intro/1-objects-and-methods.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Creating Classes
+        path: src/revision/w1-oop-intro/2-creating-classes.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Bugs to Watch Out For
+        path: src/revision/w1-oop-intro/3-bugs-to-watch-out-for.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Building with Classes
+        path: src/revision/w1-oop-intro/4-creating-with-classes.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: OOP Practice
+        path: src/revision/w1-oop-intro/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Week 1 Assignment
+        path: src/revision/w1-oop-intro/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Memory
+    activities:
+      - name: Introduction
+        path: src/revision/w2-memory-and-objects.md
+      - name: References and Memory
+        path: src/revision/w2-memory-and-objects/1-references.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Copying Objects
+        path: src/revision/w2-memory-and-objects/2-aliasing-copying.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Scope
+        path: src/revision/w2-memory-and-objects/3-scope.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Debugging
+        path: src/revision/w2-memory-and-objects/4-debugging-practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Object & Memory Practice
+        path: src/revision/w2-memory-and-objects/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Week 2 Assignment
+        path: src/revision/w2-memory-and-objects/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Inheritance
+    activities:
+      - name: Introduction
+        path: src/revision/w3-inheritance.md
+      - name: Modeling
+        path: src/revision/w3-inheritance/1-modeling.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Inheritance
+        path: src/revision/w3-inheritance/2-inheritance-syntax.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Overriding
+        path: src/revision/w3-inheritance/3-overriding.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Inheritance Example
+        path: src/revision/w3-inheritance/4-inheritance-examples.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Inheritance Practice
+        path: src/revision/w3-inheritance/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Week 3 Assignment
+        path: src/revision/w3-inheritance/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Data
+    activities:
+      - name: Introduction
+        path: src/revision/w4-data.md
+      - name: File I/O
+        path: src/revision/w4-data/1-file-io.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Design Example 1
+        path: src/revision/w4-data/2-persistent-list.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: API Calls
+        path: src/revision/w4-data/3-api-calls.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Putting it all together
+        path: src/revision/w4-data/4-weather-api-example.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Data I/O Practice
+        path: src/revision/w4-data/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Week 4 Assignment
+        path: src/revision/w4-data/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Midterm Project
+    activities:
+      - name: Introduction
+        path: src/lessons/midterm-project.md
+  - name: Collections
+    activities:
+      - name: Introduction
+        path: src/revision/w6-collections.md
+      - name: Lists
+        path: src/revision/w6-collections/1-lists-revisitied.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Tuples
+        path: src/revision/w6-collections/2-tuples.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Sets
+        path: src/revision/w6-collections/3-sets.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Dictionary
+        path: src/revision/w6-collections/4-dictionaries-revisited.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Collections Practice
+        path: src/revision/w6-collections/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Week 7 Assignment
+        path: src/revision/w6-collections/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Exceptions & Testing
+    activities:
+      - name: Introduction
+        path: src/revision/w7-errors-and-testing.md
+      - name: Creating Errors
+        path: src/revision/w7-errors-and-testing/1-creating-errors.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Testing Your Code
+        path: src/revision/w7-errors-and-testing/2-testing-your-code.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: The unittest framework
+        path: src/revision/w7-errors-and-testing/3-unittest.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Testing Concepts
+        path: src/revision/w7-errors-and-testing/4-more-testing.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Exception & Testing Practice
+        path: src/revision/w7-errors-and-testing/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Week 8 Assignment
+        path: src/revision/w7-errors-and-testing/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: What Is Good Code
+    activities:
+      - name: Introduction
+        path: src/revision/w8-what-is-good-code.md
+      - name: Introduction to Abstraction
+        path: src/revision/w8-what-is-good-code/1-bad-code.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Coding for Flexibility
+        path: src/revision/w8-what-is-good-code/2-future-flexibility.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Single Responsibility
+        path: src/revision/w8-what-is-good-code/3-interfaces.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Refactoring
+        path: src/revision/w8-what-is-good-code/4-refactoring.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Code Quality Practice
+        path: src/revision/w8-what-is-good-code/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Week 8 Assignment
+        path: src/revision/w8-what-is-good-code/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Revision Week
+    activities:
+      - name: Introduction
+        path: src/revision/w9-revision-week.md
+      - name: Final Project
+        path: src/lessons/final-project.md
+        workload: 60
+        type: lesson
+        kind: general
+
