@@ -1,10 +1,9 @@
 # Bad Code
 
-As we are having a conversation about code quality, let's take a moment to study some _absolutely terrible code_. 
+As we are having a conversation about code quality, let's take a moment to study some _absolutely terrible code_. I want you to take a moment to read through the code and think about what it will do. Don't take more than 5 minutes on this, as this code may hurt your head. 
 
 <iframe src="https://trinket.io/embed/python3/0fc4596e58" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-I want you to take a moment to read through the code and think about what it will do. Don't take more than 5 minutes on this, as this code may hurt your head. 
 
 Now I want you to state what the code does. What do you predict will happen when you run it? Run it and see if your prediction was correct. 
 

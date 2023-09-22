@@ -81,6 +81,7 @@ You know you want saving to be a separate method, since you definitely don't wan
 Imagine that calling the method looks like this: 
 
 ```python
+import json
 class Game:
     ...
     def on_complete_level(self):
@@ -95,7 +96,9 @@ class Game:
         ...
         self.save_to_json(self.data, 'saved_game.json')
         ...
-    ...
+    def save_to_json(data, filename):
+        with open(filename, 'w') as save_file:
+            json.dump(data, save_file)
 ```
 
 This strategy will work in the short term.
@@ -107,14 +110,15 @@ The problem is that **the details are not hidden**. To improve the code, the hig
 Let's creat a new class with a single job, a  **single responsibility**: Saving a game.
 
 ```python
+import json
 class GameSaver:
     def __init__(self, filename):
         self.filename = filename
     
     def save(self, data):
-        # saves to self.filename
+        with open(self.filename, 'w') as save_file:
+            json.dump(data, save_file)
         ...
-
 # Every game that wants to save some data should use an object of the GameSaver class
 class Game:
     ...

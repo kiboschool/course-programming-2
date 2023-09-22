@@ -30,7 +30,9 @@ Many concepts come together to make code easy to work with, and we will spend th
 
 ## Preview:
 Here is what we will be exploring this week:
-* 
+* What makes code good? how can we make our code better?
+* How can we make our code resilient and flexible?
+* How can we think about good abstractions reliably?
 
 ## Why does this matter?
 We should build up our intuition for what makes good code. This will serve you well in future courses and in the professional world where you will be working on the same codebase for months at a time. As we head towards our first long term assignment, you will soon have the opportunity to apply these design principles for yourself
