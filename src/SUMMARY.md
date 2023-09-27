@@ -15,7 +15,7 @@
   - [Creating Classes](revision/w1-oop-intro/2-creating-classes.md)
   - [Bugs to Watch Out For](revision/w1-oop-intro/3-bugs-to-watch-out-for.md)
   - [Building with Classes](revision/w1-oop-intro/4-creating-with-classes.md)
-  - [OOP Practice](revision/w1-oop-intro/practice.md) #TO-DO make each heading unique
+  - [OOP Practice](revision/w1-oop-intro/practice.md)
   - [Week 1 Assignment](revision/w1-oop-intro/assignment.md)
 
 ### Week 2 - Objects and Memory
