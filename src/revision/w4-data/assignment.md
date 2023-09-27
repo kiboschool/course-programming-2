@@ -3,12 +3,9 @@
 ---
 
 > 💡 This is your chance to put what you’ve learned into action.
-> **Remember**: Complete two or more of the three tasks in order to ensure earning full marks.
 
 ### Submission
 
-
-> **[Use this form](https://forms.gle/UbWLpo86JsWxrpNe9)**
 
 <aside>
 
@@ -22,7 +19,7 @@
 
 ## Setup
 
-Click Open Project here to get a copy of the code. Just like the videos, we will be adding to the weather API example! We recommend that you complete at least two of these exercises.
+Click Open Project here to get a copy of the code. Just like the videos, we will be adding to the weather API example! You should aim to complete all the following exercises:
 
 <a href="https://classroom.github.com/a/PCUb7tFJ" target="_blank"><img src="https://img.shields.io/static/v1?label=Open%20Project&message=Weather%20API%20Exercise&color=blue" alt="weather-api-exercise" /></a>
 
@@ -49,12 +46,4 @@ Hints:
 - Right now the `get_api_results` function does not need to return anything, but you can change it so that it will `return` a value at the end.
 - The data type returned by the `decode()` method is a string.
 - And remember that there is a function `json.loads()` that loads from a string instead of a file.
-
-## Submitting the assignment
-
-When you are done, `commit` and `push` your code. Submit a link to your work on
-Github using this form: **[Programming Exercise log](https://forms.gle/UbWLpo86JsWxrpNe9)**
-
-<image src="../../images/w1/cool_library_snake.png" height="25%" width="25%" style="border:none, border-width: 0, border: 0; margin-top:2em; box-shadow: 0px 0px;" />
-
 

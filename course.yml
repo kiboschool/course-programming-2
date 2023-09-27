@@ -1,264 +1,364 @@
 name: Programming 2
 code: CSF003
 term: Oct-2023
+about_path: src/programming
 units:
   - name: Object-Oriented Programming
     activities:
       - name: Introduction
         path: src/revision/w1-oop-intro.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Objects and Methods
-        path: src/revision/w1-oop-intro/1-objects-and-methods.md
-        workload: 60
+        path: revision/w1-oop-intro/1-objects-and-methods.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: Creating Classes
-        path: src/revision/w1-oop-intro/2-creating-classes.md
-        workload: 60
+        path: revision/w1-oop-intro/2-creating-classes.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: Bugs to Watch Out For
-        path: src/revision/w1-oop-intro/3-bugs-to-watch-out-for.md
-        workload: 60
+        path: revision/w1-oop-intro/3-bugs-to-watch-out-for.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: Building with Classes
-        path: src/revision/w1-oop-intro/4-creating-with-classes.md
-        workload: 60
+        path: revision/w1-oop-intro/4-creating-with-classes.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: OOP Practice
-        path: src/revision/w1-oop-intro/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Week 1 Assignment
-        path: src/revision/w1-oop-intro/assignment.md
-        workload: 60
+        path: revision/w1-oop-intro/practice.md
         type: assignment
         kind: assignment
-        grade_weight: 100
+        workload: 60
+        grade_weight: 1.0
+        publish: 2023-10-02
+      - name: Week 1 Assignment
+        path: revision/w1-oop-intro/assignment.md
+        type: assignment
+        kind: assignment
+        workload: 180
+        grade_weight: 4.0
+        publish: 2023-10-02
   - name: Memory
     activities:
       - name: Introduction
         path: src/revision/w2-memory-and-objects.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: References and Memory
-        path: src/revision/w2-memory-and-objects/1-references.md
-        workload: 60
+        path: revision/w2-memory-and-objects/1-references.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: Copying Objects
-        path: src/revision/w2-memory-and-objects/2-aliasing-copying.md
-        workload: 60
+        path: revision/w2-memory-and-objects/2-aliasing-copying.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: Scope
-        path: src/revision/w2-memory-and-objects/3-scope.md
-        workload: 60
+        path: revision/w2-memory-and-objects/3-scope.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: Debugging
-        path: src/revision/w2-memory-and-objects/4-debugging-practice.md
-        workload: 60
+        path: revision/w2-memory-and-objects/4-debugging-practice.md
         type: lesson
         kind: general
+        workload: 30
+        publish: 2023-10-02
       - name: Object & Memory Practice
-        path: src/revision/w2-memory-and-objects/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Week 2 Assignment
-        path: src/revision/w2-memory-and-objects/assignment.md
-        workload: 60
+        path: revision/w2-memory-and-objects/practice.md
         type: assignment
         kind: assignment
-        grade_weight: 0
+        workload: 60
+        grade_weight: 1.5
+        publish: 2023-10-02
+      - name: Week 2 Assignment
+        path: revision/w2-memory-and-objects/assignment.md
+        type: assignment
+        kind: assignment
+        workload: 180
+        grade_weight: 6.0
+        publish: 2023-10-02
   - name: Inheritance
     activities:
       - name: Introduction
         path: src/revision/w3-inheritance.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Modeling
-        path: src/revision/w3-inheritance/1-modeling.md
-        workload: 60
+        path: revision/w3-inheritance/1-modeling.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Inheritance
-        path: src/revision/w3-inheritance/2-inheritance-syntax.md
-        workload: 60
+        path: revision/w3-inheritance/2-inheritance-syntax.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Overriding
-        path: src/revision/w3-inheritance/3-overriding.md
-        workload: 60
+        path: revision/w3-inheritance/3-overriding.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Inheritance Example
-        path: src/revision/w3-inheritance/4-inheritance-examples.md
-        workload: 60
+        path: revision/w3-inheritance/4-inheritance-examples.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Inheritance Practice
-        path: src/revision/w3-inheritance/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Week 3 Assignment
-        path: src/revision/w3-inheritance/assignment.md
-        workload: 60
+        path: revision/w3-inheritance/practice.md
         type: assignment
         kind: assignment
-        grade_weight: 0
+        workload: 60
+        grade_weight: 1.5
+        publish: 2023-10-02
+      - name: Week 3 Assignment
+        path: revision/w3-inheritance/assignment.md
+        type: assignment
+        kind: assignment
+        workload: 180
+        grade_weight: 6.0
+        publish: 2023-10-02
   - name: Data
     activities:
       - name: Introduction
         path: src/revision/w4-data.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: File I/O
-        path: src/revision/w4-data/1-file-io.md
-        workload: 60
+        path: revision/w4-data/1-file-io.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Design Example 1
-        path: src/revision/w4-data/2-persistent-list.md
-        workload: 60
+        path: revision/w4-data/2-persistent-list.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: API Calls
-        path: src/revision/w4-data/3-api-calls.md
-        workload: 60
+        path: revision/w4-data/3-api-calls.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Putting it all together
-        path: src/revision/w4-data/4-weather-api-example.md
-        workload: 60
+        path: revision/w4-data/4-weather-api-example.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Data I/O Practice
-        path: src/revision/w4-data/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Week 4 Assignment
-        path: src/revision/w4-data/assignment.md
-        workload: 60
+        path: revision/w4-data/practice.md
         type: assignment
         kind: assignment
-        grade_weight: 0
+        workload: 60
+        grade_weight: 1.5
+        publish: 2023-10-02
+      - name: Week 4 Assignment
+        path: revision/w4-data/assignment.md
+        type: assignment
+        kind: assignment
+        workload: 180
+        grade_weight: 6.0
+        publish: 2023-10-02
   - name: Midterm Project
     activities:
       - name: Introduction
         path: src/lessons/midterm-project.md
+        type: assignment
+        kind: assignmentSummative
+        workload: 300
+        grade_weight: 25.0
+        publish: 2023-10-02
   - name: Collections
     activities:
       - name: Introduction
         path: src/revision/w6-collections.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Lists
-        path: src/revision/w6-collections/1-lists-revisitied.md
-        workload: 60
+        path: revision/w6-collections/1-lists-revisitied.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Tuples
-        path: src/revision/w6-collections/2-tuples.md
-        workload: 60
+        path: revision/w6-collections/2-tuples.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Sets
-        path: src/revision/w6-collections/3-sets.md
-        workload: 60
+        path: revision/w6-collections/3-sets.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Dictionary
-        path: src/revision/w6-collections/4-dictionaries-revisited.md
-        workload: 60
+        path: revision/w6-collections/4-dictionaries-revisited.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Collections Practice
-        path: src/revision/w6-collections/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Week 7 Assignment
-        path: src/revision/w6-collections/assignment.md
-        workload: 60
+        path: revision/w6-collections/practice.md
         type: assignment
         kind: assignment
-        grade_weight: 0
+        workload: 60
+        grade_weight: 1.5
+        publish: 2023-10-02
+      - name: Week 7 Assignment
+        path: revision/w6-collections/assignment.md
+        type: assignment
+        kind: assignment
+        workload: 180
+        grade_weight: 6.0
+        publish: 2023-10-02
   - name: Exceptions & Testing
     activities:
       - name: Introduction
         path: src/revision/w7-errors-and-testing.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Creating Errors
-        path: src/revision/w7-errors-and-testing/1-creating-errors.md
-        workload: 60
+        path: revision/w7-errors-and-testing/1-creating-errors.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Testing Your Code
-        path: src/revision/w7-errors-and-testing/2-testing-your-code.md
-        workload: 60
+        path: revision/w7-errors-and-testing/2-testing-your-code.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: The unittest framework
-        path: src/revision/w7-errors-and-testing/3-unittest.md
-        workload: 60
+        path: revision/w7-errors-and-testing/3-unittest.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Testing Concepts
-        path: src/revision/w7-errors-and-testing/4-more-testing.md
-        workload: 60
+        path: revision/w7-errors-and-testing/4-more-testing.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Exception & Testing Practice
-        path: src/revision/w7-errors-and-testing/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Week 8 Assignment
-        path: src/revision/w7-errors-and-testing/assignment.md
-        workload: 60
+        path: revision/w7-errors-and-testing/practice.md
         type: assignment
         kind: assignment
-        grade_weight: 0
+        workload: 60
+        grade_weight: 1.5
+        publish: 2023-10-02
+      - name: Week 8 Assignment
+        path: revision/w7-errors-and-testing/assignment.md
+        type: assignment
+        kind: assignment
+        workload: 180
+        grade_weight: 6.0
+        publish: 2023-10-02
   - name: What Is Good Code
     activities:
       - name: Introduction
         path: src/revision/w8-what-is-good-code.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Introduction to Abstraction
-        path: src/revision/w8-what-is-good-code/1-bad-code.md
-        workload: 60
+        path: revision/w8-what-is-good-code/1-bad-code.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Coding for Flexibility
-        path: src/revision/w8-what-is-good-code/2-future-flexibility.md
-        workload: 60
+        path: revision/w8-what-is-good-code/2-future-flexibility.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Single Responsibility
-        path: src/revision/w8-what-is-good-code/3-interfaces.md
-        workload: 60
+        path: revision/w8-what-is-good-code/3-interfaces.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Refactoring
-        path: src/revision/w8-what-is-good-code/4-refactoring.md
-        workload: 60
+        path: revision/w8-what-is-good-code/4-refactoring.md
         type: lesson
         kind: general
+        workload: 15
+        publish: 2023-10-02
       - name: Code Quality Practice
-        path: src/revision/w8-what-is-good-code/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Week 9 Assignment
-        path: src/revision/w8-what-is-good-code/assignment.md
-        workload: 60
+        path: revision/w8-what-is-good-code/practice.md
         type: assignment
         kind: assignment
-        grade_weight: 0
+        workload: 60
+        grade_weight: 1.5
+        publish: 2023-10-02
+      - name: Week 8 Assignment
+        path: revision/w8-what-is-good-code/assignment.md
+        type: assignment
+        kind: assignment
+        workload: 180
+        grade_weight: 6.0
+        publish: 2023-10-02
   - name: Revision Week
     activities:
       - name: Introduction
         path: src/revision/w9-revision-week.md
+        type: lesson
+        kind: general
+        workload: 15
+        publish: 2023-10-02
+      - name: Core Reading
+        path: core-reading.md
+        type: lesson
+        kind: publicationReviewed
+        workload: 120
+        publish: 2023-10-02
+      - name: Supplemental Reading
+        path: supplemental-reading.md
+        type: lesson
+        kind: publicationReviewed
+        workload: 120
+        publish: 2023-10-02
       - name: Final Project
-        path: src/lessons/final-project.md
-        workload: 60
+        path: lessons/final-project.md
         type: assignment
-        kind: assignment
-        grade_weight: 0
+        kind: assignmentSummative
+        workload: 600
+        grade_weight: 25.0
+        publish: 2023-10-02
 
