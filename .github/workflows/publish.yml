@@ -32,4 +32,4 @@ jobs:
             export ANCHOR_BASE_URL=${DEV_ANCHOR_BASE_URL}
           fi
 
-          curl --request POST --url $ANCHOR_BASE_URL/api/latest/courses/update -H "Authorization: SharedKey $ANCHOR_API_KEY" -H 'Content-Type: application/json' --data "{'github_path': '$GITHUB_REPOSITORY'}"
+          curl --request POST --url $ANCHOR_BASE_URL/api/latest/courses/update -H "Authorization: SharedKey $ANCHOR_API_KEY" -H 'Content-Type: application/json' --data "{\"github_path\": \"$GITHUB_REPOSITORY\"}"
