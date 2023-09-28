@@ -8,31 +8,31 @@ units:
       - name: Introduction
         path: src/revision/w1-oop-intro.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Objects and Methods
         path: src/revision/w1-oop-intro/1-objects-and-methods.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: Creating Classes
         path: src/revision/w1-oop-intro/2-creating-classes.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: Bugs to Watch Out For
         path: src/revision/w1-oop-intro/3-bugs-to-watch-out-for.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: Building with Classes
         path: src/revision/w1-oop-intro/4-creating-with-classes.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: OOP Practice
@@ -54,31 +54,31 @@ units:
       - name: Introduction
         path: src/revision/w2-memory-and-objects.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: References and Memory
         path: src/revision/w2-memory-and-objects/1-references.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: Copying Objects
         path: src/revision/w2-memory-and-objects/2-aliasing-copying.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: Scope
         path: src/revision/w2-memory-and-objects/3-scope.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: Debugging
         path: src/revision/w2-memory-and-objects/4-debugging-practice.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: Object & Memory Practice
@@ -100,31 +100,31 @@ units:
       - name: Introduction
         path: src/revision/w3-inheritance.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Modeling
         path: src/revision/w3-inheritance/1-modeling.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Inheritance
         path: src/revision/w3-inheritance/2-inheritance-syntax.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Overriding
         path: src/revision/w3-inheritance/3-overriding.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Inheritance Example
         path: src/revision/w3-inheritance/4-inheritance-examples.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Inheritance Practice
@@ -146,31 +146,31 @@ units:
       - name: Introduction
         path: src/revision/w4-data.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: File I/O
         path: src/revision/w4-data/1-file-io.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Design Example 1
         path: src/revision/w4-data/2-persistent-list.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: API Calls
         path: src/revision/w4-data/3-api-calls.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Putting it all together
         path: src/revision/w4-data/4-weather-api-example.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Data I/O Practice
@@ -201,31 +201,31 @@ units:
       - name: Introduction
         path: src/revision/w6-collections.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Lists
         path: src/revision/w6-collections/1-lists-revisitied.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Tuples
         path: src/revision/w6-collections/2-tuples.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Sets
         path: src/revision/w6-collections/3-sets.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Dictionary
         path: src/revision/w6-collections/4-dictionaries-revisited.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Collections Practice
@@ -247,31 +247,31 @@ units:
       - name: Introduction
         path: src/revision/w7-errors-and-testing.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Creating Errors
         path: src/revision/w7-errors-and-testing/1-creating-errors.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Testing Your Code
         path: src/revision/w7-errors-and-testing/2-testing-your-code.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: The unittest framework
         path: src/revision/w7-errors-and-testing/3-unittest.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Testing Concepts
         path: src/revision/w7-errors-and-testing/4-more-testing.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Exception & Testing Practice
@@ -293,31 +293,31 @@ units:
       - name: Introduction
         path: src/revision/w8-what-is-good-code.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Introduction to Abstraction
         path: src/revision/w8-what-is-good-code/1-bad-code.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Coding for Flexibility
         path: src/revision/w8-what-is-good-code/2-future-flexibility.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Single Responsibility
         path: src/revision/w8-what-is-good-code/3-interfaces.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Refactoring
         path: src/revision/w8-what-is-good-code/4-refactoring.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Code Quality Practice
@@ -339,7 +339,7 @@ units:
       - name: Introduction
         path: src/revision/w9-revision-week.md
         type: lesson
-        kind: general
+        kind: GENERAL
         workload: 15
         publish: 2023-10-02
       - name: Core Reading
