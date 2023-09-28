@@ -9,8 +9,8 @@ on:
 env:
   PROD_ANCHOR_API_KEY: "${{ secrets.PROD_ANCHOR_API_KEY }}"
   PROD_ANCHOR_BASE_URL: "${{ secrets.PROD_ANCHOR_BASE_URL }}"
-  DEV_ANCHOR_API_KEY: "${{ secrets.DEV_PROD_ANCHOR_API_KEY }}"
-  DEV_ANCHOR_BASE_URL: "${{ secrets.DEV_PROD_ANCHOR_BASE_URL }}"
+  DEV_ANCHOR_API_KEY: "${{ secrets.DEV_ANCHOR_API_KEY }}"
+  DEV_ANCHOR_BASE_URL: "${{ secrets.DEV_ANCHOR_BASE_URL }}"
 
 jobs:
   deploy:
