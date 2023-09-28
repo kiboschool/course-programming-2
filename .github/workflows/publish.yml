@@ -1,0 +1,35 @@
+name: Publish the new version of the course to the API
+on:
+  push:
+    branches:
+      - main
+      - draft
+  workflow_dispatch:
+
+env:
+  PROD_ANCHOR_API_KEY: "${{ secrets.PROD_ANCHOR_API_KEY }}"
+  PROD_ANCHOR_BASE_URL: "${{ secrets.PROD_ANCHOR_BASE_URL }}"
+  DEV_ANCHOR_API_KEY: "${{ secrets.DEV_ANCHOR_API_KEY }}"
+  DEV_ANCHOR_BASE_URL: "${{ secrets.DEV_ANCHOR_BASE_URL }}"
+
+jobs:
+  deploy:
+    name: publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: "read"
+      id-token: "write"
+    steps:
+      - name: publish
+        run: |
+          if [[ ${GITHUB_REF} == "refs/heads/main" ]]; then
+            export ANCHOR_API_KEY=${PROD_ANCHOR_API_KEY} 
+            export ANCHOR_BASE_URL=${PROD_ANCHOR_BASE_URL}
+          fi
+
+          if [[ ${GITHUB_REF} == "refs/heads/draft" ]]; then
+            export ANCHOR_API_KEY=${DEV_ANCHOR_API_KEY} 
+            export ANCHOR_BASE_URL=${DEV_ANCHOR_BASE_URL}
+          fi
+
+          curl --request POST --url $ANCHOR_BASE_URL/api/latest/courses/update -H "Authorization: SharedKey $ANCHOR_API_KEY" -H 'Content-Type: application/json' --data "{\"github_path\": \"$GITHUB_REPOSITORY\"}"
