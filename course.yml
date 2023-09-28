@@ -35,14 +35,14 @@ units:
         kind: GENERAL
         workload: 120
         publish: 2023-10-02
-      - name: OOP Practice
+      - name: 'Practice: OOP'
         path: src/revision/w1-oop-intro/practice.md
         type: assignment
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.0
         publish: 2023-10-02
-      - name: Week 1 Assignment
+      - name: 'Assignment 1: Banking Basics'
         path: src/revision/w1-oop-intro/assignment.md
         type: assignment
         kind: ASSIGNMENT
@@ -81,14 +81,14 @@ units:
         kind: GENERAL
         workload: 120
         publish: 2023-10-02
-      - name: Object & Memory Practice
+      - name: 'Practice: Objects & Memory'
         path: src/revision/w2-memory-and-objects/practice.md
         type: assignment
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
         publish: 2023-10-02
-      - name: Week 2 Assignment
+      - name: 'Assignment 2: Jukebox'
         path: src/revision/w2-memory-and-objects/assignment.md
         type: assignment
         kind: ASSIGNMENT
@@ -127,14 +127,14 @@ units:
         kind: GENERAL
         workload: 120
         publish: 2023-10-02
-      - name: Inheritance Practice
+      - name: 'Practice: Inheritance'
         path: src/revision/w3-inheritance/practice.md
         type: assignment
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
         publish: 2023-10-02
-      - name: Week 3 Assignment
+      - name: 'Assignment 3: Banking Returns'
         path: src/revision/w3-inheritance/assignment.md
         type: assignment
         kind: ASSIGNMENT
@@ -173,21 +173,21 @@ units:
         kind: GENERAL
         workload: 120
         publish: 2023-10-02
-      - name: Data I/O Practice
+      - name: 'Practice: Data I/O'
         path: src/revision/w4-data/practice.md
         type: assignment
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
         publish: 2023-10-02
-      - name: Week 4 Assignment
+      - name: 'Assignment 4: Weather API'
         path: src/revision/w4-data/assignment.md
         type: assignment
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 6.0
         publish: 2023-10-02
-  - name: Midterm Project
+  - name: 'Midterm Project: Numberic Processor'
     activities:
       - name: Introduction
         path: src/lessons/midterm-project.md
@@ -228,18 +228,18 @@ units:
         kind: GENERAL
         workload: 120
         publish: 2023-10-02
-      - name: Collections Practice
+      - name: 'Practice: Collections'
         path: src/revision/w6-collections/practice.md
         type: assignment
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
         publish: 2023-10-02
-      - name: Week 6 Assignment
+      - name: 'Assignment 5: Picky Eaters'
         path: src/revision/w6-collections/assignment.md
         type: assignment
         kind: ASSIGNMENT
-        workload: 2120
+        workload: 300
         grade_weight: 6.0
         publish: 2023-10-02
   - name: Exceptions & Testing
@@ -274,14 +274,14 @@ units:
         kind: GENERAL
         workload: 120
         publish: 2023-10-02
-      - name: Exception & Testing Practice
+      - name: 'Practice: Exceptions & Testing'
         path: src/revision/w7-errors-and-testing/practice.md
         type: assignment
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
         publish: 2023-10-02
-      - name: Week 7 Assignment
+      - name: 'Assignment 6: Testing'
         path: src/revision/w7-errors-and-testing/assignment.md
         type: assignment
         kind: ASSIGNMENT
@@ -320,14 +320,14 @@ units:
         kind: GENERAL
         workload: 120
         publish: 2023-10-02
-      - name: Code Quality Practice
+      - name: 'Practice: Code Quality'
         path: src/revision/w8-what-is-good-code/practice.md
         type: assignment
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
         publish: 2023-10-02
-      - name: Week 8 Assignment
+      - name: 'Assignment 7: Code Reviews'
         path: src/revision/w8-what-is-good-code/assignment.md
         type: assignment
         kind: ASSIGNMENT
@@ -354,11 +354,11 @@ units:
         kind: PUBLICATION_REVIEWED
         workload: 240
         publish: 2023-10-02
-      - name: Final Project
+      - name: 'Final Project: Competition CLI'
         path: src/lessons/final-project.md
         type: assignment
         kind: ASSIGNMENT_SUMMATIVE
-        workload: 1440
+        workload: 840
         grade_weight: 25.0
         publish: 2023-10-02
 
