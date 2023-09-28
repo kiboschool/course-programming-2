@@ -80,9 +80,7 @@
 
 ### Week 9 - Recap Week
 
-- [lessons Week](lessons/w9-revision-week.md) <!-- w:30, k:general, p:2023-10-02 -->
+- [Applying What You've Learned](lessons/w9-revision-week.md) <!-- w:30, k:general, p:2023-10-02 -->
   - [Core Reading](lessons/core-reading.md) <!-- w:240, k:publicationReviewed, p:2023-10-02 -->
   - [Supplemental Reading](lessons/supplemental-reading.md) <!-- w:240, k:publicationReviewed, p:2023-10-02 -->
   - [Final Project: Competition CLI](lessons/final-project.md) <!-- w:840, k:assignmentSummative, g:25, p:2023-10-02 -->
-
-

@@ -334,7 +334,7 @@ units:
         workload: 300
         grade_weight: 6.0
         publish: 2023-10-02
-  - name: lessons Week
+  - name: Applying What You've Learned
     activities:
       - name: Introduction
         path: src/lessons/w9-revision-week.md
