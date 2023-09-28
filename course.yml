@@ -192,7 +192,7 @@ units:
       - name: Introduction
         path: src/lessons/midterm-project.md
         type: assignment
-        kind: ASSIGNMENTSUMMATIVE
+        kind: ASSIGNMENT_SUMMATIVE
         workload: 720
         grade_weight: 25.0
         publish: 2023-10-02
@@ -345,19 +345,19 @@ units:
       - name: Core Reading
         path: src/core-reading.md
         type: lesson
-        kind: PUBLICATIONREVIEWED
+        kind: PUBLICATION_REVIEWED
         workload: 240
         publish: 2023-10-02
       - name: Supplemental Reading
         path: src/supplemental-reading.md
         type: lesson
-        kind: PUBLICATIONREVIEWED
+        kind: PUBLICATION_REVIEWED
         workload: 240
         publish: 2023-10-02
       - name: Final Project
         path: src/lessons/final-project.md
         type: assignment
-        kind: ASSIGNMENTSUMMATIVE
+        kind: ASSIGNMENT_SUMMATIVE
         workload: 1440
         grade_weight: 25.0
         publish: 2023-10-02
