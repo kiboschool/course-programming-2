@@ -10,6 +10,7 @@ env:
   API_KEY: "${{ secrets.API_KEY }}"
   # e.g. https://api.kibo.school or https://develop.api.kibo.school
   API_URL: "${{ secrets.DEPLOY_URL }}"
+  GITHUB_ACTION_REPOSITORY: "${{ github.repository }}"
 jobs:
   deploy:
     name: publish
