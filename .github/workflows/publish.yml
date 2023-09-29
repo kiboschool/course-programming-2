@@ -19,12 +19,6 @@ jobs:
       contents: "read"
       id-token: "write"
     steps:
-      - name: vars
-        run: |
-          echo $API_URL
-          echo $REPO_PATH
-          echo ${{ github.repository }}
-          echo "{\"github_path\": \"$REPO_PATH\"}"
       - name: publish
         run: |
           curl --fail-with-body --request POST \
