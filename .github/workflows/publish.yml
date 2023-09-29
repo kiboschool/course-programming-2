@@ -10,7 +10,7 @@ env:
   API_KEY: "${{ secrets.API_KEY }}"
   # e.g. https://api.kibo.school or https://develop.api.kibo.school
   API_URL: "${{ secrets.DEPLOY_URL }}"
-  GITHUB_ACTION_REPOSITORY: "${{ github.repository }}"
+  REPO_PATH: "${{ github.repository }}"
 jobs:
   deploy:
     name: publish
@@ -19,6 +19,16 @@ jobs:
       contents: "read"
       id-token: "write"
     steps:
+      - name: vars
+        run: |
+          echo $API_URL
+          echo $REPO_PATH
+          echo ${{ github.repository }}
+          echo "{\"github_path\": \"$REPO_PATH\"}"
       - name: publish
         run: |
-          curl --fail-with-body --request POST --url "$API_URL/api/latest/courses/update" -H "Authorization: SharedKey $API_KEY" -H "Content-Type: application/json" --data "{\"github_path\": \"$GITHUB_ACTION_REPOSITORY\"}"
+          curl --fail-with-body --request POST \
+          --url "$API_URL/api/latest/courses/update" \
+          -H "Authorization: SharedKey $API_KEY" \
+          -H "Content-Type: application/json" \
+          --data "{\"github_path\": \"$REPO_PATH\"}"
