@@ -1,112 +1,86 @@
 # Programming 2
-
-[Course Overview](programming-2.md)
-[Getting Help](lessons/asking-for-help.md)
-[Projects and Exercises](lessons/course-projects.md)
-[Live Classes](lessons/live-classes.md)
-[Additional Practice](lessons/additional-practice.md)
+<!-- name:Programming 2, code:CSF003, term:Oct-2023, about_path:src/programming-2.md -->
 
 ## Lessons
 
-### Week 1 - Reading and Writing Data
+### Week 1 - Object-Oriented Programming
 
-- [Reading and Writing Data](lessons/data.md)
+- [Object-Oriented Programming](lessons/w1-oop-intro.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Objects and Methods](lessons/w1-oop-intro/1-objects-and-methods.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Creating Classes](lessons/w1-oop-intro/2-creating-classes.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Bugs to Watch Out For](lessons/w1-oop-intro/3-bugs-to-watch-out-for.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Building with Classes](lessons/w1-oop-intro/4-creating-with-classes.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Practice: OOP](lessons/w1-oop-intro/practice.md) <!-- w:180, k:assignment, g:1, p:2023-10-02 -->
+  - [Assignment 1: Banking Basics](lessons/w1-oop-intro/assignment.md) <!-- w:300, k:assignment, g:4, p:2023-10-02 -->
 
-  - [Course Preview](lessons/data/course-preview.md)
-  - [Data Types and Dictionaries](lessons/data/data-types-and-dictionaries.md)
-  - [Ways to Structure Data](lessons/data/ways-to-structure-data.md)
-  - [Practice Quiz](lessons/data/practice-quiz.md)
-  - [Saving and Reading Data In Files](lessons/data/saving-and-reading-data.md)
-  - [Read Data From An Internet API](lessons/data/read-data-from-an-internet-api.md)
-  - [Weather API Example](lessons/data/weather-api-example.md)
-  - [Exercises](lessons/data/exercises.md)
+### Week 2 - Objects and Memory
 
-### Week 2 - Classes and Objects
+- [Memory](lessons/w2-memory-and-objects.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [References and Memory](lessons/w2-memory-and-objects/1-references.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Copying Objects](lessons/w2-memory-and-objects/2-aliasing-copying.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Scope](lessons/w2-memory-and-objects/3-scope.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Debugging](lessons/w2-memory-and-objects/4-debugging-practice.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Practice: Objects & Memory](lessons/w2-memory-and-objects/practice.md) <!-- w:180, k:assignment, g:1.5, p:2023-10-02 -->
+  - [Assignment 2: Jukebox](lessons/w2-memory-and-objects/assignment.md) <!-- w:300, k:assignment, g:6, p:2023-10-02 -->
 
-- [Classes and Objects](lessons/classes-and-objects.md)
+### Week 3 - Inheritance
 
-  - [Introduction](lessons/classes-and-objects/introduction.md)
-  - [Objects and Methods](lessons/classes-and-objects/objects-and-methods.md)
-  - [Creating a Class](lessons/classes-and-objects/creating-a-class.md)
-  - [Reasons to use Classes](lessons/classes-and-objects/reasons-to-use-classes.md)
-  - [Bugs to Watch Out For](lessons/classes-and-objects/bugs-to-watch-out-for.md)
-  - [Another Example Class](lessons/classes-and-objects/another-example-class.md)
-  - [Aliasing and Copying](lessons/classes-and-objects/aliasing-and-copying.md)
-  - [Exercises](lessons/classes-and-objects/exercises.md)
+- [Inheritance](lessons/w3-inheritance.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Modeling](lessons/w3-inheritance/1-modeling.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Inheritance](lessons/w3-inheritance/2-inheritance-syntax.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Overriding](lessons/w3-inheritance/3-overriding.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Inheritance Example](lessons/w3-inheritance/4-inheritance-examples.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Practice: Inheritance](lessons/w3-inheritance/practice.md) <!-- w:180, k:assignment, g:1.5, p:2023-10-02 -->
+  - [Assignment 3: Banking Returns](lessons/w3-inheritance/assignment.md) <!-- w:300, k:assignment, g:6, p:2023-10-02 -->
 
-### Week 3 - Inheritance and Error-handling
+### Week 4 - Data
 
-- [Inheritance and Error-handling](lessons/inheritance-and-error-handling.md)
-
-  - [Exceptions](lessons/inheritance-and-error-handling/exceptions.md)
-  - [Handling Exceptions](lessons/inheritance-and-error-handling/handling-exceptions.md)
-  - [Tools when Making Classes](lessons/inheritance-and-error-handling/tools-when-making-classes.md)
-  - [Encapsulation](lessons/inheritance-and-error-handling/encapsulation.md)
-  - [Models](lessons/inheritance-and-error-handling/models.md)
-  - [Inheritance](lessons/inheritance-and-error-handling/inheritance.md)
-  - [Video on Inheritance](lessons/inheritance-and-error-handling/video-on-inheritance.md)
-  - [Overriding methods](lessons/inheritance-and-error-handling/overriding-methods.md)
-  - [Exercises](lessons/inheritance-and-error-handling/exercises.md)
-  - [Project](lessons/inheritance-and-error-handling/project.md)
-
-### Week 4 - OOP Review
-
-- [OOP Review](lessons/oop-review.md)
-  - [Knowledge Check](lessons/oop-review/knowledge-check.md)
-  - [Class syntax](lessons/oop-review/class-syntax.md)
-  - [Inheritance](lessons/oop-review/inheritance.md)
-  - [Error handling](lessons/oop-review/error-handling.md)
+- [Data](lessons/w4-data.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [File I/O](lessons/w4-data/1-file-io.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Design Example 1](lessons/w4-data/2-persistent-list.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [API Calls](lessons/w4-data/3-api-calls.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Putting it all together](lessons/w4-data/4-weather-api-example.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Practice: Data I/O](lessons/w4-data/practice.md) <!-- w:180, k:assignment, g:1.5, p:2023-10-02 -->
+  - [Assignment 4: Weather API](lessons/w4-data/assignment.md) <!-- w:300, k:assignment, g:6, p:2023-10-02 -->
 
 ### Week 5 - Midterm Project
 
-- [Midterm Project](lessons/midterm-project.md)
+- [Midterm Project: Numeric Processor](lessons/midterm-project.md) <!-- w:720, k:assignmentSummative, g:25, p:2023-10-02 -->
 
-### Week 6 - Databases and Data Visualization
+### Week 6 - Collections
 
-- [Databases and Data Visualization](lessons/db-and-vis.md)
+- [Collections](lessons/w6-collections.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Lists](lessons/w6-collections/1-lists-revisitied.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Tuples](lessons/w6-collections/2-tuples.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Sets](lessons/w6-collections/3-sets.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Dictionary](lessons/w6-collections/4-dictionaries-revisited.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Practice: Collections](lessons/w6-collections/practice.md) <!-- w:180, k:assignment, g:1.5, p:2023-10-02 -->
+  - [Assignment 5: Picky Eaters](lessons/w6-collections/assignment.md) <!-- w:300, k:assignment, g:6, p:2023-10-02 -->
 
-  - [Persisting Data](lessons/db-and-vis/persisting-data.md)
-  - [Database Advantages](lessons/db-and-vis/db-advantages.md)
-  - [What is an ORM?](lessons/db-and-vis/orm.md)
-  - [ORM Syntax](lessons/db-and-vis/orm-syntax.md)
-  - [Exploring Data](lessons/db-and-vis/exploring-data.md)
-  - [Visualizing Data](lessons/db-and-vis/visualizing-data.md)
-  - [Exercises](lessons/db-and-vis/exercises.md)
-  - [Project: OOP Course Manager](lessons/db-and-vis/project.md)
+### Week 7 - Exceptions & Testing
 
-### Week 7 - Debugging
-
-- [Debugging](lessons/debugging.md)
-  - [Types of Bugs](lessons/debugging/examples.md)
-  - [Debugging Strategy](lessons/debugging/strategy.md)
-  - [Print Debugging](lessons/debugging/print-debugging.md)
-  - [Stop the World Debugging](lessons/debugging/stop-the-world-debugging.md)
-  - [Exercises](lessons/debugging/exercises.md)
+- [Exceptions & Testing](lessons/w7-errors-and-testing.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Creating Errors](lessons/w7-errors-and-testing/1-creating-errors.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Testing Your Code](lessons/w7-errors-and-testing/2-testing-your-code.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [The unittest framework](lessons/w7-errors-and-testing/3-unittest.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Testing Concepts](lessons/w7-errors-and-testing/4-more-testing.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Practice: Exceptions & Testing](lessons/w7-errors-and-testing/practice.md) <!-- w:180, k:assignment, g:1.5, p:2023-10-02 -->
+  - [Assignment 6: Testing](lessons/w7-errors-and-testing/assignment.md) <!-- w:300, k:assignment, g:6, p:2023-10-02 -->
 
 
-### Week 8 - Testing
+### Week 8 - Writing Good Code
 
-- [Testing](lessons/testing.md)
+- [What Is Good Code](lessons/w8-what-is-good-code.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Introduction to Abstraction](lessons/w8-what-is-good-code/1-bad-code.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Coding for Flexibility](lessons/w8-what-is-good-code/2-future-flexibility.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Single Responsibility](lessons/w8-what-is-good-code/3-interfaces.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Refactoring](lessons/w8-what-is-good-code/4-refactoring.md) <!-- w:120, k:general, p:2023-10-02 -->
+  - [Practice: Code Quality](lessons/w8-what-is-good-code/practice.md) <!-- w:180, k:assignment, g:1.5, p:2023-10-02 -->
+  - [Assignment 7: Code Reviews](lessons/w8-what-is-good-code/assignment.md) <!-- w:300, k:assignment, g:6, p:2023-10-02 -->
 
-  - [Overview of Testing](lessons/testing/overview-of-testing.md)
-  - [Unit Testing](lessons/testing/unit-testing.md)
-  - [The Unittest Framework](lessons/testing/the-unittest-framework.md)
-  - [Test Tips: Off-By-One Issues](lessons/testing/test-tips-off-by-one-issues.md)
-  - [Exercises](lessons/testing/exercises.md)
-  - [Project](lessons/testing/project.md)
+### Week 9 - Recap Week
 
-### Week 9 - Abstraction
-
-- [Abstraction](lessons/abstraction.md)
-  - [Introduction to Abstraction](lessons/abstraction/introduction-to-abstraction.md)
-  - [Flexibility](lessons/abstraction/flexibility.md)
-  - [Sharing an Interface](lessons/abstraction/sharing-an-interface.md)
-  - [Abstract Methods And Classes](lessons/abstraction/abstract-methods-and-classes.md)
-  - [Refactoring](lessons/abstraction/refactoring.md)
-  - [Summary](lessons/abstraction/summary.md)
-
-
-### Week 10 - Final Project
-
-- [Final Project](lessons/final-project.md)
-
+- [Applying What You've Learned](lessons/w9-revision-week.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Core Reading](lessons/core-reading.md) <!-- w:240, k:publicationReviewed, p:2023-10-02 -->
+  - [Supplemental Reading](lessons/supplemental-reading.md) <!-- w:240, k:publicationReviewed, p:2023-10-02 -->
+  - [Final Project: Competition CLI](lessons/final-project.md) <!-- w:840, k:assignmentSummative, g:25, p:2023-10-02 -->
