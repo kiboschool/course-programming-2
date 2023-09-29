@@ -1,6 +1,8 @@
 # Programming 2
 <!-- name:Programming 2, code:CSF003, term:Oct-2023, about_path:src/programming-2.md -->
 
+[About the class](programming-2.md)
+
 ## Lessons
 
 ### Week 1 - Object-Oriented Programming
