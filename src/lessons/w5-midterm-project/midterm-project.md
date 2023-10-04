@@ -1,9 +1,5 @@
 # Midterm Project
 
-**Due Date - Feb 11**
-
----
-
 > 💡 This is an individual project. You are expected to work independently.
 >
 > If you get stuck, confused, or have trouble with the project, you should use a channel in Discord, or message an instructor.

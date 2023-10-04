@@ -236,13 +236,13 @@ units:
   - name: Reviewing What You've Learned
     activities:
       - name: Introduction
-        path: src/lessons/review.md
+        path: src/lessons/w5-review.md
         type: lesson
         kind: GENERAL
         workload: 30
         publish: 2023-10-02
       - name: 'Midterm Project: Numeric Processor'
-        path: src/lessons/midterm-project.md
+        path: src/lessons/w5-midterm-project/midterm-project.md
         type: assignment
         kind: ASSIGNMENT_SUMMATIVE
         workload: 720

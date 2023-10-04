@@ -52,8 +52,8 @@
 
 ### Week 5 - Midterm Project
 
-- [Reviewing What You've Learned](lessons/review.md) <!-- w:30, k:general, p:2023-10-02 -->
-  - [Midterm Project: Numeric Processor](lessons/midterm-project.md) <!-- w:720, k:assignmentSummative, g:25, d:2023-09-27, p:2023-10-02 -->
+- [Reviewing What You've Learned](lessons/w5-review.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Midterm Project: Numeric Processor](lessons/w5-midterm-project/midterm-project.md) <!-- w:720, k:assignmentSummative, g:25, d:2023-09-27, p:2023-10-02 -->
 
 ### Week 6 - Collections
 
