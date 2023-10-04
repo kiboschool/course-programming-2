@@ -3,6 +3,44 @@ code: CSF003
 term: Oct-2023
 about_path: src/programming-2.md
 units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/course-overview.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2023-09-27
+      - name: Live Classes
+        path: src/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Assessments
+        path: src/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Getting Help
+        path: src/getting-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Giving Help
+        path: src/giving-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Academic Integrity
+        path: src/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
   - name: Object-Oriented Programming
     activities:
       - name: Introduction
@@ -41,6 +79,7 @@ units:
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.0
+        due: 2023-09-27
         publish: 2023-10-02
       - name: 'Assignment 1: Banking Basics'
         path: src/lessons/w1-oop-intro/assignment.md
@@ -48,6 +87,7 @@ units:
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 4.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: Memory
     activities:
@@ -87,6 +127,7 @@ units:
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
+        due: 2023-09-27
         publish: 2023-10-02
       - name: 'Assignment 2: Jukebox'
         path: src/lessons/w2-memory-and-objects/assignment.md
@@ -94,6 +135,7 @@ units:
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 6.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: Inheritance
     activities:
@@ -133,6 +175,7 @@ units:
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
+        due: 2023-09-27
         publish: 2023-10-02
       - name: 'Assignment 3: Banking Returns'
         path: src/lessons/w3-inheritance/assignment.md
@@ -140,6 +183,7 @@ units:
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 6.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: Data
     activities:
@@ -179,6 +223,7 @@ units:
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
+        due: 2023-09-27
         publish: 2023-10-02
       - name: 'Assignment 4: Weather API'
         path: src/lessons/w4-data/assignment.md
@@ -186,6 +231,7 @@ units:
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 6.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: 'Midterm Project: Numeric Processor'
     activities:
@@ -195,6 +241,7 @@ units:
         kind: ASSIGNMENT_SUMMATIVE
         workload: 720
         grade_weight: 25.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: Collections
     activities:
@@ -234,6 +281,7 @@ units:
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
+        due: 2023-09-27
         publish: 2023-10-02
       - name: 'Assignment 5: Picky Eaters'
         path: src/lessons/w6-collections/assignment.md
@@ -241,6 +289,7 @@ units:
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 6.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: Exceptions & Testing
     activities:
@@ -280,6 +329,7 @@ units:
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
+        due: 2023-09-27
         publish: 2023-10-02
       - name: 'Assignment 6: Testing'
         path: src/lessons/w7-errors-and-testing/assignment.md
@@ -287,6 +337,7 @@ units:
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 6.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: What Is Good Code
     activities:
@@ -326,6 +377,7 @@ units:
         kind: ASSIGNMENT
         workload: 180
         grade_weight: 1.5
+        due: 2023-09-27
         publish: 2023-10-02
       - name: 'Assignment 7: Code Reviews'
         path: src/lessons/w8-what-is-good-code/assignment.md
@@ -333,6 +385,7 @@ units:
         kind: ASSIGNMENT
         workload: 300
         grade_weight: 6.0
+        due: 2023-09-27
         publish: 2023-10-02
   - name: Applying What You've Learned
     activities:
@@ -360,5 +413,6 @@ units:
         kind: ASSIGNMENT_SUMMATIVE
         workload: 840
         grade_weight: 25.0
+        due: 2023-09-27
         publish: 2023-10-02
 
