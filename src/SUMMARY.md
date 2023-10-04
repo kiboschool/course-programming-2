@@ -1,7 +1,7 @@
 # Programming 2
 <!-- name:Programming 2, code:CSF003, term:Oct-2023, about_path:src/course-overview.md -->
 
-- [Course Overview](course-overview.md) <!-- w:60, k:general, p:2023-09-27 -->
+- [Course Overview](course-overview.md) <!-- w:30, k:general, p:2023-09-27 -->
   - [Live Classes](live-classes.md) <!-- w:30, k:general, p:2023-09-27 -->
   - [Assessments](assessments.md) <!-- w:30, k:general, p:2023-09-27 -->
   - [Getting Help](getting-help.md) <!-- w:30, k:general, p:2023-09-27 -->
@@ -52,7 +52,8 @@
 
 ### Week 5 - Midterm Project
 
-- [Midterm Project: Numeric Processor](lessons/midterm-project.md) <!-- w:720, k:assignmentSummative, g:25, d:2023-09-27, p:2023-10-02 -->
+- [Reviewing What You've Learned](lessons/review.md) <!-- w:30, k:general, p:2023-10-02 -->
+  - [Midterm Project: Numeric Processor](lessons/midterm-project.md) <!-- w:720, k:assignmentSummative, g:25, d:2023-09-27, p:2023-10-02 -->
 
 ### Week 6 - Collections
 

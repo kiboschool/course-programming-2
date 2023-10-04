@@ -9,7 +9,7 @@ units:
         path: src/course-overview.md
         type: lesson
         kind: GENERAL
-        workload: 60
+        workload: 30
         publish: 2023-09-27
       - name: Live Classes
         path: src/live-classes.md
@@ -233,9 +233,15 @@ units:
         grade_weight: 6.0
         due: 2023-09-27
         publish: 2023-10-02
-  - name: 'Midterm Project: Numeric Processor'
+  - name: Reviewing What You've Learned
     activities:
       - name: Introduction
+        path: src/lessons/review.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-02
+      - name: 'Midterm Project: Numeric Processor'
         path: src/lessons/midterm-project.md
         type: assignment
         kind: ASSIGNMENT_SUMMATIVE
