@@ -41,6 +41,12 @@ units:
         kind: GENERAL
         workload: 30
         publish: 2023-09-27
+      - name: Course Tools
+        path: src/course-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2023-09-27
   - name: Object-Oriented Programming
     activities:
       - name: Introduction

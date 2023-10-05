@@ -7,6 +7,7 @@
   - [Getting Help](getting-help.md) <!-- w:30, k:general, p:2023-09-27 -->
   - [Giving Help](giving-help.md) <!-- w:30, k:general, p:2023-09-27 -->
   - [Academic Integrity](academic-integrity.md) <!-- w:30, k:general, p:2023-09-27 -->
+  - [Course Tools](course-tools.md) <!-- w:15, k:general, p:2023-09-27 -->
 
 ## Lessons
 

@@ -41,5 +41,3 @@ so that you do not fall behind.
 [w9-s1-code]: https://replit.com/@section1-wed/class9-testing-solution
 [w9-s1-video]: https://youtu.be/v4VIVKjWLBM
 -->
-
-If you miss a class, review the slides and recording of the class and submit the activity or exercise as required.
