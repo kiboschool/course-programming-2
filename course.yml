@@ -1,0 +1,431 @@
+name: Programming 2
+code: CSF003
+term: Oct-2023
+about_path: src/course-overview.md
+image_path: src/diagramming.png
+units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/course-overview.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: Live Classes
+        path: src/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: Assessments
+        path: src/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: Getting Help
+        path: src/getting-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: Giving Help
+        path: src/giving-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: Academic Integrity
+        path: src/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: Course Tools
+        path: src/course-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2023-10-09
+      - name: Core Reading
+        path: src/lessons/core-reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 240
+        publish: 2023-10-09
+      - name: Supplemental Reading
+        path: src/lessons/supplemental-reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 240
+        publish: 2023-10-09
+  - name: Object-Oriented Programming
+    activities:
+      - name: Introduction
+        path: src/lessons/w1-oop-intro.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: Objects and Methods
+        path: src/lessons/w1-oop-intro/1-objects-and-methods.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: Creating Classes
+        path: src/lessons/w1-oop-intro/2-creating-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: Bugs to Watch Out For
+        path: src/lessons/w1-oop-intro/3-bugs-to-watch-out-for.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: Building with Classes
+        path: src/lessons/w1-oop-intro/4-creating-with-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: 'Practice: OOP'
+        path: src/lessons/w1-oop-intro/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 1.0
+        due: 2023-10-12
+        publish: 2023-10-09
+      - name: 'Assignment 1: Banking Basics'
+        path: src/lessons/w1-oop-intro/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 4.0
+        due: 2023-10-15
+        publish: 2023-10-09
+  - name: Memory
+    activities:
+      - name: Introduction
+        path: src/lessons/w2-memory-and-objects.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-09
+      - name: References and Memory
+        path: src/lessons/w2-memory-and-objects/1-references.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: Copying Objects
+        path: src/lessons/w2-memory-and-objects/2-aliasing-copying.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: Scope
+        path: src/lessons/w2-memory-and-objects/3-scope.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: Debugging
+        path: src/lessons/w2-memory-and-objects/4-debugging-practice.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-09
+      - name: 'Practice: Objects & Memory'
+        path: src/lessons/w2-memory-and-objects/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 1.5
+        due: 2023-10-18
+        publish: 2023-10-09
+      - name: 'Assignment 2: Jukebox'
+        path: src/lessons/w2-memory-and-objects/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-10-22
+        publish: 2023-10-15
+  - name: Inheritance
+    activities:
+      - name: Introduction
+        path: src/lessons/w3-inheritance.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-16
+      - name: Modeling
+        path: src/lessons/w3-inheritance/1-modeling.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: Inheritance
+        path: src/lessons/w3-inheritance/2-inheritance-syntax.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: Overriding
+        path: src/lessons/w3-inheritance/3-overriding.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: Inheritance Example
+        path: src/lessons/w3-inheritance/4-inheritance-examples.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: 'Practice: Inheritance'
+        path: src/lessons/w3-inheritance/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 1.5
+        due: 2023-10-25
+        publish: 2023-10-16
+      - name: 'Assignment 3: Banking Returns'
+        path: src/lessons/w3-inheritance/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-10-29
+        publish: 2023-10-22
+  - name: Data
+    activities:
+      - name: Introduction
+        path: src/lessons/w4-data.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-16
+      - name: File I/O
+        path: src/lessons/w4-data/1-file-io.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: Design Example 1
+        path: src/lessons/w4-data/2-persistent-list.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: API Calls
+        path: src/lessons/w4-data/3-api-calls.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: Putting it all together
+        path: src/lessons/w4-data/4-weather-api-example.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-10-16
+      - name: 'Practice: Data I/O'
+        path: src/lessons/w4-data/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 1.5
+        due: 2023-11-01
+        publish: 2023-10-16
+      - name: 'Assignment 4: Weather API'
+        path: src/lessons/w4-data/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-11-05
+        publish: 2023-10-29
+  - name: Reviewing What You've Learned
+    activities:
+      - name: Introduction
+        path: src/lessons/w5-review.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-10-16
+      - name: 'Midterm Project: Numeric Processor'
+        path: src/lessons/w5-midterm-project/midterm-project.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 720
+        grade_weight: 25.0
+        due: 2023-11-12
+        publish: 2023-11-05
+  - name: Collections
+    activities:
+      - name: Introduction
+        path: src/lessons/w6-collections.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-11-06
+      - name: Lists
+        path: src/lessons/w6-collections/1-lists-revisitied.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Tuples
+        path: src/lessons/w6-collections/2-tuples.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Sets
+        path: src/lessons/w6-collections/3-sets.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Dictionary
+        path: src/lessons/w6-collections/4-dictionaries-revisited.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: 'Practice: Collections'
+        path: src/lessons/w6-collections/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 1.5
+        due: 2023-11-15
+        publish: 2023-11-06
+      - name: 'Assignment 5: Picky Eaters'
+        path: src/lessons/w6-collections/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-11-19
+        publish: 2023-11-12
+  - name: Exceptions & Testing
+    activities:
+      - name: Introduction
+        path: src/lessons/w7-errors-and-testing.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-11-06
+      - name: Creating Errors
+        path: src/lessons/w7-errors-and-testing/1-creating-errors.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Testing Your Code
+        path: src/lessons/w7-errors-and-testing/2-testing-your-code.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: The unittest framework
+        path: src/lessons/w7-errors-and-testing/3-unittest.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Testing Concepts
+        path: src/lessons/w7-errors-and-testing/4-more-testing.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: 'Practice: Exceptions & Testing'
+        path: src/lessons/w7-errors-and-testing/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 1.5
+        due: 2023-11-22
+        publish: 2023-11-06
+      - name: 'Assignment 6: Testing'
+        path: src/lessons/w7-errors-and-testing/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-11-26
+        publish: 2023-11-19
+  - name: What Is Good Code
+    activities:
+      - name: Introduction
+        path: src/lessons/w8-what-is-good-code.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-11-06
+      - name: Introduction to Abstraction
+        path: src/lessons/w8-what-is-good-code/1-bad-code.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Coding for Flexibility
+        path: src/lessons/w8-what-is-good-code/2-future-flexibility.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Single Responsibility
+        path: src/lessons/w8-what-is-good-code/3-interfaces.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: Refactoring
+        path: src/lessons/w8-what-is-good-code/4-refactoring.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-11-06
+      - name: 'Practice: Code Quality'
+        path: src/lessons/w8-what-is-good-code/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 1.5
+        due: 2023-11-29
+        publish: 2023-11-06
+      - name: 'Assignment 7: Code Reviews'
+        path: src/lessons/w8-what-is-good-code/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-12-03
+        publish: 2023-11-26
+  - name: Applying What You've Learned
+    activities:
+      - name: Introduction
+        path: src/lessons/w9-revision-week.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-11-06
+      - name: 'Final Project: Competition CLI'
+        path: src/lessons/final-project.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 840
+        grade_weight: 25.0
+        due: 2023-12-15
+        publish: 2023-11-30
+

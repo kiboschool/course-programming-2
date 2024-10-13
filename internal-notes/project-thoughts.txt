@@ -1,0 +1,106 @@
+
+
+--------------------
+remnants of early repo state
+--------------------
+# Regex
+https://twitter.com/gvwilson/status/1300857443447177217?s=20&t=lZTEPMCAni7JcwLnwXH-qw
+https://regexone.com/
+https://regexr.com/
+
+# Data
+
+https://github.com/rstudio/concept-maps
+
+
+
+
+--------------------
+shirt object
+--------------------
+Clothes store - simple read-from-inventory app
+Little console app that asks user for a Brand name to search for
+We provide a lot of the structure
+A “Shirt” class that has properties color, pocketColor, material, size, and method getCost() which uses material/size and if color!=pocketcolor is more expensive
+We don’t need a parent class
+We get a data file from the warehouse with inventory.
+Add __init__ for convenience
+Student: Read JSON file from disk and make object instances
+Could have a search to know how many women’s t-shirts of a Brand (typed by user) are in stock
+And then use the method to show costs
+
+Add to the clothes store
+Add a new inherited class
+Pre-written example: ItemInStore base class, then ArticleOfClothing class, Shirts subclass,  T-shirts and button-down shirts
+One motivation: different properties - Size is common to all, on-sale is common to all, but sleeve length + pocket color is a shirt-specific property
+
+--------------------
+abandoned: weather oop project
+--------------------
+Go back to the weather api program and make it more OOP
+Load it into objects
+Weather data project (autogradable)
+Each weather point has a display-as-celsius point
+Display data converted to celsius
+Write the data out to another data file in celsius
+Parent class has virtual methods onStart() onDataPointSeen(lat, long, temperature) onComplete()
+Students write a child class that implements dataPointSeen - gets coldest temperature.
+
+
+--------------------
+abandoned: weather oop datavis
+--------------------
+Go back to the weather exercise from week 1
+(use a prebuilt schema by us)
+Insert the results into sql records
+Use matplotlib to draw data visualization of the temperature over time
+
+
+
+-----------
+midterm project features that are too advanced
+------------
+Operation for read-from-user-into-dataslot
+Operation for show-data-slot-to-user
+Data slots 1-9
+Operation for skip next instruction if condition holds
+So for extra credit student can code their own programs
+
+Show a bar chart with stats on the types of cpu instructions for the current program
+Because microprocessor a class you can have two instances computing things at the same time
+like a multicore processor.
+or you could run two in parallel and constantly check the registers to detect bugs
+
+instances could 'register' operations
+Extra credit: create a new operation
+
+Base class for operation, child classes implement. E.g. base class can parse input into a list.
+Shows some benefits of interfaces, can just call go() on them 
+
+-------------
+abandoned interactive store ideas
+-------------
+was originally the final project.
+not interesting enough--basically the same as the coursemanagement from term 1 but with OOP.
+FINAL PROJECT: INTERACTIVE STORE
+interactive storefront with persisted state. Product catalog + shopping cart.
+(Also reinforces a lot of programming-1 material)
+Student should use OOP throughout
+Example flow: run console app. Asks user for name. Program pulls latest inventory from json file on disk.
+User sees a list of categories to buy, press 1 for shirts etc
+User can add item to cart
+If nothing in inventory for that, raise an error which is handled appropriately at a higher level
+User can type in a promo code to get a 10% off their cart (a property on the cart class?)
+User clicks ‘check out’, computes total using OOP (items.getPrice() and each has its own logic)
+User can complete purchase, which persists to json file on disk
+An admin view to show stats on purchases and display that data in matplotlib.
+Must include working tests
+Must be split into separate files
+
+
+
+
+
+
+
+

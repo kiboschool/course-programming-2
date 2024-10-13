@@ -1,0 +1,151 @@
+{
+  "name": "Programming 2",
+  "id": "544003",
+  "code": "CSF003",
+  "assignments": [
+    {
+      "id": "3430057",
+      "name": "Assignment 7: Code Reviews",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3430057",
+      "filename": "assignment_7__code_reviews.pdf"
+    },
+    {
+      "id": "3597378",
+      "name": "Practice: Code Quality",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3597378",
+      "filename": "practice__code_quality.pdf"
+    },
+    {
+      "id": "3597313",
+      "name": "Practice: Collections",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3597313",
+      "filename": "practice__collections.pdf"
+    },
+    {
+      "id": "3581860",
+      "name": "Practice: Data I/O",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3581860",
+      "filename": "practice__data_i_o.pdf"
+    },
+    {
+      "id": "3597316",
+      "name": "Practice: Exceptions & Testing",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3597316",
+      "filename": "practice__exceptions_&_testing.pdf"
+    },
+    {
+      "id": "3552296",
+      "name": "Practice: Inheritance",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3552296",
+      "filename": "practice__inheritance.pdf"
+    },
+    {
+      "id": "3490213",
+      "name": "Practice: OOP",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3490213",
+      "filename": "practice__oop.pdf"
+    },
+    {
+      "id": "3518974",
+      "name": "Practice: Objects & Memory",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3518974",
+      "filename": "practice__objects_&_memory.pdf"
+    },
+    {
+      "id": "2598492",
+      "name": "Exercises",
+      "course_id": "469697",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/469697/assignments/2598492",
+      "filename": "exercises.pdf"
+    },
+    {
+      "id": "3430057",
+      "name": "Assignment 7: Code Reviews",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3430057",
+      "filename": "assignment_7__code_reviews.pdf"
+    },
+    {
+      "id": "3597378",
+      "name": "Practice: Code Quality",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3597378",
+      "filename": "practice__code_quality.pdf"
+    },
+    {
+      "id": "3597313",
+      "name": "Practice: Collections",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3597313",
+      "filename": "practice__collections.pdf"
+    },
+    {
+      "id": "3581860",
+      "name": "Practice: Data I/O",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3581860",
+      "filename": "practice__data_i_o.pdf"
+    },
+    {
+      "id": "3597316",
+      "name": "Practice: Exceptions & Testing",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3597316",
+      "filename": "practice__exceptions_&_testing.pdf"
+    },
+    {
+      "id": "3552296",
+      "name": "Practice: Inheritance",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3552296",
+      "filename": "practice__inheritance.pdf"
+    },
+    {
+      "id": "3490213",
+      "name": "Practice: OOP",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3490213",
+      "filename": "practice__oop.pdf"
+    },
+    {
+      "id": "3518974",
+      "name": "Practice: Objects & Memory",
+      "course_id": "544003",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/544003/assignments/3518974",
+      "filename": "practice__objects_&_memory.pdf"
+    },
+    {
+      "id": "2598492",
+      "name": "Exercises",
+      "course_id": "469697",
+      "course_code": "CSF003",
+      "href": "https://gradescope.com/courses/469697/assignments/2598492",
+      "filename": "exercises.pdf"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+------------------------------------------------
+https://programming-2.vercel.app/lessons/data/data-types-and-dictionaries.html
+
+all_country_data = {
+  "Kenya": {"capital": "Nairobi", "currency": "shilling"},
+  "Ghana": {"capital": "Accra", "currency": "cedi"},
+  "Ethiopia": {"capital": "Addis Ababa", "currency": "birr"},
+}
+def show_currencies():
+    for country_name in all_country_data:
+        # each time through the loop, we'll get a different country_name.
+        country_data = all_country_data[country_name]
+        print(country_data['currency'])
+
+show_currencies()
+------------------------------------------------
+https://programming-2.vercel.app/lessons/data/ways-to-structure-data.html
+all_country_data = {
+  "Kenya": {
+        "capital": "Nairobi",
+        "currency": "shilling",
+        "parks": [
+          {
+            "park_name": "Aberdare National Park",
+            "size_km": 767
+          },
+          {
+            "park_name": "Meru National Park",
+            "size_km": 870
+          }
+        ]
+    },
+  "Ghana": {
+        "capital": "Accra",
+        "currency": "cedi",
+        "parks": [
+          {
+            "park_name": "Mole National Park",
+            "size_km": 4840
+          },
+          {
+            "park_name": "Kakum National Park",
+            "size_km": 375
+          }
+        ]
+    },
+}
+
+# write a function that uses the data above
+# to get a list of park names
+def get_park_names(country_name):
+    results = []
+    
+    if country_name not in all_country_data:
+      print('Could not find this country')
+    else:
+      country_data = all_country_data[country_name]
+      parks = country_data['parks']
+      for park in parks:
+        results.append(park['park_name'])
+      
+    return results
+
+
+print(get_park_names('Ghana'))
+# when the program works it will show
+# ['Mole National Park', 'Kakum National Park']
+
+
+------------------------------------------------
